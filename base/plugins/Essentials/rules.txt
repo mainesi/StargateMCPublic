@@ -1,3 +1,52 @@
-[1] Be respectful
-[2] Be ethical
-[3] Use common sense
+Please Read All Rules Before Venturing Out Into The Galaxy
+Trading Laws
+[1] Failure to report any exploits experienced when using the marketplace.
+First Penalty: 1 hour temporary ban.
+Second Penalty: 8 hour temporary ban.
+Third Penalty: 72 hour temporary ban.
+Following Penalties: Permanent ban.
+[2] Placing an item on the marketplace that does not appear as advertised.
+First Penalty: 1 hour temporary mute.
+Second Penalty: 8 hour temporary ban.
+Third Penalty: 72 hour temporary ban.
+Following Penalties: Up to staff – range between 72 hours to 168 hours, depending on the staff member. Cannot exceed 1 week.
+End Trading Laws
+Sovereignty Laws
+[1] Using an exploit to gain access to items, areas or kill players that are normally protected by Factions and not reporting it to Staff immediately
+First Penalty: 24 hour temporary ban.
+Second Penalty: 72 hour temporary ban.
+Third Penalty: 1 week temporary ban.
+Following Penalties: Permanent ban.
+[2] Bypassing grief prevention tools and damaging or stealing items from spawn areas.
+First Penalty: Permanent ban. There is no excuse for griefing the spawn builds.
+HOWEVER the following are allowed
+[1] Attacking another player without declaring them an enemy first
+[2] Becoming allies or faction members for the purpose of stealing items from a factions territory (Be sure to trust your allies!)
+End Sovereignty Laws
+Communication Laws
+[1] Directly insulting another player or staff member and/or using profanity in any in-game or out of game chat channel, both voice or text.
+First Penalty: 1 hour temporary mute.
+Second Penalty: 8 hour temporary ban.
+Third Penalty: 72 hour temporary ban.
+Following Penalties: Up to staff – range between 72 hours to 168 hours, depending on the staff member. Cannot exceed 1 week.
+[2] Speaking in-game or on Discord about real world political, philosophical or personal views that are either offensive to others or considered irrelevant to the server.
+First Penalty: 1 hour temporary mute.
+Second Penalty: 8 hour temporary ban.
+Third Penalty: 72 hour temporary ban.
+Following Penalties: Up to staff – range between 72 hours to 168 hours, depending on the staff member. Cannot exceed 1 week.
+[3] Excessive use of incorrect chat channels. (eg. Trading in Universe chat)
+First Penalty: 15 minute temporary mute.
+Second Penalty: 60 minute temporary mute.
+Third Penalty: 4 hour temporary ban.
+Following Penalties: Up to staff – range between 24hours to 72 hours, depending on the staff member. Cannot exceed 3 days.
+[4] Spamming of chat channels, both voice or text
+First Penalty: 15 minute temporary mute.
+Second Penalty: 60 minute temporary mute.
+Third Penalty: 4 hour temporary ban.
+Following Penalties: Up to staff – range between 24hours to 72 hours, depending on the staff member. Cannot exceed 3 days.
+[5] Speaking a language other than English  in public chat channels (Except Goauld and Ancient)
+First Penalty: 15 minute temporary mute.
+Second Penalty: 60 minute temporary mute.
+Third Penalty: 4 hour temporary ban.
+Following Penalties: Up to staff – range between 24hours to 72 hours, depending on the staff member. Cannot exceed 3 days.
+End Communication Rules
