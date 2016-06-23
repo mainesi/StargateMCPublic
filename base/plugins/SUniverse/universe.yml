@@ -9,11 +9,27 @@ universe:
       radiusY: 80
       radiusXZ: 5000
   dimensions:
-    world:
+    Earth:
       posX: 2000
       posZ: 1000
       posY: 110
       radius: 250
       isSpawn: true
+      atmosphere: OPTIMAL      
+      type: PLANET
+    Destiny:
+      posX: 80000
+      posZ: 80000
+      posY: 110
+      radius: 250
+      isSpawn: true
+      atmosphere: ARTIFICIAL      
+      type: SHIP
+    "DIM-65":
+      posX: 0
+      posZ: 0
+      posY: 0
+      radius: 100000
+      isSpawn: false
       atmosphere: NONE      
       type: SPACE
