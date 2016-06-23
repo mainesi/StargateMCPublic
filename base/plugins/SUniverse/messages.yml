@@ -1,0 +1,5 @@
+messages:
+  pluginName: SUniverse
+  loadingGalaxy: 'Loading galaxy %s, with center position: %s, %s, %s and radius of
+    %s (xz) and %s (y)'
+  loadingDimension: Loading dimension %s, at coordinates %s, %s, %s, with radius in space %s, border, %s, atmosphere of %s and type of %s
