@@ -5,21 +5,52 @@ universe:
     MilkyWay:
       centerX: 0
       centerZ: 0
-      centerY: 150
-      radiusY: 80
+      centerY: 100
+      radiusY: 100
+      radiusXZ: 5000
+    Pegasus:
+      centerX: 25000
+      centerZ: 15000
+      centerY: 100
+      radiusY: 100
+      radiusXZ: 5000
+    Ori:
+      centerX: -84000
+      centerZ: -84000
+      centerY: 100
+      radiusY: 100
+      radiusXZ: 5000
+    DestinyGalaxy:
+      centerX: 84000
+      centerZ: 84000
+      centerY: 100
+      radiusY: 100
+      radiusXZ: 5000
+    Othala:
+      centerX: 34000
+      centerZ: -24000
+      centerY: 100
+      radiusY: 100
+      radiusXZ: 5000
+    Ida:
+      centerX: 45000
+      centerZ: -30000
+      centerY: 100
+      radiusY: 100
       radiusXZ: 5000
   dimensions:
+        #Spawn Worlds
     Earth:
-      posX: 2000
-      posZ: 1000
+      posX: 3100
+      posZ: 2500
       posY: 110
       radius: 250
       isSpawn: true
       atmosphere: OPTIMAL      
       type: PLANET
     Destiny:
-      posX: 80000
-      posZ: 80000
+      posX: 81000
+      posZ: 86000
       posY: 110
       radius: 250
       isSpawn: true
@@ -33,3 +64,317 @@ universe:
       isSpawn: false
       atmosphere: NONE      
       type: SPACE
+    "Tollana":
+      posX: -3100
+      posZ: -2500
+      posY: 180
+      radius: 250
+      isSpawn: true
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "Lantea":
+      posX: 26000
+      posZ: 15500
+      posY: 67
+      radius: 250
+      isSpawn: true
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "Celestis":
+      posX: -83500
+      posZ: -83000
+      posY: 140
+      radius: 250
+      isSpawn: true
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "Rebirth":
+      posX: 35100
+      posZ: -26000
+      posY: 113
+      radius: 250
+      isSpawn: true
+      atmosphere: ARTIFICIAL      
+      type: SHIP
+    "Lacun":
+      posX: 4100
+      posZ: 2500
+      posY: 190
+      radius: 250
+      isSpawn: true
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "MidWayStation":
+      posX: 11450
+      posZ: 6000
+      posY: 100
+      radius: 250
+      isSpawn: true
+      atmosphere: ARTIFICIAL      
+      type: SHIP
+    
+        #Milky-Way Planets
+    "P9L-101":
+      posX: -1000
+      posZ: -500
+      posY: 50
+      radius: 250
+      isSpawn: false
+      atmosphere: UNSTABLE     
+      type: PLANET
+    "P7K-172":
+      posX: -1400
+      posZ: -1100
+      posY: 70
+      radius: 250
+      isSpawn: false
+      atmosphere: FLOODED      
+      type: PLANET
+    "P2A-347":
+      posX: 3900
+      posZ: 1000
+      posY: 90
+      radius: 250
+      isSpawn: false
+      atmosphere: BARREN      
+      type: PLANET
+    "P2Y-321":
+      posX: -3900
+      posZ: 1000
+      posY: 80
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "P5J-612":
+      posX: 4100
+      posZ: 2000
+      posY: 90
+      radius: 250
+      isSpawn: false
+      atmosphere: FLOODED      
+      type: PLANET
+    "KS7-535":
+      posX: 3200
+      posZ: -1000
+      posY: 170
+      radius: 250
+      isSpawn: false
+      atmosphere: FROZEN      
+      type: PLANET
+    "P4X-555":
+      posX: 305
+      posZ: -700
+      posY: 50
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "P2Q-411":
+      posX: -1105
+      posZ: -1300
+      posY: 195 
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL      
+      type: PLANET
+      
+          #Pegasus Planets
+    "M3R-485":
+      posX: 26000
+      posZ: 18500
+      posY: 170
+      radius: 250
+      isSpawn: false
+      atmosphere: UNSTABLE      
+      type: PLANET
+    "M4X-179":
+      posX: 24000
+      posZ: 12500
+      posY: 60
+      radius: 250
+      isSpawn: false
+      atmosphere: FLOODED      
+      type: PLANET
+    "M4X-337":
+      posX: 24000
+      posZ: 17500
+      posY: 80
+      radius: 250
+      isSpawn: false
+      atmosphere: BARREN      
+      type: PLANET
+    "M9R-373":
+      posX: 22900
+      posZ: 17000
+      posY: 90
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL    
+      type: PLANET
+    "M9X-345":
+      posX: 21900
+      posZ: 18000
+      posY: 85
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL      
+      type: PLANET
+      
+          #Destiny Planets
+    D1X-209":
+      posX: 81000
+      posZ: 84000
+      posY: 90
+      radius: 250
+      isSpawn: false
+      atmosphere: FLOODED      
+      type: PLANET
+    "DIM-331":
+      posX: 82500
+      posZ: 84000
+      posY: 60
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "D3L-122":
+      posX: 83400
+      posZ: 81000
+      posY: 75
+      radius: 250
+      isSpawn: false
+      atmosphere: UNSTABLE      
+      type: PLANET
+    "D3L-353":
+      posX: 86000
+      posZ: 85500
+      posY: 83
+      radius: 250
+      isSpawn: false
+      atmosphere: BARREN      
+      type: PLANET
+    "D7J-700":
+      posX: 86000
+      posZ: 86250
+      posY: 60
+      radius: 250
+      isSpawn: false
+      atmosphere: FROZEN      
+      type: PLANET
+    "D9K-411":
+      posX: 86500
+      posZ: 86000
+      posY: 50
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL     
+      type: PLANET
+    "DIM-332":
+      posX: 82500
+      posZ: 83000
+      posY: 25
+      radius: 250
+      isSpawn: false
+      atmosphere: NONE      
+      type: PLANET
+    "DIM-393":
+      posX: 81000
+      posZ: 84500
+      posY: 60
+      radius: 250
+      isSpawn: false
+      atmosphere: NONE      
+      type: PLANET
+    "DIM-411":
+      posX: 84000
+      posZ: 83500
+      posY: 35
+      radius: 250
+      isSpawn: false
+      atmosphere: NONE      
+      type: PLANET
+      
+          #Ori Planets
+    "C8L-390":
+      posX: -86000
+      posZ: -86250
+      posY: 89
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL
+      type: PLANET
+    "C2X-112":
+      posX: -86500
+      posZ: -86000
+      posY: 90
+      radius: 250
+      isSpawn: false
+      atmosphere: UNSTABLE      
+      type: PLANET
+    "C3J-512":
+      posX: -81000
+      posZ: -84500
+      posY: 134
+      radius: 250
+      isSpawn: false
+      atmosphere: FROZEN      
+      type: PLANET
+    "C6A-343":
+      posX: -84000
+      posZ: -83500
+      posY: 180
+      radius: 250
+      isSpawn: false
+      atmosphere: BARREN      
+      type: PLANET
+    "C7J-211":
+      posX: -86000
+      posZ: -82250
+      posY: 170
+      radius: 250
+      isSpawn: false
+      atmosphere: FLOODED      
+      type: PLANET
+    
+          #Othala Planets
+    "O7K-232":
+      posX: 33000
+      posZ: -24500
+      posY: 110
+      radius: 250
+      isSpawn: false
+      atmosphere: BARREN      
+      type: PLANET
+    "O6K-349":
+      posX: 37200
+      posZ: -27000
+      posY: 192
+      radius: 250
+      isSpawn: false
+      atmosphere: OPTIMAL      
+      type: PLANET
+    "O3L-311":
+      posX: 33000
+      posZ: -26200
+      posY: 142
+      radius: 250
+      isSpawn: false
+      atmosphere: FLOODED      
+      type: PLANET
+    "O2J-111":
+      posX: 32000
+      posZ: -25000
+      posY: 174
+      radius: 250
+      isSpawn: false
+      atmosphere: UNSTABLE      
+      type: PLANET
+    "O1K-547":
+      posX: 30500
+      posZ: -20500
+      posY: 82
+      radius: 250
+      isSpawn: false
+      atmosphere: FROZEN      
+      type: PLANET
