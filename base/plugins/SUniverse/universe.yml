@@ -39,6 +39,14 @@ universe:
       radiusY: 100
       radiusXZ: 5000
   dimensions:
+    "DIM-65":
+      posX: 0
+      posZ: 0
+      posY: 0
+      radius: 100000
+      isSpawn: false
+      atmosphere: NONE      
+      type: SPACE
     Earth:
       posX: 3100
       posZ: 2500
@@ -55,14 +63,6 @@ universe:
       isSpawn: true
       atmosphere: ARTIFICIAL      
       type: SHIP
-    "DIM-65":
-      posX: 0
-      posZ: 0
-      posY: 0
-      radius: 100000
-      isSpawn: false
-      atmosphere: NONE      
-      type: SPACE
     "Tollana":
       posX: -3100
       posZ: -2500
