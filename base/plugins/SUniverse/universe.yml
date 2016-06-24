@@ -20,7 +20,7 @@ universe:
       centerY: 100
       radiusY: 100
       radiusXZ: 5000
-    DestinyGalaxy:
+    Destiny:
       centerX: 84000
       centerZ: 84000
       centerY: 100
@@ -39,7 +39,6 @@ universe:
       radiusY: 100
       radiusXZ: 5000
   dimensions:
-        #Spawn Worlds
     Earth:
       posX: 3100
       posZ: 2500
@@ -112,8 +111,6 @@ universe:
       isSpawn: true
       atmosphere: ARTIFICIAL      
       type: SHIP
-    
-        #Milky-Way Planets
     "P9L-101":
       posX: -1000
       posZ: -500
@@ -178,8 +175,6 @@ universe:
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
-      
-          #Pegasus Planets
     "M3R-485":
       posX: 26000
       posZ: 18500
@@ -220,8 +215,6 @@ universe:
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
-      
-          #Destiny Planets
     D1X-209":
       posX: 81000
       posZ: 84000
@@ -294,8 +287,6 @@ universe:
       isSpawn: false
       atmosphere: NONE      
       type: PLANET
-      
-          #Ori Planets
     "C8L-390":
       posX: -86000
       posZ: -86250
@@ -336,8 +327,6 @@ universe:
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
-    
-          #Othala Planets
     "O7K-232":
       posX: 33000
       posZ: -24500
