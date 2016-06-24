@@ -22,8 +22,8 @@ worlds:
     radiusZ: 2500
     wrapping: false
   P2A-347:
-    x: 217.40449820677438
-    z: -982.3560667502636
+    x: 217
+    z: -968
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
@@ -106,8 +106,8 @@ worlds:
     radiusZ: 2500
     wrapping: false
   D9K-411:
-    x: 109.52541719721634
-    z: 216.33052337093278
+    x: 112
+    z: 214
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
