@@ -68,7 +68,7 @@ universe:
       posZ: -2500
       posY: 180
       radius: 250
-      isSpawn: true
+      isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
     "Lantea":
@@ -100,7 +100,7 @@ universe:
       posZ: 2500
       posY: 190
       radius: 250
-      isSpawn: true
+      isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
     "MidWayStation":
