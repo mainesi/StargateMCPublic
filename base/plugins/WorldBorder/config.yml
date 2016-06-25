@@ -195,7 +195,7 @@ worlds:
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
-  DIM-647:
+  DIM-65:
     x: 0.0
     z: 0.0
     radiusX: 125000
