@@ -198,8 +198,8 @@ worlds:
   DIM-65:
     x: 0.0
     z: 0.0
-    radiusX: 125000
-    radiusZ: 125000
+    radiusX: 142000
+    radiusZ: 142000
     wrapping: false
   DIM-648:
     x: 84.0
