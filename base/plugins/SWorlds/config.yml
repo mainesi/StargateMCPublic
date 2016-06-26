@@ -1,0 +1,5 @@
+definedWorldBorder: 2500
+secondsBetweenChecks: 300
+spaceWorld: DIM-64
+hyperspaceWorld: DIM-65
+spaceBorder: 142000

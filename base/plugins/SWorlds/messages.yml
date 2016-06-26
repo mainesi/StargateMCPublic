@@ -1,0 +1,8 @@
+messages:
+  pluginName: SWorlds
+  consoleIncreaseMessage: 'Increasing border on world: %s to %s'
+  consoleDecreaseMessage: 'Decreasing border on world: %s to %s'
+  borderIncreaseMessage: New areas at the edge of this world are now accessible as the border has increased to %s
+  borderDecreaseMessage: Areas at the edge of this world are no longer accessible as the border has decreased to %s
+  chunkUnclaimMessage: 'Chunk at %s, %s on world: %s and owned by faction: %s has
+    been unclaimed as it is no longer inside the world border.'
