@@ -26,7 +26,6 @@ Bans:
    - 5668
    - 5669
   Ownership:
-   - 1316-4
    - 1190
    - 120
    - 130
@@ -41,11 +40,8 @@ Bans:
    - 5666
    - 5668
    - 5669
-  World:
-   - 1316-4
 Messages:
   labels:
-     1316-4: Force Field Tube Projector
      1190: StargateTech2 Stargate
      120: End Portal Frame
      130: Ender Chest
@@ -62,7 +58,6 @@ Messages:
      5668: Tunnel Bore
      5669: Tunnel Bore
   reasons:
-     1316-4: Tube Forcefield Projectors Are Disabled For Bypassing Ship Shielding (Tube FF Pokes Holes in Shielding Allowing Entry)
      1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
      120: The End is disabled in StargateMC, along with End Portals.
      130: Ender Chests are disabled in StargateMC as the only allowed method of transporting items cross-world is via stargate.
