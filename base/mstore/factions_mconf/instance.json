@@ -73,7 +73,7 @@
   "claimsMustBeConnected": true,
   "claimsCanBeUnconnectedIfOwnedByOtherFaction": false,
   "claimingFromOthersAllowed": true,
-  "claimMinimumChunksDistanceToOthers": 0,
+  "claimMinimumChunksDistanceToOthers": 5,
   "claimsRequireMinFactionMembers": 1,
   "claimedLandsMax": 0,
   "protectionLiquidFlowEnabled": true,
