@@ -1,0 +1,170 @@
+## YAML Template.
+---
+
+npc:
+    general:
+        name: Test NPC
+        title: Commander
+        template: TemporaryTemplate
+        textureUri: customnpcs:textures/entity/humanmale/Steve.png
+        textureType: RESOURCE
+        capeTexture: customnpcs:redCape
+        overlayTexture: customnpcs:evilEyes
+        spawnLocation:
+            x: -131
+            y: 15
+            z: 596
+            world: Earth
+        faction: Tauri     
+        # Can be Bard, Healer, ChunkLoader, Conversation, Follower, Guard, Healer, ItemGiver, None, Puppet, Spawner
+        job: NONE
+        # Can be Bank, Companion, Follower, None, Postman, Trader, Transporter
+        role: NONE
+        visible: YES
+    behaviour:
+        avoidsWater: true
+        backTrackWhileFollowingPath: true
+        doorInteraction: OPEN
+        burnsInSun: true
+        canDrown: true
+        fireIndirectly: NONE
+        canLeap: true
+        canSprint: true
+        canSwim: true
+        bossBar: NEVER
+        livingAnimation: true
+        ignoreCobwebs: true
+        interactsWithOtherNPCs: true
+        stopOnInteract: true
+        maxHealth: 50
+        pauseWhileFollowingPath: false
+        returnToStart: true
+        avoidsSun: true
+        suffersFallDamage: true
+        shelterFrom: NONE
+        showName: ALWAYS
+        animation: NORMAL
+    combat:
+        healthRegen: 5
+        combatRegen: 1
+        canAttackInvisible: true
+        defendFactionMembers: true
+        attackedResponse: RETALIATE
+        mustSeeTarget: true
+        attackHostileFactions: true
+        immuneToFire: true
+        immuneToPotions: true
+        invulnerable: true
+        tacticalDistance: 10
+        tacticalType: AMBUSH
+        aggroRange: 16
+        melee:
+            range: 3
+            damage: 3
+        ranged:
+            accuracy: 60
+            rangedRange: 30
+            burstCount: 5
+            minDelay: 5
+            maxDelay: 15
+            fireRate: 30
+            shotCount: 5
+            aimWhileShooting: true
+            whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING
+            sound: flansmod.p90
+        resistances:
+            arrow: 10
+            melee: 10
+            explosion: 10
+            knockback: 10
+    deaths:
+        respawnsInGame: NONE, ALWAYS, DAY, NIGHT
+        respawnTime: 60
+        respawnsAtSpawn: true
+        hideDeadBody: true
+        naturallyDespawns: true
+        faction:
+            primaryFactionOnDeath: WRAITH
+            primaryFactionPoints: +5
+            secondaryFactionOnDeath: ASGARD
+            secondaryFactionPoints: -5
+    movement:
+        speed: 5
+        followPath:
+            enabled: false
+            steps:
+                1:
+                    x: 1
+                    y: 2
+                    z: 3
+                2:
+                    x: 2
+                    y: 2
+                    z: 3
+        wandering:
+            enabled: true
+            distance: 10
+    interactions:
+        sayRandomLines: true
+        lines:
+            worldLines:
+                - This is a bad place to be.
+                - This is not a bad place to be.
+            attackLines:
+                - You must die.
+            interactLines:
+                - Hello there.
+            killLines:
+                - Random comment about killing someone.
+            killedLines:
+                - Arghhh... youve killed me!
+    loadout:
+        mainhand: 
+            mod: flansmod
+            item: p90
+        offhand: 
+            mod: customnpcs
+            item: sword
+        armor:
+            head:
+                mod: flansmod
+                item: juggernautHelmetBrown
+            chest:
+                mod: flansmod
+                item: juggernautHelmetBrown
+            leg:
+                mod: flansmod
+                item: juggernautHelmetBrown
+            boot:
+                mod: flansmod
+                item: juggernautHelmetBrown
+        projectile:
+            #Can be Arrow or Bullet
+            projectileType: ARROW
+            projectile3D:
+                projectileSpins: true
+                projectileSticks: false
+            size: 2
+            speed: 40
+            knockback: 3
+            gravity: true
+            damage: 5
+            explosive: true
+            explosionSize: 1
+            trailType: Smoke
+    lootDropped:
+        mode: DEFAULT
+        enabled: true
+        table:
+            1:
+                chance: 100
+                item:
+                    mod: flansmod
+                    item: p90
+                    numberOf: 1
+            2: 
+                chance: 50
+                item:
+                    mod: sgcraft
+                    item: naquadah
+                    numberOf: 5
