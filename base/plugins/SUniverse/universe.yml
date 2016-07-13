@@ -215,7 +215,7 @@ universe:
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
-    D1X-209":
+    "D1X-209":
       posX: 81000
       posZ: 84000
       posY: 90
