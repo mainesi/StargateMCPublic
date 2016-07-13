@@ -3,17 +3,17 @@
 
 npc:
     general:
-        name: Test NPC
+        name: Bysokar
         title: Commander
-        template: TemporaryTemplate
+        template: Fred
         textureUri: customnpcs:textures/entity/humanmale/Steve.png
         textureType: RESOURCE
         capeTexture: customnpcs:redCape
         overlayTexture: customnpcs:evilEyes
         spawnLocation:
-            x: -131
-            y: 15
-            z: 596
+            x: -125
+            y: 7
+            z: -619
             world: Earth
         faction: Tauri     
         # Can be Bard, Healer, ChunkLoader, Conversation, Follower, Guard, Healer, ItemGiver, None, Puppet, Spawner
@@ -24,14 +24,14 @@ npc:
     behaviour:
         avoidsWater: true
         backTrackWhileFollowingPath: true
-        doorInteraction: OPEN
+        doorInteraction: BREAK
         burnsInSun: true
         canDrown: true
         fireIndirectly: NONE
         canLeap: true
         canSprint: true
         canSwim: true
-        bossBar: NEVER
+        bossBar: ALWAYS
         livingAnimation: true
         ignoreCobwebs: true
         interactsWithOtherNPCs: true
@@ -41,7 +41,7 @@ npc:
         returnToStart: true
         avoidsSun: true
         suffersFallDamage: true
-        shelterFrom: NONE
+        shelterFrom: DARKNESS
         showName: ALWAYS
         animation: NORMAL
     combat:
@@ -49,28 +49,28 @@ npc:
         combatRegen: 1
         canAttackInvisible: true
         defendFactionMembers: true
-        attackedResponse: RETALIATE
+        attackedResponse: PANIC
         mustSeeTarget: true
         attackHostileFactions: true
-        immuneToFire: true
+        immuneToFire: false
         immuneToPotions: true
-        invulnerable: true
-        tacticalDistance: 10
-        tacticalType: AMBUSH
-        aggroRange: 16
+        invulnerable: false
+        tacticalDistance: 16
+        tacticalType: SURROUND
+        aggroRange: 32
         melee:
             range: 3
             damage: 3
         ranged:
-            accuracy: 60
-            rangedRange: 30
+            accuracy: 52
+            rangedRange: 50
             burstCount: 5
             minDelay: 5
             maxDelay: 15
             fireRate: 30
             shotCount: 5
             aimWhileShooting: true
-            whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING
+            whenToUse: UNTILCLOSE
             sound: flansmod.p90
         resistances:
             arrow: 10
@@ -78,15 +78,15 @@ npc:
             explosion: 10
             knockback: 10
     deaths:
-        respawnsInGame: NONE, ALWAYS, DAY, NIGHT
-        respawnTime: 60
+        respawnsInGame: NIGHT
+        respawnTime: 55
         respawnsAtSpawn: true
         hideDeadBody: true
-        naturallyDespawns: true
+        naturallyDespawns: false
         faction:
-            primaryFactionOnDeath: WRAITH
-            primaryFactionPoints: +5
-            secondaryFactionOnDeath: ASGARD
+            primaryFactionOnDeath: Wraith
+            primaryFactionPoints: 5
+            secondaryFactionOnDeath: Asgard
             secondaryFactionPoints: -5
     movement:
         speed: 5
@@ -140,7 +140,7 @@ npc:
                 item: juggernautHelmetBrown
         projectile:
             #Can be Arrow or Bullet
-            projectileType: ARROW
+            projectileType: BULLET
             projectile3D:
                 projectileSpins: true
                 projectileSticks: false
@@ -153,7 +153,7 @@ npc:
             explosionSize: 1
             trailType: Smoke
     lootDropped:
-        mode: DEFAULT
+        mode: AUTOPICKUP
         enabled: true
         table:
             1:
@@ -165,6 +165,7 @@ npc:
             2: 
                 chance: 50
                 item:
-                    mod: sgcraft
+                    mod: SGCraft
                     item: naquadah
                     numberOf: 5
+
