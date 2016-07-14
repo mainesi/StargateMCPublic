@@ -236,7 +236,7 @@ npc:
             item: p90
         offhand: 
             mod: none
-            item:none
+            item: none
         armor:
             head:
                 mod: none
