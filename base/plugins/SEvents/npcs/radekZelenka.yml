@@ -203,21 +203,21 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                - Rodney claimed my work again, that *mutters something in Czech*.
-                - Wow, it's been 10 minutes and nothing's exploded around here.
+                - 'Rodney claimed my work again, that *mutters something in Czech*.'
+                - Wow, it's been ten minutes and nothings exploded around here.
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
                 - No please, take Rodney instead!
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
                 - Hello there.
-                -*Mutters in Czech*
+                -'*Mutters in Czech*'
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                - *screams victoriously in Czech* 
+                -' *screams victoriously in Czech*' 
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - Tell my Mom, *mutters in Czech*
+                - 'Tell my Mom, *mutters in Czech*'
 
 #LOADOUT: The loadout section is where you equip your NPC.
 
@@ -232,8 +232,8 @@ npc:
 
     loadout:
         mainhand: 
-            mod: none
-            item: none
+            mod: flansmod
+            item: p90
         offhand: 
             mod: none
             item:none
