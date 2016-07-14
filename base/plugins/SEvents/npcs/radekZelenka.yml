@@ -176,7 +176,7 @@ npc:
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
         speed: 5
-        followPath:false
+        followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
             enabled: false
             #Steps that are part of the path. NOTE: You must ensure the NPC spawns at a location that can reach these coordinates!
@@ -211,10 +211,10 @@ npc:
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
                 - "Hello there {player}.."
-                -"*Mutters in Czech*"
+                - "*Mutters in Czech*"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                -"*screams victoriously in Czech*"
+                - "*screams victoriously in Czech*"
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
                 - "Tell my Mom, *mutters in Czech*"
