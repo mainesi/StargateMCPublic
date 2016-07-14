@@ -232,8 +232,8 @@ npc:
 
     loadout:
         mainhand: 
-            mod: flansmod
-            item: p90
+            mod: none
+            item: none
         offhand: 
             mod: none
             item:none
@@ -283,13 +283,8 @@ npc:
         #Be sure to only set numberOf to the stack limit for that item or it will not be added to the loot table.
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
         table:
-            1:
-                chance: 100
-                item:
-                    mod: flansmod
-                    item: p90
-                    numberOf: 1
-            2: 
+        
+            1: 
                 chance: 6
                 item:
                     mod: StargateTech2
