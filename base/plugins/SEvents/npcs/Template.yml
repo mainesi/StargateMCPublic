@@ -294,4 +294,42 @@ npc:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 5
-
+    spawning:
+        #Should this NPC spawn at all?
+        enabled: false
+        #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
+        spawnMethod: RANDOM
+        spawnOptions:
+            default: # This section has no options.
+            random:
+                factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in.
+                    - Tauri Territory
+                    - Wraith Territory
+                worlds: #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
+                    - P2Y-321
+                    - DIM-331
+                galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
+                    - MilkyWay
+                    - Destiny
+                limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
+            event: # This section has no options.
+            clonedlist:
+                spawnLocations:
+                    1:
+                        x: 5
+                        y: 5
+                        z: 5
+                        world: "P2Y-321"
+                        name: Fred Flinstone
+                        title: Private
+                    2:
+                        x: 5
+                        y: 5
+                        z: 5
+                        world: "DIM-331"
+                        name: Barney Rubble
+                        title: Colonel
+            
+        
+        
+        
