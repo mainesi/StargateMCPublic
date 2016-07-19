@@ -292,9 +292,9 @@ npc:
                     numberOf: 1
     spawning:
         #Should this NPC spawn at all?
-        enabled: false
+        enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: RANDOM
+        spawnMethod: DEFAULT
         spawnOptions:
             default: # This section has no options.
             random:
