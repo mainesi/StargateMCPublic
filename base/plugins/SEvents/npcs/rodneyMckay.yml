@@ -308,7 +308,7 @@ npc:
                     mod: StargateTech2
                     item: personalShield
                     numberOf: 1
-     spawning:
+         spawning:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
