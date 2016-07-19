@@ -278,7 +278,7 @@ npc:
         #mode: DEFAULT, AUTOPICKUP
         mode: AUTOPICKUP
         #Is loot table enabled? Should only be enabled for NPCs players should be killing (eg: Hostiles!)
-        enabled: true
+        enabled: false
         #Each entry must have a chance (0-100), item values (explained above loadout section) and numberOf.
         #Be sure to only set numberOf to the stack limit for that item or it will not be added to the loot table.
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
@@ -290,3 +290,44 @@ npc:
                     mod: StargateTech2
                     item: personalShield
                     numberOf: 1
+    spawning:
+        #Should this NPC spawn at all?
+        enabled: false
+        #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
+        spawnMethod: RANDOM
+        spawnOptions:
+            default: # This section has no options.
+            random:
+                factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
+                    - Unclaimed Territory
+                worlds: #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
+                    - "P2Y-321"
+                    - "DIM-331"
+                galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
+                    - MilkyWay
+                    - Destiny
+                limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
+                chance: 0.1 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
+                group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
+                alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
+            event: # This section has no options.
+            clonedlist:
+                spawnLocations:
+                    1:
+                        x: 5
+                        y: 5
+                        z: 5
+                        world: "P2Y-321"
+                        name: Fred Flinstone
+                        title: Private
+                    2:
+                        x: 5
+                        y: 5
+                        z: 5
+                        world: "DIM-331"
+                        name: Barney Rubble
+                        title: Colonel
+            
+        
+        
+    
