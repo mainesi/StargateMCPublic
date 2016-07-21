@@ -26,7 +26,7 @@ npc:
             x: -283
             y: 181
             z: -1047
-            world: Earth
+            world: Lantea
        
         #Valid Friendly NPC Factions are (case sensitive): Ancients, Asgard, Tokra, Ascended, Athosians, Tollan, Atlantis Expedition, Destiny Expedition, Free Jaffa Nation, Jaffa Marketeers, Tauri, Stargate Command, Nox, Ori
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
