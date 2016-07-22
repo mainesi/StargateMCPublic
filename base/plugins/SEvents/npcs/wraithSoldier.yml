@@ -9,11 +9,11 @@ npc:
         #name: String (20 character limit)
         name: Wraith Soldier
         #title: String (20 character limit)
-        title: TemplateTitle
+        title: ""
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/entity/humanmale/Steve.png
+        textureUri: "customnpcs:textures/STARGATE/WRAITH .png"
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -27,12 +27,11 @@ npc:
             y: 7
             z: -619
             world: Earth
-       
         #Valid Friendly NPC Factions are (case sensitive): Ancients, Asgard, Tokra, Ascended, Athosians, Tollan, Atlantis Expedition, Destiny Expedition, Free Jaffa Nation, Jaffa Marketeers, Tauri, Stargate Command, Nox, Ori
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Tauri     
+        faction: Wraith     
         
         # This feature is not completed. Please leave the option as NONE.
         job: NONE
@@ -49,7 +48,7 @@ npc:
         #doorInteraction: BREAK, OPEN, NONE are valid options.
         doorInteraction: BREAK
         #burnsInSun: true or false.
-        burnsInSun: true
+        burnsInSun: false
         #canDrown: Can this NPC Drown? true or false.
         canDrown: true
         #fireIndirectly: FAR, SUPRISE, NONE are valid options. Suprise is typically when it doesnt see you coming, or it jumps out behind a corner.
@@ -72,9 +71,9 @@ npc:
         #If a player or another NPC tries to interact with this NPC, should it pause its movement and turn to the interacting entity?
         stopOnInteract: true
         #What is the maximum health for this NPC?
-        maxHealth: 50
+        maxHealth: 150
         #Should this NPC pause every now and then while it is moving along a path?
-        pauseWhileFollowingPath: false
+        pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
@@ -85,7 +84,7 @@ npc:
         shelterFrom: DARKNESS
         #Should this NPC have its name above its head?
         #showName: ALWAYS, WHENATTACKING, NEVER
-        showName: ALWAYS
+        showName: NEVER
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
         animation: NORMAL
@@ -100,7 +99,7 @@ npc:
         defendFactionMembers: true
         #What reaction should this NPC have to a fight?
         #attackedResponse: PANIC, IGNORE, RETALIATE, RETREAT are all valid options.
-        attackedResponse: PANIC
+        attackedResponse: RETALIATE
         #mustSeeTarget: Should this NPC require line of sight between itself and its target? This merely caters for obstacles/walls. It isnt the same as Invisible attacking above.
         mustSeeTarget: true
         #Should this NPC attack hostile factions? See above for factions that are hostile.
@@ -115,9 +114,9 @@ npc:
         tacticalDistance: 16
         #What combat style should this NPC follow?
         #tacticalType: SURROUND, HITNRUN, AMBUSH, DODGE, STALK, NONE are all valid options.
-        tacticalType: SURROUND
+        tacticalType: AMBUSH
         #At what range should this NPC engage hostile mobs/npcs/players?
-        aggroRange: 32
+        aggroRange: 64
         melee:
             #What distance can this NPC attack (blocks) another entity?
             range: 3
@@ -125,11 +124,11 @@ npc:
             damage: 3
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
-            accuracy: 52
+            accuracy: 75
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
-            rangedRange: 50
+            rangedRange: 32
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
-            burstCount: 5
+            burstCount: 2
             #Minimum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
             minDelay: 5
             #Maximum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
@@ -137,14 +136,14 @@ npc:
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
             fireRate: 30
             #How many shots are in a standard volley?
-            shotCount: 5
+            shotCount: 1
             #Should the  NPC raise its weapon to fire?
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
             whenToUse: UNTILCLOSE
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
-            sound: flansmod.p90
+            sound: flansmod:stunnerShoot
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
@@ -157,7 +156,7 @@ npc:
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
         respawnsInGame: NIGHT
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
-        respawnTime: 55
+        respawnTime: 900
         #Should this NPC respawn where it first spawned, or where it died?
         #NOTE: This has no affect unless the NPC is part of an EVENT created by staff.
         respawnsAtSpawn: true
@@ -170,9 +169,9 @@ npc:
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
             primaryFactionOnDeath: Wraith
-            primaryFactionPoints: 5
-            secondaryFactionOnDeath: Asgard
-            secondaryFactionPoints: -5
+            primaryFactionPoints: -5
+            secondaryFactionOnDeath: Ancients
+            secondaryFactionPoints: 5
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
         speed: 5
@@ -194,7 +193,7 @@ npc:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 10
+            distance: 32
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -202,21 +201,19 @@ npc:
         #You may substitute {player} where you wish a players name to be. This will display differently depending on the player seeing the message.
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
-            worldLines:
-                - This is a bad place to be.
-                - This is not a bad place to be.
+            worldLines: []
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                - You must die.
+                - Our numbers will overwhelm you!
+                - You are but food to us.
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
-            interactLines:
-                - Hello there.
+            interactLines: []
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                - Random comment about killing someone.
+                - Earth will fall.... but you first!
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - Arghhh... youve killed me!
+                - A Thousand more will come in my place...
 
 #LOADOUT: The loadout section is where you equip your NPC.
 
@@ -232,29 +229,29 @@ npc:
     loadout:
         mainhand: 
             mod: flansmod
-            item: p90
+            item: wraithStunner
         offhand: 
-            mod: customnpcs
-            item: sword
+            mod: NONE
+            item: NONE
         armor:
             head:
-                mod: flansmod
-                item: juggernautHelmetBrown
+                mod: NONE
+                item: NONE
             chest:
-                mod: flansmod
-                item: juggernautHelmetBrown
+                mod: NONE
+                item: NONE
             leg:
-                mod: flansmod
-                item: juggernautHelmetBrown
+                mod: NONE
+                item: NONE
             boot:
-                mod: flansmod
-                item: juggernautHelmetBrown
+                mod: NONE
+                item: NONE
         projectile:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
             projectile3D:
                 projectileSpins: true
-                projectileSticks: false
+                projectileSticks: true
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
             size: 2
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
@@ -271,7 +268,7 @@ npc:
             explosionSize: 1
             #What trail should the projectile have when in the air? CASE SENSITIVE.
             #trailType: Crit, Enchant, LargeSmoke, Smoke, Lightning, Portal, Magic, Redstone, None
-            trailType: Smoke
+            trailType: None
     lootDropped:
         #Should the loot be dropped on the ground or picked up automatically by the killer?
         #mode: DEFAULT, AUTOPICKUP
@@ -283,13 +280,13 @@ npc:
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
         table:
             1:
-                chance: 100
+                chance: 10
                 item:
                     mod: flansmod
                     item: p90
                     numberOf: 1
             2: 
-                chance: 50
+                chance: 5
                 item:
                     mod: SGCraft
                     item: naquadah
@@ -304,14 +301,11 @@ npc:
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
-                worlds: #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
-                    - "P2Y-321"
-                    - "DIM-331"
+                    - Wraith Territory
+                worlds: [] #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
-                    - MilkyWay
-                    - Destiny
-                limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
-                chance: 5.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
+                    - Pegasus
+                chance: 1.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
                 group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
             event: # This section has no options.
