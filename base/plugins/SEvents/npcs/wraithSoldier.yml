@@ -9,11 +9,11 @@ npc:
         #name: String (20 character limit)
         name: Wraith Soldier
         #title: String (20 character limit)
-        title: "Soldier"
+        title: Soldier
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "customnpcs:textures/STARGATE/WRAITH .png"
+        textureUri: customnpcs:textures/STARGATE/WRAITH .png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
