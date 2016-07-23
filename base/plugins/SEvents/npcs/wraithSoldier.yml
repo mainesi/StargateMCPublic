@@ -111,10 +111,10 @@ npc:
         #Should this NPC be invulnerable?
         invulnerable: false
         #What distance should this NPC be at when it actions its tacticalType behaviour... for example hit and run the distance is where it retreats to, surround is the distance it holds... etc.
-        tacticalDistance: 16
+        tacticalDistance: 24
         #What combat style should this NPC follow?
         #tacticalType: SURROUND, HITNRUN, AMBUSH, DODGE, STALK, NONE are all valid options.
-        tacticalType: AMBUSH
+        tacticalType: SURROUND
         #At what range should this NPC engage hostile mobs/npcs/players?
         aggroRange: 64
         melee:
@@ -141,7 +141,7 @@ npc:
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
-            whenToUse: UNTILCLOSE
+            whenToUse: ALWAYS
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
             sound: flansmod:stunnerShoot
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
@@ -263,7 +263,7 @@ npc:
             #What damage (hearts) should the NPCs projectile do?
             damage: 5
             #Is the NPC projectile explosive?
-            explosive: true
+            explosive: false
             #How big is the projectile explosion? (Valid Options: 1=Staff,2=Grenade,3=TNT)
             explosionSize: 1
             #What trail should the projectile have when in the air? CASE SENSITIVE.
@@ -295,7 +295,7 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: DEFAULT
+        spawnMethod: RANDOM
         spawnOptions:
             default: # This section has no options.
             random:
