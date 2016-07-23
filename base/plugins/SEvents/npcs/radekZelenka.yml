@@ -21,13 +21,6 @@ npc:
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         overlayTexture: customnpcs:textures/overlays/goggles.png
-        #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
-        spawnLocation:
-            x: -318
-            y: 181
-            z: -1052
-            world: Lantea
-       
         #Valid Friendly NPC Factions are (case sensitive): Ancients, Asgard, Tokra, Ascended, Athosians, Tollan, Atlantis Expedition, Destiny Expedition, Free Jaffa Nation, Jaffa Marketeers, Tauri, Stargate Command, Nox, Ori
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
@@ -297,6 +290,12 @@ npc:
         spawnMethod: DEFAULT
         spawnOptions:
             default: # This section has no options.
+                #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
+                spawnLocation:
+                    x: -318
+                    y: 181
+                    z: -1052
+                    world: Lantea
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
@@ -310,6 +309,7 @@ npc:
                 chance: 0.1 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
                 group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
+                groupArea: 10
             event: # This section has no options.
             clonedlist:
                 spawnLocations:
