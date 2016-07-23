@@ -308,6 +308,7 @@ npc:
                 chance: 50.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
                 group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
+                groupArea: 10
             event: # This section has no options.
             clonedlist:
                 spawnLocations:
