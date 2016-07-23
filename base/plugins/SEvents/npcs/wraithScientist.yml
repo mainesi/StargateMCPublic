@@ -56,7 +56,7 @@ npc:
         #canLeap: true or false, can the NPC leap at its enemies?
         canLeap: true
         #canSprint: true or false, can the NPC sprint faster than its normal movement speed?
-        canSprint: true
+        canSprint: false
         #canSwim: Can this npc swim? If not, it will drown!
         canSwim: true
         #bossBar: Should a bossBar be displayed for this NPC? Typically it should only be used for champions of good or evil! ;)
