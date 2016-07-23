@@ -21,13 +21,6 @@ npc:
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         overlayTexture: NONE
-        #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
-        spawnLocation:
-            x: -125
-            y: 7
-            z: -619
-            world: Earth
-       
         #Valid Friendly NPC Factions are (case sensitive): Ancients, Asgard, Tokra, Ascended, Athosians, Tollan, Atlantis Expedition, Destiny Expedition, Free Jaffa Nation, Jaffa Marketeers, Tauri, Stargate Command, Nox, Ori
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
@@ -300,7 +293,13 @@ npc:
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
         spawnMethod: RANDOM
         spawnOptions:
-            default: # This section has no options.
+            default:
+                #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
+                spawnLocation:
+                    x: -125
+                    y: 7
+                    z: -619
+                    world: Earth
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
@@ -310,28 +309,11 @@ npc:
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
                     - MilkyWay
                     - Destiny
-                limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
-                chance: 5.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
-                group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
+                chance: 5.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0) The higher the chance, the more likely this will spawn in over something else.
+                group: NONE #This is the group this NPC is part of. Handled via random spawns. If the NPC has a group of NONE it will not spawn as part of any group... and instead be treated individually.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
             event: # This section has no options.
-            clonedlist:
-                spawnLocations:
-                    1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "P2Y-321"
-                        name: Fred Flinstone
-                        title: Private
-                    2:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "DIM-331"
-                        name: Barney Rubble
-                        title: Colonel
-            
         
         
         
+
