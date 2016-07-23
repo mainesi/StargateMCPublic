@@ -13,7 +13,7 @@ npc:
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/STARGATE/WRAITH .png
+        textureUri: customnpcs:textures/STARGATE/wraith.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -56,7 +56,7 @@ npc:
         #canLeap: true or false, can the NPC leap at its enemies?
         canLeap: true
         #canSprint: true or false, can the NPC sprint faster than its normal movement speed?
-        canSprint: true
+        canSprint: false
         #canSwim: Can this npc swim? If not, it will drown!
         canSwim: true
         #bossBar: Should a bossBar be displayed for this NPC? Typically it should only be used for champions of good or evil! ;)
