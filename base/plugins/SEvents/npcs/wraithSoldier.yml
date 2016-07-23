@@ -161,7 +161,7 @@ npc:
         #NOTE: This has no affect unless the NPC is part of an EVENT created by staff.
         respawnsAtSpawn: true
         #Should the NPCs body be hidden when it dies, or displayed on the ground?
-        hideDeadBody: true
+        hideDeadBody: false
         #Should this NPC despawn if noone is around?
         naturallyDespawns: false
         #The below options are to reward players with non-player-faction reputation on death of this NPC.
