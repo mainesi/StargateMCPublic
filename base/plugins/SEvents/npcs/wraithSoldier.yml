@@ -266,7 +266,7 @@ npc:
     lootDropped:
         #Should the loot be dropped on the ground or picked up automatically by the killer?
         #mode: DEFAULT, AUTOPICKUP
-        mode: AUTOPICKUP
+        mode: DEFAULT
         #Is loot table enabled? Should only be enabled for NPCs players should be killing (eg: Hostiles!)
         enabled: true
         #Each entry must have a chance (0-100), item values (explained above loadout section) and numberOf.
@@ -277,14 +277,50 @@ npc:
                 chance: 10
                 item:
                     mod: flansmod
-                    item: p90
+                    item: wraithPlasmid
+                    numberOf: 3
+            2:
+                chance: 20
+                item:
+                    mod: flansmod
+                    item: wraithPlasmid
+                    numberOf: 2
+            3:
+                chance: 30
+                item:
+                    mod: flansmod
+                    item: wraithPlasmid
                     numberOf: 1
-            2: 
-                chance: 5
+            4:
+                chance: 1
+                item:
+                    mod: mcheli
+                    item: wraith_dart
+                    numberOf: 1
+            5:
+                chance: 10
+                item:
+                    mod: flansmod
+                    item: wraithStunner
+                    numberOf: 1
+            6:
+                chance: 15
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 5
+            7:
+                chance: 30
+                item:
+                    mod: SGCraft
+                    item: naquadah
+                    numberOf: 2
+            8:
+                chance: 45
+                item:
+                    mod: SGCraft
+                    item: naquadah
+                    numberOf: 1
     spawning:
         #Should this NPC spawn at all?
         enabled: true
