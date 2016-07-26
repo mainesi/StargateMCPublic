@@ -291,9 +291,9 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -283
-                    y: 181
-                    z: -1047
+                    x: -284
+                    y: 182
+                    z: -1048
                     world: Lantea
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
