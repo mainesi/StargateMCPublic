@@ -310,8 +310,8 @@ npc:
             default: # This section has no options.
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -275
-                    y: 182
+                    x: -276
+                    y: 183
                     z: -1052
                     world: Lantea
             random:
