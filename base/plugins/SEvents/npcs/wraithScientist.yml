@@ -21,12 +21,6 @@ npc:
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         overlayTexture: NONE
-        #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
-        spawnLocation:
-            x: -125
-            y: 7
-            z: -619
-            world: Earth
         #Valid Friendly NPC Factions are (case sensitive): Ancients, Asgard, Tokra, Ascended, Athosians, Tollan, Atlantis Expedition, Destiny Expedition, Free Jaffa Nation, Jaffa Marketeers, Tauri, Stargate Command, Nox, Ori
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
@@ -297,7 +291,13 @@ npc:
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
         spawnMethod: RANDOM
         spawnOptions:
-            default: # This section has no options.
+            default:
+            #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
+            spawnLocation:
+                x: -125
+                y: 7
+                z: -619
+                world: Earth
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
