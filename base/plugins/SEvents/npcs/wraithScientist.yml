@@ -266,7 +266,7 @@ npc:
     lootDropped:
         #Should the loot be dropped on the ground or picked up automatically by the killer?
         #mode: DEFAULT, AUTOPICKUP
-        mode: AUTOPICKUP
+        mode: DEFAULT
         #Is loot table enabled? Should only be enabled for NPCs players should be killing (eg: Hostiles!)
         enabled: true
         #Each entry must have a chance (0-100), item values (explained above loadout section) and numberOf.
