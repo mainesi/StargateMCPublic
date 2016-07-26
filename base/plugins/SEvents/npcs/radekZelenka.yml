@@ -185,7 +185,7 @@ npc:
                     z: 3
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: true
+            enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 10
     interactions:
@@ -307,7 +307,7 @@ npc:
                     - Destiny
                 limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
                 chance: 0.1 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
-                group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
+                group: NONE #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
                 groupArea: 10
             event: # This section has no options.
