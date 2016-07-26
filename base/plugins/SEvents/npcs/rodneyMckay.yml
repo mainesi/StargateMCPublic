@@ -9,7 +9,7 @@ npc:
         #name: String (20 character limit)
         name: Rodney Mckay
         #title: String (20 character limit)
-        title: Head of Science
+        title: Astrophysicist
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
@@ -325,7 +325,7 @@ npc:
                     - Destiny
                 limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
                 chance: 0.1 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
-                group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
+                group: NONE #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
                 groupArea: 10
             event: # This section has no options.
