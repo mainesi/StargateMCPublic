@@ -292,12 +292,12 @@ npc:
         spawnMethod: RANDOM
         spawnOptions:
             default:
-            #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
-            spawnLocation:
-                x: -125
-                y: 7
-                z: -619
-                world: Earth
+                #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
+                spawnLocation:
+                    x: -125
+                    y: 7
+                    z: -619
+                    world: Earth
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
