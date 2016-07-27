@@ -130,7 +130,7 @@ npc:
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
             fireRate: 30
             #How many shots are in a standard volley?
-            shotCount: 1
+            shotCount: 2
             #Should the  NPC raise its weapon to fire?
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
@@ -162,9 +162,9 @@ npc:
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
-            primaryFactionOnDeath: Wraith
+            primaryFactionOnDeath: Goauld Loyal Jaffa
             primaryFactionPoints: -5
-            secondaryFactionOnDeath: Ancients
+            secondaryFactionOnDeath: Tauri
             secondaryFactionPoints: 5
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
@@ -198,16 +198,16 @@ npc:
             worldLines: []
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                - Our numbers will overwhelm you!
-                - You are but food to us.
+                - "Kree Lo'tar!"
+                - "You shall fall before my master!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines: []
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                - Earth will fall.... but you first!
+                - The Goauld will rise... but you will be too dead to see it!
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - A Thousand more will come in my place...
+                - The Goauld will rise again...
 
 #LOADOUT: The loadout section is where you equip your NPC.
 
