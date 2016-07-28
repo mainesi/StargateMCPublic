@@ -150,7 +150,7 @@ npc:
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
         respawnsInGame: NIGHT
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
-        respawnTime: 900
+        respawnTime: 14400
         #Should this NPC respawn where it first spawned, or where it died?
         #NOTE: This has no affect unless the NPC is part of an EVENT created by staff.
         respawnsAtSpawn: true
@@ -166,6 +166,10 @@ npc:
             primaryFactionPoints: -5
             secondaryFactionOnDeath: Ancients
             secondaryFactionPoints: 5
+        #Minimum XP Dropped on kill (randomised)
+        minXP: 100
+        #Maximum XP Dropped on kill (randomised)
+        maxXP: 200
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
         speed: 5
