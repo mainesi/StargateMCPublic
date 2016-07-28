@@ -164,7 +164,7 @@ npc:
         faction:
             primaryFactionOnDeath: Wraith
             primaryFactionPoints: 10
-            secondaryFactionOnDeath: Atlantis Expidition
+            secondaryFactionOnDeath: Atlantis Expedition
             secondaryFactionPoints: -10
         #Minimum XP Dropped on kill (randomised) 
         minXP: 10 
