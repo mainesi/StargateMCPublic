@@ -118,7 +118,7 @@ npc:
             damage: 3
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
-            accuracy: 60%
+            accuracy: 55
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
             rangedRange: 32
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
@@ -251,9 +251,9 @@ npc:
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 40
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 3
+            knockback: 1
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
-            gravity: true
+            gravity: false
             #What damage (hearts) should the NPCs projectile do?
             damage: 5
             #Is the NPC projectile explosive?
