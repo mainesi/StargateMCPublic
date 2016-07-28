@@ -166,6 +166,10 @@ npc:
             primaryFactionPoints: -5
             secondaryFactionOnDeath: Ancients
             secondaryFactionPoints: 5
+        #Minimum XP Dropped on kill (randomised)
+        minXP: 10
+        #Maximum XP Dropped on kill (randomised)
+        maxXP: 20
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
         speed: 5
