@@ -118,7 +118,7 @@ npc:
             damage: 3
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
-            accuracy: 75
+            accuracy: 60%
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
             rangedRange: 32
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
@@ -141,10 +141,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 10
-            melee: 10
-            explosion: 10
-            knockback: 10
+            arrow: 0
+            melee: 0
+            explosion: 0
+            knockback: 0
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -257,7 +257,7 @@ npc:
             #What damage (hearts) should the NPCs projectile do?
             damage: 5
             #Is the NPC projectile explosive?
-            explosive: true
+            explosive: false
             #How big is the projectile explosion? (Valid Options: 1=Staff,2=Grenade,3=TNT)
             explosionSize: 1
             #What trail should the projectile have when in the air? CASE SENSITIVE.
