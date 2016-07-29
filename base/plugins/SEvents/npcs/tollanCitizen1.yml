@@ -206,7 +206,7 @@ npc:
                 - "We do not like violence...... but we will defend ourselves!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
-                - "Hello, {player}... how are you?
+                - "Hello, {player}... how are you?"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
                 - "I really didn't want to do this"
