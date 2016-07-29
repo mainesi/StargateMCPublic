@@ -309,7 +309,9 @@ npc:
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
                     - MilkyWay
                     - Destiny
-                limit: 50 # This is the number of NPCs that can spawn from this template randomly ANYWHERE.
+                #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world? 
+                # This is useful for forcing NPCs to only spawn on their homeworlds, especially if they are randomly spawning. 
+                canSpawnNotOnMajorityWorld: false 
                 chance: 0.1 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
                 group: NONE #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
