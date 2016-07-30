@@ -55,7 +55,7 @@ npc:
         canSwim: true
         #bossBar: Should a bossBar be displayed for this NPC? Typically it should only be used for champions of good or evil! ;)
         #Values: ALWAYS, WHENATTACKING, NEVER
-        bossBar: WHENATTACKING
+        bossBar: ALWAYS
         #livingAnimation: Should this npc have a living animation? (It will look dead or inanimate otherwise)
         livingAnimation: true
         #ignoreCobwebs: True or false, should this NPC ignore cobwebs when moving? (It will walk through them quickly).
