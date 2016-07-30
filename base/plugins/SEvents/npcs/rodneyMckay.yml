@@ -233,22 +233,28 @@ npc:
         mainhand: 
             mod: OpenComputers
             item: item
+            dmgvalue: 0
         offhand: 
             mod: flansmod
             item: p90
+            dmgvalue: 0
         armor:
             head:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             chest:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             leg:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             boot:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
@@ -288,24 +294,28 @@ npc:
                     mod: flansmod
                     item: p90
                     numberOf: 1
+                    dmgvalue: 0
             2: 
                 chance: 100
                 item:
                     mod: ComputerCraft
                     item: infoBook
                     numberOf: 1
+                    dmgvalue: 0
             3: 
                 chance: 100
                 item:
                     mod: ComputerCraft
                     item: item
                     numberOf: 1
+                    dmgvalue: 0
             4: 
                 chance: 6
                 item:
                     mod: StargateTech2
                     item: personalShield
                     numberOf: 1
+                    dmgvalue: 0
     spawning:
         #Should this NPC spawn at all?
         enabled: true
