@@ -27,7 +27,7 @@ npc:
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
         faction: Atlantis Expedition
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: RotateBody
+        rotationBehavior: NoRotation
         #rotation: 0-360
         rotation: 271
         # This feature is not completed. Please leave the option as NONE.
