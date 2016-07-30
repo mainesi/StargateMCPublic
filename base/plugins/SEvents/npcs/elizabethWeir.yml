@@ -231,22 +231,28 @@ npc:
         mainhand: 
             mod: none
             item: none
+            dmgvalue: 0
         offhand: 
             mod: none
             item: none
+            dmgvalue: 0
         armor:
             head:
                 mod: none
                 item: none
+                dmgvalue: 0
             chest:
                 mod: none
                 item: none
+                dmgvalue: 0
             leg:
                 mod: none
                 item: none
+                dmgvalue: 0
             boot:
                 mod: none
                 item: none
+                dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
@@ -286,6 +292,7 @@ npc:
                     mod: StargateTech2
                     item: personalShield
                     numberOf: 1
+                    dmgvalue: 50
     spawning:
         #Should this NPC spawn at all?
         enabled: true
