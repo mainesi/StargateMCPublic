@@ -164,7 +164,7 @@ universe:
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
-      majorityFaction: NONE
+      majorityFaction: Goauld Loyal Jaffa
     "KS7-535":
       posX: 3200
       posZ: -1000
