@@ -13,7 +13,7 @@ npc:
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: http://stargatemc.com/npc_skins/Stargate_Apophis.png
+        textureUri: customnpcs:textures/STARGATE/serpent-guard-2-new-face.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: WEB
