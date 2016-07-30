@@ -228,11 +228,11 @@ npc:
         mainhand: 
             mod: flansmod
             item: wraithStunner
-                dmgvalue: 0
+            dmgvalue: 0
         offhand: 
             mod: NONE
             item: NONE
-                dmgvalue: 0
+            dmgvalue: 0
         armor:
             head:
                 mod: NONE
