@@ -206,7 +206,7 @@ npc:
                 - You will die for that!
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines: 
-                - Hello, {player}... move along now!
+                - "Hello, {player}... move along now!"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
                 - You will not conquer us all!
