@@ -148,7 +148,7 @@ npc:
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
-        respawnsInGame: NIGHT
+        respawnsInGame: ALWAYS
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
         respawnTime: 55
         #Should this NPC respawn where it first spawned, or where it died?
@@ -343,14 +343,14 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: RANDOM
+        spawnMethod: DEFAULT
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -125
-                    y: 7
-                    z: -619
+                    x: -320
+                    y: 160
+                    z: -16
                     world: "P5J-612"
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
