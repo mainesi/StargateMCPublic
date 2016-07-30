@@ -229,11 +229,11 @@ npc:
         mainhand: 
             mod: flansmod
             item: NSCDGL
-                dmgvalue: 0
+            dmgvalue: 0
         offhand: 
             mod: NONE
             item: NONE
-                dmgvalue: 0
+            dmgvalue: 0
         armor:
             head:
                 mod: NONE
@@ -385,7 +385,3 @@ npc:
                         world: "DIM-331"
                         name: Barney Rubble
                         title: Colonel
-            
-        
-        
-        
