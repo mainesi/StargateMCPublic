@@ -26,7 +26,10 @@ npc:
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
         faction: Tollan     
-        
+        #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
+        rotationBehavior: RotateBody
+        #rotation: 0-360
+        rotation: 271
         # This feature is not completed. Please leave the option as NONE.
         job: NONE
         # This feature is not completed. Please leave the option as NONE.
