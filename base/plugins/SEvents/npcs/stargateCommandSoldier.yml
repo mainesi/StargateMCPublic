@@ -356,7 +356,8 @@ npc:
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
-                worlds: [] #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
+                worlds:  #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
+                    - Tollana
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
                     - MilkyWay
                 #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world?   
