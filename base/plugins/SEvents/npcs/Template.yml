@@ -230,22 +230,28 @@ npc:
         mainhand: 
             mod: flansmod
             item: p90
+            dmgvalue: 0
         offhand: 
             mod: customnpcs
             item: sword
+            dmgvalue: 0
         armor:
             head:
                 mod: flansmod
                 item: juggernautHelmetBrown
+                dmgvalue: 0
             chest:
                 mod: flansmod
                 item: juggernautHelmetBrown
+                dmgvalue: 0
             leg:
                 mod: flansmod
                 item: juggernautHelmetBrown
+                dmgvalue: 0
             boot:
                 mod: flansmod
                 item: juggernautHelmetBrown
+                dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
@@ -285,12 +291,14 @@ npc:
                     mod: flansmod
                     item: p90
                     numberOf: 1
+                    dmgvalue: 0
             2: 
                 chance: 50
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 5
+                    dmgvalue: 0
     spawning:
         #Should this NPC spawn at all?
         enabled: false
