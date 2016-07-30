@@ -228,22 +228,28 @@ npc:
         mainhand: 
             mod: flansmod
             item: wraithStunner
+            dmgvalue: 0
         offhand: 
             mod: NONE
             item: NONE
+            dmgvalue: 0
         armor:
             head:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             chest:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             leg:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             boot:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
@@ -283,30 +289,35 @@ npc:
                     mod: SGCraft
                     item: generatedSpacetime
                     numberOf: 1
+                    dmgvalue: 0
             2: 
                 chance: 8
                 item:
                     mod: SGCraft
                     item: zeroPointContainmentModule
                     numberOf: 1
+                    dmgvalue: 0
             3: 
                 chance: 18
                 item:
                     mod: ExtraUtilities
                     item: scanner
                     numberOf: 1
+                    dmgvalue: 0
             4: 
                 chance: 25
                 item:
                     mod: SGCraft
                     item: RemoteDialler
                     numberOf: 1
+                    dmgvalue: 0
             5: 
-                chance: 1
+                chance: 5
                 item:
                     mod: SGCraft
                     item: T1ZeroPointModule
                     numberOf: 1
+                    dmgvalue: 9000
     spawning:
         #Should this NPC spawn at all?
         enabled: true
