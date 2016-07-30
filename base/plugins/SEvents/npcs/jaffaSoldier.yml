@@ -228,22 +228,28 @@ npc:
         mainhand: 
             mod: flansmod
             item: maTokStaff
+            dmgvalue: 0
         offhand: 
             mod: NONE
             item: NONE
+            dmgvalue: 0
         armor:
             head:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             chest:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             leg:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
             boot:
                 mod: NONE
                 item: NONE
+                dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
@@ -283,48 +289,56 @@ npc:
                     mod: flansmod
                     item: liquidNaquadah
                     numberOf: 3
+                    dmgvalue: 0
             2:
                 chance: 20
                 item:
                     mod: flansmod
                     item: liquidNaquadah
                     numberOf: 2
+                    dmgvalue: 0
             3:
                 chance: 30
                 item:
                     mod: flansmod
                     item: liquidNaquadah
                     numberOf: 1
+                    dmgvalue: 0
             4:
                 chance: 1
                 item:
                     mod: mcheli
                     item: gate_glider
                     numberOf: 1
+                    dmgvalue: 0
             5:
                 chance: 10
                 item:
                     mod: flansmod
                     item: maTokStaff
                     numberOf: 1
+                    dmgvalue: 0
             6:
                 chance: 15
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 5
+                    dmgvalue: 0
             7:
                 chance: 30
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 2
+                    dmgvalue: 0
             8:
                 chance: 45
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 1
+                    dmgvalue: 0
     spawning:
         #Should this NPC spawn at all?
         enabled: true
