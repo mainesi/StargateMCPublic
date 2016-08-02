@@ -323,7 +323,7 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: DEFAULT
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default: # This section has no options.
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
@@ -352,20 +352,25 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "P2Y-321"
-                        name: Fred Flinstone
-                        title: Private
+                        x: -276
+                        y: 183
+                        z: -1052
+                        worldName: Lantea
+                        name: Tom
+                        title: Test Dummy
+                        rotation: 52
+                        rotationBehavior: NoRotation
+                        textureType: NONE
+                        textureUri: NONE
                     2:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "DIM-331"
-                        name: Barney Rubble
-                        title: Colonel
-            
-        
-        
+                        x: -278
+                        y: 183
+                        z: -1052
+                        worldName: Lantea
+                        name: Tom
+                        title: Test Dummy
+                        rotation: 52
+                        rotationBehavior: NoRotation
+                        textureType: NONE
+                        textureUri: NONE
         
