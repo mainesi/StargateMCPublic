@@ -323,7 +323,7 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: CLONEDLIST
+        spawnMethod: DEFAULT
         spawnOptions:
             default: # This section has no options.
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
@@ -356,21 +356,6 @@ npc:
                         y: 183
                         z: -1052
                         worldName: Lantea
-                        name: Rodney
-                        title: Unliked
                         rotation: 52
                         rotationBehavior: NoRotation
-                        textureType: NONE
-                        textureUri: NONE
-                    2:
-                        x: -278
-                        y: 183
-                        z: -1052
-                        worldName: Lantea
-                        name: Rod
-                        title: Cool Guy
-                        rotation: 52
-                        rotationBehavior: NoRotation
-                        textureType: NONE
-                        textureUri: NONE
         
