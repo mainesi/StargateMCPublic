@@ -355,7 +355,7 @@ npc:
                     x: -125
                     y: 7
                     z: -619
-                    world: Earth
+                    world: Destiny
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
