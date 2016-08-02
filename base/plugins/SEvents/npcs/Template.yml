@@ -332,6 +332,18 @@ npc:
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
                 groupArea: 10 #groupArea defines how close this group will spawn to one another. Must be less than 100 blocks.
             event: # This section has no options.
+            clonedlist:
+                spawnLocations:
+                    1:
+                        x: 5
+                        y: 5
+                        z: 5
+                        name: Tom
+                        title: Test Dummy
+                        rotation 52
+                        rotationBehavior: NoRotation
+                        textureType: NONE
+                        textureUri: NONE
         
         
         
