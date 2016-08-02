@@ -144,10 +144,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 0
-            melee: 0
-            explosion: 0
-            knockback: 0
+            arrow: 1.0
+            melee: 1.0
+            explosion: 1.0
+            knockback: 1.0
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -377,42 +377,54 @@ npc:
                         y: 5
                         z: -626
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: HeadRotation
                         rotation: 0
                     2:
                         x: -137
                         y: 5
                         z: -626
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: HeadRotation
                         rotation: 0
                     3:
                         x: -143
                         y: 5
                         z: -615
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: HeadRotation
                         rotation: 180
                     4:
                         x: -139
                         y: 5
                         z: -615
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: HeadRotation
                         rotation: 180
                     5:
                         x: -121
                         y: 7
                         z: -619
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: HeadRotation
                         rotation: 90
                     6:
                         x: -128
                         y: 15
                         z: -603
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: HeadRotation
                         rotation: 0
-        
-        
+                    7:
+                        x: -128
+                        y: 15
+                        z: -595
+                        worldName: "Earth"
+                        rotationBehavior: HeadRotation
+                        rotation: 180
+                    8:
+                        x: -120
+                        y: 15
+                        z: -619
+                        worldName: "Earth"
+                        rotationBehavior: HeadRotation
+                        rotation: 90
