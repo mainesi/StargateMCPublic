@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Tauri Soldier
+        name: SGC Soldier
         #title: String (20 character limit)
         title: Soldier
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/entity/humanmale/KingSteve.png
+        textureUri: customnpcs:textures/STARGATE/SGC MARINE.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -347,7 +347,7 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: RANDOM
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
@@ -373,19 +373,19 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
+                        x: -141
                         y: 5
-                        z: 5
-                        world: "P2Y-321"
-                        name: Fred Flinstone
-                        title: Private
+                        z: -626
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation:0
                     2:
-                        x: 5
+                        x: -137
                         y: 5
-                        z: 5
-                        world: "DIM-331"
-                        name: Barney Rubble
-                        title: Colonel
+                        z: -626
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation:0
             
         
         
