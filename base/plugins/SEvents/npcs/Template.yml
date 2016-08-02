@@ -340,7 +340,7 @@ npc:
                         z: 5
                         name: Tom
                         title: Test Dummy
-                        rotation 52
+                        rotation: 52
                         rotationBehavior: NoRotation
                         textureType: NONE
                         textureUri: NONE
