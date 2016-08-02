@@ -378,14 +378,14 @@ npc:
                         z: -626
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation:0
+                        rotation: 0
                     2:
                         x: -137
                         y: 5
                         z: -626
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation:0
+                        rotation: 0
             
         
         
