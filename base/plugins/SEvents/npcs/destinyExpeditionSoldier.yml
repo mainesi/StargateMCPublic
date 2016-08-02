@@ -7,7 +7,7 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limi|t)
-        name: Destiny Expedition Soldier
+        name: Destiny Soldier
         #title: String (20 character limit)
         title: Soldier
         #template: NONE or any valid template. There are presently none.
