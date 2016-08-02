@@ -356,8 +356,8 @@ npc:
                         y: 183
                         z: -1052
                         worldName: Lantea
-                        name: Tom
-                        title: Test Dummy
+                        name: Rodney
+                        title: Unliked
                         rotation: 52
                         rotationBehavior: NoRotation
                         textureType: NONE
@@ -367,8 +367,8 @@ npc:
                         y: 183
                         z: -1052
                         worldName: Lantea
-                        name: Tom
-                        title: Test Dummy
+                        name: Rod
+                        title: Cool Guy
                         rotation: 52
                         rotationBehavior: NoRotation
                         textureType: NONE
