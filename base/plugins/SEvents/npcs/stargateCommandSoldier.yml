@@ -400,6 +400,19 @@ npc:
                         worldName: "Earth"
                         rotationBehavior: NoRotation
                         rotation: 180
-            
+                    5:
+                        x: -121
+                        y: 7
+                        z: -619
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                    5:
+                        x: -128
+                        y: 15
+                        z: -603
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 0
         
         
