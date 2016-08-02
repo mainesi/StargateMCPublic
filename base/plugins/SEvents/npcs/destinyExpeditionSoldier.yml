@@ -6,14 +6,14 @@
 npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
-        #name: String (20 character limi|t)
+        #name: String (20 character limit)
         name: Destiny Soldier
         #title: String (20 character limit)
         title: Soldier
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/STARGATE/IcarusOfficer.png
+        textureUri: customnpcs:textures/STARGATE/SGC MARINE.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -25,7 +25,7 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Destiny Expedition    
+        faction: Stargate Command     
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: RotateBody
         #rotation: 0-360
