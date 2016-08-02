@@ -192,7 +192,7 @@ npc:
                     z: 3
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: true
+            enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 32
     interactions:
@@ -386,7 +386,20 @@ npc:
                         worldName: "Earth"
                         rotationBehavior: NoRotation
                         rotation: 0
+                    3:
+                        x: -143
+                        y: 5
+                        z: -615
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                    4:
+                        x: -139
+                        y: 5
+                        z: -615
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 180
             
-        
         
         
