@@ -111,7 +111,7 @@ universe:
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Ascended
-    "MidWayStation":
+    "MidwayStation":
       posX: 11450
       posZ: 6000
       posY: 100
