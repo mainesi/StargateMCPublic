@@ -386,3 +386,73 @@ npc:
                         worldName: "Destiny"
                         rotationBehavior: NoRotation
                         rotation: 180
+                    3:
+                        x: 359
+                        y: 92
+                        z: 1385
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                    4:
+                        x: 359
+                        y: 92
+                        z: 1389
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                    5:
+                        x: 358
+                        y: 85
+                        z: 1389
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                    6:
+                        x: 358
+                        y: 85
+                        z: 1385
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                    7:
+                        x: 342
+                        y: 85
+                        z: 1373
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                    8:
+                        x: 338
+                        y: 85
+                        z: 1373
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 270
+                    9:
+                        x: 325
+                        y: 85
+                        z: 1389
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 270
+                    10:
+                        x: 325
+                        y: 85
+                        z: 1385
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 270
+                    11:
+                        x: 358
+                        y: 85
+                        z: 1373
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                    12:
+                        x: 354
+                        y: 85
+                        z: 1373
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 270
