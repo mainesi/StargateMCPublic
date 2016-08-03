@@ -22,8 +22,8 @@ worlds:
     radiusZ: 2500
     wrapping: false
   P2A-347:
-    x: 217
-    z: -968
+    x: 217.0
+    z: -968.0
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
@@ -36,9 +36,10 @@ worlds:
   Lantea:
     x: -295.0
     z: -1037.0
-    radiusX: 1200
-    radiusZ: 1200
+    radiusX: 2500
+    radiusZ: 2500
     wrapping: false
+    shape-round: true
   M4X-337:
     x: -1211.5099776812103
     z: -199.07714672773145
@@ -94,11 +95,12 @@ worlds:
     radiusZ: 2500
     wrapping: false
   C8L-390:
-    x: -501.2228222386699
-    z: 300.4269947730652
-    radiusX: 1500
-    radiusZ: 1500
+    x: -502.0
+    z: 300.0
+    radiusX: 2500
+    radiusZ: 2500
     wrapping: false
+    shape-round: true
   D3L-353:
     x: -155.51542264771075
     z: 643.203485042923
@@ -106,8 +108,8 @@ worlds:
     radiusZ: 2500
     wrapping: false
   D9K-411:
-    x: 112
-    z: 214
+    x: 112.0
+    z: 214.0
     radiusX: 2500
     radiusZ: 2500
     wrapping: false
@@ -232,8 +234,170 @@ worlds:
     radiusZ: 2500
     wrapping: false
   Destiny:
-    x: 397.1032505846025
-    z: 1387.5489643563192
-    radiusX: 1000
-    radiusZ: 1000
+    x: 397.0
+    z: 1387.0
+    radiusX: 2500
+    radiusZ: 2500
     wrapping: false
+    shape-round: true
+  DIM183:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM-64:
+    x: -164.0
+    z: 252.0
+    radiusX: 142000
+    radiusZ: 142000
+    wrapping: false
+    shape-round: true
+  DIM189:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM188:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM187:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM186:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM277:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM185:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Alkesh_Arena:
+    x: 1283.0
+    z: 1004.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Celestis:
+    x: -248.0
+    z: -260.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Clementia:
+    x: -477.0
+    z: -668.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM51:
+    x: 198.0
+    z: 489.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Daedalus:
+    x: 491.0
+    z: 1002.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Earth:
+    x: -126.0
+    z: -597.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Lacun:
+    x: -194.0
+    z: 72.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  MidwayStation:
+    x: 521.0
+    z: 1297.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  NPC_STORAGE:
+    x: -386.0
+    z: 1141.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Olympus:
+    x: -784.0
+    z: -51.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Rebirth:
+    x: 257.0
+    z: -496.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Tollana:
+    x: -800.0
+    z: 276.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  Tria:
+    x: -648.0
+    z: -330.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM-393:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
+  DIM-332:
+    x: 0.0
+    z: 0.0
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false
+    shape-round: true
