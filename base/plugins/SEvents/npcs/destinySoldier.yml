@@ -131,9 +131,9 @@ npc:
             #Maximum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
             maxDelay: 15
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
-            fireRate: 30
+            fireRate: 5
             #How many shots are in a standard volley?
-            shotCount: 3
+            shotCount: 1
             #Should the  NPC raise its weapon to fire?
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
@@ -258,14 +258,14 @@ npc:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
             projectile3D:
-                projectileSpins: true
-                projectileSticks: true
+                projectileSpins: false
+                projectileSticks: false
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
-            size: 2
+            size: 1
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 40
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 3
+            knockback: 1
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
             gravity: true
             #What damage (hearts) should the NPCs projectile do?
