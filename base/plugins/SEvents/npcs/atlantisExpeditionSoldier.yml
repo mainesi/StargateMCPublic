@@ -374,72 +374,58 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: -297
-                        y: 177
-                        z: -1034
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: -38
-                    2:
-                        x: -289
-                        y: 177
-                        z: -1049
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: 14
-                    3:
-                        x: -299
-                        y: 177
-                        z: -1049
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: -14
-                    4:
-                        x: -278
-                        y: 181
-                        z: -1030
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: -133
-                    5:
-                        x: -285
-                        y: 188
-                        z: -1057
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: -23
-                    6:
-                        x: -282
-                        y: 188
-                        z: -1032
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: 136
-                    7:
-                        x: -270
-                        y: 195
-                        z: -1037
-                        worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: -146
-                    8:
-                        x: -308
-                        y: 176
+                        x: -290
+                        y: 178
                         z: -1039
                         worldName: "Lantea"
                         rotationBehavior: NoRotation
-                        rotation: -120
-                    9:
-                        x: -287
-                        y: 181
-                        z: -1068
+                        rotation: 90
+                    2:
+                        x: -300
+                        y: 177
+                        z: -1039
                         worldName: "Lantea"
                         rotationBehavior: NoRotation
-                        rotation: 45
-                    10:
-                        x: -294
-                        y: 177
-                        z: -1025
-                        worldName: "Destiny"
+                        rotation: 270
+                    3:
+                        x: -300
+                        y: 178
+                        z: -1050
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                    4:
+                        x: -300
+                        y: 178
+                        z: -1050
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                    5:
+                        x: -295
+                        y: 181
+                        z: -1060
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                    6:
+                        x: -278
+                        y: 182
+                        z: -1030
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                    7:
+                        x: -300
+                        y: 182
+                        z: -1063
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                    8:
+                        x: -290
+                        y: 182
+                        z: -1063
+                        worldName: "Lantea"
                         rotationBehavior: NoRotation
                         rotation: 180
