@@ -9,7 +9,7 @@
     "infpower": true,
     "taxfree": true,
     "powerloss": false,
-    "pvp": false,
+    "pvp": true,
     "friendlyfire": false,
     "monsters": false,
     "animals": true,
