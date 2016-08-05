@@ -13,10 +13,10 @@ npc:
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/STARGATE/SGC MARINE.png
+        textureUri: http://www.stargatemc.com/npc_skins/Atlantis_Officer_Fixed(Hopefully).png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
-        textureType: RESOURCE
+        textureType: WEB
         #capeTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
@@ -25,7 +25,7 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Tollan     
+        faction: Tollan
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: RotateBody
         #rotation: 0-360
@@ -68,13 +68,13 @@ npc:
         #If a player or another NPC tries to interact with this NPC, should it pause its movement and turn to the interacting entity?
         stopOnInteract: true
         #What is the maximum health for this NPC?
-        maxHealth: 150
+        maxHealth: 50
         #Should this NPC pause every now and then while it is moving along a path?
         pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
-        avoidsSun: true
+        avoidsSun: false
         #Should this NPC ignore fall damage? Typically only 'unkillable' NPCs should have this.
         suffersFallDamage: true
         #shelterFrom: DARKNESS, SUN, NONE - This is pretty self explanatory.
@@ -131,9 +131,9 @@ npc:
             #Maximum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
             maxDelay: 15
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
-            fireRate: 5
+            fireRate: 30
             #How many shots are in a standard volley?
-            shotCount: 1
+            shotCount: 3
             #Should the  NPC raise its weapon to fire?
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
@@ -145,13 +145,13 @@ npc:
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
             arrow: 0
-            melee: 0
-            explosion: 0
+            melee: 10
+            explosion: 10
             knockback: 0
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
-        respawnsInGame: NIGHT
+        respawnsInGame: ALWAYS
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
         respawnTime: 900
         #Should this NPC respawn where it first spawned, or where it died?
@@ -165,9 +165,9 @@ npc:
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
-            primaryFactionOnDeath: Stargate Command
+            primaryFactionOnDeath: Atlantis Expedition
             primaryFactionPoints: -5
-            secondaryFactionOnDeath: Goauld
+            secondaryFactionOnDeath: Wraith
             secondaryFactionPoints: 5
         #Minimum XP Dropped on kill (randomised)
         minXP: 10
@@ -258,14 +258,14 @@ npc:
             #projectileType: Can be ARROW or BULLET.
             projectileType: BULLET
             projectile3D:
-                projectileSpins: false
-                projectileSticks: false
+                projectileSpins: true
+                projectileSticks: true
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
-            size: 1
+            size: 2
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 40
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 1
+            knockback: 3
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
             gravity: true
             #What damage (hearts) should the NPCs projectile do?
@@ -352,16 +352,17 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -125
-                    y: 7
-                    z: -619
-                    world: Earth
+                    x: -290
+                    y: 177
+                    z: -1034
+                    world: Lantea
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
-                    - Unclaimed Territory
+                    - Unclaimed Teritory
                 worlds: [] #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
                     - MilkyWay
+                    - Pegasus
                 #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world?   
                 # This is useful for forcing NPCs to only spawn on their homeworlds, especially if they are randomly spawning.   
                 canSpawnNotOnMajorityWorld: true   
@@ -373,16 +374,17 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 806
-                        y: 76
-                        z: 245
-                        worldName: "Tollana"
+                        x: 519
+                        y: 96
+                        z: 1286
+                        worldName: "MidwayStation"
                         rotationBehavior: NoRotation
                         rotation: 0
                     2:
-                        x: 800
-                        y: 76
-                        z: 245
-                        worldName: "Tollana"
+                        x: 523
+                        y: 96
+                        z: 1286
+                        worldName: "MidwayStation"
                         rotationBehavior: NoRotation
                         rotation: 0
+
