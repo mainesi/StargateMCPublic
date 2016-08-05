@@ -13,10 +13,10 @@ npc:
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: http://www.stargatemc.com/npc_skins/Atlantis_Officer_Fixed(Hopefully).png
+        textureUri: customnpcs:textures/entity/humanmale/KingSteve.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
-        textureType: WEB
+        textureType: RESOURCE
         #capeTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
@@ -140,7 +140,7 @@ npc:
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
             whenToUse: ALWAYS
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
-            sound: flansmod:P90Shoot
+            sound: "mcheli:9k118tv_snd"
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
@@ -231,7 +231,7 @@ npc:
     loadout:
         mainhand: 
             mod: flansmod
-            item: p90
+            item: UGFGL
             dmgvalue: 0
         offhand: 
             mod: NONE
