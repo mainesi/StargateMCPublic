@@ -374,17 +374,17 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 519
-                        y: 96
-                        z: 1286
-                        worldName: "MidwayStation"
+                        x: -806
+                        y: 75
+                        z: 246
+                        worldName: "Tollana"
                         rotationBehavior: NoRotation
                         rotation: 0
                     2:
-                        x: 523
-                        y: 96
-                        z: 1286
-                        worldName: "MidwayStation"
+                        x: -800
+                        y: 75
+                        z: 246
+                        worldName: "Tollana"
                         rotationBehavior: NoRotation
                         rotation: 0
 
