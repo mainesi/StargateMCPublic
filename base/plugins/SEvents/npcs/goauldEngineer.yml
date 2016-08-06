@@ -138,7 +138,7 @@ npc:
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
-            whenToUse: ALWAYS
+            whenToUse: NEVER
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
             sound: flansmod:staffShoot
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
