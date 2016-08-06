@@ -13,7 +13,7 @@ npc:
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/STARGATE/sgteamskin.png
+        textureUri: customnpcs:textures/STARGATE/ELIZABETH WEIR CASUAL.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -25,11 +25,11 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Stargate Command
+        faction: Atlantis Expedition
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: NoRotation
         #rotation: 0-360
-        rotation: 0
+        rotation: 271
         # This feature is not completed. Please leave the option as NONE.
         job: NONE
         # This feature is not completed. Please leave the option as NONE.
@@ -84,7 +84,7 @@ npc:
         showName: ALWAYS
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
-        animation: SITTING
+        animation: NORMAL
     combat:
         #How much HP should this NPC regnerate per tick out of combat?
         healthRegen: 5
@@ -346,3 +346,4 @@ npc:
         
         
         
+
