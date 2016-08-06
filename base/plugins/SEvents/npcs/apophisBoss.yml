@@ -365,7 +365,7 @@ npc:
                 #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world?
                 # This is useful for forcing NPCs to only spawn on their homeworlds, especially if they are randomly spawning.
                 canSpawnNotOnMajorityWorld: false
-                chance: 50.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0) The higher the chance, the more likely this will spawn in over something else.
+                chance: 5.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0) The higher the chance, the more likely this will spawn in over something else.
                 group: JAFFAPATROL #This is the group this NPC is part of. Handled via random spawns. If the NPC has a group of NONE it will not spawn as part of any group... and instead be treated individually.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
                 groupArea: 10 #groupArea defines how close this group will spawn to one another. Must be less than 100 blocks.
