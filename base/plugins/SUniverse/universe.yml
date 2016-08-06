@@ -57,6 +57,15 @@ universe:
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Stargate Command
+    Daedalus:
+      posX: 3100
+      posZ: 2500
+      posY: 110
+      radius: 250
+      isSpawn: true
+      atmosphere: ARTIFICIAL      
+      type: SHIP
+      majorityFaction: Stargate Command
     Destiny:
       posX: 81000
       posZ: 86000
