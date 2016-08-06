@@ -7,17 +7,17 @@
     "permanent": true,
     "peaceful": true,
     "infpower": true,
-    "powerloss": true,
+    "powerloss": false,
     "pvp": true,
     "taxfree": true,
     "friendlyfire": true,
-    "monsters": true,
-    "animals": true,
-    "explosions": true,
-    "offlineexplosions": true,
+    "monsters": false,
+    "animals": false,
+    "explosions": false,
+    "offlineexplosions": false,
     "firespread": true,
-    "endergrief": true,
-    "zombiegrief": true
+    "endergrief": false,
+    "zombiegrief": false
   },
   "perms": {
     "build": [
