@@ -214,7 +214,7 @@ npc:
                 - Oh God...
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - "Walter! We have a foothold event! Code 9!"`
+                - "Walter! We have a foothold event! Code 9!"
 
 #LOADOUT: The loadout section is where you equip your NPC.
 
