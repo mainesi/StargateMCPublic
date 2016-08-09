@@ -1,5 +1,5 @@
 # Enable or disable whitelist
-Enabled: true
+Enabled: false
 FileCheckInterval: 10
 KickMessage: '&bYou must be registered on StargateMC.com to play on this server -  its
   free!'
