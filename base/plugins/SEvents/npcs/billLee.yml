@@ -304,7 +304,7 @@ npc:
                     dmgvalue: 0
     spawning:
         #Should this NPC spawn at all?
-        enabled: true
+        enabled: false
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
         spawnMethod: default
         spawnOptions:
