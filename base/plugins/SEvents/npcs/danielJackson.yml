@@ -166,7 +166,7 @@ npc:
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
             primaryFactionOnDeath: Stargate Command
-            primaryFactionPoints: =250
+            primaryFactionPoints: 250
             secondaryFactionOnDeath: Goauld
             secondaryFactionPoints: 250
         #Minimum XP Dropped on kill (randomised)
