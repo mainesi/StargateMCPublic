@@ -295,7 +295,7 @@ npc:
                     item: naquadah
                     numberOf: 5
                     dmgvalue: 0
-            2: 
+           2: 
                 chance: 50
                 item:
                     mod: minecraft
