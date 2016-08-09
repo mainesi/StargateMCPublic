@@ -214,7 +214,7 @@ npc:
                 - I warned you...
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - We won't let you take the Destiny!
+                - "We won't let you take the Destiny!"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
