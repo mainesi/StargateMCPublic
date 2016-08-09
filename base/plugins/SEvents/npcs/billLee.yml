@@ -43,7 +43,7 @@ npc:
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
         backTrackWhileFollowingPath: true
         #doorInteraction: BREAK, OPEN, NONE are valid options.
-        doorInteraction: BREAK
+        doorInteraction: OPEN
         #burnsInSun: true or false.
         burnsInSun: false
         #canDrown: Can this NPC Drown? true or false.
@@ -166,7 +166,7 @@ npc:
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
             primaryFactionOnDeath: Stargate Command
-            primaryFactionPoints: 5
+            primaryFactionPoints: -5
             secondaryFactionOnDeath: Goauld
             secondaryFactionPoints: 5
         #Minimum XP Dropped on kill (randomised)
@@ -304,7 +304,7 @@ npc:
                     dmgvalue: 0
     spawning:
         #Should this NPC spawn at all?
-        enabled: false
+        enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
         spawnMethod: default
         spawnOptions:
