@@ -209,7 +209,7 @@ npc:
                 - Hey, stand down!
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
-                - {player}, if you see the general can you inform him to get his ass down here? 
+                - "{player} if you see the general can you inform him to get his ass down here?"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
                 - Well that happened
