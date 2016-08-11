@@ -62,7 +62,7 @@ universe:
       posZ: 2500
       posY: 110
       radius: 250
-      isSpawn: true
+      isSpawn: false
       atmosphere: ARTIFICIAL      
       type: SHIP
       majorityFaction: Stargate Command
