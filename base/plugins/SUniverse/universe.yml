@@ -128,7 +128,7 @@ universe:
       isSpawn: true
       atmosphere: ARTIFICIAL      
       type: SHIP
-      majorityFaction: Tauri
+      majorityFaction: Midway Crew
     "P9L-101":
       posX: -1000
       posZ: -500
