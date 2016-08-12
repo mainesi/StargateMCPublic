@@ -202,8 +202,8 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "M3R-485":
-      posX: 26000
-      posZ: 18500
+      posX: 23000
+      posZ: 12500
       posY: 170
       radius: 250
       isSpawn: false
@@ -247,8 +247,8 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "D1X-209":
-      posX: 81000
-      posZ: 84000
+      posX: 86000
+      posZ: 82500
       posY: 90
       radius: 250
       isSpawn: false
