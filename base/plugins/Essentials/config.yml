@@ -44,7 +44,7 @@ change-displayname: true
 # If the teleport destination is unsafe, should players be teleported to the nearest safe location?
 # If this is set to true, Essentials will attempt to teleport players close to the intended destination.
 # If this is set to false, attempted teleports to unsafe locations will be cancelled with a warning.
-teleport-safety: false
+teleport-safety: true
 
 # The delay, in seconds, required between /home, /tp, etc.
 teleport-cooldown: 0
