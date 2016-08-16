@@ -93,6 +93,15 @@ universe:
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Atlantis Expedition
+    "Omega":
+      posX: 24000
+      posZ: 12500
+      posY: 67
+      radius: 250
+      isSpawn: true
+      atmosphere: ARTIFICIAL      
+      type: SHIP
+      majorityFaction: Wraith
     "Celestis":
       posX: -83500
       posZ: -83000
