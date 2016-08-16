@@ -401,3 +401,9 @@ worlds:
     radiusZ: 2500
     wrapping: false
     shape-round: true
+  Omega:
+    x: 129.7956649089403
+    z: 794.5652860676978
+    radiusX: 2500
+    radiusZ: 2500
+    wrapping: false

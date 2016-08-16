@@ -170,6 +170,12 @@ worlds:
     options: ''
     difficulty: NORMAL
     autoload: true
+  DIM277:
+    seed: -3471158140763468264
+    worldgen: STORAGE
+    options: ''
+    difficulty: NORMAL
+    autoload: true
   DIM51:
     seed: -3471158140763468264
     worldgen: Normal
@@ -293,6 +299,12 @@ worlds:
   Olympus:
     seed: -2953115688199847894
     worldgen: Empty
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  Omega:
+    seed: -2303886577576262319
+    worldgen: EMPTY
     options: ''
     difficulty: NORMAL
     autoload: true
