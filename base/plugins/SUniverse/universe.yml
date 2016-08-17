@@ -94,8 +94,8 @@ universe:
       type: PLANET
       majorityFaction: Atlantis Expedition
     "Omega":
-      posX: 24000
-      posZ: 12500
+      posX: 22000
+      posZ: 16000
       posY: 67
       radius: 250
       isSpawn: true
