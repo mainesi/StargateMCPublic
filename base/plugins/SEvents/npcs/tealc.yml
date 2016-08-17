@@ -270,7 +270,7 @@ npc:
             #What damage (hearts) should the NPCs projectile do?
             damage: 5
             #Is the NPC projectile explosive?
-            explosive: true
+            explosive: false
             #How big is the projectile explosion? (Valid Options: 1=Staff,2=Grenade,3=TNT)
             explosionSize: 1
             #What trail should the projectile have when in the air? CASE SENSITIVE.
