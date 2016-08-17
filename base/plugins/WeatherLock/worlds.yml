@@ -59,6 +59,10 @@ Destiny:
   sun: true
   rain: false
   storm: false
+Omega:
+  sun: true
+  rain: false
+  storm: false
 Earth:
   sun: true
   rain: true
