@@ -11,7 +11,34 @@ quest:
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #type: Valid options are AreaKill, Location, Item, Kill, Dialog
-        type: Location
+        type: Item
+    #Quest Objectives, defined from the type above.
+    objectives:
+        Item:
+            #ignoreDamage: true or false, should the item damage value be ignored?
+            ignoreDamage: true
+            #takeItems: true or false, should the objective items be taken at the end?
+            takeItems: true
+            #ignoreNBT: Should NBT data be ignored?
+            ignoreNBT: true
+            #What items should the quest require?
+            items:
+                1:
+                    modName: flansmod
+                    itemName: p90
+                    number: 1
+                    damage: 0
+                2:
+                    modName: flansmod
+                    itemName: p90ammo
+                    number: 1
+                    damage: 0
+                3:
+                    modName: minecraft
+                    itemName: diamond
+                    number: 1
+                    damage: 0
+                    
     text:
         completion: "This is my quest completion page!"
         log: "This quest needs to do X, to achieve Y"
