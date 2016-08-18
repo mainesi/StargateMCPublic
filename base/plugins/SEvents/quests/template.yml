@@ -10,6 +10,8 @@ quest:
         title: MyQuest
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
+        #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
+        repeatType: REPEATABLE
         #type: Valid options are AreaKill, Location, Item, Kill, Dialog
         type: Item
     #Quest Objectives, defined from the type above.
@@ -58,8 +60,6 @@ quest:
             points: -5
         #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
         nextQuestTitle: MyFollowOnQuest
-        #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
-        repeatType: REPEATABLE
         #rewardExp: Number of experience rewarded for completion of thisquest.
         rewardExp: 50
         #Item rewards are below.
