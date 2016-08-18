@@ -59,7 +59,7 @@ quest:
             name: Goauld
             points: -5
         #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
-        nextQuestTitle: MyFollowOnQuest
+        nextQuestTitle: NONE
         #rewardExp: Number of experience rewarded for completion of thisquest.
         rewardExp: 50
         #Item rewards are below.
