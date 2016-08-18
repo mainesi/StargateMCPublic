@@ -5,7 +5,7 @@
 
 quest:
     general:
-        # The name of an NPC does not have to be unique, but the name and title combination must be.
+        # The name of a quest must be unique.
         #title: String (20 character limit)
         title: MyQuest
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
