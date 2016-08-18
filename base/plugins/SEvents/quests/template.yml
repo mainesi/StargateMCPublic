@@ -16,6 +16,26 @@ quest:
         type: Item
     #Quest Objectives, defined from the type above.
     objectives:
+        Dialog: #TODO
+        Location:
+            #Maximum of 3 locations can be listed.
+            locations:
+                - TestLoc1
+                - TestLoc2
+                - TestLoc3
+        #AreaKill and Kill types share a objective. The difference is that AreaKill rewards people near an npc dying, Kill needs them to kill it.
+        #Maximum of 3 targets can be listed.
+        Kill:
+            targets:
+                1:
+                    name: Wraith Soldier
+                    number: 1
+                2:
+                    name: Goauld Soldier
+                    number: 2
+                3:
+                    name: Tollan Soldier
+                    number: 3
         Item:
             #ignoreDamage: true or false, should the item damage value be ignored?
             ignoreDamage: true
@@ -24,6 +44,7 @@ quest:
             #ignoreNBT: Should NBT data be ignored?
             ignoreNBT: true
             #What items should the quest require?
+            #Maximum of 3 item stacks can be listed
             items:
                 1:
                     modName: flansmod
