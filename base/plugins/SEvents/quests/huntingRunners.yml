@@ -1,0 +1,88 @@
+#QUEST TEMPLATE YAML FILE.
+#BE SURE TO READ INSTRUCTIONS OR THIS WILL LIKELY NOT BE APPROVED OR BREAK WHEN LOADED ONTO THE SERVER.
+#ANY QUESTIONS ASK BYSOKAR!
+---
+
+quest:
+    general:
+        # The name of a quest must be unique.
+        #title: String (20 character limit)
+        title: Hunting Runners
+        #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
+        category: Wraith
+        #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
+        repeatType: RLDAILY
+        #type: Valid options are AreaKill, Location, Item, Kill, Dialog
+        type: AreaKill
+    #Quest Objectives, defined from the type above.
+    objectives:
+        Dialog: #TODO
+        Location:
+            #Maximum of 3 locations can be listed.
+            locations:
+                - TestLoc1
+                - TestLoc2
+                - TestLoc3
+        #AreaKill and Kill types share a objective. The difference is that AreaKill rewards people near an npc dying, Kill needs them to kill it.
+        #Maximum of 3 targets can be listed.
+        Kill:
+            targets:
+                1:
+                    name: Wraith Runner
+                    number: 1
+        Item:
+            #ignoreDamage: true or false, should the item damage value be ignored?
+            ignoreDamage: true
+            #takeItems: true or false, should the objective items be taken at the end?
+            takeItems: true
+            #ignoreNBT: Should NBT data be ignored?
+            ignoreNBT: true
+            #What items should the quest require?
+            #Maximum of 3 item stacks can be listed
+            items:
+                1:
+                    modName: flansmod
+                    itemName: p90
+                    number: 1
+                    damage: 0
+                2:
+                    modName: flansmod
+                    itemName: p90ammo
+                    number: 1
+                    damage: 0
+                3:
+                    modName: minecraft
+                    itemName: diamond
+                    number: 1
+                    damage: 0
+                    
+    text:
+        completion: "Youve now been rewarded for killing a runner!"
+        log: "Kill 1 Wraith Runner to be rewarded"
+    completion:
+        #command: Command to be executed when the player completes the quest. This is run as console.
+        command: "broadcast @dp just killed a Wraith Runner!"
+        #completionType: Valid Options are: Instant, Npc
+        type: Npc
+        #npc: This is the name of the NPC you wish to have the quest complete at. (See above for completion type, this must be set to Npc!)
+        npc: Wraith Commander
+        #Faction rewards are below.
+        factionPrimary:
+            name: Atlantis Expedition
+            points: -100
+        factionSecondary:
+            name: Wraith
+            points: 100
+        #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
+        nextQuestTitle: NONE
+        #rewardExp: Number of experience rewarded for completion of thisquest.
+        rewardExp: 100
+        #Item rewards are below.
+        itemRewards:
+            1:
+                modName: SGCraft
+                itemName: naquadah
+                number: 50
+                damage: 0
+        
+
