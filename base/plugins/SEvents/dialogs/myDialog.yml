@@ -99,7 +99,7 @@ dialog:
                 color: 1                
                 options:
                     Dialog:
-                    targetDialog: MyDialog
+                        targetDialog: MyDialog
                     Command:
                         command: NONE
             2:
@@ -110,7 +110,7 @@ dialog:
                 color: 1                
                 options:
                     Dialog:
-                    targetDialog: MyDialog
+                        targetDialog: MyDialog
                     Command:
                         command: NONE
             3:
@@ -121,6 +121,6 @@ dialog:
                 color: 1                
                 options:
                     Dialog:
-                    targetDialog: MyDialog
+                        targetDialog: MyDialog
                     Command:
                         command: NONE
