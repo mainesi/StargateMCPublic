@@ -86,7 +86,7 @@ dialog:
                 color: 1                
                 options:
                     Dialog:
-                        targetDialog: pickRacePegasus
+                        targetDialog: "Picking a Race: Pegasus"
                     Command:
                         command: NONE
             3:
