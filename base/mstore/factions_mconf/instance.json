@@ -45,7 +45,7 @@
   "taskPlayerDataRemoveMinutes": 5.0,
   "taskEconLandRewardMinutes": 20.0,
   "removePlayerWhenBanned": false,
-  "removePlayerMillisDefault": 864000000,
+  "removePlayerMillisDefault": -1,
   "removePlayerMillisPlayerAgeToBonus": {
     "1209600000": 864000000
   },
