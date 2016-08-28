@@ -90,5 +90,5 @@ cleanUp:
   muteRecords: 0
   readWarnings: 0
   unreadWarnings: 0
-maxOnlinePerIp: 1
+maxOnlinePerIp: 2
 checkOnJoin: true
