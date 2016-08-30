@@ -1,6 +1,6 @@
 universe:
   name: StargateMC
-  immenseDistance: 15.0
+  immenseDistance: 25.0
   galaxies:
     MilkyWay:
       centerX: 0
