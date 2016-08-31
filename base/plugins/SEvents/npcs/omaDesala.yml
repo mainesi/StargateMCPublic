@@ -296,38 +296,7 @@ npc:
     interactions:
         dialogs:
             1:
-                title: Id like to join the Atlantis Expedition...
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0
-                options:
-                    Dialog:
-                        targetDialog: "Picking a Race"
-                    Command:
-                        command: NONE
-            2:
-                title: Id like to join the Genii...
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 1                
-                options:
-                    Dialog:
-                        targetDialog: pickRaceGenii
-                    Command:
-                        command: NONE
-            3:
-                title: Id like to join the Wraith...
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 1                
-                options:
-                    Dialog:
-                        targetDialog: pickRaceWraith
-                    Command:
-                        command: NONE
+                title: "Picking a Race"
     spawning:
         #Should this NPC spawn at all?
         enabled: true
