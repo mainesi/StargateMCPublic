@@ -300,7 +300,7 @@ npc:
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
-                color: 1                
+                color: 0
                 options:
                     Dialog:
                         targetDialog: "Picking a Race"
