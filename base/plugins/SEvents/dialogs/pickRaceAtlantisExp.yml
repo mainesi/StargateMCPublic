@@ -7,7 +7,7 @@ dialog:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: "Picking a Race: Pegasus"
+        title: "Joining the Atlantis Expedition"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
@@ -15,7 +15,7 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "There are several races in the Pegasus Galaxy you may choose to join... who would it be?"
+        text: "The Atlantis Expedition have their base of operations in the lost city of Atlantis, in the Pegasus Galaxy. \n Their friends include the other Tauri, as well as the Athosians in Pegasus. Their primary enemies are the Wraith."
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -68,36 +68,25 @@ dialog:
             points: NONE
         dialogs:
             1:
-                title: Id like to join the Atlantis Expedition...
+                title: Im sure Id like to join...
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
                 color: 1                
                 options:
                     Dialog:
-                        targetDialog: Joining the Atlantis Expedition
+                        targetDialog: Welcome to the Atlantis Expedition
                     Command:
                         command: NONE
             2:
-                title: Id like to join the Genii...
+                title: Actually.... I havent made up my mind!
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
                 color: 1                
                 options:
                     Dialog:
-                        targetDialog: pickRaceGenii
-                    Command:
-                        command: NONE
-            3:
-                title: Id like to join the Wraith...
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 1                
-                options:
-                    Dialog:
-                        targetDialog: pickRaceWraith
+                        targetDialog: "Picking a Race: Pegasus"
                     Command:
                         command: NONE
 

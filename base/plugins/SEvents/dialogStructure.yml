@@ -1,0 +1,52 @@
+## YAML Template.
+---
+
+dialogs:
+    # Category (Questline name)
+    Tutorial:
+        welcomeToServer:
+            speakToOma:
+        learningAboutMechanics:
+            stargates:
+                kinoRemote:
+            ships:
+                warpDrive:
+                npcTransport:
+            factions:
+                npcFactions:
+                    reputation:
+                playerFactions:
+            worldControl:
+                bonuses:
+        pickRaceIntro:
+            pickRaceMilkyWay:
+                pickRaceStargateCommand:
+                    pickRaceStargateCommandConfirm:
+                        pickedRace:   
+                pickRaceGoauld:
+                    pickRaceGoauldConfirm:
+                        pickedRace:   
+                pickRaceTollan:
+                    pickRaceTollanConfirm:
+                        pickedRace:
+            pickRaceOri:
+                pickRaceOri:
+                    pickRaceOriConfirm:
+                        pickedRace:
+            pickRaceOthala:
+                pickRaceAsgard:
+                    pickRaceAsgardConfirm:
+                        pickedRace:
+            pickRaceDestiny:
+                pickRaceDestinyExp:
+                    pickRaceDestinyExpConfirm:
+                        pickedRace:
+            pickRacePegasus:
+                pickRaceAtlantisExp:
+                    pickRaceAtlantisExpConfirm:
+                        pickedRace:
+                pickRaceWraith:
+                    pickRaceWraithConfirm:
+                        pickedRace:
+        
+        
