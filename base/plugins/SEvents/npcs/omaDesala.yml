@@ -303,7 +303,7 @@ npc:
                 color: 1                
                 options:
                     Dialog:
-                        targetDialog: pickRaceAtlantis
+                        targetDialog: "Picking a Race"
                     Command:
                         command: NONE
             2:
