@@ -16,7 +16,10 @@ quest:
         type: AreaKill
     #Quest Objectives, defined from the type above.
     objectives:
-        Dialog: #TODO
+        Dialog: 
+            firstDialog: NONE
+            secondDialog: NONE
+            thirdDialog: NONE
         Location:
             #Maximum of 3 locations can be listed.
             locations:
