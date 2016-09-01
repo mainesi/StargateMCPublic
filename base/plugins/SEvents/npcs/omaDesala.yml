@@ -296,7 +296,7 @@ npc:
     interactions:
         dialogs:
             1:
-                title: "Picking a Race"
+                title: "Welcome to StargateMC"
     spawning:
         #Should this NPC spawn at all?
         enabled: true
@@ -306,10 +306,10 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -260
-                    y: 51
-                    z: -246
-                    world: Celestis
+                    x: 33
+                    y: 74
+                    z: 28
+                    world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
