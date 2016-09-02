@@ -7,7 +7,7 @@ dialog:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: Welcome to StargateMC
+        title: "How do I ask for help or make a suggestion?"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
@@ -15,7 +15,7 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Welcome to StargateMC, {player}.\nYou will find this server unique in almost every way."
+        text: "To gain assistance ingame, you may use the following options;\nIf you are unsure of what to do or how to do something you can:\n 1. Contact an in-game moderator for help.\n 2. Ask other players for help via chat.\n 3. Ask for Help on Discord (/s discord for details)\n\nCommand Examples: /help, /s help, /f help"
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -46,14 +46,14 @@ dialog:
             isNot: false
         dialogs:
             1:
-               title: Picking a Race
+               title: "Welcome to StargateMC"
                #setting: Valid options are After, Before
-               setting: Before
+               setting: After
         quests:
             1:
-                title: Picking a Race
+                title: NONE
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: Before
+                setting: NONE
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE
@@ -68,46 +68,24 @@ dialog:
             points: NONE
         dialogs:
             1:
-                title: "Where are we?"
+                title: Tell me more...
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
                 color: 0            
                 options:
                     Dialog:
-                        targetDialog: "Where are we?"
+                        targetDialog: "Welcome to StargateMC"
                     Command:
                         command: NONE
             2:
-                title: "How do I ask for help or make a suggestion?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "How do I ask for help or make a suggestion?"
-                    Command:
-                        command: NONE
-            3:
-                title: Thats all for now...
+                title: Thank you Oma...
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: QUIT
                 #color: number value for a color.
-                color: 0               
+                color: 0    
                 options:
                     Dialog:
                         targetDialog: NONE
-                    Command:
-                        command: NONE
-            4:
-                title: "What are we doing here?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "What are we waiting for?"
                     Command:
                         command: NONE
