@@ -92,7 +92,7 @@ npc:
         #What is the maximum health for this NPC?
         maxHealth: 50
         #Should this NPC pause every now and then while it is moving along a path?
-        pauseWhileFollowingPath: false
+        pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
@@ -200,18 +200,30 @@ npc:
         speed: 5
         followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
-            enabled: false
+            enabled: true
             #Steps that are part of the path. NOTE: You must ensure the NPC spawns at a location that can reach these coordinates!
             #All paths are on the local dimension only. NPCs will not use stargates or rings unless part of a staff programmed EVENT.
             steps:
                 1:
-                    x: 1
-                    y: 2
-                    z: 3
+                    x: 193
+                    y: 85
+                    z: 57
                 2:
-                    x: 2
-                    y: 2
-                    z: 3
+                    x: 193
+                    y: 85
+                    z: 40
+                3:
+                    x: 206
+                    y: 85
+                    z: 38
+                4:
+                    x: 206
+                    y: 85
+                    z: 42
+                5:
+                    x: 204
+                    y: 85
+                    z: 42
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: false
@@ -231,7 +243,7 @@ npc:
                 - Don't you dare continue
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
-                - "Who are you, {player}?"
+                - "Very well, {player}..."
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
                 - I warned you...
