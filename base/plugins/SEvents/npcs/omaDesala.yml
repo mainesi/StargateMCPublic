@@ -254,6 +254,9 @@ npc:
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
                 - This...This is impossible...
+        dialogs:
+            1:
+                title: "Welcome to StargateMC"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
@@ -331,10 +334,6 @@ npc:
                     item: naquadah
                     numberOf: 5
                     dmgvalue: 0
-    interactions:
-        dialogs:
-            1:
-                title: "Welcome to StargateMC"
     spawning:
         #Should this NPC spawn at all?
         enabled: true
