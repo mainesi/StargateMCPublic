@@ -7,16 +7,16 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: George Hammond
+        name: Kora
         #title: String (20 character limit)
-        title: Ascended Tauri
+        title: Ascended Trader
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "http://stargatemc.com/npc_skins/General%20Hammond.png"
+        textureUri: customnpcs:textures/entity/humanfemale/RobesBrownStephanie.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
-        textureType: WEB
+        textureType: RESOURCE
         #capeTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
@@ -27,15 +27,37 @@ npc:
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
         faction:  Ascended
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: HeadRotation
+        rotationBehavior: RotateBody
         #rotation: 0-360
-        rotation: 180
+        rotation: 55
         # This feature is not completed. Please leave the option as NONE.
-        job: NONE
+        job: None
         # This feature is not completed. Please leave the option as NONE.
-        role: NONE
+        role: Trader
         #visible: YES, PARTIAL, NO are valid options.
         visible: YES
+    roles:
+        Trader:
+            options:
+                ignoreDamage: false
+                ignoreNBT: false
+            items:
+                1:
+                    result:
+                        modName: minecraft
+                        itemName: bread
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
         avoidsWater: true
@@ -84,7 +106,7 @@ npc:
         showName: ALWAYS
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
-        animation: SITTING
+        animation: NORMAL
     combat:
         #How much HP should this NPC regnerate per tick out of combat?
         healthRegen: 5
@@ -296,7 +318,7 @@ npc:
     interactions:
         dialogs:
             1:
-                title: "Welcome to StargateMC"
+                title: "Ascended Trader Intro"
     spawning:
         #Should this NPC spawn at all?
         enabled: true
@@ -306,9 +328,9 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -189
-                    y: 102
-                    z: 75
+                    x: 193
+                    y: 85
+                    z: 60
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
