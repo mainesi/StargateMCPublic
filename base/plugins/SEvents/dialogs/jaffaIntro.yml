@@ -101,7 +101,7 @@ dialog:
                     Command:
                         command: NONE
             4:
-                title: "What are we doing here?"
+                title: "Where do the Free Jaffa reside?"
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
