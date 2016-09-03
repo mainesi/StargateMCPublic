@@ -9,11 +9,11 @@ npc:
         #name: String (20 character limit)
         name: George Hammond
         #title: String (20 character limit)
-        title: Ascended Tauri
+        title: General
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "http://stargatemc.com/npc_skins/General%20Hammond.png"
+        textureUri: http://stargatemc.com/npc_skins/George%20Hammond.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: WEB
@@ -25,11 +25,11 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction:  Ascended
+        faction: Stargate Command
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: HeadRotation
+        rotationBehavior: RotateBody
         #rotation: 0-360
-        rotation: 180
+        rotation: 122
         # This feature is not completed. Please leave the option as NONE.
         job: NONE
         # This feature is not completed. Please leave the option as NONE.
@@ -43,7 +43,7 @@ npc:
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
         backTrackWhileFollowingPath: true
         #doorInteraction: BREAK, OPEN, NONE are valid options.
-        doorInteraction: OPEN
+        doorInteraction: BREAK
         #burnsInSun: true or false.
         burnsInSun: false
         #canDrown: Can this NPC Drown? true or false.
@@ -84,7 +84,7 @@ npc:
         showName: ALWAYS
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
-        animation: SITTING
+        animation: NORMAL
     combat:
         #How much HP should this NPC regnerate per tick out of combat?
         healthRegen: 5
@@ -96,7 +96,7 @@ npc:
         defendFactionMembers: true
         #What reaction should this NPC have to a fight?
         #attackedResponse: PANIC, IGNORE, RETALIATE, RETREAT are all valid options.
-        attackedResponse: RETREAT
+        attackedResponse: RETALIATE
         #mustSeeTarget: Should this NPC require line of sight between itself and its target? This merely caters for obstacles/walls. It isnt the same as Invisible attacking above.
         mustSeeTarget: true
         #Should this NPC attack hostile factions? See above for factions that are hostile.
@@ -165,9 +165,9 @@ npc:
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
-            primaryFactionOnDeath: Ancients
+            primaryFactionOnDeath: Stargate Command
             primaryFactionPoints: -300
-            secondaryFactionOnDeath: Ori
+            secondaryFactionOnDeath: Goauld
             secondaryFactionPoints: 250
         #Minimum XP Dropped on kill (randomised)
         minXP: 10
@@ -203,19 +203,19 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                -I've been sent here to guard Adria
+                - Why is our dialing computer down?
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                - Don't you dare continue
+                - "*Over comms* Foothold event! Initiating code 9 procedure!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
-                - "Who are you, {player}?"
+                - "Who are you, {player}? What is your buisness here?"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                - I warned you...
+                - "Code 9 relieved, base will remain on lockdown pending full sweep"
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - This...This is impossible...
+                - "*Over comms* activate the self destruct!"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
@@ -229,8 +229,8 @@ npc:
 
     loadout:
         mainhand: 
-            mod: NONE
-            item: NONE
+            mod: flansmod
+            item: p90
             dmgvalue: 0
         offhand: 
             mod: NONE
@@ -287,16 +287,12 @@ npc:
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
         table:
            1: 
-                chance: 50
+                chance: 100
                 item:
-                    mod: SGCraft
-                    item: naquadah
-                    numberOf: 5
+                    mod: flansmod
+                    item: p90
+                    numberOf: 1
                     dmgvalue: 0
-    interactions:
-        dialogs:
-            1:
-                title: "Welcome to StargateMC"
     spawning:
         #Should this NPC spawn at all?
         enabled: true
@@ -306,10 +302,10 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -189
-                    y: 102
-                    z: 75
-                    world: Lacun
+                    x: -131
+                    y: 7
+                    z: -617
+                    world: Earth
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
