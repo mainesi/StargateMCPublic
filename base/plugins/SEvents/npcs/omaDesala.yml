@@ -38,38 +38,42 @@ npc:
         visible: YES
     roles:
         Trader:
-            1:
-                result:
-                    modName: SGCraft
-                    itemName: naquadah
-                    numberOf: 1
-                    damage: 0
-                itemOne:
-                    modName: SGCraft
-                    itemName: naquadah
-                    numberOf: 1
-                    damage: 0
-                itemTwo:
-                    modName: SGCraft
-                    itemName: naquadah
-                    numberOf: 1
-                    damage: 0
-            2:
-                result:
-                    modName: SGCraft
-                    itemName: naquadah
-                    numberOf: 1
-                    damage: 0
-                itemOne:
-                    modName: SGCraft
-                    itemName: naquadah
-                    numberOf: 1
-                    damage: 0
-                itemTwo:
-                    modName: SGCraft
-                    itemName: naquadah
-                    numberOf: 1
-                    damage: 0
+            options:
+                ignoreDamage: false
+                ignoreNBT: false
+            items:
+                1:
+                    result:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                2:
+                    result:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
         avoidsWater: true
