@@ -63,7 +63,7 @@ npc:
         avoidsWater: true
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
-        backTrackWhileFollowingPath: true
+        backTrackWhileFollowingPath: false
         #doorInteraction: BREAK, OPEN, NONE are valid options.
         doorInteraction: OPEN
         #burnsInSun: true or false.
@@ -197,7 +197,7 @@ npc:
         maxXP: 20
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
-        speed: 5
+        speed: 4
         followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
             enabled: true
