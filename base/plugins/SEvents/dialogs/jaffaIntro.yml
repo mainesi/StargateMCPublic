@@ -78,17 +78,6 @@ dialog:
                         targetDialog: "Relations of the Free Jaffa"
                     Command:
                         command: NONE
-            2:
-                title: "How do I ask for help or make a suggestion?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "How do I ask for help or make a suggestion?"
-                    Command:
-                        command: NONE
             3:
                 title: Thats all for now...
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
@@ -108,6 +97,6 @@ dialog:
                 color: 0            
                 options:
                     Dialog:
-                        targetDialog: "What are we waiting for?"
+                        targetDialog: "Territories of the Free Jaffa"
                     Command:
                         command: NONE
