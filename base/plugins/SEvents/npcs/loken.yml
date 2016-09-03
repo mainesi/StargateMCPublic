@@ -345,7 +345,7 @@ npc:
     interactions:
         dialogs:
             1:
-                title: "Welcome to StargateMC"
+                title: "Introduction to the Jaffa"
     spawning:
         #Should this NPC spawn at all?
         enabled: true
