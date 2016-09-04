@@ -7,16 +7,16 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: George Hammond
+        name: Sanctuary Citizen
         #title: String (20 character limit)
-        title: Ascended Tauri
+        title: Sanctuary
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "http://stargatemc.com/npc_skins/General%20Hammond.png"
+        textureUri: "customnpcs:textures/entity/humanfemale/WizardStephanie.png"
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
-        textureType: WEB
+        textureType: RESOURCE
         #capeTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
         capeTexture: NONE
         #overlayTexture: This can be discovered the same way textureUri can. IT CANNOT BE A URL. Set to NONE if you wish to not have one.
@@ -25,7 +25,7 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction:  Ascended
+        faction:  Sanctuary
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: HeadRotation
         #rotation: 0-360
@@ -41,7 +41,7 @@ npc:
         avoidsWater: true
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
-        backTrackWhileFollowingPath: true
+        backTrackWhileFollowingPath: false
         #doorInteraction: BREAK, OPEN, NONE are valid options.
         doorInteraction: OPEN
         #burnsInSun: true or false.
@@ -70,7 +70,7 @@ npc:
         #What is the maximum health for this NPC?
         maxHealth: 50
         #Should this NPC pause every now and then while it is moving along a path?
-        pauseWhileFollowingPath: false
+        pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
@@ -81,10 +81,10 @@ npc:
         shelterFrom: DARKNESS
         #Should this NPC have its name above its head?
         #showName: ALWAYS, WHENATTACKING, NEVER
-        showName: ALWAYS
+        showName: NEVER
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
-        animation: SITTING
+        animation: NORMAL
     combat:
         #How much HP should this NPC regnerate per tick out of combat?
         healthRegen: 5
@@ -178,18 +178,134 @@ npc:
         speed: 5
         followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
-            enabled: false
+            enabled: true
             #Steps that are part of the path. NOTE: You must ensure the NPC spawns at a location that can reach these coordinates!
             #All paths are on the local dimension only. NPCs will not use stargates or rings unless part of a staff programmed EVENT.
             steps:
                 1:
-                    x: 1
-                    y: 2
-                    z: 3
+                    x: 26
+                    y: 70
+                    z: 1
                 2:
-                    x: 2
-                    y: 2
-                    z: 3
+                    x: 37
+                    y: 70
+                    z: -13
+                3:
+                    x: 31
+                    y: 70
+                    z: -25
+                4:
+                    x: 30
+                    y: 71
+                    z: -43
+                5:
+                    x: 30
+                    y: 73
+                    z: -75
+                6:
+                    x: 28
+                    y: 67
+                    z: -101
+                7:
+                    x: 27
+                    y: 79
+                    z: -122
+                8:
+                    x: 44
+                    y: 79
+                    z: -133
+                9:
+                    x: 56
+                    y: 75
+                    z: -134
+                9:
+                    x: 68
+                    y: 77
+                    z: -143
+                10:
+                    x: 73
+                    y: 73
+                    z: -131
+                11:
+                    x: 74
+                    y: 67
+                    z: -105
+                12:
+                    x: 74
+                    y: 67
+                    z: -105
+                13:
+                    x: 86
+                    y: 67
+                    z: -97
+                14:
+                    x: 108
+                    y: 67
+                    z: -101
+                15:
+                    x: 110
+                    y: 67
+                    z: -93
+                16:
+                    x: 122
+                    y: 68
+                    z: -92
+                17:
+                    x: 132
+                    y: 68
+                    z: -85
+                18:
+                    x: 145
+                    y: 68
+                    z: -79
+                19:
+                    x: 167
+                    y: 67
+                    z: -77
+                20:
+                    x: 167
+                    y: 67
+                    z: -52
+                21:
+                    x: 167
+                    y: 67
+                    z: -9
+                22:
+                    x: 163
+                    y: 67
+                    z: 1
+                23:
+                    x: 152
+                    y: 67
+                    z: 21
+                24:
+                    x: 152
+                    y: 70
+                    z: 34
+                25:
+                    x: 133
+                    y: 72
+                    z: 39
+                26:
+                    x: 95
+                    y: 75
+                    z: 39
+                27:
+                    x: 70
+                    y: 70
+                    z: 39
+                28:
+                    x: 59
+                    y: 70
+                    z: 11
+                29:
+                    x: 39
+                    y: 70
+                    z: -4
+                30:
+                    x: 21
+                    y: 70
+                    z: -6
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: false
@@ -305,9 +421,9 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -189
-                    y: 102
-                    z: 75
+                    x: 19
+                    y: 70
+                    z: -4
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.

@@ -9,7 +9,7 @@ npc:
         #name: String (20 character limit)
         name: Lyal
         #title: String (20 character limit)
-        title: Ascended Fisherman
+        title: Sanctuary Fisherman
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
@@ -25,7 +25,7 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction:  Ascended
+        faction:  Sanctuary
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: HeadRotation
         #rotation: 0-360
