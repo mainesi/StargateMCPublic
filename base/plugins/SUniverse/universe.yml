@@ -128,7 +128,7 @@ universe:
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
-      majorityFaction: Ascended
+      majorityFaction: Sanctuary
     "MidwayStation":
       posX: 11450
       posZ: 6000
