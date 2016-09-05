@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Kir
+        name:  The Beast
         #title: String (20 character limit)
-        title: Sanctuary Wraith
+        title: "Beast of the Sanctuary"
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "customnpcs:textures/STARGATE/OLD WRAITH.png"
+        textureUri: "customnpcs:textures/entity/monstermale/GhostGrey.png"
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -25,9 +25,9 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction:  Sanctuary
+        faction:  Hostiles
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: HeadRotation
+        rotationBehavior: RotateBody
         #rotation: 0-360
         rotation: 180
         # This feature is not completed. Please leave the option as NONE.
@@ -42,7 +42,7 @@ npc:
         modelType: NONE
         hasBreasts: false
         #Size is overall changes to the NPCs size
-        size: 5
+        size: 10
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
         avoidsWater: true
@@ -77,7 +77,7 @@ npc:
         #What is the maximum health for this NPC?
         maxHealth: 50
         #Should this NPC pause every now and then while it is moving along a path?
-        pauseWhileFollowingPath: false
+        pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
@@ -88,10 +88,10 @@ npc:
         shelterFrom: DARKNESS
         #Should this NPC have its name above its head?
         #showName: ALWAYS, WHENATTACKING, NEVER
-        showName: ALWAYS
+        showName: NEVER
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
-        animation: SITTING
+        animation: NORMAL
     combat:
         #How much HP should this NPC regnerate per tick out of combat?
         healthRegen: 5
@@ -190,18 +190,43 @@ npc:
             #All paths are on the local dimension only. NPCs will not use stargates or rings unless part of a staff programmed EVENT.
             steps:
                 1:
-                    x: 1
-                    y: 2
-                    z: 3
+                    x: 48
+                    y: 70
+                    z: 62
                 2:
-                    x: 2
-                    y: 2
-                    z: 3
+                    x: 13
+                    y: 70
+                    z: 62
+                3:
+                    x: 6
+                    y: 70
+                    z: 35
+                4:
+                    x: 3
+                    y: 70
+                    z: 20
+                5:
+                    x: 16
+                    y: 70
+                    z: 8
+                6:
+                    x: 24
+                    y: 70
+                    z: 9
+                7:
+                    x: 33
+                    y: 74
+                    z: 20
+                8:
+                    x: 42
+                    y: 74
+                    z: 28
+                    
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: false
+            enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 10
+            distance: 24
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -210,7 +235,10 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                -I've been sent here to guard Adria
+                - "Hey!! What are you doing?"
+                - "Ill race ya!"
+                - "Last one round is a gazoot!"
+                
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
                 - Don't you dare continue
@@ -312,9 +340,9 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: 292
-                    y: 141
-                    z: 2
+                    x: -297
+                    y: 75
+                    z: 365
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
@@ -334,12 +362,51 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        name: Tom
-                        title: Test Dummy
-                        rotation: 52
-                        rotationBehavior: NoRotation
-                        textureType: NONE
-                        textureUri: NONE
+                        x: -161
+                        y: 143
+                        z: 426
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    2:
+                        x: -145
+                        y: 138
+                        z: 361
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    3:
+                        x: -135
+                        y: 134
+                        z: 425
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    4:
+                        x: -143
+                        y: 132
+                        z: 286
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    5:
+                        x: -289
+                        y: 90
+                        z: 398
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    6:
+                        x: -141
+                        y: 134
+                        z: 420
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    7:
+                        x: -137
+                        y: 134
+                        z: 424
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90

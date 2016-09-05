@@ -36,6 +36,13 @@ npc:
         role: NONE
         #visible: YES, PARTIAL, NO are valid options.
         visible: YES
+    display:
+        # The name of an NPC does not have to be unique, but the name and title combination must be.
+        #name: String (20 character limit)
+        modelType: NONE
+        hasBreasts: false
+        #Size is overall changes to the NPCs size
+        size: 3
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
         avoidsWater: true
