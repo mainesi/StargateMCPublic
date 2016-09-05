@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Sanctuary Miner
+        name: Sanctuary Hunter
         #title: String (20 character limit)
-        title: Sanctuary Citizen
+        title: Sanctuary Hunter
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "customnpcs:textures/entity/dwarfmale/Dwarf_Keeper.png"
+        textureUri: "customnpcs:textures/entity/elfmale/Elf_Asassin_2.png"
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -219,7 +219,7 @@ npc:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 10
+            distance: 64
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -261,7 +261,7 @@ npc:
     loadout:
         mainhand: 
             mod: minecraft
-            item: diamond_pickaxe
+            item: bow
             dmgvalue: 0
         offhand: 
             mod: NONE
@@ -355,37 +355,44 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 265
-                        y: 87
-                        z: 81
+                        x: -161
+                        y: 143
+                        z: 426
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
                     2:
-                        x: 301
-                        y: 87
-                        z: 85
+                        x: -145
+                        y: 138
+                        z: 361
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
                     3:
-                        x: 297
-                        y: 87
-                        z: 101
+                        x: -135
+                        y: 134
+                        z: 425
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
                     4:
-                        x: 276
-                        y: 87
-                        z: 53
+                        x: -143
+                        y: 132
+                        z: 286
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
                     5:
-                        x: 294
-                        y: 87
-                        z: 65
+                        x: -289
+                        y: 90
+                        z: 398
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    6:
+                        x: -141
+                        y: 134
+                        z: 420
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
