@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Sanctuary Citizen
+        name: Sanctuary Miner
         #title: String (20 character limit)
         title: Sanctuary Citizen
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "customnpcs:textures/entity/humanmale/PriestSteve.png"
+        textureUri: "customnpcs:textures/entity/dwarfmale/Dwarf_Keeper.png"
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -27,7 +27,7 @@ npc:
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
         faction:  Sanctuary
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: HeadRotation
+        rotationBehavior: RotateBody
         #rotation: 0-360
         rotation: 180
         # This feature is not completed. Please leave the option as NONE.
@@ -41,7 +41,7 @@ npc:
         avoidsWater: true
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
-        backTrackWhileFollowingPath: false
+        backTrackWhileFollowingPath: true
         #doorInteraction: BREAK, OPEN, NONE are valid options.
         doorInteraction: OPEN
         #burnsInSun: true or false.
@@ -178,7 +178,7 @@ npc:
         speed: 5
         followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
-            enabled: true
+            enabled: false
             #Steps that are part of the path. NOTE: You must ensure the NPC spawns at a location that can reach these coordinates!
             #All paths are on the local dimension only. NPCs will not use stargates or rings unless part of a staff programmed EVENT.
             steps:
@@ -199,21 +199,25 @@ npc:
                     y: 70
                     z: 20
                 5:
+                    x: 16
+                    y: 70
+                    z: 8
+                6:
                     x: 24
                     y: 70
                     z: 9
-                6:
+                7:
                     x: 33
                     y: 74
                     z: 20
-                7:
+                8:
                     x: 42
                     y: 74
                     z: 28
                     
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: false
+            enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 10
     interactions:
@@ -224,7 +228,10 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                -I've been sent here to guard Adria
+                - "Hey!! What are you doing?"
+                - "Ill race ya!"
+                - "Last one round is a gazoot!"
+                
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
                 - Don't you dare continue
@@ -253,8 +260,8 @@ npc:
 
     loadout:
         mainhand: 
-            mod: NONE
-            item: NONE
+            mod: minecraft
+            item: diamond_pickaxe
             dmgvalue: 0
         offhand: 
             mod: NONE
@@ -321,14 +328,14 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: DEFAULT
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: 49
-                    y: 70
-                    z: 62
+                    x: 41
+                    y: 74
+                    z: 28
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
@@ -348,12 +355,23 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        name: Tom
-                        title: Test Dummy
-                        rotation: 52
-                        rotationBehavior: NoRotation
-                        textureType: NONE
-                        textureUri: NONE
+                        x: 265
+                        y: 87
+                        z: 81
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    2:
+                        x: 301
+                        y: 87
+                        z: 85
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                    3:
+                        x: 297
+                        y: 87
+                        z: 101
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
