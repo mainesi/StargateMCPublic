@@ -7,17 +7,17 @@ quest:
     general:
         # The name of a quest must be unique.
         #title: String (20 character limit)
-        title: "Descension: Part 1"
+        title: "Proving Your Worth: Jaffa"
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Atlantis Expedition
+        category: Sanctuary
         #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
-        repeatType: RLDAILY
+        repeatType: NONE
         #type: Valid options are AreaKill, Location, Item, Kill, Dialog
-        type: Dialog
+        type: Kill
     #Quest Objectives, defined from the type above.
     objectives:
         Dialog: 
-            firstDialog: jaffa
+            firstDialog: NONE
             secondDialog: NONE
             thirdDialog: NONE
         Location:
@@ -31,10 +31,7 @@ quest:
         Kill:
             targets:
                 1:
-                    name: Wraith Soldier
-                    number: 10
-                2:
-                    name: Wraith Commander
+                    name: Loken
                     number: 1
         Item:
             #ignoreDamage: true or false, should the item damage value be ignored?
@@ -63,22 +60,22 @@ quest:
                     damage: 0
                     
     text:
-        completion: "Youve now been rewarded for killing Wraith"
-        log: "Kill 10 Wraith Soldiers and 1 Wraith Commander for a reward"
+        completion: ""
+        log: "Defeat Loken, of the Jaffa in a sparring match."
     completion:
         #command: Command to be executed when the player completes the quest. This is run as console.
-        command: "broadcast @dp Completed the Wraith Assassin Questline!"
+        command: ""
         #completionType: Valid Options are: Instant, Npc
-        type: Npc
+        type: Instant
         #npc: This is the name of the NPC you wish to have the quest complete at. (See above for completion type, this must be set to Npc!)
-        npc: Elizabeth Weir
+        npc: Loken
         #Faction rewards are below.
         factionPrimary:
-            name: Atlantis Expedition
-            points: 100
+            name: NONE
+            points: NONE
         factionSecondary:
-            name: Wraith
-            points: -100
+            name: NONE
+            points: NONE
         #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
         nextQuestTitle: NONE
         #rewardExp: Number of experience rewarded for completion of thisquest.
@@ -86,8 +83,9 @@ quest:
         #Item rewards are below.
         itemRewards:
             1:
-                modName: SGCraft
-                itemName: naquadah
-                number: 50
+                modName: NONE
+                itemName: NONE
+                number: 0
                 damage: 0
         
+

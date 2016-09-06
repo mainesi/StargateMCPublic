@@ -368,6 +368,9 @@ npc:
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
                     2:
                         x: 301
                         y: 87
@@ -375,6 +378,9 @@ npc:
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
                     3:
                         x: 297
                         y: 87
@@ -382,6 +388,9 @@ npc:
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
                     4:
                         x: 276
                         y: 87
@@ -389,6 +398,9 @@ npc:
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
                     5:
                         x: 294
                         y: 87
@@ -396,3 +408,6 @@ npc:
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4

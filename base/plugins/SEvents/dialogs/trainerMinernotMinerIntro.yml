@@ -7,15 +7,15 @@ dialog:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: Introduction to the Jaffa
+        title: "Mining Trainer - Not Miner"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Tutorial
+        category: Miners Guild
         #escDisabled: True or false, if the player can escape out of the dialog.
         escDisabled: false
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "So... you wish to learn of the Free Jaffa Nation?\n\nThey are a proud people and loyal to a fault.\n This was their undoing at the hands of the Goauld. \n\nWhat would you like to know?"
+        text: "You already have a profession..."
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -27,19 +27,19 @@ dialog:
         timeAvailable: ALWAYS
         #factionPrimary: Primary Faction availability requirements. Used to ensure dialogs cannot be used by enemies.
         #factionPrimaryEnabled: True or false, should availability be respected for factionPrimary?
-        factionPrimaryEnabled: false
+        factionPrimaryEnabled: true
         #factionSecondaryEnabled: True or false, should availability be respected for factionSecondary?
-        factionSecondaryEnabled: false
+        factionSecondaryEnabled: true
         factionPrimary:
             #Name of NPC Faction
-            name: Ascended
+            name: isMiner
             #Relation: Friendly, Neutral, Hostile
-            relation: Friendly
+            relation: Neutral
             #isNot: Opposite of the above? (relation=Friendly & isNot = false, requires a player be friendly. isNot=True and relation = friendly means a player can be either neutral or hostile.)
             isNot: false
         factionSecondary:
             #Name of NPC Faction
-            name: Stargate Command
+            name: isEmployed
             #Relation: Friendly, Neutral, Hostile
             relation: Friendly
             #isNot: Opposite of the above? (relation=Friendly & isNot = false, requires a player be friendly. isNot=True and relation = friendly means a player can be either neutral or hostile.)
@@ -68,57 +68,13 @@ dialog:
             points: NONE
         dialogs:
             1:
-                title: "Who do the Jaffa consider friend or foe?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "Relations of the Free Jaffa"
-                    Command:
-                        command: NONE
-            3:
-                title: Thats all for now...
+                title: "Fair enough... thanks.."
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: QUIT
                 #color: number value for a color.
-                color: 0               
-                options:
-                    Dialog:
-                        targetDialog: NONE
-                    Command:
-                        command: NONE
-            4:
-                title: "Where do the Free Jaffa reside?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
                 color: 0            
                 options:
                     Dialog:
-                        targetDialog: "Territories of the Free Jaffa"
-                    Command:
-                        command: NONE
-            2:
-                title: "Would you care to spar?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "Proving your Worth: Jaffa"
-                    Command:
-                        command: NONE
-            5:
-                title: "Shall we spar again?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "Sparring with: Loken"
+                        targetDialog: "Becoming a Miner"
                     Command:
                         command: NONE

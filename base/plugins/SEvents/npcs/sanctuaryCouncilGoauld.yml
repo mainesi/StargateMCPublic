@@ -9,7 +9,7 @@ npc:
         #name: String (20 character limit)
         name: Yu
         #title: String (20 character limit)
-        title: Sanctuary Goauld
+        title: Goauld Council Member
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.

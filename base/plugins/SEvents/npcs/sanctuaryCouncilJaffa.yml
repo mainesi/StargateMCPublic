@@ -9,7 +9,7 @@ npc:
         #name: String (20 character limit)
         name: Loken
         #title: String (20 character limit)
-        title: Sanctuary Jaffa
+        title: Jaffa Council Member
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
@@ -25,7 +25,7 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Ascended
+        faction: "Challengeable: Loken"
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: RotateBody
         #rotation: 0-360
@@ -65,7 +65,7 @@ npc:
         canSwim: true
         #bossBar: Should a bossBar be displayed for this NPC? Typically it should only be used for champions of good or evil! ;)
         #Values: ALWAYS, WHENATTACKING, NEVER
-        bossBar: NEVER
+        bossBar: WHENATTACKING
         #livingAnimation: Should this npc have a living animation? (It will look dead or inanimate otherwise)
         livingAnimation: true
         #ignoreCobwebs: True or false, should this NPC ignore cobwebs when moving? (It will walk through them quickly).
@@ -118,7 +118,7 @@ npc:
         tacticalDistance: 24
         #What combat style should this NPC follow?
         #tacticalType: SURROUND, HITNRUN, AMBUSH, DODGE, STALK, NONE are all valid options.
-        tacticalType: SURROUND
+        tacticalType: NONE
         #At what range should this NPC engage hostile mobs/npcs/players?
         aggroRange: 64
         melee:
@@ -142,10 +142,10 @@ npc:
             #How many shots are in a standard volley?
             shotCount: 2
             #Should the  NPC raise its weapon to fire?
-            aimWhileShooting: true
+            aimWhileShooting: false
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
-            whenToUse: ALWAYS
+            whenToUse: UNTILCLOSE
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
             sound: flansmod:staffShoot
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
@@ -158,24 +158,24 @@ npc:
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
-        respawnsInGame: NIGHT
+        respawnsInGame: ALWAYS
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
-        respawnTime: 900
+        respawnTime: 1
         #Should this NPC respawn where it first spawned, or where it died?
         #NOTE: This has no affect unless the NPC is part of an EVENT created by staff.
         respawnsAtSpawn: true
         #Should the NPCs body be hidden when it dies, or displayed on the ground?
-        hideDeadBody: false
+        hideDeadBody: true
         #Should this NPC despawn if noone is around?
         naturallyDespawns: false
         #The below options are to reward players with non-player-faction reputation on death of this NPC.
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
-            primaryFactionOnDeath: Goauld Loyal Jaffa
-            primaryFactionPoints: -5
-            secondaryFactionOnDeath: Tauri
-            secondaryFactionPoints: 5
+            primaryFactionOnDeath: "Challengeable: Loken"
+            primaryFactionPoints: 1500
+            secondaryFactionOnDeath: NONE
+            secondaryFactionPoints: 0
         #Minimum XP Dropped on kill (randomised)
         minXP: 10
         #Maximum XP Dropped on kill (randomised)
@@ -211,17 +211,18 @@ npc:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines: []
             #Attack lines are lines that the NPC will say as they engage an enemy.
-            attackLines:
-                - "Kree Lo'tar!"
-                - "You shall fall before my master!"
+            attackLines: []
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines: []
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                - The Goauld will rise... but you will be too dead to see it!
+                - Perhaps you would be better suited as a farmer...
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - The Goauld will rise again...
+                - Wow, that was fantastic! I havent fought someone with your skills in years...
+                - Well... you have bested me....
+                - Where did you learn to fight...
+                - The Jaffa could learn from you..
         dialogs:
             1:
                 title: "Introduction to the Jaffa"
@@ -264,7 +265,7 @@ npc:
                 dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
-            projectileType: BULLET
+            projectileType: NONE
             projectile3D:
                 projectileSpins: true
                 projectileSticks: true
@@ -290,7 +291,7 @@ npc:
         #mode: DEFAULT, AUTOPICKUP
         mode: DEFAULT
         #Is loot table enabled? Should only be enabled for NPCs players should be killing (eg: Hostiles!)
-        enabled: true
+        enabled: false
         #Each entry must have a chance (0-100), item values (explained above loadout section) and numberOf.
         #Be sure to only set numberOf to the stack limit for that item or it will not be added to the loot table.
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.

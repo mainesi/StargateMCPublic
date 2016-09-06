@@ -368,3 +368,4 @@ npc:
                         rotationBehavior: NoRotation
                         textureType: NONE
                         textureUri: NONE
+                        size: 5
