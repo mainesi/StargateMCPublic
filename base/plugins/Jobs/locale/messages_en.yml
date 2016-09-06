@@ -218,7 +218,7 @@ command:
     error:
       alreadyin: Player is already in the job %jobname%.
     output:
-      target: You have been employed as a %jobname%.
+      target: You have become a %jobname%.
   top:
     help:
       info: Shows top 15 players by jobs name.
