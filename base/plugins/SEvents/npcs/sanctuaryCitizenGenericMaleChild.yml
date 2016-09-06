@@ -371,6 +371,9 @@ npc:
                         textureType: NONE
                         textureUri: NONE
                         size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
                     2:
                         x: 40
                         y: 74
@@ -381,6 +384,9 @@ npc:
                         textureType: NONE
                         textureUri: NONE
                         size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
                     3:
                         x: 40
                         y: 74
@@ -391,6 +397,9 @@ npc:
                         textureType: NONE
                         textureUri: NONE
                         size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
                     4:
                         x: 40
                         y: 74
@@ -401,3 +410,6 @@ npc:
                         textureType: NONE
                         textureUri: NONE
                         size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
