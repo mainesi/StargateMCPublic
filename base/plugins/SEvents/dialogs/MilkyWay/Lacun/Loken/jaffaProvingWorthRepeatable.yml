@@ -7,15 +7,15 @@ dialog:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: "Picking a Race: Pegasus"
+        title: "Sparring with: Loken"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Tutorial
+        category: Sanctuary
         #escDisabled: True or false, if the player can escape out of the dialog.
         escDisabled: false
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "There are several races in the Pegasus Galaxy you may choose to join... who would it be?"
+        text: "Very well...."
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -27,7 +27,7 @@ dialog:
         timeAvailable: ALWAYS
         #factionPrimary: Primary Faction availability requirements. Used to ensure dialogs cannot be used by enemies.
         #factionPrimaryEnabled: True or false, should availability be respected for factionPrimary?
-        factionPrimaryEnabled: true
+        factionPrimaryEnabled: false
         #factionSecondaryEnabled: True or false, should availability be respected for factionSecondary?
         factionSecondaryEnabled: false
         factionPrimary:
@@ -46,58 +46,35 @@ dialog:
             isNot: false
         dialogs:
             1:
-                title: NONE
-                #setting: Valid options are After, Before
-                setting: After
+               title: Picking a Race
+               #setting: Valid options are After, Before
+               setting: Before
         quests:
             1:
-                title: Picking a Race
+                title: "Proving Your Worth: Jaffa"
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: Active
+                setting: After
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE
-        #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing.nbv
-        questGiven: NONE
+        #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing
+        questGiven: "Sparring with: Loken"
         #factionPrimary: First faction that player will receive reputation with/lose from.
         factionPrimary:
-            name: NONE
-            points: NONE
+            name: "Challengeable: Loken"
+            points: -1000
         factionSecondary:
             name: NONE
             points: NONE
         dialogs:
             1:
-                title: Id like to join the Atlantis Expedition...
+                title: "Who do the Jaffa consider friend or foe?"
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
+                type: NONE
                 #color: number value for a color.
-                color: 1                
+                color: 0            
                 options:
                     Dialog:
-                        targetDialog: Joining the Atlantis Expedition
+                        targetDialog: "Relations of the Free Jaffa"
                     Command:
                         command: NONE
-            2:
-                title: Id like to join the Genii...
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 1                
-                options:
-                    Dialog:
-                        targetDialog: pickRaceGenii
-                    Command:
-                        command: NONE
-            3:
-                title: Id like to join the Wraith...
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 1                
-                options:
-                    Dialog:
-                        targetDialog: pickRaceWraith
-                    Command:
-                        command: NONE
-

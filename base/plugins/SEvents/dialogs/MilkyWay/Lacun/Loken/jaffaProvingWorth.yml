@@ -7,15 +7,15 @@ dialog:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: "Sparring with: Loken"
+        title: "Proving your Worth: Jaffa"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Sanctuary
+        category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
         escDisabled: false
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Very well...."
+        text: "Very well.... have a staff - let us begin."
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -53,16 +53,16 @@ dialog:
             1:
                 title: "Proving Your Worth: Jaffa"
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: After
+                setting: Before
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
-        command: NONE
+        command: "NONE"
         #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing
-        questGiven: "Sparring with: Loken"
+        questGiven: "Proving Your Worth: Jaffa"
         #factionPrimary: First faction that player will receive reputation with/lose from.
         factionPrimary:
             name: "Challengeable: Loken"
-            points: -1500
+            points: -1000
         factionSecondary:
             name: NONE
             points: NONE

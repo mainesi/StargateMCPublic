@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Leo
+        name: Sanctuary Child
         #title: String (20 character limit)
-        title: Sanctuary Citizen
+        title: Sanctuary Child
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "customnpcs:textures/entity/humanmale/PriestSteve.png"
+        textureUri: "customnpcs:textures/entity/dwarfmale/Hobbit.png"
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -27,7 +27,7 @@ npc:
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
         faction:  Sanctuary
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: HeadRotation
+        rotationBehavior: RotateBody
         #rotation: 0-360
         rotation: 180
         # This feature is not completed. Please leave the option as NONE.
@@ -42,13 +42,13 @@ npc:
         modelType: NONE
         hasBreasts: false
         #Size is overall changes to the NPCs size
-        size: 5
+        size: 3
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
         avoidsWater: true
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
-        backTrackWhileFollowingPath: false
+        backTrackWhileFollowingPath: true
         #doorInteraction: BREAK, OPEN, NONE are valid options.
         doorInteraction: OPEN
         #burnsInSun: true or false.
@@ -77,7 +77,7 @@ npc:
         #What is the maximum health for this NPC?
         maxHealth: 50
         #Should this NPC pause every now and then while it is moving along a path?
-        pauseWhileFollowingPath: false
+        pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
@@ -235,7 +235,10 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                - "I've been sent here to guard Adria"
+                - "Hey!! What are you doing?"
+                - "Ill race ya!"
+                - "Last one round is a gazoot!"
+                
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
                 - Don't you dare continue
@@ -332,14 +335,14 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: DEFAULT
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: 49
-                    y: 70
-                    z: 62
+                    x: 41
+                    y: 74
+                    z: 28
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
@@ -359,13 +362,62 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        name: Tom
-                        title: Test Dummy
-                        rotation: 52
-                        rotationBehavior: NoRotation
+                        x: 40
+                        y: 74
+                        z: 20
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
                         textureType: NONE
                         textureUri: NONE
-                        size: 5
+                        size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE
+                    2:
+                        x: 40
+                        y: 74
+                        z: 20
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE
+                    3:
+                        x: 40
+                        y: 74
+                        z: 20
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE
+                    4:
+                        x: 40
+                        y: 74
+                        z: 20
+                        worldName: "Lacun"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE

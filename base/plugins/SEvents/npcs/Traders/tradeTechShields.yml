@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Sanctuary Child
+        name: Kora
         #title: String (20 character limit)
-        title: Sanctuary Citizen
+        title: Sanctuary Trader
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: "customnpcs:textures/entity/dwarfmale/Hobbit.png"
+        textureUri: customnpcs:textures/entity/humanfemale/RobesBrownStephanie.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -29,11 +29,11 @@ npc:
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: RotateBody
         #rotation: 0-360
-        rotation: 180
+        rotation: 55
         # This feature is not completed. Please leave the option as NONE.
-        job: NONE
+        job: None
         # This feature is not completed. Please leave the option as NONE.
-        role: NONE
+        role: Trader
         #visible: YES, PARTIAL, NO are valid options.
         visible: YES
     display:
@@ -42,13 +42,67 @@ npc:
         modelType: NONE
         hasBreasts: false
         #Size is overall changes to the NPCs size
-        size: 3
+        size: 5
+    roles:
+        Trader:
+            options:
+                ignoreDamage: false
+                ignoreNBT: false
+            items:
+                1:
+                    result:
+                        modName: minecraft
+                        itemName: bread
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
+                2:
+                    result:
+                        modName: minecraft
+                        itemName: apple
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
+                3:
+                    result:
+                        modName: minecraft
+                        itemName: mushroom_stew
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 2
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
         avoidsWater: true
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
-        backTrackWhileFollowingPath: true
+        backTrackWhileFollowingPath: false
         #doorInteraction: BREAK, OPEN, NONE are valid options.
         doorInteraction: OPEN
         #burnsInSun: true or false.
@@ -88,7 +142,7 @@ npc:
         shelterFrom: DARKNESS
         #Should this NPC have its name above its head?
         #showName: ALWAYS, WHENATTACKING, NEVER
-        showName: NEVER
+        showName: ALWAYS
         #What animation should the NPC have?
         #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
         animation: NORMAL
@@ -182,49 +236,36 @@ npc:
         maxXP: 20
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
-        speed: 5
+        speed: 4
         followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
-            enabled: true
+            enabled: false
             #Steps that are part of the path. NOTE: You must ensure the NPC spawns at a location that can reach these coordinates!
             #All paths are on the local dimension only. NPCs will not use stargates or rings unless part of a staff programmed EVENT.
             steps:
                 1:
-                    x: 48
-                    y: 70
-                    z: 62
+                    x: 193
+                    y: 85
+                    z: 57
                 2:
-                    x: 13
-                    y: 70
-                    z: 62
+                    x: 193
+                    y: 85
+                    z: 40
                 3:
-                    x: 6
-                    y: 70
-                    z: 35
+                    x: 206
+                    y: 85
+                    z: 38
                 4:
-                    x: 3
-                    y: 70
-                    z: 20
+                    x: 206
+                    y: 85
+                    z: 42
                 5:
-                    x: 16
-                    y: 70
-                    z: 8
-                6:
-                    x: 24
-                    y: 70
-                    z: 9
-                7:
-                    x: 33
-                    y: 74
-                    z: 20
-                8:
-                    x: 42
-                    y: 74
-                    z: 28
-                    
+                    x: 204
+                    y: 85
+                    z: 42
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: false
+            enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 10
     interactions:
@@ -235,16 +276,13 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                - "Hey!! What are you doing?"
-                - "Ill race ya!"
-                - "Last one round is a gazoot!"
-                
+                -I've been sent here to guard Adria
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
                 - Don't you dare continue
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
-                - "Who are you, {player}?"
+                - "Very well, {player}..."
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
                 - I warned you...
@@ -253,7 +291,7 @@ npc:
                 - This...This is impossible...
         dialogs:
             1:
-                title: "Welcome to StargateMC"
+                title: "Food Trader Intro"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
@@ -340,9 +378,9 @@ npc:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: 41
-                    y: 74
-                    z: 28
+                    x: 193
+                    y: 85
+                    z: 60
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
@@ -362,62 +400,17 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 40
-                        y: 74
-                        z: 20
+                        x: 203
+                        y: 85
+                        z: 39
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
                         textureType: NONE
                         textureUri: NONE
-                        size: 4
-                        faction: NONE
+                        size: 5
+                        faction: Sanctuary
                         modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                    2:
-                        x: 40
-                        y: 74
-                        z: 20
-                        worldName: "Lacun"
-                        rotationBehavior: RotateBody
-                        rotation: 90
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 4
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                    3:
-                        x: 40
-                        y: 74
-                        z: 20
-                        worldName: "Lacun"
-                        rotationBehavior: RotateBody
-                        rotation: 90
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 4
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                    4:
-                        x: 40
-                        y: 74
-                        z: 20
-                        worldName: "Lacun"
-                        rotationBehavior: RotateBody
-                        rotation: 90
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 4
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
+                        isFemale: true
+                        name: "Kora"
+                        title: Sanctuary Food Trader
