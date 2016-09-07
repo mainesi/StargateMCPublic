@@ -253,7 +253,11 @@ npc:
                 - This...This is impossible...
         dialogs:
             1:
-                title: "Welcome to StargateMC"
+                title: "Mining Trainer - Is Miner"
+            2:
+                title: "Mining Trainer - Not Miner"
+            3:
+                title: "Mining Trainer - Unemployed"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
@@ -335,14 +339,14 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: DEFAULT
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
                     x: 282
                     y: 87
-                    z: 30
+                    z: 31
                     world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
@@ -362,23 +366,32 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 265
-                        y: 87
-                        z: 81
-                        worldName: "Lacun"
+                        x: -120
+                        y: 27
+                        z: -615
+                        worldName: "Earth"
                         rotationBehavior: RotateBody
                         rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: Jacob
+                        title: Mining Trainer
                     2:
-                        x: 301
+                        x: 282
                         y: 87
-                        z: 85
+                        z: 30
                         worldName: "Lacun"
                         rotationBehavior: RotateBody
                         rotation: 90
-                    3:
-                        x: 297
-                        y: 87
-                        z: 101
-                        worldName: "Lacun"
-                        rotationBehavior: RotateBody
-                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 4
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE
