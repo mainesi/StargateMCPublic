@@ -7,15 +7,15 @@ dialog:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: Ascended Trader Intro
+        title: Food Trader Intro
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Ascended
+        category: Traders
         #escDisabled: True or false, if the player can escape out of the dialog.
         escDisabled: false
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Would you like to view my wares?"
+        text: "Hi there {player}....\n\nI can offer you food from various planets... in exchange for some goods in return!"
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -68,7 +68,7 @@ dialog:
             points: NONE
         dialogs:
             1:
-                title: "Yes, I would!"
+                title: "What do you have to trade?"
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: ROLE
                 #color: number value for a color.
@@ -79,7 +79,7 @@ dialog:
                     Command:
                         command: NONE
             3:
-                title: Nvermind, sorry for bothering you..
+                title: Farewell!
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: QUIT
                 #color: number value for a color.

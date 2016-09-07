@@ -374,6 +374,8 @@ npc:
                         faction: NONE
                         modelType: NONE
                         isFemale: false
+                        name: NONE
+                        title: NONE
                     2:
                         x: 301
                         y: 87
@@ -387,6 +389,8 @@ npc:
                         faction: NONE
                         modelType: NONE
                         isFemale: false
+                        name: NONE
+                        title: NONE
                     3:
                         x: 297
                         y: 87
@@ -400,6 +404,8 @@ npc:
                         faction: NONE
                         modelType: NONE
                         isFemale: false
+                        name: NONE
+                        title: NONE
                     4:
                         x: 276
                         y: 87
@@ -413,6 +419,8 @@ npc:
                         faction: NONE
                         modelType: NONE
                         isFemale: false
+                        name: NONE
+                        title: NONE
                     5:
                         x: 294
                         y: 87
@@ -426,3 +434,5 @@ npc:
                         faction: NONE
                         modelType: NONE
                         isFemale: false
+                        name: NONE
+                        title: NONE
