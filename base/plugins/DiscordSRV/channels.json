@@ -21,15 +21,15 @@
 //
 [
   {
-    "a":"Global",
-    "b":"146961980798795776"
+    "channelname":"Global",
+    "channelid":"146961980798795776"
   },
   {
-    "a":"Universe",
-    "b":"146961980798795776"
+    "channelname":"Universe",
+    "channelid":"146961980798795776"
   },
   {
-    "a":"Trade",
-    "b":"178383687614857216"
+    "channelname":"Trade",
+    "channelid":"178383687614857216"
   }
 ]
