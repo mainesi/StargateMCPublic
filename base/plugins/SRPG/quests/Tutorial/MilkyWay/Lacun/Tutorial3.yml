@@ -6,21 +6,21 @@
 quest:
     general:
         # The ID must be unique.
-        id: 1
+        id: 3
         # The name of a quest must be unique.
         #title: String (20 character limit)
-        title: "Locating Oma"
+        title: "Learning From Oma"
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
         repeatType: NONE
         #type: Valid options are AreaKill, Location, Item, Kill, Dialog
-        type: Location
+        type: Dialog
     #Quest Objectives, defined from the type above.
     objectives:
         Dialog: 
-            firstDialog: NONE
-            secondDialog: NONE
+            firstDialog: "How do I ask for help or make a suggestion?"
+            secondDialog: "Where are we?"
             thirdDialog: NONE
         Location:
             #Maximum of 3 locations can be listed.
@@ -62,15 +62,15 @@ quest:
                     damage: 0
                     
     text:
-        completion: ""
-        log: "Locate Oma Desala on the Central island in the Lacun valley."
+        completion: "You should know stuff."
+        log: "Learn from Oma about your surroundings within the Sanctuary."
     completion:
         #command: Command to be executed when the player completes the quest. This is run as console.
         command: ""
         #completionType: Valid Options are: Instant, Npc
         type: Instant
         #npc: This is the name of the NPC you wish to have the quest complete at. (See above for completion type, this must be set to Npc!)
-        npc: Loken
+        npc: NONE
         #Faction rewards are below.
         factionPrimary:
             name: NONE
@@ -79,7 +79,7 @@ quest:
             name: NONE
             points: NONE
         #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
-        nextQuestTitle: "Learning From Oma"
+        nextQuestTitle: NONE
         #rewardExp: Number of experience rewarded for completion of thisquest.
         rewardExp: 100
         #Item rewards are below.

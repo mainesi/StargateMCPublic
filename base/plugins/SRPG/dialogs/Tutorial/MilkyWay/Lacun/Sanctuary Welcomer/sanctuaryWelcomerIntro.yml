@@ -53,14 +53,18 @@ dialog:
                setting: Before
         quests:
             1:
-                title: "1: Speaking with Oma"
+                title: "Locating Oma"
                 #setting: Valid options are After, Before, Active, NotActive 
                 setting: Before
+            2:
+                title: "Locating Oma"
+                #setting: Valid options are After, Before, Active, NotActive 
+                setting: NotActive
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE
         #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing.nbv
-        questGiven: "1: Speaking with Oma"
+        questGiven: "Locating Oma"
         #factionPrimary: First faction that player will receive reputation with/lose from.
         factionPrimary:
             name: NONE

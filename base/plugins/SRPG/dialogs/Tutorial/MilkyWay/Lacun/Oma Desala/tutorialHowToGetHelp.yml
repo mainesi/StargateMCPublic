@@ -47,14 +47,14 @@ dialog:
             isNot: false
         dialogs:
             1:
-               title: "Oma Desala - Welcome"
+               title: NONE
                #setting: Valid options are After, Before
-               setting: After
+               setting: Before
         quests:
             1:
-                title: NONE
+                title: "Locating Oma"
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: NONE
+                setting: After
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE

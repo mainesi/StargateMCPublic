@@ -8,7 +8,7 @@ dialog:
         id: 5
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: "What are we waiting for?"
+        title: "Tutorial: Learning about Jobs"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
@@ -47,14 +47,14 @@ dialog:
             isNot: false
         dialogs:
             1:
-               title: "Oma Desala - Welcome"
+               title: NONE
                #setting: Valid options are After, Before
-               setting: After
+               setting: Before
         quests:
             1:
-                title: NONE
+                title: "Locating Oma"
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: NONE
+                setting: After
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE

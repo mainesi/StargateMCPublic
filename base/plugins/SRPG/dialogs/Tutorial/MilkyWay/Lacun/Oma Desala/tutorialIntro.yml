@@ -48,14 +48,14 @@ dialog:
             isNot: false
         dialogs:
             1:
-               title: Picking a Race
+               title: NONE
                #setting: Valid options are After, Before
                setting: Before
         quests:
             1:
-                title: NONE
+                title: "Locating Oma"
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: Before
+                setting: After
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE
@@ -103,13 +103,13 @@ dialog:
                     Command:
                         command: NONE
             4:
-                title: "What are we doing here?"
+                title: "I'd like to begin..."
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
-                color: 0            
+                color: GREEN            
                 options:
                     Dialog:
-                        targetDialog: "What are we waiting for?"
+                        targetDialog: "Tutorial: Learning about Jobs"
                     Command:
                         command: NONE
