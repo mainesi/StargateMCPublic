@@ -43,6 +43,17 @@ npc:
         hasBreasts: false
         #Size is overall changes to the NPCs size
         size: 5
+    jobs:
+        Healer:
+            options:
+                #Range in blocks for this buff to affect players. Can be up to 16 blocks.
+                range: 5
+                #Speed that the players are healed. This can be 1-5.
+                speed: 5
+                #Below is a mainhand loadout override for npcs with this job.
+                itemName: NONE
+                itemMod: NONE
+                dmgValue: NONE
     roles:
         Trader:
             options:
