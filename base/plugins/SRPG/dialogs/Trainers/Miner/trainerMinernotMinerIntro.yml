@@ -6,7 +6,7 @@
 dialog:
     general:
         #ID of a dialog must be unique to all dialogs.
-        id: 11
+        id: 5
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
         title: "Mining Trainer - Not Miner"

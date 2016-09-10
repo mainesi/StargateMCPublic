@@ -5,9 +5,10 @@
 
 dialog:
     general:
+        id: 12
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: Relations of the Free Jaffa
+        title: Introduction to the Jaffa
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
@@ -15,7 +16,7 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "The Jaffa Nation fights for and against many races... who do you wish to know of?"
+        text: "So... you wish to learn of the Free Jaffa Nation?\n\nThey are a proud people and loyal to a fault.\n This was their undoing at the hands of the Goauld. \n\nWhat would you like to know?"
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -68,25 +69,14 @@ dialog:
             points: NONE
         dialogs:
             1:
-                title: "Who do the Free Jaffa align themselves with?"
+                title: "Who do the Jaffa consider friend or foe?"
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
                 color: 0            
                 options:
                     Dialog:
-                        targetDialog: "Allies of the Free Jaffa"
-                    Command:
-                        command: NONE
-            2:
-                title: "Yes, I'd like to ask something else"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "Introduction to the Jaffa"
+                        targetDialog: "Relations of the Free Jaffa"
                     Command:
                         command: NONE
             3:
@@ -101,13 +91,35 @@ dialog:
                     Command:
                         command: NONE
             4:
-                title: "Who do the Free Jaffa consider their enemy?"
+                title: "Where do the Free Jaffa reside?"
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
                 color: 0            
                 options:
                     Dialog:
-                        targetDialog: "Enemies of the Free Jaffa"
+                        targetDialog: "Territories of the Free Jaffa"
+                    Command:
+                        command: NONE
+            2:
+                title: "Would you care to spar?"
+                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
+                type: DIALOG
+                #color: number value for a color.
+                color: 0            
+                options:
+                    Dialog:
+                        targetDialog: "Proving your Worth: Jaffa"
+                    Command:
+                        command: NONE
+            5:
+                title: "Shall we spar again?"
+                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
+                type: DIALOG
+                #color: number value for a color.
+                color: 0            
+                options:
+                    Dialog:
+                        targetDialog: "Sparring with: Loken"
                     Command:
                         command: NONE

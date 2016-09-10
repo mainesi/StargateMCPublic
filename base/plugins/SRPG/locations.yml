@@ -72,3 +72,23 @@ locations:
                         y: 70
                         z: 18
                         world: Lacun
+    4:
+        # Name of location that is stored in Quests.
+        locationName: "Loken of the Jaffa"
+        # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
+        messageWhenFound: "You've found Loken. Now speak with him and learn of the Jaffa to continue."
+        # Type of location. This can be either NPC or LOCATION. See Options available below.
+        type: NPC
+        options:
+            # Location Options when a QuestLocation is set to NPC mode. Every NPC with the below title and name will become a valid set of coordinates for a player to visit.
+            NPC:
+                name: Loken
+                title: Jaffa Council Member
+            LOCATION:
+                # Location Options when a QuestLocation is set to LOCATION mode. This is a series of coordinates for the player to visit.
+                positions:
+                    1:
+                        x: -71
+                        y: 70
+                        z: 18
+                        world: Lacun

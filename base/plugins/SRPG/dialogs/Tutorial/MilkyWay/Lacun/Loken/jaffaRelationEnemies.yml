@@ -5,9 +5,10 @@
 
 dialog:
     general:
+        id: 16
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: Territories of the Free Jaffa
+        title: Enemies of the Free Jaffa
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
@@ -15,7 +16,8 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "The Jaffa homeworld is Dakara, in the Milky Way Galaxy.\n\nThe Jaffa have many outposts throughout the galaxy though, including: {additional worlds}.\n\nIs there anyting else I can tell you?"
+        text: "The Jaffa have very little foes that operate on a magnitude that can threaten them in the Milky Way.\n\nThe only two that remain are the Lucian Alliance... and the remnants of the Goauld empire.\n\nEnemies: Goauld, Lucian Alliance\n\nIs there anything else I can assist with?"
+        #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
         showsWheel: true

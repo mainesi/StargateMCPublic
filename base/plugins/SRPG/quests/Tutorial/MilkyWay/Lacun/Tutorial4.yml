@@ -6,10 +6,10 @@
 quest:
     general:
         # The ID must be unique.
-        id: 2
+        id: 4
         # The name of a quest must be unique.
         #title: String (20 character limit)
-        title: "Learning From Oma"
+        title: "Learning of the Jaffa"
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
@@ -19,9 +19,9 @@ quest:
     #Quest Objectives, defined from the type above.
     objectives:
         Dialog: 
-            firstDialog: "How do I ask for help or make a suggestion?"
-            secondDialog: "Where are we?"
-            thirdDialog: NONE
+            firstDialog: "Allies of the Free Jaffa"
+            secondDialog: Enemies of the Free Jaffa
+            thirdDialog: Territories of the Free Jaffa
         Location:
             #Maximum of 3 locations can be listed.
             locations:
@@ -79,7 +79,7 @@ quest:
             name: NONE
             points: NONE
         #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
-        nextQuestTitle: NONE
+        nextQuestTitle: Challenge Loken to a Sparring Match
         #rewardExp: Number of experience rewarded for completion of thisquest.
         rewardExp: 100
         #Item rewards are below.

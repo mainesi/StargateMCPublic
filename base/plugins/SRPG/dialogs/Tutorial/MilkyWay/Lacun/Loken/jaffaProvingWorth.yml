@@ -5,19 +5,18 @@
 
 dialog:
     general:
-        #ID of a dialog must be unique to all dialogs.
-        id: 11
+        id: 13
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: "Becoming a Miner"
+        title: "Proving your Worth: Jaffa"
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Miners Guild
+        category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
         escDisabled: false
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Are you sure...."
+        text: "Very well.... have a staff - let us begin."
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -29,21 +28,21 @@ dialog:
         timeAvailable: ALWAYS
         #factionPrimary: Primary Faction availability requirements. Used to ensure dialogs cannot be used by enemies.
         #factionPrimaryEnabled: True or false, should availability be respected for factionPrimary?
-        factionPrimaryEnabled: true
+        factionPrimaryEnabled: false
         #factionSecondaryEnabled: True or false, should availability be respected for factionSecondary?
-        factionSecondaryEnabled: true
+        factionSecondaryEnabled: false
         factionPrimary:
             #Name of NPC Faction
-            name: isMiner
+            name: Ascended
             #Relation: Friendly, Neutral, Hostile
-            relation: Neutral
+            relation: Friendly
             #isNot: Opposite of the above? (relation=Friendly & isNot = false, requires a player be friendly. isNot=True and relation = friendly means a player can be either neutral or hostile.)
             isNot: false
         factionSecondary:
             #Name of NPC Faction
-            name: isEmployed
+            name: Stargate Command
             #Relation: Friendly, Neutral, Hostile
-            relation: Neutral
+            relation: Friendly
             #isNot: Opposite of the above? (relation=Friendly & isNot = false, requires a player be friendly. isNot=True and relation = friendly means a player can be either neutral or hostile.)
             isNot: false
         dialogs:
@@ -53,30 +52,38 @@ dialog:
                setting: Before
         quests:
             1:
-                title: Picking a Race
+                title: "Proving Your Worth: Jaffa"
                 #setting: Valid options are After, Before, Active, NotActive 
                 setting: Before
+            2:
+                title: "Learning of the Jaffa"
+                #setting: Valid options are After, Before, Active, NotActive 
+                setting: After
+            3:
+                title: "Learning of the Jaffa"
+                #setting: Valid options are After, Before, Active, NotActive 
+                setting: NotActive
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
-        command: NONE
-        #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing.nbv
-        questGiven: NONE
+        command: "NONE"
+        #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing
+        questGiven: "Proving Your Worth: Jaffa"
         #factionPrimary: First faction that player will receive reputation with/lose from.
         factionPrimary:
-            name: NONE
-            points: NONE
+            name: "Challengeable: Loken"
+            points: -1000
         factionSecondary:
             name: NONE
             points: NONE
         dialogs:
             1:
-                title: "Yes, Im sure!"
+                title: "Who do the Jaffa consider friend or foe?"
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: DIALOG
+                type: NONE
                 #color: number value for a color.
-                color: GREEN            
+                color: 0            
                 options:
                     Dialog:
-                        targetDialog: "Becoming a Miner: Confirmation"
+                        targetDialog: "Relations of the Free Jaffa"
                     Command:
                         command: NONE

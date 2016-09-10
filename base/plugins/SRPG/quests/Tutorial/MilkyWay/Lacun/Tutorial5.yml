@@ -6,28 +6,28 @@
 quest:
     general:
         # The ID must be unique.
-        id: 2
+        id: 5
         # The name of a quest must be unique.
         #title: String (20 character limit)
-        title: "Learning From Oma"
+        title: "Proving Your Worth: Jaffa"
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
         category: Tutorial
         #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
         repeatType: NONE
         #type: Valid options are AreaKill, Location, Item, Kill, Dialog
-        type: Dialog
+        type: Kill
     #Quest Objectives, defined from the type above.
     objectives:
         Dialog: 
-            firstDialog: "How do I ask for help or make a suggestion?"
-            secondDialog: "Where are we?"
+            firstDialog: NONE
+            secondDialog: NONE
             thirdDialog: NONE
         Location:
             #Maximum of 3 locations can be listed.
             locations:
-                - Oma Desala
-                - ""
-                - ""
+                - TestLoc1
+                - TestLoc2
+                - TestLoc3
         #AreaKill and Kill types share a objective. The difference is that AreaKill rewards people near an npc dying, Kill needs them to kill it.
         #Maximum of 3 targets can be listed.
         Kill:
@@ -63,14 +63,14 @@ quest:
                     
     text:
         completion: ""
-        log: "Learn from Oma about your surroundings within the Sanctuary."
+        log: "Defeat Loken, of the Jaffa in a sparring match."
     completion:
         #command: Command to be executed when the player completes the quest. This is run as console.
         command: ""
         #completionType: Valid Options are: Instant, Npc
         type: Instant
         #npc: This is the name of the NPC you wish to have the quest complete at. (See above for completion type, this must be set to Npc!)
-        npc: NONE
+        npc: Loken
         #Faction rewards are below.
         factionPrimary:
             name: NONE
@@ -90,4 +90,3 @@ quest:
                 number: 0
                 damage: 0
         
-

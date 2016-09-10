@@ -5,7 +5,7 @@
 
 dialog:
     general:
-        id: 6
+        id: 10
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
         title: "Becoming a Miner: Confirmation"

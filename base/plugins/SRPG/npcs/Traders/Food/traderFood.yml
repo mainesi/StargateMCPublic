@@ -101,7 +101,7 @@ npc:
                     itemOne:
                         modName: SGCraft
                         itemName: naquadah
-                        numberOf: 2
+                        numberOf: 1
                         damage: 0
                     itemTwo:
                         modName: NONE

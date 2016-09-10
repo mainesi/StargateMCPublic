@@ -5,18 +5,18 @@
 
 dialog:
     general:
+        id: 18
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
-        title: "Sparring with: Loken"
+        title: Territories of the Free Jaffa
         #category: String (20 character limit) - Dialog which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Sanctuary
+        category: Tutorial
         #escDisabled: True or false, if the player can escape out of the dialog.
         escDisabled: false
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Very well...."
-        #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
+        text: "The Jaffa homeworld is Dakara, in the Milky Way Galaxy.\n\nThe Jaffa have many outposts throughout the galaxy though, including: {additional worlds}.\n\nIs there anyting else I can tell you?"
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
         showsWheel: true
@@ -51,30 +51,41 @@ dialog:
                setting: Before
         quests:
             1:
-                title: "Proving Your Worth: Jaffa"
+                title: Picking a Race
                 #setting: Valid options are After, Before, Active, NotActive 
-                setting: After
+                setting: Before
     actions:
         #command: Command that is executed as the player reads this dialog. NONE for nothing.
         command: NONE
-        #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing
-        questGiven: "Sparring with: Loken"
+        #questGiven: Title of the quest issued as a player reads this dialog. NONE for nothing.nbv
+        questGiven: NONE
         #factionPrimary: First faction that player will receive reputation with/lose from.
         factionPrimary:
-            name: "Challengeable: Loken"
-            points: -1000
+            name: NONE
+            points: NONE
         factionSecondary:
             name: NONE
             points: NONE
         dialogs:
             1:
-                title: "Who do the Jaffa consider friend or foe?"
+                title: "I'd like to know more.."
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: NONE
+                type: DIALOG
                 #color: number value for a color.
                 color: 0            
                 options:
                     Dialog:
                         targetDialog: "Relations of the Free Jaffa"
+                    Command:
+                        command: NONE
+            3:
+                title: Thats all for now...
+                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
+                type: QUIT
+                #color: number value for a color.
+                color: 0               
+                options:
+                    Dialog:
+                        targetDialog: NONE
                     Command:
                         command: NONE

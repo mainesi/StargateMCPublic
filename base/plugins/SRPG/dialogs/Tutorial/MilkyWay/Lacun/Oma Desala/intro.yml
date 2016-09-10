@@ -110,6 +110,6 @@ dialog:
                 color: GREEN            
                 options:
                     Dialog:
-                        targetDialog: "Tutorial: Learning about Jobs"
+                        targetDialog: "Where to now: Jaffa"
                     Command:
                         command: NONE
