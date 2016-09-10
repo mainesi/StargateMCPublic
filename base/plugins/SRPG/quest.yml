@@ -1,0 +1,189 @@
+#QUEST TEMPLATE YAML FILE.
+#BE SURE TO READ INSTRUCTIONS OR THIS WILL LIKELY NOT BE APPROVED OR BREAK WHEN LOADED ONTO THE SERVER.
+#ANY QUESTIONS ASK BYSOKAR!
+---
+
+quest:
+    general:
+        #####################################################################################################################################
+        # Option: category                                                                                                             
+        # Valid values: Quoted string, up to 25 characters.
+        # Description: This is the id of the quest used to track player progress. It must be unique. 
+        # Obtained: This can be obtained by type /s nextquestid ingmame.
+        #####################################################################################################################################
+        id: 0
+        #####################################################################################################################################
+        # Option: title                                                                                                             
+        # Valid values: Quoted string, up to 25 characters.
+        # Description: This is the name of the quest that will show up in quest logs and can be referenced from dialogs. It MUST be unique.
+        #####################################################################################################################################
+        title: "My Quest"
+        #####################################################################################################################################
+        # Option: category                                                                                                             
+        # Valid values: Quoted string, up to 25 characters.
+        # Description: This is the name of the category that stores this quest. All related quests should share a category name.
+        #####################################################################################################################################
+        category: My Category
+        #####################################################################################################################################
+        # Option: repeatType                                                                                                             
+        # Valid values: Case sentitive selection of the following: MCDAILY, MCWEEKLY, RLDAILY, RLWEEKLY, REPEATABLE, NONE
+        # Description: This is the repeat-type of the quest in question. It determines how often this quest can be completed.
+        # Of Note: An NPC that has a repeatable quest will not be accessible for anything else while the 'repeatable' cooldown is in effect. 
+        # Of Note(Contd): It will advise the player it has nothing for them, to check back later.
+        #####################################################################################################################################
+        repeatType: NONE
+        #####################################################################################################################################
+        # Option: type                                                                                                             
+        # Valid values: Case sentitive selection of the following: AreaKill, Location, Item, Kill, Dialog
+        # Description: This configures the quest with an objective type.
+        # Of Note: Objective configuration does not need to be filled out for any other type, except the one set here. 
+        # Of Note (Contd): Leave the others at their default values.
+        #####################################################################################################################################
+        type: Location
+    objectives:
+        Dialog: 
+            #####################################################################################################################################
+            # Option: firstDialog                                                                                                             
+            # Valid values: Quoted string, up to 25 characters. This must be a valid dialog name or NONE as an alternative.
+            # Description: This configures the quest to complete after this dialog has been read by the player.
+            #####################################################################################################################################
+            firstDialog: NONE
+            #####################################################################################################################################
+            # Option: secondDialog                                                                                                             
+            # Valid values: Quoted string, up to 25 characters. This must be a valid dialog name or NONE as an alternative.
+            # Description: This configures the quest to complete after this dialog has been read by the player.
+            #####################################################################################################################################
+            secondDialog: NONE
+            #####################################################################################################################################
+            # Option: thirdDialog                                                                                                             
+            # Valid values: Quoted string, up to 25 characters. This must be a valid dialog name or NONE as an alternative.
+            # Description: This configures the quest to complete after this dialog has been read by the player.
+            #####################################################################################################################################
+            thirdDialog: NONE
+        Location:
+            #####################################################################################################################################
+            # Option: locations                                                                                                             
+            # Valid values: Quoted string list, with three entries. If less than 3 locations are specified, the remainder must be set  to "".
+            # Description: This configures the quest to complete after the below locations are found.
+            # Of Note: See here: <link> for the locations.yml template, for configuring of the locations listed below.
+            #####################################################################################################################################
+            locations:
+                - ""
+                - ""
+                - ""
+        #AreaKill and Kill types share a objective. The difference is that AreaKill rewards people near an npc dying, Kill needs them to kill it.
+        #Maximum of 3 targets can be listed.
+        Kill:
+            #####################################################################################################################################
+            # Option: targets                                                                                                             
+            # Valid values: Targets is a configuration list. This must be replicated exactly, as per the two examples below.
+            # Description: This allows for a kill quest to be configured with targets.
+            # Of Note: name can be set to any entity name, npc or player name. If there is a space or special character in the name it must be quoted.
+            #####################################################################################################################################
+            targets:
+                1:
+                    name: Loken
+                    number: 1
+                2:
+                    name: Loken
+                    number: 1
+        Item:
+            #####################################################################################################################################
+            # Option: ignoreDamage                                                                                                             
+            # Valid values: true or false
+            # Description: This allows the item quest to accept items with the same item number, but not necessarily damage value. 
+            # Of Note: Some items require this be set to false, as they themselves have a damage value to identify them.
+            #####################################################################################################################################
+            ignoreDamage: true
+            #####################################################################################################################################
+            # Option: takeItems                                                                                                             
+            # Valid values: true or false
+            # Description: This allows the quest to require items, but not necessarily take them from the player at the end.
+            # Of Note: Useful for prepation quests... to make sure a player has items before proceeding to another.
+            #####################################################################################################################################
+            takeItems: true
+            #####################################################################################################################################
+            # Option: ignoreNBT                                                                                                             
+            # Valid values: true or false
+            # Description: This allows the quest to require an item with identical nbt data if set to false.
+            # Of Note: This is useful for items that dont have any other way to identify their customisations (eg: A P90 with a scope)
+            #####################################################################################################################################
+            ignoreNBT: true
+            #####################################################################################################################################
+            # Option: items                                                                                                             
+            # Valid values: items is a configuration list. This must be replicated exactly, as per the three examples below. Max 3 entries.
+            # Description: This allows for an item quest to require items.
+            # Of Note: The modName and itemName for this set of options is derived from the NEI items.csv file. This is case sensitive.
+            #####################################################################################################################################
+            items:
+                1:
+                    modName: flansmod
+                    itemName: p90
+                    number: 1
+                    damage: 0
+                2:
+                    modName: flansmod
+                    itemName: p90ammo
+                    number: 1
+                    damage: 0
+                3:
+                    modName: flansmod
+                    itemName: p90ammo
+                    number: 1
+                    damage: 0
+                    
+    text:
+        #####################################################################################################################################
+        # Option: completion                                                                                                             
+        # Valid values: String, up to 1000 characters. This can have newLines by including \n in the string, or use &3 style minecraft text colors.
+        # Description: This message appears when a player completes the quest. 
+        # Of Note: It does not need to be set (can be left as "") and there will not be a prompt when they finish this quest.
+        #####################################################################################################################################
+        completion: ""
+        #####################################################################################################################################
+        # Option: log                                                                                                             
+        # Valid values: String, up to 1000 characters. This can have newLines by including \n in the string, or use &3 style minecraft text colors.
+        # Description: This message appears in the quest log when the player has the quest.
+        # Of Note: It does not need to be set (can be left as "") but it will be very unhelpful for players.
+        #####################################################################################################################################
+        log: "Locate Oma Desala on the Central island in the Lacun valley."
+    completion:
+        #####################################################################################################################################
+        # Option: command                                                                                                             
+        # Valid values: Quoted string. It must be a valid minecraft command. @dp can be used to target the player completing the quest. Leave as "" for none.
+        # Description: This allows a quest to run a command for the player (as console) upon completion.
+        # Of Note: The MultiCommand plugin can be used to stack up multiple commands to be run.
+        #####################################################################################################################################
+        command: ""
+        #####################################################################################################################################
+        # Option: type (completion)                                                                                                             
+        # Valid values: Npc, Instant
+        # Description: An Instant complete quest will finish for the player as soon as they meet the criteria. Npc will require they return to an Npc.
+        #####################################################################################################################################
+        type: Instant
+        #####################################################################################################################################
+        # Option: npc                                                                                                         
+        # Valid values: Any valid NPC name.
+        # Description: This is the name of an npc that the quest can be handed in to. It has no effect unless the above option is set to Npc.
+        #####################################################################################################################################
+        npc: Loken
+        #Faction rewards are below.
+        factionPrimary:
+            name: NONE
+            points: NONE
+        factionSecondary:
+            name: NONE
+            points: NONE
+        #nextQuestTitle: Name of the follow on quest that will instantly begin the second this one completes. Set to NONE for nothing.
+        nextQuestTitle: "Learning From Oma"
+        #rewardExp: Number of experience rewarded for completion of thisquest.
+        rewardExp: 100
+        #Item rewards are below.
+        itemRewards:
+            1:
+                modName: NONE
+                itemName: NONE
+                number: 0
+                damage: 0
+        
+
