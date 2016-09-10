@@ -5,6 +5,8 @@
 
 dialog:
     general:
+        #ID of a dialog must be unique to all dialogs.
+        id: 5
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
         title: "Leaving Miners"
@@ -15,7 +17,7 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Are you sure...."
+        text: "Are you sure you would like to leave us?"
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -72,9 +74,20 @@ dialog:
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
                 type: DIALOG
                 #color: number value for a color.
-                color: 0            
+                color: 16777215            
                 options:
                     Dialog:
                         targetDialog: "Leaving Miners: Confirmation"
+                    Command:
+                        command: NONE
+            3:
+                title: "Nevermind..."
+                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
+                type: DIALOG
+                #color: number value for a color.
+                color: 0            
+                options:
+                    Dialog:
+                        targetDialog: "Mining Trainer - Is Miner"
                     Command:
                         command: NONE

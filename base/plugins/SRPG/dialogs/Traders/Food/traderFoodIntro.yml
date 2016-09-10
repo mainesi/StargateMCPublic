@@ -5,6 +5,7 @@
 
 dialog:
     general:
+        id: 11
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
         title: Food Trader Intro

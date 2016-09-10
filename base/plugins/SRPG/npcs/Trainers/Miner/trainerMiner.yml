@@ -235,16 +235,17 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                - "Hey!! What are you doing?"
-                - "Ill race ya!"
-                - "Last one round is a gazoot!"
-                
+                - "Hi ... @dp... what brings you to me today?"
+                - "Where did I put my pickaxe.... oh wait here it is!"
+                - "Naquadah... we can never get enough..."
+            #These lines are what an npc will tell a player if they have repeatable quests but the player cannot redo them yet. A random one is selected each time.
+            repeatableUnavailableLines:
+                - "I have nothing for you at the moment, @dp..."
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                - Don't you dare continue
+                - You will not defeat us!
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
-            interactLines:
-                - "Who are you, {player}?"
+            interactLines: []
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
                 - I warned you...
@@ -271,8 +272,8 @@ npc:
 
     loadout:
         mainhand: 
-            mod: minecraft
-            item: diamond_pickaxe
+            mod: NONE
+            item: NONE
             dmgvalue: 0
         offhand: 
             mod: NONE

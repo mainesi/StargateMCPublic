@@ -5,6 +5,8 @@
 
 dialog:
     general:
+        #ID of a dialog must be unique to all dialogs.
+        id: 4
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
         title: "Mining Trainer - Is Miner"
@@ -15,7 +17,7 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Your one of us...."
+        text: "Hello, Miner {player}, what can I do for you?"
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.
@@ -67,28 +69,6 @@ dialog:
             name: NONE
             points: NONE
         dialogs:
-            1:
-                title: "So... what now?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: QUIT
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "Relations of the Free Jaffa"
-                    Command:
-                        command: NONE
-            2:
-                title: "Do you have anything to offer?"
-                #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG
-                type: ROLE
-                #color: number value for a color.
-                color: 0            
-                options:
-                    Dialog:
-                        targetDialog: "Relations of the Free Jaffa"
-                    Command:
-                        command: NONE
             3:
                 title: "I'd like to stop being a Miner..."
                 #type: Valid Options are QUIT, ROLE, COMMAND, DIALOG

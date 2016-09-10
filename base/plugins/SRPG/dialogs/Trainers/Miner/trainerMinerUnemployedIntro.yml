@@ -5,6 +5,8 @@
 
 dialog:
     general:
+        #ID of a dialog must be unique to all dialogs.
+        id: 7
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #title: String (20 character limit)
         title: "Mining Trainer - Unemployed"
@@ -15,7 +17,7 @@ dialog:
         #hideNPC: True or false, if the NPC is hidden from the player when they look at this dialog.
         hideNPC: false
         #text: Text the dialog displays to a player.
-        text: "Miners......."
+        text: "Hi {player}, I've noticed... you dont have a profession....\n\nWould you consider becoming a Miner?"
         #sound: Sound played to the player when this dialog is displayed. Could be voice in theory.
         sound: NONE
         #showsWheel: True or false, will the dialogs be displayed as a wheel.

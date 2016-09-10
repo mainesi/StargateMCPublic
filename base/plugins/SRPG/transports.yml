@@ -1,0 +1,30 @@
+## Transports file
+transports:
+    #ID of Transport, this must be a unique value.
+    1:
+        # Name of Transporter 'Location' that is stored in NPCs. This is viewable to the player.
+        transportName: "Daedalus, in orbit of Midway"
+        # Network of Transports this transport belongs to. Links transports together.
+        transportNetwork: DAEDALUS_MIDWAY
+        # Availability of the transport location.
+        availability: ALWAYS, WHENDISCOVERED
+        # Type of location. This can be either NPC or LOCATION. See Options available below.
+        position:
+            x: 1
+            y: 1
+            z: 1
+            world: Daedalus
+    #ID of Transport, this must be a unique value.
+    2:
+        # Name of Transporter 'Location' that is stored in NPCs.
+        transportName: "Midway Station"
+        # Network of Transports this transport belongs to.
+        transportNetwork: DAEDALUS_MIDWAY
+        # Availability of the transport location.
+        availability: ALWAYS, WHENDISCOVERED
+        # Type of location. This can be either NPC or LOCATION. See Options available below.
+        position:
+            x: 1
+            y: 1
+            z: 1
+            world: MidwayStation

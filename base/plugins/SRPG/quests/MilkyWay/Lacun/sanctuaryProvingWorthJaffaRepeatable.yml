@@ -5,6 +5,8 @@
 
 quest:
     general:
+        # The ID must be unique.
+        id: 2
         # The name of a quest must be unique.
         #title: String (20 character limit)
         title: "Sparring with: Loken"
