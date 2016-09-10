@@ -6,16 +6,16 @@
 quest:
     general:
         # The ID must be unique.
-        id: 2
+        id: 1
         # The name of a quest must be unique.
         #title: String (20 character limit)
-        title: "Sparring with: Loken"
+        title: "1: Speaking with Oma"
         #category: String (20 character limit) - Quests which depend on eachother should generally fall under the same category name. If no category exists with that name one will be created! (Dont abuse this)
-        category: Sanctuary
+        category: Tutorial
         #repeatType: Valid Options are: MCDAILY, MCWEEKLY, NONE, RLDAILY, RLWEEKLY, REPEATABLE
-        repeatType: REPEATABLE
+        repeatType: NONE
         #type: Valid options are AreaKill, Location, Item, Kill, Dialog
-        type: Kill
+        type: Location
     #Quest Objectives, defined from the type above.
     objectives:
         Dialog: 
@@ -25,9 +25,9 @@ quest:
         Location:
             #Maximum of 3 locations can be listed.
             locations:
-                - TestLoc1
-                - TestLoc2
-                - TestLoc3
+                - "Central Island Bridge"
+                - Oma Desala
+                - ""
         #AreaKill and Kill types share a objective. The difference is that AreaKill rewards people near an npc dying, Kill needs them to kill it.
         #Maximum of 3 targets can be listed.
         Kill:
@@ -63,7 +63,7 @@ quest:
                     
     text:
         completion: ""
-        log: "Defeat Loken, of the Jaffa in a sparring match."
+        log: "Locate Oma Desala on the Central island in the Lacun valley."
     completion:
         #command: Command to be executed when the player completes the quest. This is run as console.
         command: ""

@@ -26,3 +26,49 @@ locations:
                         y: 2
                         z: 2
                         world: Earth
+    #ID of Location, this must be a unique value.
+    2:
+        # Name of location that is stored in Quests.
+        locationName: Oma Desala
+        # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
+        messageWhenFound: "You've found Oma... speak with her to continue..."
+        # Type of location. This can be either NPC or LOCATION. See Options available below.
+        type: NPC
+        options:
+            # Location Options when a QuestLocation is set to NPC mode. Every NPC with the below title and name will become a valid set of coordinates for a player to visit.
+            NPC:
+                name: Oma Desala
+                title: Ascended Representative
+            LOCATION:
+                # Location Options when a QuestLocation is set to LOCATION mode. This is a series of coordinates for the player to visit.
+                positions:
+                    1:
+                        x: 1
+                        y: 1
+                        z: 1
+                        world: Lacun
+                    2:
+                        x: 2
+                        y: 2
+                        z: 2
+                        world: Earth
+    3:
+        # Name of location that is stored in Quests.
+        locationName: Central Island Bridge
+        # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
+        messageWhenFound: "Cross this bridge to locate Oma..."
+        # Type of location. This can be either NPC or LOCATION. See Options available below.
+        type: LOCATION
+        options:
+            # Location Options when a QuestLocation is set to NPC mode. Every NPC with the below title and name will become a valid set of coordinates for a player to visit.
+            NPC:
+                name: Oma Desala
+                title: Ascended Representative
+            LOCATION:
+                # Location Options when a QuestLocation is set to LOCATION mode. This is a series of coordinates for the player to visit.
+                positions:
+                    1:
+                        x: -71
+                        y: 70
+                        z: 18
+                        world: Lacun
