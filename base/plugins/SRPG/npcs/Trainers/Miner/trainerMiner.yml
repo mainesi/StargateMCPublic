@@ -224,9 +224,9 @@ npc:
                     
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: false
+            enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 5
+            distance: 3
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -396,3 +396,18 @@ npc:
                         isFemale: false
                         name: Constantine
                         title: Mining Trainer
+                    3:
+                        x: -279
+                        y: 189
+                        z: -1046
+                        worldName: "Lantea"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/SteampunkSteve.png
+                        size: 5
+                        faction: Atlantis Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: "David Scott"
+                        title: Miners Guild Delegate

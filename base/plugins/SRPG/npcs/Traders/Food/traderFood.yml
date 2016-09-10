@@ -265,7 +265,7 @@ npc:
                     z: 42
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: true
+            enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 10
     interactions:
@@ -413,4 +413,19 @@ npc:
                         modelType: NONE
                         isFemale: true
                         name: "Kora"
-                        title: Sanctuary Food Trader
+                        title: Food Trader
+                    2:
+                        x: -276
+                        y: 182
+                        z: -1032
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/TraderSteve.png
+                        size: 5
+                        faction: Atlantis Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: "Steven Fry"
+                        title: Food Trader
