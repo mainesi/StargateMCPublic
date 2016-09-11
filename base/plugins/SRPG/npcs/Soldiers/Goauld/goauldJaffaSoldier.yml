@@ -115,7 +115,7 @@ npc:
         #Should this NPC be invulnerable?
         invulnerable: false
         #What distance should this NPC be at when it actions its tacticalType behaviour... for example hit and run the distance is where it retreats to, surround is the distance it holds... etc.
-        tacticalDistance: 24
+        tacticalDistance: 12
         #What combat style should this NPC follow?
         #tacticalType: SURROUND, HITNRUN, AMBUSH, DODGE, STALK, NONE are all valid options.
         tacticalType: SURROUND
@@ -126,11 +126,13 @@ npc:
             range: 3
             #What damage does this NPC do per melee hit?
             damage: 3
+            # Knockback?
+            knockback: 3
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
             accuracy: 80
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
-            rangedRange: 64
+            rangedRange: 32
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
             burstCount: 2
             #Minimum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
@@ -140,7 +142,7 @@ npc:
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
             fireRate: 8
             #How many shots are in a standard volley?
-            shotCount: 4
+            shotCount: 1
             #Should the  NPC raise its weapon to fire?
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
@@ -151,10 +153,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 2
-            melee: 2
-            explosion: 2
-            knockback: 2
+            arrow: 2.0
+            melee: 1.5
+            explosion: 1.5
+            knockback: 1.5
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -264,16 +266,16 @@ npc:
                 dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
-            projectileType: BULLET
+            projectileType: GOLDPLASMA
             projectile3D:
                 projectileSpins: false
                 projectileSticks: false
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
-            size: 3
+            size: 4
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 40
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 1
+            knockback: 0
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
             gravity: true
             #What damage (hearts) should the NPCs projectile do?
