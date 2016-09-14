@@ -201,7 +201,7 @@ npc:
                     z: 3
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: true
+            enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 64
     interactions:
@@ -352,7 +352,7 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: DEFAULT
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
@@ -378,12 +378,12 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: -141
-                        y: 5
-                        z: -626
-                        worldName: "Earth"
+                        x: 214
+                        y: 74
+                        z: -999
+                        worldName: "P2A-347"
                         rotationBehavior: NoRotation
-                        rotation: 0
+                        rotation: 180
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -395,114 +395,12 @@ npc:
                         primaryFactionOnDeath: NONE
                         secondaryFactionOnDeath: NONE
                     2:
-                        x: -137
-                        y: 5
-                        z: -626
-                        worldName: "Earth"
-                        rotationBehavior: NoRotation
-                        rotation: 0
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 5
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                        primaryFactionOnDeath: NONE
-                        secondaryFactionOnDeath: NONE
-                    3:
-                        x: -143
-                        y: 5
-                        z: -615
-                        worldName: "Earth"
+                        x: 220
+                        y: 74
+                        z: -999
+                        worldName: "P2A-347"
                         rotationBehavior: NoRotation
                         rotation: 180
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 5
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                        primaryFactionOnDeath: NONE
-                        secondaryFactionOnDeath: NONE
-                    4:
-                        x: -139
-                        y: 5
-                        z: -615
-                        worldName: "Earth"
-                        rotationBehavior: NoRotation
-                        rotation: 180
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 5
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                        primaryFactionOnDeath: NONE
-                        secondaryFactionOnDeath: NONE
-                    5:
-                        x: -121
-                        y: 7
-                        z: -619
-                        worldName: "Earth"
-                        rotationBehavior: NoRotation
-                        rotation: 90
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 5
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                        primaryFactionOnDeath: NONE
-                        secondaryFactionOnDeath: NONE
-                    6:
-                        x: -128
-                        y: 15
-                        z: -603
-                        worldName: "Earth"
-                        rotationBehavior: NoRotation
-                        rotation: 0
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 5
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                        primaryFactionOnDeath: NONE
-                        secondaryFactionOnDeath: NONE
-                    7:
-                        x: -128
-                        y: 15
-                        z: -595
-                        worldName: "Earth"
-                        rotationBehavior: NoRotation
-                        rotation: 180
-                        textureType: NONE
-                        textureUri: NONE
-                        size: 5
-                        faction: NONE
-                        modelType: NONE
-                        isFemale: false
-                        name: NONE
-                        title: NONE
-                        primaryFactionOnDeath: NONE
-                        secondaryFactionOnDeath: NONE
-                    8:
-                        x: -120
-                        y: 15
-                        z: -619
-                        worldName: "Earth"
-                        rotationBehavior: NoRotation
-                        rotation: 90
                         textureType: NONE
                         textureUri: NONE
                         size: 5
