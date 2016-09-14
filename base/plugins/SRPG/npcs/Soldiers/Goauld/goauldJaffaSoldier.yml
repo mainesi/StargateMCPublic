@@ -153,10 +153,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 2.0
-            melee: 1.5
-            explosion: 1.5
-            knockback: 1.5
+            arrow: 1.25
+            melee: 1.25
+            explosion: 1.25
+            knockback: 1.25
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -203,7 +203,7 @@ npc:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 32
+            distance: 64
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -213,18 +213,13 @@ npc:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines: []
             #Attack lines are lines that the NPC will say as they engage an enemy.
-            attackLines:
-                - We will defend ourselves!
-                - You will die for that!
+            attackLines: []
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
-            interactLines: 
-                - "Hello, {player}... move along now!"
+            interactLines: []
             #Kill lines are what the NPC says to an enemy as they die.
-            killLines:
-                - You will not conquer us all!
+            killLines: []
             #Killed lines are what an NPC will say to a foe as this npc dies.
-            killedLines:
-                - Arghhhh....
+            killedLines: []
         dialogs:
             1:
                 title: "NONE"
