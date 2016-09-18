@@ -1,0 +1,15 @@
+## Living Market Items File.
+items:
+    1:
+        itemName: SGCRAFT_NAQUADAH
+        amount: 1
+        chance: 80.0
+        damage: 0
+        maxListingTime: 1200
+        minListingTime: 600
+        maxPrice: 1000
+        minPrice: 100
+        dimensions:
+            - Earth
+            - Lantea
+            - MidwayStation
