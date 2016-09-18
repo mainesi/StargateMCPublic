@@ -1,14 +1,24 @@
 ## Living Market Items File.
 items:
+    # This should be an incrementing number.
     1:
+        #This is the BUKKIT MATERIAL COMPATIBLE NAME of an item.
         itemName: SGCRAFT_NAQUADAH
+        #This is the number of items in the listing.
         amount: 1
+        #This is the chance per minute that the item will be listed on one of the below worlds.
         chance: 80.0
+        #This is the damage value on the item that is being listed.
         damage: 0
+        #This is the maximum time in seconds the item can be listed for. It is randomly selected each time the item lists.
         maxListingTime: 1200
+        #This is the minimum time in seconds the item can be listed for. It is randomly selected each time the item lists.
         minListingTime: 600
+        #This is the maximum price the item can be listed for. It is randomly selected each time the item lists.
         maxPrice: 1000
+        #This is the minimum price the item can be listed for. It is randomly selected each time the item lists.
         minPrice: 100
+        #Below is a list of worlds that this item can appear on. Make sure to quote world names if they contain a - character, eg: "M4X-345"
         dimensions:
             - Earth
             - Lantea
