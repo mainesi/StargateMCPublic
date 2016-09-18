@@ -41,6 +41,8 @@ stock_slots_groups:
 - default:0
 - Player:16
 - Veteran:16
+- Moderator:24
+- Administrator:32
 
 # How many items can be stored in a stock slot. (Default: 320)
 stock_slots_size: 25
@@ -52,6 +54,8 @@ stock_slots_size_groups:
 - default:0
 - Player:100
 - Veteran:1000
+- Moderator:10000
+- Administrator:10000
 
 # Time in minutes to wait before allowing a player to retrieve newly
 #  added stock. (Default: 0)
