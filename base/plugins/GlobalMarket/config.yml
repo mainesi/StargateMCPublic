@@ -32,26 +32,30 @@ locale_file: en_US
 disable_stock_system: false
 
 # How many stock slots to give each player. (Default: 16)
-stock_slots: 16
+stock_slots: 8
 
 # Group-based stock slot assignment. Requires a permissions plugin
 #  with Vault support. This setting will be added to the default slots.
 # <group-name>:<# of slots>
 stock_slots_groups:
 - default:0
+- Player:16
+- Veteran:16
 
 # How many items can be stored in a stock slot. (Default: 320)
-stock_slots_size: 320
+stock_slots_size: 25
 
 # Group-based stock slot size assignment. Requires a permissions plugin
 #  with Vault support. This setting will be added to the default slot size.
 # <group-name>:<size of slot>
 stock_slots_size_groups:
 - default:0
+- Player:100
+- Veteran:1000
 
 # Time in minutes to wait before allowing a player to retrieve newly
 #  added stock. (Default: 0)
-stock_delay: 15
+stock_delay: 0
 
 # How many hours to wait before removing a listing. (Default: 12)
 # Set to 0 to disable expiration
