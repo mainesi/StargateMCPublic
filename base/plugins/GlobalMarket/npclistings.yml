@@ -6,7 +6,7 @@ items:
         itemName: SGCRAFT_NAQUADAH
         #This is the number of items in the listing.
         amount: 1
-        #This is the chance per minute that the item will be listed on one of the below worlds.
+        #This is the chance per minute that the item will be listed on one of the below worlds, if it is not already listed.
         chance: 80.0
         #This is the damage value on the item that is being listed.
         damage: 0
