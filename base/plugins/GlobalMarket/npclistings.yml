@@ -23,6 +23,8 @@ items:
             - Earth
             - Lantea
             - MidwayStation
+        #Below is a list of sellers (operates the same as dimensions above) that this item will be listed for. They are fake npc names. Alternatively list no names to have the listing sold as "Anonymous".
+        sellers: []
     2:
         #This is the BUKKIT MATERIAL COMPATIBLE NAME of an item.
         itemName: SGCRAFT_T1ZEROPOINTMODULE
@@ -44,3 +46,5 @@ items:
         dimensions:
             - Earth
             - Lantea
+        #Below is a list of sellers (operates the same as dimensions above) that this item will be listed for. They are fake npc names. Alternatively list no names to have the listing sold as "Anonymous".
+        sellers: []
