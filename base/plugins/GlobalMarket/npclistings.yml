@@ -66,4 +66,48 @@ items:
         dimensions:
             - ALL
         #Below is a list of sellers (operates the same as dimensions above) that this item will be listed for. They are fake npc names. Alternatively list no names to have the listing sold as "Anonymous".
+        sellers: []    
+    4:
+        #This is the BUKKIT MATERIAL COMPATIBLE NAME of an item.
+        itemName: SGCRAFT_T2ZEROPOINTMODULE
+        #This is the number of items in the listing.
+        amount: 1
+        #This is the chance per minute that the item will be listed on one of the below worlds, if it is not already listed.
+        chance: 0.5
+        #This is the damage value on the item that is being listed.
+        damage: 0
+        #This is the maximum time in minutes the item can be listed for. It is randomly selected each time the item lists.
+        maxListingTime: 15
+        #This is the minimum time in minutes the item can be listed for. It is randomly selected each time the item lists.
+        minListingTime: 5
+        #This is the maximum price the item can be listed for. It is randomly selected each time the item lists.
+        maxPrice: 2500000
+        #This is the minimum price the item can be listed for. It is randomly selected each time the item lists.
+        minPrice: 2000000
+        #Below is a list of worlds that this item can appear on. Make sure to quote world names if they contain a - character, eg: "M4X-345"
+        dimensions:
+            - Lantea
+        #Below is a list of sellers (operates the same as dimensions above) that this item will be listed for. They are fake npc names. Alternatively list no names to have the listing sold as "Anonymous".
+        sellers: []
+    5:
+        #This is the BUKKIT MATERIAL COMPATIBLE NAME of an item.
+        itemName: SGCRAFT_T3ZEROPOINTMODULE
+        #This is the number of items in the listing.
+        amount: 1
+        #This is the chance per minute that the item will be listed on one of the below worlds, if it is not already listed.
+        chance: 0.1
+        #This is the damage value on the item that is being listed.
+        damage: 0
+        #This is the maximum time in minutes the item can be listed for. It is randomly selected each time the item lists.
+        maxListingTime: 15
+        #This is the minimum time in minutes the item can be listed for. It is randomly selected each time the item lists.
+        minListingTime: 5
+        #This is the maximum price the item can be listed for. It is randomly selected each time the item lists.
+        maxPrice: 3500000
+        #This is the minimum price the item can be listed for. It is randomly selected each time the item lists.
+        minPrice: 3250000
+        #Below is a list of worlds that this item can appear on. Make sure to quote world names if they contain a - character, eg: "M4X-345"
+        dimensions:
+            - Lantea
+        #Below is a list of sellers (operates the same as dimensions above) that this item will be listed for. They are fake npc names. Alternatively list no names to have the listing sold as "Anonymous".
         sellers: []
