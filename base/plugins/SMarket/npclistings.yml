@@ -4128,7 +4128,7 @@ items:
     sellers: []
     dimensions: []
   '376':
-    materialName: IC2_BL`OCKMACHINE2
+    materialName: IC2_BLOCKMACHINE2
     amount: 0
     chance: 0.0
     damage: 0
