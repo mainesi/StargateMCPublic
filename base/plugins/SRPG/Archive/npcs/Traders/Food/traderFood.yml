@@ -43,6 +43,17 @@ npc:
         hasBreasts: false
         #Size is overall changes to the NPCs size
         size: 5
+    jobs:
+        Healer:
+            options:
+                #Range in blocks for this buff to affect players. Can be up to 16 blocks.
+                range: 5
+                #Speed that the players are healed. This can be 1-5.
+                speed: 5
+                #Below is a mainhand loadout override for npcs with this job.
+                itemName: NONE
+                itemMod: NONE
+                dmgValue: NONE
     roles:
         Trader:
             options:
@@ -90,7 +101,7 @@ npc:
                     itemOne:
                         modName: SGCraft
                         itemName: naquadah
-                        numberOf: 2
+                        numberOf: 1
                         damage: 0
                     itemTwo:
                         modName: NONE
@@ -400,6 +411,23 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
+                        x: -121
+                        y: 27
+                        z: -605
+                        worldName: "Earth"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
+                        size: 4
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: true
+                        name: "Kyle Nealson"
+                        title: Chef
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                    2:
                         x: 203
                         y: 85
                         z: 39
@@ -414,18 +442,56 @@ npc:
                         isFemale: true
                         name: "Kora"
                         title: Food Trader
-                    2:
-                        x: -276
-                        y: 182
-                        z: -1032
+                        primaryFactionOnDeath: NONE
+                        secondaryFactionOnDeath: NONE
+                    3:
+                        x: -291
+                        y: 177
+                        z: -1066
                         worldName: "Lantea"
-                        rotationBehavior: NoRotation
-                        rotation: 180
+                        rotationBehavior: RotateBody
+                        rotation: 90
                         textureType: RESOURCE
-                        textureUri: customnpcs:textures/entity/humanmale/TraderSteve.png
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
                         size: 5
                         faction: Atlantis Expedition
                         modelType: NONE
                         isFemale: false
-                        name: "Steven Fry"
+                        name: "Matt Kye"
+                        title: Chef
+                        primaryFactionOnDeath: Atlantis Expedition
+                        secondaryFactionOnDeath: Wraith
+                    4:
+                        x: 305
+                        y: 85
+                        z: 1387
+                        worldName: "Destiny"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanfemale/ChefStephanie.png
+                        size: 4
+                        faction: Destiny Expedition
+                        modelType: NONE
+                        isFemale: true
+                        name: "Leah Ara"
+                        title: Chef
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                    5:
+                        x: 267
+                        y: 82
+                        z: -493
+                        worldName: "Rebirth"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Fulla"
                         title: Food Trader
+                        primaryFactionOnDeath: Asgard
+                        secondaryFactionOnDeath: NONE
