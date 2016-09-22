@@ -7,7 +7,7 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Constantine
+        name: Leos
         #title: String (20 character limit)
         title: Mining Trainer
         #template: NONE or any valid template. There are presently none.
@@ -381,6 +381,8 @@ npc:
                         isFemale: true
                         name: "Sarah Hayward"
                         title: Miners Guild Delegate
+                        primaryFactionOnDeath: Atlantis Expedition
+                        secondaryFactionOnDeath: Wraith
                     2:
                         x: 282
                         y: 87
@@ -396,6 +398,8 @@ npc:
                         isFemale: false
                         name: Constantine
                         title: Mining Trainer
+                        primaryFactionOnDeath: NONE
+                        secondaryFactionOnDeath: NONE
                     3:
                         x: -279
                         y: 189
@@ -411,3 +415,39 @@ npc:
                         isFemale: false
                         name: "David Scott"
                         title: Miners Guild Delegate
+                        primaryFactionOnDeath: Atlantis Expedition
+                        secondaryFactionOnDeath: Wraith
+                    4:
+                        x: 381
+                        y: 92
+                        z: 1381
+                        worldName: "Destiny"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/VillagerSteve.png
+                        size: 5
+                        faction: Destiny Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: "Thomas Gregson"
+                        title: Miners Guild Delegate
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                    5:
+                        x: 268
+                        y: 87
+                        z: -494
+                        worldName: "Rebirth"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Baldr"
+                        title: Miners Guild Delegate
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
