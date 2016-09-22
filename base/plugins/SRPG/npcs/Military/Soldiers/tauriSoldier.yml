@@ -812,10 +812,90 @@ npc:
                         movementType: NONE
                         attackedResponse: NONE
                         attackedResponse: NONE
-                    22:
+                    23:
                         x: 338
                         y: 84
                         z: 1375
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/IcarusOfficer.png
+                        size: 5
+                        faction: Destiny Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: Destiny Crew
+                        title: Soldier
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                        movementType: NONE
+                        attackedResponse: NONE
+                        attackedResponse: NONE
+                    24:
+                        x: 342
+                        y: 84
+                        z: 1375
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/IcarusOfficer.png
+                        size: 5
+                        faction: Destiny Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: Destiny Crew
+                        title: Soldier
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                        movementType: NONE
+                        attackedResponse: NONE
+                        attackedResponse: NONE
+                    25:
+                        x: 338
+                        y: 84
+                        z: 1375
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/IcarusOfficer.png
+                        size: 5
+                        faction: Destiny Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: Destiny Crew
+                        title: Soldier
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                        movementType: NONE
+                        attackedResponse: NONE
+                        attackedResponse: NONE
+                    26:
+                        x: 325
+                        y: 84
+                        z: 1385
+                        worldName: "Destiny"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/IcarusOfficer.png
+                        size: 5
+                        faction: Destiny Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: Destiny Crew
+                        title: Soldier
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                        movementType: NONE
+                        attackedResponse: NONE
+                        attackedResponse: NONE
+                    27:
+                        x: 325
+                        y: 84
+                        z: 1389
                         worldName: "Destiny"
                         rotationBehavior: NoRotation
                         rotation: 0
