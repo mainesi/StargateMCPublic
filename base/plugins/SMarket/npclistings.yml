@@ -12,15 +12,16 @@ items:
     dimensions: []
   '2':
     materialName: STONE
-    amount: 0
-    chance: 0.0
+    amount: 10
+    chance: 70.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 10
+    minPrice: 5
     sellers: []
-    dimensions: []
+    dimensions:
+        -ALL
   '3':
     materialName: GRASS
     amount: 0
@@ -3466,15 +3467,16 @@ items:
     dimensions: []
   '316':
     materialName: NETHER_STAR
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 20.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 10
+    minListingTime: 5
+    maxPrice: 100000
+    minPrice: 75000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '317':
     materialName: PUMPKIN_PIE
     amount: 0
@@ -4027,15 +4029,16 @@ items:
     dimensions: []
   '367':
     materialName: IC2_BLOCKGENERATOR
-    amount: 0
-    chance: 0.0
-    damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    amount: 1
+    chance: 20.0
+    damage: 6
+    maxListingTime: 30
+    minListingTime: 15
+    maxPrice: 10000
+    minPrice: 8000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '368':
     materialName: IC2_BLOCKREACTORCHAMBER
     amount: 0
@@ -4125,7 +4128,7 @@ items:
     sellers: []
     dimensions: []
   '376':
-    materialName: IC2_BLOCKMACHINE2
+    materialName: IC2_BL`OCKMACHINE2
     amount: 0
     chance: 0.0
     damage: 0
@@ -19053,15 +19056,16 @@ items:
     dimensions: []
   '1733':
     materialName: IC2_ITEMRTGPELLET
-    amount: 0
-    chance: 0.0
+    amount: 6
+    chance: 20.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 30
+    minListingTime: 15
+    maxPrice: 10000
+    minPrice: 8000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '1734':
     materialName: IC2_ITEMPARTCIRCUIT
     amount: 0
@@ -46014,48 +46018,52 @@ items:
     dimensions: []
   '4184':
     materialName: SGCRAFT_T1ZEROPOINTMODULE
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 1
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 15
+    minListingTime: 5
+    maxPrice: 1500000
+    minPrice: 1000000
     sellers: []
-    dimensions: []
+    dimensions:
+        - Lantea
   '4185':
     materialName: SGCRAFT_T2ZEROPOINTMODULE
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 0.5
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 15
+    minListingTime: 5
+    maxPrice: 2500000
+    minPrice: 2000000
     sellers: []
-    dimensions: []
+    dimensions:
+        - Lantea
   '4186':
     materialName: SGCRAFT_S8CHEVRONUPGRADECIRCUIT
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 0.1
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 15
+    minListingTime: 5
+    maxPrice: 3750000
+    minPrice: 3500000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - Lantea
   '4187':
     materialName: SGCRAFT_REMOTEDIALLER
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 80.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 30
+    minListingTime: 15
+    maxPrice: 50
+    minPrice: 20
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '4188':
     materialName: MEKANISM_CRAFTINGFORMULA
     amount: 0
