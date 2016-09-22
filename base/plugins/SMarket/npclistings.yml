@@ -45974,15 +45974,16 @@ items:
     dimensions: []
   '4180':
     materialName: SGCRAFT_T3ZEROPOINTMODULE
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 0.1
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 15
+    minListingTime: 5
+    maxPrice: 3750000
+    minPrice: 3500000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - Lantea
   '4181':
     materialName: SGCRAFT_S9CHEVRONUPGRADEITEM
     amount: 0
@@ -46043,15 +46044,17 @@ items:
   '4186':
     materialName: SGCRAFT_S8CHEVRONUPGRADECIRCUIT
     amount: 1
-    chance: 0.1
+    chance: 5
     damage: 0
-    maxListingTime: 15
-    minListingTime: 5
-    maxPrice: 3750000
-    minPrice: 3500000
+    maxListingTime: 30
+    minListingTime: 15
+    maxPrice: 600000
+    minPrice: 500000
     sellers: []
     dimensions: 
         - Lantea
+        - Earth
+        - Destiny
   '4187':
     materialName: SGCRAFT_REMOTEDIALLER
     amount: 1
