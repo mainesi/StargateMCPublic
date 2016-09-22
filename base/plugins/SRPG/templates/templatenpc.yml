@@ -1,6 +1,7 @@
 #NPC TEMPLATE YAML FILE.
 #BE SURE TO READ INSTRUCTIONS OR THIS WILL LIKELY NOT BE APPROVED OR BREAK WHEN LOADED ONTO THE SERVER.
 #ANY QUESTIONS ASK BYSOKAR!
+#MAKE SURE ALL true AND false ARE LOWER CASE! IF THE VARIABLE IS IN FULL CAPITALS PLEASE WRITE IT THAT WAY!
 ---
 
 npc:
@@ -213,13 +214,13 @@ npc:
             whenToUse: UNTILCLOSE
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
             sound: flansmod.p90
-        # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
+        # What % should an NPC resist each of the below damage types? Make sure values are between 0.0 and 2.0. Must be a decimal.
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 10
-            melee: 10
-            explosion: 10
-            knockback: 10
+            arrow: 2.0
+            melee: 2.0
+            explosion: 2.0
+            knockback: 2.0
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -344,7 +345,7 @@ npc:
                 item: NONE
                 dmgvalue: 0
         projectile:
-            #projectileType: Can be ARROW or BULLET.
+            #projectileType: Can be ARROW, BULLET, REDPLASMA, WHITEPLASMA, GOLDPLASMA, BLUEPLASMA 
             projectileType: BULLET
             projectile3D:
                 projectileSpins: true
@@ -414,22 +415,22 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: -121
+                        x: -121 
                         y: 27
                         z: -605
-                        worldName: "Earth"
-                        rotationBehavior: RotateBody
-                        rotation: 90
-                        textureType: RESOURCE
-                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
-                        size: 4
-                        faction: Stargate Command
-                        modelType: NONE
-                        isFemale: true
-                        name: "Kyle Nealson"
-                        title: Chef
-                        primaryFactionOnDeath: Stargate Command
-                        secondaryFactionOnDeath: Goauld
+                        worldName: "Earth" #Dimension of NPC SPawn
+                        rotationBehavior: RotateBody #If a part of the NPC will rotate, RotateHead for example.
+                        rotation: 90 #Amount it will rotate.
+                        textureType: RESOURCE #Just put it as resource.
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png #Has to come directly from servers files, request an upload if using custom skin.
+                        size: 4 #Height of NPC, standard player size is 5
+                        faction: Stargate Command #Faction
+                        modelType: NONE #You don't need to touch this :)
+                        isFemale: true #Self Explanitory
+                        name: "Kyle Nealson" #Name
+                        title: Chef #Title
+                        primaryFactionOnDeath: Stargate Command #Faction of which you will loose reputation with (lost reputation points are configurable up in the main options)
+                        secondaryFactionOnDeath: Goauld #Faction of which you will gain reputation with (gained reputation points are configurable in the main options)
                         #movementType accepts three options, NONE, WANDERING, STANDING. Standing will prevent the NPC from moving even if the main configuration has wandering or paths enabled. Wandering will make the NPC wander (based on the distance set in the main configuration) even if wandering is disabled. NONE inherits from the main config.
                         movementType: NONE
                         #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
