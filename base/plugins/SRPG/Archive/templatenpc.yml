@@ -430,3 +430,7 @@ npc:
                         title: Chef
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
+                        #movementType accepts three options, NONE, WANDERING, STANDING. Standing will prevent the NPC from moving even if the main configuration has wandering or paths enabled. Wandering will make the NPC wander (based on the distance set in the main configuration) even if wandering is disabled. NONE inherits from the main config.
+                        movementType: NONE
+                        #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
+                        attackedResponse: NONE
