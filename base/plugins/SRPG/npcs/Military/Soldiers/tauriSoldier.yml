@@ -50,7 +50,7 @@ npc:
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
         backTrackWhileFollowingPath: true
         #doorInteraction: BREAK, OPEN, NONE are valid options.
-        doorInteraction: OPEN
+        doorInteraction: NONE
         #burnsInSun: true or false.
         burnsInSun: false
         #canDrown: Can this NPC Drown? true or false.
