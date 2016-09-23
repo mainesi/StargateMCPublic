@@ -212,19 +212,19 @@ npc:
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
-                -"A kek hasshak"
+                - "A kek hasshak"
             #These lines are what an npc will tell a player if they have repeatable quests but the player cannot redo them yet. A random one is selected each time.
             repeatableUnavailableLines:
                 - "I have nothing for you at the moment, {player}..."
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                -"Aray Kree!"
+                - "Aray Kree!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
-                -"Ba ja kakma te"
+                - "Ba ja kakma te"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines: 
-                -"Kek"
+                - "Kek"
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines: []
         dialogs:
