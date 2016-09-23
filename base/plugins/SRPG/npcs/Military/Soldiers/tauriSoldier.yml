@@ -551,7 +551,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     10:
                         x: 339
                         y: 84
@@ -570,7 +569,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     11:
                         x: 358
@@ -591,7 +589,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     12:
                         x: 358
                         y: 84
@@ -610,7 +607,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     13:
                         x: 369
@@ -631,7 +627,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     14:
                         x: 369
                         y: 84
@@ -650,7 +645,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     15:
                         x: 353
@@ -671,7 +665,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     16:
                         x: 387
                         y: 91
@@ -690,7 +683,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     17:
                         x: 387
@@ -711,7 +703,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     18:
                         x: 387
                         y: 91
@@ -730,7 +721,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     19:
                         x: 402
@@ -751,7 +741,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     20:
                         x: 342
                         y: 84
@@ -770,7 +759,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     21:
                         x: 338
@@ -791,7 +779,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     22:
                         x: 342
                         y: 84
@@ -810,7 +797,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     23:
                         x: 338
@@ -831,7 +817,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     24:
                         x: 342
                         y: 84
@@ -850,7 +835,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     25:
                         x: 338
@@ -871,7 +855,6 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-                        attackedResponse: NONE
                     26:
                         x: 325
                         y: 84
@@ -890,7 +873,6 @@ npc:
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
-                        attackedResponse: NONE
                         attackedResponse: NONE
                     27:
                         x: 325
@@ -911,4 +893,23 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                    28:
+                        x: TBC
+                        y: TBC
+                        z: TBC
+                        worldName: "Lantea"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/(needs to be made)
+                        size: 5
+                        faction: Atlantis Expedition
+                        modelType: NONE
+                        isFemale: false
+                        name: Atlantis Expedition
+                        title: Soldier
+                        primaryFactionOnDeath: Destiny Expedition
+                        secondaryFactionOnDeath: Nakai
+                        movementType: NONE
                         attackedResponse: NONE
+
