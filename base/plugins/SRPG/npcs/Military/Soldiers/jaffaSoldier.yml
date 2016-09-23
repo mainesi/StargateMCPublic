@@ -27,13 +27,13 @@ npc:
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
         faction: Goauld 
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: RotateBody
+        rotationBehavior: NoRotation
         #rotation: 0-360
-        rotation: 271
+        rotation: 0
         # This feature is not completed. Please leave the option as NONE.
-        job: NONE
+        job: None
         # This feature is not completed. Please leave the option as NONE.
-        role: NONE
+        role: None
         #visible: YES, PARTIAL, NO are valid options.
         visible: YES
     display:
@@ -134,13 +134,13 @@ npc:
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
             rangedRange: 32
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
-            burstCount: 4
+            burstCount: 2
             #Minimum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
             minDelay: 2
             #Maximum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
             maxDelay: 10
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
-            fireRate: 8
+            fireRate: 16
             #How many shots are in a standard volley?
             shotCount: 1
             #Should the  NPC raise its weapon to fire?
@@ -153,10 +153,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 0.5
-            melee: 1.5
-            explosion: 0.5
-            knockback: 2.0
+            arrow: 1.25
+            melee: 1.25
+            explosion: 1.25
+            knockback: 1.25
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -174,9 +174,9 @@ npc:
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
-            primaryFactionOnDeath: Stargate Command
-            primaryFactionPoints: 10
-            secondaryFactionOnDeath: Goauld
+            primaryFactionOnDeath: Goauld
+            primaryFactionPoints: 20
+            secondaryFactionOnDeath: Stargate Command
             secondaryFactionPoints: -20
         #Minimum XP Dropped on kill (randomised)
         minXP: 10
@@ -201,7 +201,7 @@ npc:
                     z: 3
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: true
+            enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
             distance: 64
     interactions:
@@ -211,13 +211,17 @@ npc:
         #You may substitute {player} where you wish a players name to be. This will display differently depending on the player seeing the message.
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
-            worldLines: [-"A kek hasshak."]
+            worldLines:
+                -"A kek hasshak"
             #Attack lines are lines that the NPC will say as they engage an enemy.
-            attackLines: [-"Aray Kree!"]
+            attackLines:
+                -"Aray Kree!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
-            interactLines: [-"Ba ja kakma te."]
+            interactLines:
+                -"Ba ja kakma te"
             #Kill lines are what the NPC says to an enemy as they die.
-            killLines: [-"Kek"]
+            killLines: 
+                -"Kek"
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines: []
         dialogs:
@@ -268,7 +272,7 @@ npc:
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
             size: 4
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
-            speed: 40
+            speed: 25
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
             knockback: 5
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
@@ -293,55 +297,27 @@ npc:
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
         table:
             1:
-                chance: 0
-                item:
-                    mod: flansmod
-                    item: wraithPlasmid
-                    numberOf: 3
-                    dmgvalue: 0
-            2:
                 chance: 3
                 item:
                     mod: flansmod
                     item: maTokStaff
                     numberOf: 1
                     dmgvalue: 0
-            3:
-                chance: 30
-                item:
-                    mod: flansmod
-                    item: wraithPlasmid
-                    numberOf: 1
-                    dmgvalue: 0
-            4:
-                chance: 0
-                item:
-                    mod: mcheli
-                    item: wraith_dart
-                    numberOf: 1
-                    dmgvalue: 0
-            5:
-                chance: 0
-                item:
-                    mod: flansmod
-                    item: wraithStunner
-                    numberOf: 1
-                    dmgvalue: 0
-            6:
+            2:
                 chance: 15
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 5
                     dmgvalue: 0
-            7:
+            3:
                 chance: 2
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 2
                     dmgvalue: 0
-            8:
+            4:
                 chance: 0
                 item:
                     mod: SGCraft
