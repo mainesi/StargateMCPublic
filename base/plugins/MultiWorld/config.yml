@@ -14,7 +14,7 @@ options:
   useWorldChatSeperator: false
   craftbukkitHooks: true
 worlds:
-  Alkesh_Arena:
+  Arenas:
     seed: 2654381223821791163
     worldgen: Empty
     options: ''
