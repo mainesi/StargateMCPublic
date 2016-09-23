@@ -99,6 +99,7 @@ persistentEntities:
 - "PAINTING"
 - "ITEM_FRAME"
 - "VILLAGER"
+- "CUSTOMNPCS_CUSTOMNPC"
 
 # Configuration for integration
 integration:
