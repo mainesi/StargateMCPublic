@@ -1,6 +1,7 @@
 #NPC TEMPLATE YAML FILE.
 #BE SURE TO READ INSTRUCTIONS OR THIS WILL LIKELY NOT BE APPROVED OR BREAK WHEN LOADED ONTO THE SERVER.
 #ANY QUESTIONS ASK BYSOKAR!
+#MAKE SURE ALL true AND false ARE LOWER CASE! IF THE VARIABLE IS IN FULL CAPITALS PLEASE WRITE IT THAT WAY!
 ---
 
 npc:
@@ -25,25 +26,97 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Wraith     
+        faction:  Wraith
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: RotateBody
         #rotation: 0-360
-        rotation: 271
+        rotation: 55
         # This feature is not completed. Please leave the option as NONE.
-        job: NONE
+        job: None
         # This feature is not completed. Please leave the option as NONE.
-        role: NONE
+        role: None
         #visible: YES, PARTIAL, NO are valid options.
         visible: YES
+    display:
+        # The name of an NPC does not have to be unique, but the name and title combination must be.
+        #name: String (20 character limit)
+        modelType: NONE
+        hasBreasts: false
+        #Size is overall changes to the NPCs size
+        size: 5
+    jobs:
+        Healer:
+            options:
+                #Range in blocks for this buff to affect players. Can be up to 16 blocks.
+                range: 5
+                #Speed that the players are healed. This can be 1-5.
+                speed: 5
+                #Below is a mainhand loadout override for npcs with this job.
+                itemName: NONE
+                itemMod: NONE
+                dmgValue: NONE
+    roles:
+        Trader:
+            options:
+                ignoreDamage: false
+                ignoreNBT: false
+            items:
+                1:
+                    result:
+                        modName: minecraft
+                        itemName: bread
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
+                2:
+                    result:
+                        modName: minecraft
+                        itemName: apple
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
+                3:
+                    result:
+                        modName: minecraft
+                        itemName: mushroom_stew
+                        numberOf: 1
+                        damage: 0
+                    itemOne:
+                        modName: SGCraft
+                        itemName: naquadah
+                        numberOf: 1
+                        damage: 0
+                    itemTwo:
+                        modName: NONE
+                        itemName: NONE
+                        numberOf: 1
+                        damage: 0
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
-        avoidsWater: true
+        avoidsWater: false
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
-        backTrackWhileFollowingPath: true
+        backTrackWhileFollowingPath: false
         #doorInteraction: BREAK, OPEN, NONE are valid options.
-        doorInteraction: BREAK
+        doorInteraction: OPEN
         #burnsInSun: true or false.
         burnsInSun: false
         #canDrown: Can this NPC Drown? true or false.
@@ -53,7 +126,7 @@ npc:
         #canLeap: true or false, can the NPC leap at its enemies?
         canLeap: true
         #canSprint: true or false, can the NPC sprint faster than its normal movement speed?
-        canSprint: false
+        canSprint: true
         #canSwim: Can this npc swim? If not, it will drown!
         canSwim: true
         #bossBar: Should a bossBar be displayed for this NPC? Typically it should only be used for champions of good or evil! ;)
@@ -62,23 +135,23 @@ npc:
         #livingAnimation: Should this npc have a living animation? (It will look dead or inanimate otherwise)
         livingAnimation: true
         #ignoreCobwebs: True or false, should this NPC ignore cobwebs when moving? (It will walk through them quickly).
-        ignoreCobwebs: true
+        ignoreCobwebs: false
         #Should this NPC interact with other NPCs? They will chat with eachother if friendly.
         interactsWithOtherNPCs: true
         #If a player or another NPC tries to interact with this NPC, should it pause its movement and turn to the interacting entity?
         stopOnInteract: true
         #What is the maximum health for this NPC?
-        maxHealth: 150
+        maxHealth: 200
         #Should this NPC pause every now and then while it is moving along a path?
         pauseWhileFollowingPath: true
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
-        avoidsSun: true
+        avoidsSun: false
         #Should this NPC ignore fall damage? Typically only 'unkillable' NPCs should have this.
         suffersFallDamage: true
         #shelterFrom: DARKNESS, SUN, NONE - This is pretty self explanatory.
-        shelterFrom: DARKNESS
+        shelterFrom: NONE
         #Should this NPC have its name above its head?
         #showName: ALWAYS, WHENATTACKING, NEVER
         showName: NEVER
@@ -91,7 +164,7 @@ npc:
         #How much HP should this NPC regenerate per tick in combat?
         combatRegen: 1
         #Can this NPC attack invisible players or NPCs? 
-        canAttackInvisible: true
+        canAttackInvisible: false
         #Should this NPC defend its faction members?
         defendFactionMembers: true
         #What reaction should this NPC have to a fight?
@@ -108,50 +181,52 @@ npc:
         #Should this NPC be invulnerable?
         invulnerable: false
         #What distance should this NPC be at when it actions its tacticalType behaviour... for example hit and run the distance is where it retreats to, surround is the distance it holds... etc.
-        tacticalDistance: 24
+        tacticalDistance: 16
         #What combat style should this NPC follow?
         #tacticalType: SURROUND, HITNRUN, AMBUSH, DODGE, STALK, NONE are all valid options.
         tacticalType: SURROUND
         #At what range should this NPC engage hostile mobs/npcs/players?
-        aggroRange: 64
+        aggroRange: 32
         melee:
             #What distance can this NPC attack (blocks) another entity?
             range: 3
             #What damage does this NPC do per melee hit?
-            damage: 3
+            damage: 5
+              #What knockback does  this npc have?
+            knockback: 1
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
-            accuracy: 75
+            accuracy: 80
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
-            rangedRange: 32
+            rangedRange: 50
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
             burstCount: 2
             #Minimum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
-            minDelay: 5
+            minDelay: 40
             #Maximum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
-            maxDelay: 15
+            maxDelay: 50
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
-            fireRate: 30
+            fireRate: 20
             #How many shots are in a standard volley?
-            shotCount: 1
+            shotCount: 2
             #Should the  NPC raise its weapon to fire?
             aimWhileShooting: true
             #When should the NPC fire its ranged weapon, or melee hit the enemy?
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
-            whenToUse: ALWAYS
+            whenToUse: UNTILCLOSE
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
             sound: flansmod:stunnerShoot
-        # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
+        # What % should an NPC resist each of the below damage types? Make sure values are between 0.0 and 2.0. Must be a decimal.
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 0
-            melee: 0
-            explosion: 0
-            knockback: 0
+            arrow: 0.2
+            melee: 1.0
+            explosion: 0.5
+            knockback: 1.5
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
-        respawnsInGame: NIGHT
+        respawnsInGame: ALWAYS
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
         respawnTime: 900
         #Should this NPC respawn where it first spawned, or where it died?
@@ -167,15 +242,15 @@ npc:
         faction:
             primaryFactionOnDeath: Wraith
             primaryFactionPoints: -5
-            secondaryFactionOnDeath: Ancients
-            secondaryFactionPoints: 5
+            secondaryFactionOnDeath: Atlantis Expedition
+            secondaryFactionPoints: 30
         #Minimum XP Dropped on kill (randomised)
         minXP: 10
         #Maximum XP Dropped on kill (randomised)
         maxXP: 20
     movement:
         #What movement speed should an NPC have? 5 is the default. 10 is stupidly fast and 1 is a crawling speed.
-        speed: 5
+        speed: 4
         followPath:
             #True or false, should this NPC follow a path? NOTE: You must have only ONE option enabled for movement. Disable wandering if following a path is selected.
             enabled: false
@@ -183,18 +258,30 @@ npc:
             #All paths are on the local dimension only. NPCs will not use stargates or rings unless part of a staff programmed EVENT.
             steps:
                 1:
-                    x: 1
-                    y: 2
-                    z: 3
+                    x: 193
+                    y: 85
+                    z: 57
                 2:
-                    x: 2
-                    y: 2
-                    z: 3
+                    x: 193
+                    y: 85
+                    z: 40
+                3:
+                    x: 206
+                    y: 85
+                    z: 38
+                4:
+                    x: 206
+                    y: 85
+                    z: 42
+                5:
+                    x: 204
+                    y: 85
+                    z: 42
         wandering:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
-            enabled: true
+            enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 32
+            distance: 10
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -202,20 +289,26 @@ npc:
         #You may substitute {player} where you wish a players name to be. This will display differently depending on the player seeing the message.
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
-            worldLines: []
+            worldLines:
+                -"We must feed!"
+            #These lines are what an npc will tell a player if they have repeatable quests but the player cannot redo them yet. A random one is selected each time.
+            repeatableUnavailableLines:
+                - "Go! Away!"
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                - Our numbers will overwhelm you!
-                - You are but food to us.
+                - "I will eat your flesh!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
-            interactLines: []
+            interactLines:
+                - "Do you want to become my food?"
             #Kill lines are what the NPC says to an enemy as they die.
             killLines:
-                - Earth will fall.... but you first!
+                - "My brothers will feast well tonight"
             #Killed lines are what an NPC will say to a foe as this npc dies.
             killedLines:
-                - A Thousand more will come in my place...
-
+                - "My queen will come!"
+        dialogs:
+            1:
+                title: "NONE"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
@@ -254,19 +347,19 @@ npc:
                 item: NONE
                 dmgvalue: 0
         projectile:
-            #projectileType: Can be ARROW or BULLET.
-            projectileType: BULLET
+            #projectileType: Can be ARROW, BULLET, REDPLASMA, WHITEPLASMA, GOLDPLASMA, BLUEPLASMA 
+            projectileType: BLUEPLASMA
             projectile3D:
-                projectileSpins: true
-                projectileSticks: true
+                projectileSpins: false
+                projectileSticks: false
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
-            size: 2
+            size: 3
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 40
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 3
+            knockback: 1
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
-            gravity: true
+            gravity: no
             #What damage (hearts) should the NPCs projectile do?
             damage: 5
             #Is the NPC projectile explosive?
@@ -286,107 +379,82 @@ npc:
         #Be sure to only set numberOf to the stack limit for that item or it will not be added to the loot table.
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
         table:
-            1:
-                chance: 10
-                item:
-                    mod: flansmod
-                    item: wraithPlasmid
-                    numberOf: 3
-                    dmgvalue: 0
-            2:
-                chance: 20
-                item:
-                    mod: flansmod
-                    item: wraithPlasmid
-                    numberOf: 2
-                    dmgvalue: 0
-            3:
-                chance: 30
-                item:
-                    mod: flansmod
-                    item: wraithPlasmid
-                    numberOf: 1
-                    dmgvalue: 0
-            4:
-                chance: 1
-                item:
-                    mod: mcheli
-                    item: wraith_dart
-                    numberOf: 1
-                    dmgvalue: 0
-            5:
+           1: 
                 chance: 10
                 item:
                     mod: flansmod
                     item: wraithStunner
                     numberOf: 1
                     dmgvalue: 0
-            6:
-                chance: 15
-                item:
-                    mod: SGCraft
-                    item: naquadah
-                    numberOf: 5
-                    dmgvalue: 0
-            7:
-                chance: 30
-                item:
-                    mod: SGCraft
-                    item: naquadah
-                    numberOf: 2
-                    dmgvalue: 0
-            8:
-                chance: 45
-                item:
-                    mod: SGCraft
-                    item: naquadah
-                    numberOf: 1
-                    dmgvalue: 0
     spawning:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: RANDOM
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -125
-                    y: 7
-                    z: -619
-                    world: Earth
+                    x: 193
+                    y: 85
+                    z: 60
+                    world: Lacun
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
                 worlds: #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
-                    - "M4X-337"
+                    - Destiny
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
-                    - Pegasus
-                #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world?   
-                # This is useful for forcing NPCs to only spawn on their homeworlds, especially if they are randomly spawning.   
-                canSpawnNotOnMajorityWorld: false   
-                chance: 50.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
-                group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
+                    - Destiny
+                #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world?
+                # This is useful for forcing NPCs to only spawn on their homeworlds, especially if they are randomly spawning.
+                canSpawnNotOnMajorityWorld: false
+                chance: 5.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0) The higher the chance, the more likely this will spawn in over something else.
+                group: NONE #This is the group this NPC is part of. Handled via random spawns. If the NPC has a group of NONE it will not spawn as part of any group... and instead be treated individually.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
-                groupArea: 10
+                groupArea: 10 #groupArea defines how close this group will spawn to one another. Must be less than 100 blocks.
             event: # This section has no options.
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "P2Y-321"
-                        name: Fred Flinstone
-                        title: Private
-                    2:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "DIM-331"
-                        name: Barney Rubble
-                        title: Colonel
-            
-        
-        
-        
+                        x: -171
+                        y: 113
+                        z: 797
+                        worldName: "Omega" #Dimension of NPC SPawn
+                        rotationBehavior: RotateBody #If a part of the NPC will rotate, RotateHead for example.
+                        rotation: 90 #Amount it will rotate.
+                        textureType: RESOURCE #Just put it as resource.
+                        textureUri: NONE #Has to come directly from servers files, request an upload if using custom skin.
+                        size: 5 #Height of NPC, standard player size is 5
+                        faction: Wraith #Faction
+                        modelType: NONE #You don't need to touch this :)
+                        isFemale: false #Self Explanitory
+                        name: NONE #Name
+                        title: NONE #Title
+                        primaryFactionOnDeath: Wraith #Faction of which you will loose reputation with (lost reputation points are configurable up in the main options)
+                        secondaryFactionOnDeath: Atlantis Expedition #Faction of which you will gain reputation with (gained reputation points are configurable in the main options)
+                        #movementType accepts three options, NONE, WANDERING, STANDING. Standing will prevent the NPC from moving even if the main configuration has wandering or paths enabled. Wandering will make the NPC wander (based on the distance set in the main configuration) even if wandering is disabled. NONE inherits from the main config.
+                        movementType: NONE
+                        #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
+                        attackedResponse: NONE
+                      2:
+                        x: -171
+                        y: 113
+                        z: 791
+                        worldName: "Omega" #Dimension of NPC SPawn
+                        rotationBehavior: RotateBody #If a part of the NPC will rotate, RotateHead for example.
+                        rotation: 90 #Amount it will rotate.
+                        textureType: RESOURCE #Just put it as resource.
+                        textureUri: NONE #Has to come directly from servers files, request an upload if using custom skin.
+                        size: 5 #Height of NPC, standard player size is 5
+                        faction: Wraith #Faction
+                        modelType: NONE #You don't need to touch this :)
+                        isFemale: false #Self Explanitory
+                        name: NONE #Name
+                        title: NONE #Title
+                        primaryFactionOnDeath: Wraith #Faction of which you will loose reputation with (lost reputation points are configurable up in the main options)
+                        secondaryFactionOnDeath: Atlantis Expedition #Faction of which you will gain reputation with (gained reputation points are configurable in the main options)
+                        #movementType accepts three options, NONE, WANDERING, STANDING. Standing will prevent the NPC from moving even if the main configuration has wandering or paths enabled. Wandering will make the NPC wander (based on the distance set in the main configuration) even if wandering is disabled. NONE inherits from the main config.
+                        movementType: NONE
+                        #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
+                        attackedResponse: NONE
