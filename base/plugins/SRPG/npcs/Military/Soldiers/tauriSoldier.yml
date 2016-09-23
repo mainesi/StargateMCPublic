@@ -399,6 +399,7 @@ npc:
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
+                        attackedResponse: NONE
                     2:
                         x: -137
                         y: 5
