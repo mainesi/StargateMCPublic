@@ -7,13 +7,13 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Wraith Warrior
+        name: Jaffa Soldier
         #title: String (20 character limit)
         title: Soldier
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
-        textureUri: customnpcs:textures/STARGATE/wraith.png
+        textureUri: customnpcs:textures/STARGATE/serpent-guard-2-new-face.png
         #textureType: WEB and RESOURCE are valid options. If texturType is WEB, a web address eg: http://stargatemc.com/test.png can be used.
         #NOTE: All web based textures must be hosted on Stargatemc.com.... so request an upload.
         textureType: RESOURCE
@@ -25,7 +25,7 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction: Wraith     
+        faction: Goauld 
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
         rotationBehavior: RotateBody
         #rotation: 0-360
@@ -36,14 +36,21 @@ npc:
         role: NONE
         #visible: YES, PARTIAL, NO are valid options.
         visible: YES
+    display:
+        # The name of an NPC does not have to be unique, but the name and title combination must be.
+        #name: Jaffa Soldier (20 character limit)
+        modelType: NONE
+        hasBreasts: false
+        #Size is overall changes to the NPCs size
+        size: 5
     behaviour:
         #avoidsWater: true or false, depending on whether or not the NPC will avoid water. It will not prevent it swimming.
-        avoidsWater: true
+        avoidsWater: false
         #If following a path (see movement), should the NPC backtrack, like they are looking for something or pacing?
         # This will cause a path to be randomly followed, not in incrementing steps.... it might skip some or ignore some.
         backTrackWhileFollowingPath: true
         #doorInteraction: BREAK, OPEN, NONE are valid options.
-        doorInteraction: BREAK
+        doorInteraction: OPEN
         #burnsInSun: true or false.
         burnsInSun: false
         #canDrown: Can this NPC Drown? true or false.
@@ -51,9 +58,9 @@ npc:
         #fireIndirectly: FAR, SUPRISE, NONE are valid options. Suprise is typically when it doesnt see you coming, or it jumps out behind a corner.
         fireIndirectly: NONE
         #canLeap: true or false, can the NPC leap at its enemies?
-        canLeap: true
+        canLeap: false
         #canSprint: true or false, can the NPC sprint faster than its normal movement speed?
-        canSprint: false
+        canSprint: true
         #canSwim: Can this npc swim? If not, it will drown!
         canSwim: true
         #bossBar: Should a bossBar be displayed for this NPC? Typically it should only be used for champions of good or evil! ;)
@@ -62,7 +69,7 @@ npc:
         #livingAnimation: Should this npc have a living animation? (It will look dead or inanimate otherwise)
         livingAnimation: true
         #ignoreCobwebs: True or false, should this NPC ignore cobwebs when moving? (It will walk through them quickly).
-        ignoreCobwebs: true
+        ignoreCobwebs: false
         #Should this NPC interact with other NPCs? They will chat with eachother if friendly.
         interactsWithOtherNPCs: true
         #If a player or another NPC tries to interact with this NPC, should it pause its movement and turn to the interacting entity?
@@ -74,11 +81,11 @@ npc:
         #Should this NPC return to its spawn location when it loses agrro, dies or gets lost?
         returnToStart: true
         #Should this NPC be nocturnal? This will not cause it to die in sun unless burnInSun in the above is true also.
-        avoidsSun: true
+        avoidsSun: false
         #Should this NPC ignore fall damage? Typically only 'unkillable' NPCs should have this.
         suffersFallDamage: true
         #shelterFrom: DARKNESS, SUN, NONE - This is pretty self explanatory.
-        shelterFrom: DARKNESS
+        shelterFrom: NONE
         #Should this NPC have its name above its head?
         #showName: ALWAYS, WHENATTACKING, NEVER
         showName: NEVER
@@ -91,7 +98,7 @@ npc:
         #How much HP should this NPC regenerate per tick in combat?
         combatRegen: 1
         #Can this NPC attack invisible players or NPCs? 
-        canAttackInvisible: true
+        canAttackInvisible: false
         #Should this NPC defend its faction members?
         defendFactionMembers: true
         #What reaction should this NPC have to a fight?
@@ -108,7 +115,7 @@ npc:
         #Should this NPC be invulnerable?
         invulnerable: false
         #What distance should this NPC be at when it actions its tacticalType behaviour... for example hit and run the distance is where it retreats to, surround is the distance it holds... etc.
-        tacticalDistance: 24
+        tacticalDistance: 12
         #What combat style should this NPC follow?
         #tacticalType: SURROUND, HITNRUN, AMBUSH, DODGE, STALK, NONE are all valid options.
         tacticalType: SURROUND
@@ -116,22 +123,24 @@ npc:
         aggroRange: 64
         melee:
             #What distance can this NPC attack (blocks) another entity?
-            range: 3
+            range: 2
             #What damage does this NPC do per melee hit?
-            damage: 3
+            damage: 5
+            # Knockback?
+            knockback: 1
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
-            accuracy: 75
+            accuracy: 60
             #What maximum range does this NPC have with its ranged weapon? (Max: 64).
             rangedRange: 32
             #If the NPC decides to burst fire, how many bullets/arrows should be fired?
-            burstCount: 2
+            burstCount: 4
             #Minimum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
-            minDelay: 5
+            minDelay: 2
             #Maximum delay in ticks that the NPC should have before attacking again? (20 ticks is 1 second)
-            maxDelay: 15
+            maxDelay: 10
             #Fire rate... how fast should the NPC attack? (meaured in ticks).
-            fireRate: 30
+            fireRate: 8
             #How many shots are in a standard volley?
             shotCount: 1
             #Should the  NPC raise its weapon to fire?
@@ -140,18 +149,18 @@ npc:
             #whenToUse: ALWAYS, UNTILCLOSE, WHENMOVING 
             whenToUse: ALWAYS
             #Sound string - this can be found by Stats > RangedOptions > SoundFX in the NPC menu (use an NPC wand). This can be done from SinglePlayer.
-            sound: flansmod:stunnerShoot
+            sound: flansmod:staffShoot
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 0
-            melee: 0
-            explosion: 0
-            knockback: 0
+            arrow: 0.5
+            melee: 1.5
+            explosion: 0.5
+            knockback: 2.0
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
-        respawnsInGame: NIGHT
+        respawnsInGame: ALWAYS
         #How many seconds should the NPC wait to respawn (Do not set this to more than 86400 seconds, or 1 day).
         respawnTime: 900
         #Should this NPC respawn where it first spawned, or where it died?
@@ -165,10 +174,10 @@ npc:
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
         faction:
-            primaryFactionOnDeath: Wraith
-            primaryFactionPoints: -5
-            secondaryFactionOnDeath: Ancients
-            secondaryFactionPoints: 5
+            primaryFactionOnDeath: Stargate Command
+            primaryFactionPoints: 10
+            secondaryFactionOnDeath: Goauld
+            secondaryFactionPoints: -20
         #Minimum XP Dropped on kill (randomised)
         minXP: 10
         #Maximum XP Dropped on kill (randomised)
@@ -194,7 +203,7 @@ npc:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: true
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 32
+            distance: 64
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -202,20 +211,18 @@ npc:
         #You may substitute {player} where you wish a players name to be. This will display differently depending on the player seeing the message.
         lines:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
-            worldLines: []
+            worldLines: [-"A kek hasshak."]
             #Attack lines are lines that the NPC will say as they engage an enemy.
-            attackLines:
-                - Our numbers will overwhelm you!
-                - You are but food to us.
+            attackLines: [-"Aray Kree!"]
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
-            interactLines: []
+            interactLines: [-"Ba ja kakma te."]
             #Kill lines are what the NPC says to an enemy as they die.
-            killLines:
-                - Earth will fall.... but you first!
+            killLines: [-"Kek"]
             #Killed lines are what an NPC will say to a foe as this npc dies.
-            killedLines:
-                - A Thousand more will come in my place...
-
+            killedLines: []
+        dialogs:
+            1:
+                title: "NONE"
 #LOADOUT: The loadout section is where you equip your NPC.
 
 #All items are stored in NEI dump format (items.csv).
@@ -226,11 +233,10 @@ npc:
 
 #NOTE: Be sure to use appropriate items in each armor slot, or the NPC may not load.
 #NOTE: All fields are case sensitive.
-
     loadout:
         mainhand: 
             mod: flansmod
-            item: wraithStunner
+            item: maTokStaff
             dmgvalue: 0
         offhand: 
             mod: NONE
@@ -255,18 +261,18 @@ npc:
                 dmgvalue: 0
         projectile:
             #projectileType: Can be ARROW or BULLET.
-            projectileType: BULLET
+            projectileType: GOLDPLASMA
             projectile3D:
-                projectileSpins: true
-                projectileSticks: true
+                projectileSpins: false
+                projectileSticks: false
             #What size should the projectile be? A bullet should be 1-2, an arrow could be larger.
-            size: 2
+            size: 4
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 40
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 3
+            knockback: 5
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
-            gravity: true
+            gravity: false
             #What damage (hearts) should the NPCs projectile do?
             damage: 5
             #Is the NPC projectile explosive?
@@ -287,18 +293,18 @@ npc:
         #NOTE: MAXIMUM OF 9 LOOT ITEMS CAN BE LISTED.
         table:
             1:
-                chance: 10
+                chance: 0
                 item:
                     mod: flansmod
                     item: wraithPlasmid
                     numberOf: 3
                     dmgvalue: 0
             2:
-                chance: 20
+                chance: 3
                 item:
                     mod: flansmod
-                    item: wraithPlasmid
-                    numberOf: 2
+                    item: maTokStaff
+                    numberOf: 1
                     dmgvalue: 0
             3:
                 chance: 30
@@ -308,14 +314,14 @@ npc:
                     numberOf: 1
                     dmgvalue: 0
             4:
-                chance: 1
+                chance: 0
                 item:
                     mod: mcheli
                     item: wraith_dart
                     numberOf: 1
                     dmgvalue: 0
             5:
-                chance: 10
+                chance: 0
                 item:
                     mod: flansmod
                     item: wraithStunner
@@ -329,14 +335,14 @@ npc:
                     numberOf: 5
                     dmgvalue: 0
             7:
-                chance: 30
+                chance: 2
                 item:
                     mod: SGCraft
                     item: naquadah
                     numberOf: 2
                     dmgvalue: 0
             8:
-                chance: 45
+                chance: 0
                 item:
                     mod: SGCraft
                     item: naquadah
@@ -346,47 +352,63 @@ npc:
         #Should this NPC spawn at all?
         enabled: true
         #spawnMethod:DEFAULT, RANDOM, EVENT, CLONEDLIST
-        spawnMethod: RANDOM
+        spawnMethod: CLONEDLIST
         spawnOptions:
             default:
                 #Spawn location is self explanatory. If a world name has a "-" character in it, the whole name must be quoted. EG: "D1X-209".
                 spawnLocation:
-                    x: -125
+                    x: -147
                     y: 7
-                    z: -619
+                    z: -621
                     world: Earth
             random:
                 factionTerritory: #Below is a list of MassiveCraft Faction territories that this NPC can spawn in. Highly recommended to leave unclaimed territory there.
                     - Unclaimed Territory
-                worlds: #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
-                    - "M4X-337"
+                worlds: [] #Below is a list of dimensions this NPC can spawn in. Is not related to galaxies below in any way... this whitelists individual worlds in any galaxy.
                 galaxies: #Below is a list of galaxies this NPC can spawn in. Is not related to worlds above in any way... this whitelists entire galaxies.
-                    - Pegasus
+                    - MilkyWay
                 #canSpawnNotOnMajorityWorld: Can this NPC spawn on a world if its faction is not the 'majority faction' on an SUniverse world?   
                 # This is useful for forcing NPCs to only spawn on their homeworlds, especially if they are randomly spawning.   
-                canSpawnNotOnMajorityWorld: false   
-                chance: 50.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
-                group: WRAITHHUNTINGPARTY #This is the group this NPC is part of. Handled via events.
+                canSpawnNotOnMajorityWorld: true   
+                chance: 25.0 # This is the percentage chance a player loading a chunk will cause this NPC to spawn in. (0.1 to 100.0)
+                group: NONE #This is the group this NPC is part of. Handled via events.
                 alwaysInGroup: true #Whether or not this group always contains this npc. Useful to disable this (and rely on chance above) for rarer bosses.
                 groupArea: 10
             event: # This section has no options.
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "P2Y-321"
-                        name: Fred Flinstone
-                        title: Private
+                        x: 214
+                        y: 74
+                        z: -999
+                        worldName: "P2A-347"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE
+                        primaryFactionOnDeath: NONE
+                        secondaryFactionOnDeath: NONE
                     2:
-                        x: 5
-                        y: 5
-                        z: 5
-                        world: "DIM-331"
-                        name: Barney Rubble
-                        title: Colonel
-            
-        
-        
-        
+                        x: 220
+                        y: 74
+                        z: -999
+                        worldName: "P2A-347"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: NONE
+                        modelType: NONE
+                        isFemale: false
+                        name: NONE
+                        title: NONE
+                        primaryFactionOnDeath: NONE
+                        secondaryFactionOnDeath: NONE
+
