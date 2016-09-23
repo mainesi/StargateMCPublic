@@ -417,7 +417,28 @@ npc:
             clonedlist:
                 spawnLocations:
                     1:
-                        x: 257
+                        x: 251
+                        y: 81
+                        z: -504
+                        worldName: "Rebirth" #Dimension of NPC SPawn
+                        rotationBehavior: RotateBody #If a part of the NPC will rotate, RotateHead for example.
+                        rotation: 90 #Amount it will rotate.
+                        textureType: RESOURCE #Just put it as resource.
+                        textureUri: NONE #Has to come directly from servers files, request an upload if using custom skin.
+                        size: 3 #Height of NPC, standard player size is 5
+                        faction: Asgard #Faction
+                        modelType: NONE #You don't need to touch this :)
+                        isFemale: false #Self Explanitory
+                        name: NONE #Name
+                        title: NONE #Title
+                        primaryFactionOnDeath: Asgard #Faction of which you will loose reputation with (lost reputation points are configurable up in the main options)
+                        secondaryFactionOnDeath: NONE #Faction of which you will gain reputation with (gained reputation points are configurable in the main options)
+                        #movementType accepts three options, NONE, WANDERING, STANDING. Standing will prevent the NPC from moving even if the main configuration has wandering or paths enabled. Wandering will make the NPC wander (based on the distance set in the main configuration) even if wandering is disabled. NONE inherits from the main config.
+                        movementType: NONE
+                        #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
+                        attackedResponse: NONE
+                    1:
+                        x: 259
                         y: 81
                         z: -504
                         worldName: "Rebirth" #Dimension of NPC SPawn
