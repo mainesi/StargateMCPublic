@@ -277,7 +277,7 @@ npc:
             #What speed should a projectile be? 40-50 is a bullet, 15-25 would be an arrow. This directly impacts range also.
             speed: 25
             #Should this projectile knock the target back if it hits? If so, how far? (Min: 0, Max 32)
-            knockback: 5
+            knockback: 0
             #Should this projectile be affected by gravity? (eg: plasma blasts that would be a no, arrows/bullets yes)
             gravity: false
             #What damage (hearts) should the NPCs projectile do?
