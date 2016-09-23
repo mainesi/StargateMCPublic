@@ -296,7 +296,7 @@ worlds:
     radiusZ: 2500
     wrapping: false
     shape-round: true
-  Alkesh_Arena:
+  Arenas:
     x: 1283.0
     z: 1004.0
     radiusX: 2500
