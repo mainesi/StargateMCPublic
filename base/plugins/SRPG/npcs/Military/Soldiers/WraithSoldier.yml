@@ -192,6 +192,8 @@ npc:
             range: 3
             #What damage does this NPC do per melee hit?
             damage: 5
+              #What knockback does  this npc have?
+            knockback: 1
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
             accuracy: 80
