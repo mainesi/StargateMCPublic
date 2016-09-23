@@ -7,9 +7,9 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: Kora
+        name: Jaffa Soldier
         #title: String (20 character limit)
-        title: Sanctuary Trader
+        title: Soldier
         #template: NONE or any valid template. There are presently none.
         template: NONE
         #textureUri: This string can be discovered by editing an npc in SinglePlayer and selecting the appropriate skin. You can then paste the value here.
@@ -25,11 +25,11 @@ npc:
         #Valid Hostile NPC Factions are (case sensitive): Wraith, Goauld, Lucian Alliance, Goauld Loyal Jaffa, Genii
         #Valid Profession NPC Factions are (case sensitive): Farmers Union, Miners Alliance, League of Hunters, Fishermans Guild
         #NOTE: Please select either a galaxy neutral or galaxy appropriate faction for your NPC or it will not be accepted.
-        faction:  Sanctuary
+        faction:  Goauld
         #rotationBehaviour: HeadRotation, NoRotation, RotateBody, Stalking
-        rotationBehavior: RotateBody
+        rotationBehavior: NoRotation
         #rotation: 0-360
-        rotation: 55
+        rotation: 0
         # This feature is not completed. Please leave the option as NONE.
         job: None
         # This feature is not completed. Please leave the option as NONE.
@@ -191,6 +191,8 @@ npc:
             range: 3
             #What damage does this NPC do per melee hit?
             damage: 3
+            #What knockback does  this npc have?
+            knockback: 0
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
             accuracy: 80
@@ -216,10 +218,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 10
-            melee: 10
-            explosion: 10
-            knockback: 10
+            arrow: 1.0
+            melee: 1.0
+            explosion: 1.0
+            knockback: 1.0
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
