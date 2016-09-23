@@ -213,6 +213,9 @@ npc:
             #World lines are lines the NPC will randomly say while they wander around (or stand still).
             worldLines:
                 -"A kek hasshak"
+            #These lines are what an npc will tell a player if they have repeatable quests but the player cannot redo them yet. A random one is selected each time.
+            repeatableUnavailableLines:
+                - "I have nothing for you at the moment, {player}..."
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
                 -"Aray Kree!"
