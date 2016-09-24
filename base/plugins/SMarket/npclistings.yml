@@ -50555,3 +50555,15 @@ items:
     sellers: []
     dimensions: 
         - ALL
+  '4595':
+    materialName: IC2_ITEMFLUIDCELL
+    amount: 16
+    chance: 50.0
+    damage: 3
+    maxListingTime: 30
+    minListingTime: 15
+    maxPrice: 5000
+    minPrice: 4900
+    sellers: []
+    dimensions:
+        - ALL
