@@ -895,14 +895,14 @@ npc:
                         movementType: NONE
                         attackedResponse: NONE
                     28:
-                        x: TBC
-                        y: TBC
-                        z: TBC
+                        x: 0
+                        y: 0
+                        z: 0
                         worldName: "Lantea"
                         rotationBehavior: NoRotation
                         rotation: 0
                         textureType: RESOURCE
-                        textureUri: customnpcs:textures/STARGATE/(needs to be made)
+                        textureUri: customnpcs:textures/STARGATE/IcarusOfficer.png
                         size: 5
                         faction: Atlantis Expedition
                         modelType: NONE
