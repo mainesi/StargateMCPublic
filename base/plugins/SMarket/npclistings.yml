@@ -45989,8 +45989,8 @@ items:
     damage: 0
     maxListingTime: 15
     minListingTime: 5
-    maxPrice: 3750000
-    minPrice: 3500000
+    maxPrice: 1000000
+    minPrice: 950000
     sellers: []
     dimensions: 
         - Lantea
@@ -46034,8 +46034,8 @@ items:
     damage: 0
     maxListingTime: 15
     minListingTime: 5
-    maxPrice: 1500000
-    minPrice: 1000000
+    maxPrice: 300000
+    minPrice: 275000
     sellers: []
     dimensions:
         - Lantea
@@ -46046,8 +46046,8 @@ items:
     damage: 0
     maxListingTime: 15
     minListingTime: 5
-    maxPrice: 2500000
-    minPrice: 2000000
+    maxPrice: 500000
+    minPrice: 500000
     sellers: []
     dimensions:
         - Lantea
