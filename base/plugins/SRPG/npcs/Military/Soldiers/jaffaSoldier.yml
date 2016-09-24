@@ -394,6 +394,8 @@ npc:
                         title: NONE
                         primaryFactionOnDeath: NONE
                         secondaryFactionOnDeath: NONE
+                        attackedResponse: NONE
+                        movementType: NONE
                     2:
                         x: 220
                         y: 74
@@ -411,4 +413,5 @@ npc:
                         title: NONE
                         primaryFactionOnDeath: NONE
                         secondaryFactionOnDeath: NONE
-
+                        attackedResponse: NONE
+                        movementType: NONE
