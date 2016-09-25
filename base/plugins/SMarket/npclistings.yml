@@ -9913,7 +9913,7 @@ items:
     minPrice: 1500
     sellers: []
     dimensions: 
-      - ALL
+        - ALL
   '902':
     materialName: STARGATETECH2_BLOCKINVISIBLE
     amount: 0
