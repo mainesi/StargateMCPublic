@@ -423,7 +423,7 @@ npc:
                         worldName: "Omega" #Dimension of NPC SPawn
                         rotationBehavior: RotateBody #If a part of the NPC will rotate, RotateHead for example.
                         rotation: 90 #Amount it will rotate.
-                        textureType: RESOURCE #Just put it as resource.
+                        textureType: NONE #Just put it as resource.
                         textureUri: NONE #Has to come directly from servers files, request an upload if using custom skin.
                         size: 5 #Height of NPC, standard player size is 5
                         faction: Wraith #Faction
@@ -444,7 +444,7 @@ npc:
                         worldName: "Omega" #Dimension of NPC SPawn
                         rotationBehavior: RotateBody #If a part of the NPC will rotate, RotateHead for example.
                         rotation: 90 #Amount it will rotate.
-                        textureType: RESOURCE #Just put it as resource.
+                        textureType: NONE #Just put it as resource.
                         textureUri: NONE #Has to come directly from servers files, request an upload if using custom skin.
                         size: 5 #Height of NPC, standard player size is 5
                         faction: Wraith #Faction
