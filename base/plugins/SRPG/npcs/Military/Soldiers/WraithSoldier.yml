@@ -437,7 +437,7 @@ npc:
                         movementType: NONE
                         #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
                         attackedResponse: NONE
-                      2:
+                     2:
                         x: -171
                         y: 113
                         z: 791
