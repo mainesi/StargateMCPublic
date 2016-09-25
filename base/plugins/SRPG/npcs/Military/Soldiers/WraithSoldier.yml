@@ -296,7 +296,7 @@ npc:
                 - "Go! Away!"
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines:
-                - "I will eat your flesh!"
+                - "Your life-force will sustain me!"
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
             interactLines:
                 - "Do you want to become my food?"
