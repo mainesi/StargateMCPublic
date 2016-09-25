@@ -10278,38 +10278,41 @@ items:
     dimensions: []
   '935':
     materialName: SGCRAFT_STARGATERING
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 200
+    minPrice: 150
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '936':
     materialName: SGCRAFT_STARGATEBASE
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 45.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 50
+    minListingTime: 20
+    maxPrice: 300
+    minPrice: 250
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '937':
     materialName: SGCRAFT_STARGATECONTROLLER
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 200
+    minPrice: 150
     sellers: []
-    dimensions: []
-  '938':
+    dimensions: 
+        - ALL
+   '938':
     materialName: SGCRAFT_NAQUADAHBLOCK
     amount: 0
     chance: 0.0
@@ -10333,26 +10336,28 @@ items:
     dimensions: []
   '940':
     materialName: SGCRAFT_IC2POWERUNIT
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 30
+    minListingTime: 20
+    maxPrice: 500
+    minPrice: 450
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '941':
     materialName: SGCRAFT_RFPOWERUNIT
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 30
+    minListingTime: 20
+    maxPrice: 500
+    minPrice: 450
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '942':
     materialName: SGCRAFT_CCINTERFACE
     amount: 0
@@ -35678,15 +35683,16 @@ items:
     dimensions: []
   '3244':
     materialName: SGCRAFT_NAQUADAH
-    amount: 0
-    chance: 0.0
+    amount: 10
+    chance: 100.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 1000
+    minPrice: 1000
     sellers: []
-    dimensions: []
+    dimensions: 
+         - ALL
   '3245':
     materialName: SGCRAFT_NAQUADAHINGOT
     amount: 0
@@ -35700,37 +35706,40 @@ items:
     dimensions: []
   '3246':
     materialName: SGCRAFT_SGCORECRYSTAL
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 200
+    minPrice: 150
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '3247':
     materialName: SGCRAFT_SGCONTROLLERCRYSTAL
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 200
+    minPrice: 150
     sellers: []
-    dimensions: []
+    dimensions: 
+       - ALL
   '3248':
     materialName: SGCRAFT_SGCHEVRONUPGRADE
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 200
+    minPrice: 150
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '3249':
     materialName: SGCRAFT_SGIRISUPGRADE
     amount: 0
@@ -38450,15 +38459,16 @@ items:
     dimensions: []
   '3496':
     materialName: STARGATETECH2_PERSONALSHIELD
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 0.5
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 10
+    minListingTime: 5
+    maxPrice: 10000
+    minPrice: 9000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - Lantea
   '3497':
     materialName: PROJREDINTEGRATION_PROJECTREDINTEGRATIONGATE
     amount: 0
@@ -45979,8 +45989,8 @@ items:
     damage: 0
     maxListingTime: 15
     minListingTime: 5
-    maxPrice: 3750000
-    minPrice: 3500000
+    maxPrice: 1000000
+    minPrice: 950000
     sellers: []
     dimensions: 
         - Lantea
@@ -46024,8 +46034,8 @@ items:
     damage: 0
     maxListingTime: 15
     minListingTime: 5
-    maxPrice: 1500000
-    minPrice: 1000000
+    maxPrice: 300000
+    minPrice: 275000
     sellers: []
     dimensions:
         - Lantea
@@ -46036,8 +46046,8 @@ items:
     damage: 0
     maxListingTime: 15
     minListingTime: 5
-    maxPrice: 2500000
-    minPrice: 2000000
+    maxPrice: 500000
+    minPrice: 500000
     sellers: []
     dimensions:
         - Lantea
@@ -50533,3 +50543,27 @@ items:
     minPrice: 0
     sellers: []
     dimensions: []
+  '4594':
+    materialName: SGCRAFT_STARGATERING
+    amount: 1
+    chance: 50.0
+    damage: 1
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 200
+    minPrice: 150
+    sellers: []
+    dimensions: 
+        - ALL
+  '4595':
+    materialName: IC2_ITEMFLUIDCELL
+    amount: 16
+    chance: 50.0
+    damage: 3
+    maxListingTime: 30
+    minListingTime: 15
+    maxPrice: 5000
+    minPrice: 4900
+    sellers: []
+    dimensions:
+        - ALL
