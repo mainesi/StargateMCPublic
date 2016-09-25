@@ -9904,15 +9904,16 @@ items:
     dimensions: []
   '901':
     materialName: STARGATETECH2_BLOCKTRANSPORTRING
-    amount: 0
-    chance: 0.0
+    amount: 2
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 30
+    minListingTime: 5
+    maxPrice: 5000
+    minPrice: 1500
     sellers: []
-    dimensions: []
+    dimensions: 
+      - ALL
   '902':
     materialName: STARGATETECH2_BLOCKINVISIBLE
     amount: 0
