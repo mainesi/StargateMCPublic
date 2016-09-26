@@ -35728,7 +35728,7 @@ items:
     minPrice: 150
     sellers: []
     dimensions: 
-       - ALL
+        - ALL
   '3248':
     materialName: SGCRAFT_SGCHEVRONUPGRADE
     amount: 1
@@ -50412,7 +50412,7 @@ items:
     minPrice: 200
     sellers: []
     dimensions:
-    - ALL
+        - ALL
   '4582':
     materialName: TC_MINECARTLOCOSD40
     amount: 0
