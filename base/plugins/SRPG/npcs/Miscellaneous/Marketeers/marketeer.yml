@@ -191,6 +191,8 @@ npc:
             range: 3
             #What damage does this NPC do per melee hit?
             damage: 3
+            #What knockback does this npc do with a melee hit?
+            knockback: 0
         ranged:
             #What % attack accuracy does this NPC have with its ranged weapon? (Max: 100, Min: 0)
             accuracy: 80
@@ -216,10 +218,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 10
-            melee: 10
-            explosion: 10
-            knockback: 10
+            arrow: 1.25
+            melee: 1.25
+            explosion: 2.0
+            knockback: 1.25
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
@@ -232,7 +234,7 @@ npc:
         #Should the NPCs body be hidden when it dies, or displayed on the ground?
         hideDeadBody: false
         #Should this NPC despawn if noone is around?
-        naturallyDespawns: false
+        naturallyDespawns: false-
         #The below options are to reward players with non-player-faction reputation on death of this NPC.
         #NOTE: Do not put +5. Use 5 or -5 for point values.
         #Faction names can be anything listed above. Be sure to make sure the point changes are believable. (Eg: If this is a wraith do not reward wraith points when this NPC dies.. take them away!)
@@ -290,6 +292,9 @@ npc:
                 - "What to do.... we have so many items in stock, but where are our buyers!"
                 - "Im still waiting on that shipment... its been three weeks now!!"
                 - "Can I do something for you, {player}?"
+            #These lines are what an npc will tell a player if they have repeatable quests but the player cannot redo them yet. A random one is selected each time.
+            repeatableUnavailableLines:
+                - "I have nothing for you at the moment, {player}..."
             #Attack lines are lines that the NPC will say as they engage an enemy.
             attackLines: []
             #interactLines are what the NPC will say to another NPC or player that interacts with them.
