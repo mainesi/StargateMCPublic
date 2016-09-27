@@ -467,5 +467,5 @@ npc:
                         title: Commander
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: WANDERING
+                        movementType: NONE
                         attackedResponse: NONE
