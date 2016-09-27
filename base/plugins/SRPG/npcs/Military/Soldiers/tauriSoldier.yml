@@ -218,10 +218,10 @@ npc:
         # What % should an NPC resist each of the below damage types? (Min: 0, Max: 100)
         #NOTE: Has no effect if invulnerability is turned on above.
         resistances:
-            arrow: 0.2
-            melee: 0.1
-            explosion: 0.0
-            knockback: 0.0
+            arrow: 1.25
+            melee: 1.25
+            explosion: 1.25
+            knockback: 1.25
     deaths:
         #Should this NPC respawn in game? This does not stop it from reviving next server restart/npc reset.
         #respawnsInGame: ALWAYS, NO, NIGHT, DAY are valid options.
