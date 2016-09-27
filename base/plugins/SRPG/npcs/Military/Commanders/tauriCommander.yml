@@ -268,7 +268,7 @@ npc:
             #True or false, should this NPC wander around its spawn location? NOTE: You must have only ONE option enabled for movement. Disable following a path if wandering is selected.
             enabled: false
             #Distance the NPC should wander. Make sure there are no silly obstacles in the way of this or the NPC might get stuck until the server restarts.
-            distance: 64
+            distance: 4
     interactions:
         #Should this NPC say its lines in a random order, or an ordered one?
         sayRandomLines: true
@@ -455,7 +455,7 @@ npc:
                         y: 7
                         z: -620
                         worldName: "Earth"
-                        rotationBehavior: NoRotation
+                        rotationBehavior: RotateBody
                         rotation: 0
                         textureType: NONE
                         textureUri: NONE
@@ -467,5 +467,5 @@ npc:
                         title: Commander
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: WANDERING
                         attackedResponse: NONE
