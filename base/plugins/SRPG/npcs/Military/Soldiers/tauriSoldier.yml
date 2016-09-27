@@ -988,7 +988,7 @@ npc:
                         z: -609
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 270
+                        rotation: 90
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1007,7 +1007,7 @@ npc:
                         z: -619
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 270
+                        rotation: 90
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1026,7 +1026,7 @@ npc:
                         z: -622
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 270
+                        rotation: 90
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1045,7 +1045,7 @@ npc:
                         z: -597
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 180
+                        rotation: 0
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1064,7 +1064,7 @@ npc:
                         z: -587
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 180
+                        rotation: 0
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1083,7 +1083,7 @@ npc:
                         z: -582
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 0
+                        rotation: 180
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1102,7 +1102,7 @@ npc:
                         z: -578
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 90
+                        rotation: 270
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1121,7 +1121,7 @@ npc:
                         z: -578
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 0
+                        rotation: 180
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1140,7 +1140,7 @@ npc:
                         z: -583
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 90
+                        rotation: 270
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1159,7 +1159,7 @@ npc:
                         z: -623
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 0
+                        rotation: 180
                         textureType: NONE
                         textureUri: NONE
                         size: 5
@@ -1178,7 +1178,7 @@ npc:
                         z: -630
                         worldName: "Earth"
                         rotationBehavior: NoRotation
-                        rotation: 90
+                        rotation: 270
                         textureType: NONE
                         textureUri: NONE
                         size: 5
