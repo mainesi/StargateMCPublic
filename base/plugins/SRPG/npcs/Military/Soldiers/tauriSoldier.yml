@@ -7,7 +7,7 @@ npc:
     general:
         # The name of an NPC does not have to be unique, but the name and title combination must be.
         #name: String (20 character limit)
-        name: "Tau'ri Soldier"
+        name: Tauri Soldier
         #title: String (20 character limit)
         title: Soldier
         #template: NONE or any valid template. There are presently none.
@@ -982,4 +982,212 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
-
+                    29:
+                        x: -126
+                        y: 15
+                        z: -609
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 270
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    30:
+                        x: -137
+                        y: 5
+                        z: -619
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 270
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    31:
+                        x: -137
+                        y: 5
+                        z: -622
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 270
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    32:
+                        x: -149
+                        y: 5
+                        z: -597
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    33:
+                        x: -138
+                        y: 5
+                        z: -587
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 180
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    34:
+                        x: -138
+                        y: 5
+                        z: -582
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    35:
+                        x: -162
+                        y: 5
+                        z: -578
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    36:
+                        x: -151
+                        y: 5
+                        z: -578
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    37:
+                        x: -131
+                        y: 5
+                        z: -583
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    38:
+                        x: -119
+                        y: 5
+                        z: -623
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 0
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
+                    39:
+                        x: -161
+                        y: 5
+                        z: -630
+                        worldName: "Earth"
+                        rotationBehavior: NoRotation
+                        rotation: 90
+                        textureType: NONE
+                        textureUri: NONE
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: SGC Soldier
+                        title: Soldier
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: Goauld
+                        movementType: NONE
+                        attackedResponse: NONE
