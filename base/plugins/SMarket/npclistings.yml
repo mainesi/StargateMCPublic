@@ -50565,7 +50565,7 @@ items:
     dimensions: 
         - ALL
   '4595':
-    materialName: IC2_ITEMFLUIDCELL
+    materialName: IC2_ITEMCELLEMPTY
     amount: 16
     chance: 50.0
     damage: 3
