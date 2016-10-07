@@ -529,3 +529,23 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
+                     7:
+                        x: 6
+                        y: 41
+                        z: 13
+                        worldName: "KS7-535"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/JAFFA GREY ARMOR.png
+                        size: 4
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: "Fro'tak"
+                        title: Weapons Trader
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+
