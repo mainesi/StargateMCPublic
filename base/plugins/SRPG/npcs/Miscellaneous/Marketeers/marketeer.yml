@@ -510,3 +510,22 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
+                     6:
+                        x: 8
+                        y: 70
+                        z: 34
+                        worldName: "C3J-512"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/JAFFA GREY ARMOR.png
+                        size: 4
+                        faction: Ori
+                        modelType: NONE
+                        isFemale: false
+                        name: "Damaris"
+                        title: Trading Prior
+                        primaryFactionOnDeath: Ori
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
