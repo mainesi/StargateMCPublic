@@ -26,6 +26,14 @@ Bans:
    - 5666
    - 5668
    - 5669
+   - 7438
+   - 7438-1
+   - 7438-2
+   - 7438-3
+   - 7438-4
+   - 7438-5
+   - 7438-6
+   - 7438-7
   Ownership:
    - 1190
    - 120
@@ -41,6 +49,14 @@ Bans:
    - 5666
    - 5668
    - 5669
+   - 7438
+   - 7438-1
+   - 7438-2
+   - 7438-3
+   - 7438-4
+   - 7438-5
+   - 7438-6
+   - 7438-7
 Messages:
   labels:
      211: IC2 Nuke
@@ -59,6 +75,15 @@ Messages:
      5666: Tunnel Bore
      5668: Tunnel Bore
      5669: Tunnel Bore
+     7438: Conventional Grenade
+     7438-1: Shrapnel Grenade
+     7438-2: Incindiary Grenade
+     7438-3: Debillitation Grenade
+     7438-4: Chemical Grenade
+     7438-5: Anvil Grenade
+     7438-6: Repulsive Grenade
+     7438-7: Attractive Grenade
+      
   reasons:
      211: IC2 Nukes are banned for bypassing faction protection
      1190: StargateTech2 stargates are not permitted within StargateMC, please use SGCraft gates instead.
@@ -76,6 +101,13 @@ Messages:
      5666: Tunnel bores can bypass grief prevention and are banned.
      5668: Tunnel bores can bypass grief prevention and are banned.
      5669: Tunnel bores can bypass grief prevention and are banned.
-     
+     7438: Grenades can bypass grief precention and are banned.
+     7438-1: Grenades can bypass grief prevention and are banned.
+     7438-2: Grenades can bypass grief prevention and are banned.
+     7438-3: Grenades can bypass grief prevention and are banned.
+     7438-4: Grenades can bypass grief prevention and are banned.
+     7438-5: Grenades can bypass grief prevention and are banned.
+     7438-6: Grenades can bypass grief prevention and are banned.
+     7438-7: Grenades can bypass grief prevention and are banned.
      
      
