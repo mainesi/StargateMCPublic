@@ -469,3 +469,4 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: WANDERING
                         attackedResponse: NONE
+                        animation: NONE
