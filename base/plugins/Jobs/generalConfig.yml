@@ -134,7 +134,7 @@ Economy:
       # You can always use simple number to set money limit
       # Default equation is: 500+500*(totallevel/100), this will add 1% from 500 for each level player have
       # So player with 2 jobs with level 15 and 22 will have 685 limit
-      MoneyLimit: 100+(totallevel*99)
+      MoneyLimit: (totallevel*100)
       # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
       # Delay between announcements about reached money limit
@@ -151,7 +151,7 @@ Economy:
       # You can always use simple number to set exp limit
       # Default equation is: 5000+5000*(totallevel/100), this will add 1% from 5000 for each level player have
       # So player with 2 jobs with level 15 and 22 will have 6850 limit
-      Limit: 100+(totallevel*99)
+      Limit: (totallevel*100)
       # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
       # Delay between announcements about reached Exp limit
