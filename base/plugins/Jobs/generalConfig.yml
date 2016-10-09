@@ -134,7 +134,7 @@ Economy:
       # You can always use simple number to set money limit
       # Default equation is: 500+500*(totallevel/100), this will add 1% from 500 for each level player have
       # So player with 2 jobs with level 15 and 22 will have 685 limit
-      MoneyLimit: 500+500*(totallevel/100)
+      MoneyLimit: 1000 + (totallevel*90)
       # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
       # Delay between announcements about reached money limit
@@ -151,7 +151,7 @@ Economy:
       # You can always use simple number to set exp limit
       # Default equation is: 5000+5000*(totallevel/100), this will add 1% from 5000 for each level player have
       # So player with 2 jobs with level 15 and 22 will have 6850 limit
-      Limit: 5000+5000*(totallevel/100)
+      Limit: 1000 + (totallevel*90)
       # Time in seconds: 60 = 1min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
       # Delay between announcements about reached Exp limit
@@ -251,7 +251,7 @@ boost:
 # Players can leave job and return later with some level loss during that
 # You can fix players level if hes job level is at max level
 old-job:
-  level-loss-percentage: 25
+  level-loss-percentage: 100
   fix-at-max-level: false
 # Action bars
 # You can enable/disable togglebale message by player with /jobs toggle
