@@ -396,6 +396,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         attackedResponse: NONE
                         movementType: NONE
+                        animation: NONE
                     2:
                         x: 220
                         y: 74
@@ -415,3 +416,4 @@ npc:
                         secondaryFactionOnDeath: NONE
                         attackedResponse: NONE
                         movementType: NONE
+                        animation: NONE
