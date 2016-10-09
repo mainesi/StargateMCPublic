@@ -437,3 +437,7 @@ npc:
                         movementType: NONE
                         #This is the same as the main configuration attackedResponse value. The only difference is setting it to NONE will allow th clone to inherit from the main config.
                         attackedResponse: NONE
+                        #What animation should the Clone have?
+                        #animation: NORMAL, DANCING, SITTING, CRAWLING, CRYING, HUGGING, SITTING, WAVING, SNEAKING are all valid options.
+                        #Leave this as NONE to inherit this from the main NPC config.
+                        animation: NONE
