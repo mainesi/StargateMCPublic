@@ -469,6 +469,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     2:
                         x: -137
                         y: 5
@@ -488,6 +489,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     3:
                         x: -143
                         y: 5
@@ -507,6 +509,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     4:
                         x: -139
                         y: 5
@@ -526,6 +529,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     5:
                         x: -121
                         y: 7
@@ -545,6 +549,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     6:
                         x: -128
                         y: 15
@@ -564,6 +569,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     7:
                         x: -128
                         y: 15
@@ -583,6 +589,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     8:
                         x: -120
                         y: 15
@@ -602,6 +609,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     9:
                         x: 339
                         y: 84
@@ -621,6 +629,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     10:
                         x: 339
                         y: 84
@@ -640,6 +649,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     11:
                         x: 358
                         y: 84
@@ -659,6 +669,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     12:
                         x: 358
                         y: 84
@@ -678,6 +689,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     13:
                         x: 369
                         y: 84
@@ -697,6 +709,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     14:
                         x: 369
                         y: 84
@@ -716,6 +729,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     15:
                         x: 353
                         y: 91
@@ -735,6 +749,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     16:
                         x: 387
                         y: 91
@@ -754,6 +769,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     17:
                         x: 387
                         y: 91
@@ -773,6 +789,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     18:
                         x: 387
                         y: 91
@@ -792,6 +809,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     19:
                         x: 402
                         y: 91
@@ -811,6 +829,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     20:
                         x: 342
                         y: 84
@@ -830,6 +849,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     21:
                         x: 338
                         y: 84
@@ -849,6 +869,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     22:
                         x: 342
                         y: 84
@@ -868,6 +889,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     23:
                         x: 338
                         y: 84
@@ -887,6 +909,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     24:
                         x: 342
                         y: 84
@@ -906,6 +929,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     25:
                         x: 338
                         y: 84
@@ -925,6 +949,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     26:
                         x: 325
                         y: 84
@@ -944,6 +969,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     27:
                         x: 325
                         y: 84
@@ -963,6 +989,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     28:
                         x: 0
                         y: 0
@@ -982,6 +1009,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     29:
                         x: -126
                         y: 15
@@ -1001,6 +1029,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     30:
                         x: -137
                         y: 5
@@ -1020,6 +1049,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     31:
                         x: -137
                         y: 5
@@ -1039,6 +1069,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     32:
                         x: -149
                         y: 5
@@ -1058,6 +1089,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     33:
                         x: -138
                         y: 5
@@ -1077,6 +1109,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     34:
                         x: -138
                         y: 5
@@ -1096,6 +1129,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     35:
                         x: -162
                         y: 5
@@ -1115,6 +1149,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     36:
                         x: -151
                         y: 5
@@ -1134,6 +1169,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     37:
                         x: -131
                         y: 5
@@ -1153,6 +1189,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     38:
                         x: -119
                         y: 5
@@ -1172,6 +1209,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     39:
                         x: -161
                         y: 5
@@ -1191,3 +1229,4 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
