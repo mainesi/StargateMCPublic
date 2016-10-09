@@ -510,7 +510,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
-                     6:
+                    6:
                         x: 8
                         y: 70
                         z: 34
@@ -529,7 +529,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
-                     7:
+                    7:
                         x: 6
                         y: 41
                         z: 13
@@ -545,6 +545,25 @@ npc:
                         name: "Fro'tak"
                         title: Weapons Trader
                         primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                    8:
+                        x: -217
+                        y: 36
+                        z: -220
+                        worldName: "Celestis"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
+                        size: 4
+                        faction: Ori
+                        modelType: NONE
+                        isFemale: false
+                        name: "Tomin"
+                        title: Trader
+                        primaryFactionOnDeath: Ori
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
