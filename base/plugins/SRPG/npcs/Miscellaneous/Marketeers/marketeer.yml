@@ -434,6 +434,7 @@ npc:
                         secondaryFactionOnDeath: Goauld
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     2:
                         x: 203
                         y: 85
@@ -453,6 +454,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     3:
                         x: -291
                         y: 177
@@ -472,6 +474,7 @@ npc:
                         secondaryFactionOnDeath: Wraith
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     4:
                         x: 305
                         y: 85
@@ -481,7 +484,7 @@ npc:
                         rotation: 90
                         textureType: RESOURCE
                         textureUri: customnpcs:textures/entity/humanfemale/ChefStephanie.png
-                        size: 4
+                        size: 5
                         faction: Destiny Expedition
                         modelType: NONE
                         isFemale: true
@@ -491,6 +494,7 @@ npc:
                         secondaryFactionOnDeath: Nakai
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     5:
                         x: 267
                         y: 82
@@ -510,6 +514,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     6:
                         x: 8
                         y: 70
@@ -519,7 +524,7 @@ npc:
                         rotation: 90
                         textureType: RESOURCE
                         textureUri: customnpcs:textures/STARGATE/JAFFA GREY ARMOR.png
-                        size: 4
+                        size: 5
                         faction: Ori
                         modelType: NONE
                         isFemale: false
@@ -529,6 +534,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     7:
                         x: 6
                         y: 41
@@ -538,7 +544,7 @@ npc:
                         rotation: 90
                         textureType: RESOURCE
                         textureUri: customnpcs:textures/STARGATE/JAFFA GREY ARMOR.png
-                        size: 4
+                        size: 5
                         faction: Stargate Command
                         modelType: NONE
                         isFemale: false
@@ -548,6 +554,7 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
+                        animation: NONE
                     8:
                         x: -217
                         y: 36
@@ -557,7 +564,7 @@ npc:
                         rotation: 90
                         textureType: RESOURCE
                         textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
-                        size: 4
+                        size: 5
                         faction: Ori
                         modelType: NONE
                         isFemale: false
@@ -567,4 +574,24 @@ npc:
                         secondaryFactionOnDeath: NONE
                         movementType: NONE
                         attackedResponse: NONE
-
+                        animation: SITTING
+                    9:
+                        x: -823
+                        y: 74
+                        z: 291
+                        worldName: "Tollana"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
+                        size: 5
+                        faction: Tollan
+                        modelType: NONE
+                        isFemale: false
+                        name: "Omoc"
+                        title: Trader
+                        primaryFactionOnDeath: Tollan
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
