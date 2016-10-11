@@ -467,7 +467,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     2:
@@ -487,7 +487,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     3:
@@ -507,7 +507,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     4:
@@ -527,7 +527,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     5:
@@ -547,7 +547,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     6:
@@ -567,7 +567,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     7:
@@ -587,7 +587,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     8:
@@ -607,7 +607,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     9:
@@ -627,7 +627,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     10:
@@ -647,7 +647,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     11:
@@ -667,7 +667,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     12:
@@ -687,7 +687,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     13:
@@ -707,7 +707,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     14:
@@ -727,7 +727,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     15:
@@ -747,7 +747,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     16:
@@ -767,7 +767,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     17:
@@ -787,7 +787,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     18:
@@ -807,7 +807,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     19:
@@ -827,7 +827,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     20:
@@ -847,7 +847,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     21:
@@ -867,7 +867,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     22:
@@ -887,7 +887,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     23:
@@ -907,7 +907,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     24:
@@ -927,7 +927,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     25:
@@ -947,7 +947,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     26:
@@ -967,7 +967,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     27:
@@ -987,7 +987,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     28:
@@ -1007,7 +1007,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Destiny Expedition
                         secondaryFactionOnDeath: Nakai
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     29:
@@ -1027,7 +1027,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     30:
@@ -1047,7 +1047,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     31:
@@ -1067,7 +1067,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     32:
@@ -1087,7 +1087,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     33:
@@ -1107,7 +1107,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     34:
@@ -1127,7 +1127,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     35:
@@ -1147,7 +1147,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     36:
@@ -1167,7 +1167,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     37:
@@ -1187,7 +1187,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     38:
@@ -1207,7 +1207,7 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
                     39:
@@ -1227,6 +1227,6 @@ npc:
                         title: Soldier
                         primaryFactionOnDeath: Stargate Command
                         secondaryFactionOnDeath: Goauld
-                        movementType: NONE
+                        movementType: STANDING
                         attackedResponse: NONE
                         animation: NONE
