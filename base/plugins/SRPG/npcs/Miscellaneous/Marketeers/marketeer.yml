@@ -595,3 +595,63 @@ npc:
                         movementType: NONE
                         attackedResponse: NONE
                         animation: NONE
+                   10:
+                        x: -289
+                        y: 71
+                        z: -163
+                        worldName: "M9R-373"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Loki"
+                        title: Trader
+                        primaryFactionOnDeath: Asgard
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
+                   11:
+                        x: 285
+                        y: 87
+                        z: 228
+                        worldName: "M9X-345"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Heimdal"
+                        title: Trader
+                        primaryFactionOnDeath: Asgard
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
+                   12:
+                        x: -2
+                        y: 62
+                        z: -9
+                        worldName: "DIM-332"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Hermiod"
+                        title: Trader
+                        primaryFactionOnDeath: Asgard
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
