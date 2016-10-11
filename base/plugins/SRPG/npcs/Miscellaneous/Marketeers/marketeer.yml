@@ -655,3 +655,103 @@ npc:
                         movementType: NONE
                         attackedResponse: NONE
                         animation: NONE
+                   13:
+                        x: -647
+                        y: 111
+                        z: -344
+                        worldName: "Tria"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
+                        size: 5
+                        faction: Stargate Command
+                        modelType: NONE
+                        isFemale: false
+                        name: "Trader"
+                        title: Trader
+                        primaryFactionOnDeath: Stargate Command
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
+                   14:
+                        x: -183
+                        y: 112
+                        z: 800
+                        worldName: "Omega"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
+                        size: 5
+                        faction: Wraith
+                        modelType: NONE
+                        isFemale: false
+                        name: "Michael"
+                        title: Trader
+                        primaryFactionOnDeath: Wraith
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
+                   15:
+                        x: -785
+                        y: 132
+                        z: -50
+                        worldName: "Olympus"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Agnar"
+                        title: Trader
+                        primaryFactionOnDeath: Asgard
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
+                   16:
+                        x: 467
+                        y: 74
+                        z: 1136
+                        worldName: "Daedalus"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/STARGATE/asgardskin.png
+                        size: 4
+                        faction: Asgard
+                        modelType: NONE
+                        isFemale: false
+                        name: "Argog"
+                        title: Trader
+                        primaryFactionOnDeath: Asgard
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
+                   17:
+                        x: -480
+                        y: 136
+                        z: -669
+                        worldName: "Clementia"
+                        rotationBehavior: RotateBody
+                        rotation: 90
+                        textureType: RESOURCE
+                        textureUri: customnpcs:textures/entity/humanmale/ChefSteve.png
+                        size: 5
+                        faction: Ori
+                        modelType: NONE
+                        isFemale: false
+                        name: "Tomin"
+                        title: Trader
+                        primaryFactionOnDeath: Ori
+                        secondaryFactionOnDeath: NONE
+                        movementType: NONE
+                        attackedResponse: NONE
+                        animation: NONE
