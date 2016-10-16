@@ -132,3 +132,43 @@ npc:
         textureUri: 'NONE'
         faction: 'Stargate Command'
         movingAnimation: 'SITTING'
+    SpawnLocation-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Rion'
+        title: 'Tauri Market Liason'
+        spawnX: -281
+        spawnY: 183
+        spawnZ: -1034
+        spawnDimension: 'Lantea'
+        rotationBehavior: 'NONE'
+        rotation: 270
+        gender: 'MALE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Atlantis Expedition'
+        movingAnimation: 'SITTING'
+    SpawnLocation-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Kora'
+        title: 'Tauri Market Liason'
+        spawnX: 394
+        spawnY: 93
+        spawnZ: 1381
+        spawnDimension: 'Destiny'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'MALE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Destiny Expedition'
+        movingAnimation: 'SITTING'
