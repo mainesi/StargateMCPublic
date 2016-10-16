@@ -1,1 +1,0 @@
-This file should be removed when an npc is added to the folder.
