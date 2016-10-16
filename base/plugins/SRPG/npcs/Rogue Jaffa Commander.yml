@@ -111,7 +111,7 @@ npc:
         size: 5
         textureType: 'NONE'
         textureUri: 'NONE'
-        faction: 'Stargate Command'
+        faction: 'Generic Hostile'
         movingAnimation: 'NONE'
     DroppedItem-c:
       type: 'setting'
