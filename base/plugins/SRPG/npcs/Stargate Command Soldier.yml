@@ -1,0 +1,191 @@
+npc:
+  name: 'Stargate Command Soldier'
+  title: 'Soldier'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/STARGATE/SGC MARINE.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Stargate Command'
+  rotationBehavior: 'NoRotation'
+  rotation: 180
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'WHENATTACKING'
+  avoidsWater: 'YES'
+  doorInteraction: 'OPEN'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'YES'
+  canSprint: 'YES'
+  canSwim: 'NO'
+  livingAnimation: 'YES'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'YES'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'NO'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'SURROUND'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 150
+  passiveHealthRegen: 'LOW'
+  combatHealthRegen: 'LOWEST'
+  projectileResistance: 'NONE'
+  meleeResistance: 'NONE'
+  explosionResistance: 'NONE'
+  knockbackResistance: 'NONE'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'MEDIUM'
+  meleeDamage: 'LOWEST'
+  meleeKnockback: 'LOW'
+  rangedRange: 'HIGH'
+  rangedDamage: 'LOWEST'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'MACHINEGUN'
+  projectileAppearance: 'BULLET'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '15MIN'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  naturallyDespawns: 'NO'
+  factionImportance: 'MEDIUM'
+  xpReward: '25'
+  movementSpeed: 'NORMAL'
+  movementType: 'NONE'
+  wanderingDistance: '1'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - 'I have nothing for you at the moment, {player}...'
+  attackLines:
+  - 'We will defend ourselves!'
+  - 'You will die for that!'
+  interactLines:
+  - 'Hello, {player}... move along now!'
+  killLines:
+  - 'You will not defeat us!'
+  killedLines:
+  - 'Argh.....'
+  components:
+    EquippedMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
+    SpawnLocation-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -150
+        spawnY: 5
+        spawnZ: -604
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 90
+        gender: 'NONE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+    SpawnLocation-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -150
+        spawnY: 5
+        spawnZ: -601
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 90
+        gender: 'NONE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+    SpawnLocation-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -120
+        spawnY: 15
+        spawnZ: -619
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 90
+        gender: 'NONE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+    SpawnLocation-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -125
+        spawnY: 15
+        spawnZ: -609
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 90
+        gender: 'NONE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+    SpawnLocation-f:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -124
+        spawnY: 15
+        spawnZ: -603
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'NONE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
