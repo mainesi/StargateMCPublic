@@ -1,0 +1,134 @@
+npc:
+  name: 'Marketeer'
+  title: 'Marketeer'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/STARGATE/JAFFA GREY ARMOR.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Stargate Command'
+  rotationBehavior: 'NoRotation'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'YES'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'NO'
+  canSwim: 'NO'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'NO'
+  attackHostileFactions: 'NO'
+  mustSeeTarget: 'NO'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'NO'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 250
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'NONE'
+  projectileResistance: 'HIGH'
+  meleeResistance: 'HIGHEST'
+  explosionResistance: 'HIGHEST'
+  knockbackResistance: 'HIGHEST'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'LOWEST'
+  meleeDamage: 'LOWEST'
+  meleeKnockback: 'NONE'
+  rangedRange: 'LOWEST'
+  rangedDamage: 'LOWEST'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'PISTOL'
+  projectileAppearance: 'ARROW'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '1HR'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  naturallyDespawns: 'NO'
+  factionImportance: 'HIGH'
+  xpReward: '500'
+  movementSpeed: 'NORMAL'
+  movementType: 'NONE'
+  wanderingDistance: '1'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Koran'
+        title: 'Tauri Market Liason'
+        spawnX: -131
+        spawnY: 28
+        spawnZ: -615
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 180
+        gender: 'MALE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+        movingAnimation: 'SITTING'
+    AssignedDialog-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'Marketeer Intro'
+    SpawnLocation-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Kito'
+        title: 'Tauri Market Liason'
+        spawnX: -134
+        spawnY: 28
+        spawnZ: -615
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 180
+        gender: 'MALE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+        movingAnimation: 'SITTING'
