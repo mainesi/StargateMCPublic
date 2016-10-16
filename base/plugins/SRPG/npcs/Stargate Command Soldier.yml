@@ -69,7 +69,7 @@ npc:
   xpReward: '25'
   movementSpeed: 'NORMAL'
   movementType: 'NONE'
-  wanderingDistance: '1'
+  wanderingDistance: '48'
   stopOnInteract: 'NO'
   pauseWhenFollowingPath: 'NO'
   returnsToStart: 'YES'
@@ -126,7 +126,7 @@ npc:
         rotationBehavior: 'NONE'
         rotation: 90
         gender: 'NONE'
-        movementType: 'STANDING'
+        movementType: 'WANDERING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
@@ -189,3 +189,35 @@ npc:
         textureType: 'NONE'
         textureUri: 'NONE'
         faction: 'Stargate Command'
+    DroppedItem-g:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '5'
+    DroppedItem-h:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90Ammo'
+        damageValue: '0'
+        numberOf: '3'
+        chance: '10'
+    DroppedItem-i:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90Ammo'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '20'
+    DroppedItem-j:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'SGCraft:GDO'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '2'
