@@ -117,6 +117,7 @@ npc:
         spawnChance: '3'
         minOffset: '4'
         maxOffset: '10'
+        density: '1'
       children:
         RandomSpawnGalaxy-e:
           type: 'target'
