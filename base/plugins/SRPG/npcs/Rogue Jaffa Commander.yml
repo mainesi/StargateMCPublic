@@ -113,11 +113,13 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        numberSpawned: '2'
-        spawnChance: '3'
+        numberSpawned: '1'
+        spawnChance: '5'
         minOffset: '4'
         maxOffset: '10'
         density: '1'
+        dimensionDensity: '3'
+        galaxyDensity: '10'
       children:
         RandomSpawnGalaxy-e:
           type: 'target'
