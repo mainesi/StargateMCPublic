@@ -114,7 +114,7 @@ npc:
       data:
         icon-key: ''
         numberSpawned: '2'
-        spawnChance: '100'
+        spawnChance: '3'
         minOffset: '4'
         maxOffset: '10'
       children:
