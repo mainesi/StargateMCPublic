@@ -24,37 +24,40 @@ items:
         - ALL
   '3':
     materialName: GRASS
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 100
+    minPrice: 90
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '4':
     materialName: DIRT
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 10
+    minPrice: 10
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '5':
     materialName: COBBLESTONE
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 10
+    minPrice: 10
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '6':
     materialName: WOOD
     amount: 0
@@ -134,26 +137,28 @@ items:
     dimensions: []
   '13':
     materialName: SAND
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 10
+    minPrice: 10
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '14':
     materialName: GRAVEL
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 10
+    minPrice: 10
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '15':
     materialName: GOLD_ORE
     amount: 0
@@ -541,15 +546,16 @@ items:
     dimensions: []
   '50':
     materialName: OBSIDIAN
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 100
+    minPrice: 90
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '51':
     materialName: TORCH
     amount: 0
@@ -1563,27 +1569,28 @@ items:
     sellers: []
     dimensions: []
   '143':
-    materialName: CARROT
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 50
+    minPrice: 30
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '144':
     materialName: POTATO
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 50
+    minPrice: 30
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '145':
     materialName: WOOD_BUTTON
     amount: 0
@@ -1938,15 +1945,16 @@ items:
     dimensions: []
   '177':
     materialName: APPLE
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 10
+    minPrice: 10
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '178':
     materialName: BOW
     amount: 0
@@ -2917,26 +2925,28 @@ items:
     dimensions: []
   '266':
     materialName: RAW_FISH
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 30
+    minPrice: 20
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '267':
     materialName: COOKED_FISH
-    amount: 0
-    chance: 0.0
+    amount: 64
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 50
+    minPrice: 30
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '268':
     materialName: INK_SACK
     amount: 0
@@ -3082,15 +3092,16 @@ items:
     dimensions: []
   '281':
     materialName: COOKED_BEEF
-    amount: 0
-    chance: 0.0
+    amount: 32
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 100
+    minPrice: 90
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '282':
     materialName: RAW_CHICKEN
     amount: 0
@@ -3104,15 +3115,16 @@ items:
     dimensions: []
   '283':
     materialName: COOKED_CHICKEN
-    amount: 0
-    chance: 0.0
+    amount: 32
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 100
+    minPrice: 90
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '284':
     materialName: ROTTEN_FLESH
     amount: 0
@@ -3126,15 +3138,16 @@ items:
     dimensions: []
   '285':
     materialName: ENDER_PEARL
-    amount: 0
-    chance: 0.0
+    amount: 16
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 100
+    minPrice: 90
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '286':
     materialName: BLAZE_ROD
     amount: 0
@@ -3401,15 +3414,16 @@ items:
     dimensions: []
   '310':
     materialName: BAKED_POTATO
-    amount: 0
-    chance: 0.0
+    amount: 32
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 100
+    minPrice: 90
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '311':
     materialName: POISONOUS_POTATO
     amount: 0
@@ -44049,15 +44063,16 @@ items:
     dimensions: []
   '4004':
     materialName: EXTRAUTILITIES_MINISOUL
-    amount: 0
-    chance: 0.0
-    damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    amount: 1
+    chance: 15.0
+    damage: 3
+    maxListingTime: 60
+    minListingTime: 30
+    maxPrice: 1000
+    minPrice: 650
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '4005':
     materialName: EXTRAUTILITIES_UNSTABLEINGOT
     amount: 0
