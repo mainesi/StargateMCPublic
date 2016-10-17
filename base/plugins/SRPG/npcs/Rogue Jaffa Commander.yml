@@ -115,6 +115,8 @@ npc:
         icon-key: ''
         numberSpawned: '2'
         spawnChance: '100'
+        minOffset: '4'
+        maxOffset: '10'
       children:
         RandomSpawnGalaxy-e:
           type: 'target'
