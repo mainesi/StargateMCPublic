@@ -126,23 +126,13 @@ npc:
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
-        RandomSpawnMobOverride-f:
-          type: 'target'
-          data:
-            icon-key: ''
-            mobOverride: 'ZOMBIE'
-        RandomSpawnTerritory-g:
+        RandomSpawnTerritory-f:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
-        RandomSpawnMobOverride-h:
+        RandomSpawnControllingFaction-g:
           type: 'target'
           data:
             icon-key: ''
-            mobOverride: 'SKELETON'
-        RandomSpawnMobOverride-i:
-          type: 'target'
-          data:
-            icon-key: ''
-            mobOverride: 'CREEPER'
+            controllingFaction: 'Uncontrolled'
