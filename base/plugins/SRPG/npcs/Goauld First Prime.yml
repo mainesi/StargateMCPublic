@@ -1,0 +1,151 @@
+npc:
+  name: 'Goauld First Prime'
+  title: 'Goauld Jaffa Commander'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/STARGATE/GOLD APOPHIS.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Goauld'
+  rotationBehavior: 'RotateBody'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 6
+  showBossBar: 'YES'
+  showName: 'WHENATTACKING'
+  avoidsWater: 'YES'
+  doorInteraction: 'BREAK'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'YES'
+  canSprint: 'NO'
+  canSwim: 'YES'
+  livingAnimation: 'YES'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'YES'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 32
+  tacticalBehavior: 'SURROUND'
+  aggroDistance: 64
+  rangedBehavior: 'UNTILCLOSE'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'SUPRISE'
+  canLeap: 'NO'
+  maxHealth: 2500
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'NONE'
+  projectileResistance: 'HIGHEST'
+  meleeResistance: 'HIGHEST'
+  explosionResistance: 'HIGHEST'
+  knockbackResistance: 'HIGHEST'
+  immuneToPotions: 'YES'
+  immuneToFire: 'YES'
+  meleeRange: 'MEDIUM'
+  meleeDamage: 'MEDIUM'
+  meleeKnockback: 'LOW'
+  rangedRange: 'HIGH'
+  rangedDamage: 'CRAZY'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'PLASMASTAFF'
+  projectileAppearance: 'GOLDPLASMA'
+  projectileSize: 'SMALL'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'flansmod:staffShoot'
+  respawnSetting: 'NEVER'
+  respawnDelay: '1HR'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  naturallyDespawns: 'NO'
+  factionImportance: 'HIGH'
+  xpReward: '1000'
+  movementSpeed: 'NORMAL'
+  movementType: 'WANDERING'
+  wanderingDistance: '128'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    EquippedMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
+    DroppedItem-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '50'
+    DroppedItem-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'SGCraft:T1ZeroPointModule'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '5'
+    RandomSpawn-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        numberSpawned: '1'
+        spawnChance: '1'
+        minOffset: '4'
+        maxOffset: '10'
+        density: '1'
+        dimensionDensity: '3'
+        galaxyDensity: '10'
+      children:
+        RandomSpawnGalaxy-e:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'
+        RandomSpawnTerritory-f:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'UNCLAIMED TERRITORY'
+        RandomSpawnControllingFaction-g:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Goauld'
+        RandomSpawnControllingFaction-h:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Uncontrolled'
+        RandomSpawnGroup-i:
+          type: 'target'
+          data:
+            icon-key: ''
+            groupName: 'JaffaPatrol'
+            alwaysSpawnWithGroup: 'NO'
+            triggerGroupSpawn: 'YES'
+            groupChance: '100'
