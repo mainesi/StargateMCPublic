@@ -141,16 +141,11 @@ npc:
           data:
             icon-key: ''
             controllingFaction: 'Goauld'
-        RandomSpawnControllingFaction-h:
-          type: 'target'
-          data:
-            icon-key: ''
-            controllingFaction: 'Uncontrolled'
-        RandomSpawnGroup-i:
+        RandomSpawnGroup-h:
           type: 'target'
           data:
             icon-key: ''
             groupName: 'JaffaPatrol'
             alwaysSpawnWithGroup: 'NO'
             triggerGroupSpawn: 'YES'
-            groupChance: '100'
+            groupChance: '50'
