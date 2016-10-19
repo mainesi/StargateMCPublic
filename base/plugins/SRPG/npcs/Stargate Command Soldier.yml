@@ -234,9 +234,9 @@ npc:
         spawnChance: '16'
         minOffset: '1'
         maxOffset: '5'
-        density: '25'
-        dimensionDensity: '100'
-        galaxyDensity: '250'
+        density: '5'
+        dimensionDensity: '25'
+        galaxyDensity: '100'
         naturallyDespawns: 'YES'
         spawnsInWater: 'NO'
         spawnsOnLand: 'YES'
@@ -269,3 +269,8 @@ npc:
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
+        RandomSpawnControllingFaction-q:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Uncontrolled'
