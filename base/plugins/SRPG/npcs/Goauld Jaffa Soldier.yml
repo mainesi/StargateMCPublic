@@ -1,9 +1,10 @@
 npc:
-  name: 'Goauld Soldier'
+  name: 'Goauld Jaffa Soldier'
+  version: '1.0.0'
   title: 'Goauld Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/STARGATE/serpent-guard-2-new-face.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_grey_armor.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Goauld'

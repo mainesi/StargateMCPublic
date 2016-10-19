@@ -1,9 +1,10 @@
 npc:
   name: 'Stargate Command Soldier'
+  version: '1.0.0'
   title: 'Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/STARGATE/SGC MARINE.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Tauri/tauri_marine.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Stargate Command'

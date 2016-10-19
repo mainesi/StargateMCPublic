@@ -1,9 +1,10 @@
 npc:
   name: 'Marketeer'
+  version: '1.0.0'
   title: 'Marketeer'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/STARGATE/JAFFA GREY ARMOR.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_misc_3.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Stargate Command'

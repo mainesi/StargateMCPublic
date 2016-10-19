@@ -1,9 +1,10 @@
 npc:
   name: 'Goauld First Prime'
+  version: '1.0.0'
   title: 'Goauld Jaffa Commander'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/STARGATE/GOLD APOPHIS.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_first_prime.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Goauld'
