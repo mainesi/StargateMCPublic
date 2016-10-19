@@ -4,7 +4,7 @@ npc:
   title: 'Goauld Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_grey_armor.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_serpent_guard.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Goauld'
