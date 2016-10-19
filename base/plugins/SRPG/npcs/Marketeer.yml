@@ -64,7 +64,6 @@ npc:
   respawnDelay: '1HR'
   respawnsAtSpawn: 'YES'
   hideDeadBody: 'NO'
-  naturallyDespawns: 'NO'
   factionImportance: 'HIGH'
   xpReward: '500'
   movementSpeed: 'NORMAL'

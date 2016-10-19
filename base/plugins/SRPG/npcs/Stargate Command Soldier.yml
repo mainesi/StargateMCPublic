@@ -64,7 +64,6 @@ npc:
   respawnDelay: '15MIN'
   respawnsAtSpawn: 'YES'
   hideDeadBody: 'NO'
-  naturallyDespawns: 'NO'
   factionImportance: 'MEDIUM'
   xpReward: '25'
   movementSpeed: 'NORMAL'
@@ -113,6 +112,7 @@ npc:
         textureType: 'NONE'
         textureUri: 'NONE'
         faction: 'Stargate Command'
+        movingAnimation: 'NONE'
     SpawnLocation-c:
       type: 'setting'
       data:
@@ -132,6 +132,7 @@ npc:
         textureType: 'NONE'
         textureUri: 'NONE'
         faction: 'Stargate Command'
+        movingAnimation: 'NONE'
     SpawnLocation-d:
       type: 'setting'
       data:
@@ -151,6 +152,7 @@ npc:
         textureType: 'NONE'
         textureUri: 'NONE'
         faction: 'Stargate Command'
+        movingAnimation: 'NONE'
     SpawnLocation-e:
       type: 'setting'
       data:
@@ -170,6 +172,7 @@ npc:
         textureType: 'NONE'
         textureUri: 'NONE'
         faction: 'Stargate Command'
+        movingAnimation: 'NONE'
     SpawnLocation-f:
       type: 'setting'
       data:
@@ -189,6 +192,7 @@ npc:
         textureType: 'NONE'
         textureUri: 'NONE'
         faction: 'Stargate Command'
+        movingAnimation: 'NONE'
     DroppedItem-g:
       type: 'setting'
       data:
