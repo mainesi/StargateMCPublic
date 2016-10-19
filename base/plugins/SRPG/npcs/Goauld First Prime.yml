@@ -64,7 +64,6 @@ npc:
   respawnDelay: '1HR'
   respawnsAtSpawn: 'YES'
   hideDeadBody: 'NO'
-  naturallyDespawns: 'NO'
   factionImportance: 'HIGH'
   xpReward: '1000'
   movementSpeed: 'NORMAL'
@@ -120,6 +119,11 @@ npc:
         density: '1'
         dimensionDensity: '3'
         galaxyDensity: '10'
+        naturallyDespawns: 'YES'
+        spawnsInWater: 'NO'
+        spawnsOnLand: 'YES'
+        spawnsOnSpawnWorld: 'YES'
+        spawnsOnNonSpawnWorld: 'YES'
       children:
         RandomSpawnGalaxy-e:
           type: 'target'
