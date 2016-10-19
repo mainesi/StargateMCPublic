@@ -4,7 +4,7 @@ npc:
   title: 'Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'NONE'
+  textureUri: 'customnpcs:textures/entity/stargate/Tauri/tauri_marine.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Stargate Command'
