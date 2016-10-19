@@ -60,7 +60,7 @@ npc:
   projectileSize: 'TINY'
   projectileExplosionType: 'NONE'
   projectileTrail: 'NONE'
-  projectileSound: 'NONE'
+  projectileSound: 'flansmod:p90shoot'
   respawnSetting: 'ALWAYS'
   respawnDelay: '15MIN'
   respawnsAtSpawn: 'YES'
@@ -226,3 +226,46 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '2'
+    RandomSpawn-k:
+      type: 'setting'
+      data:
+        icon-key: ''
+        numberSpawned: '1'
+        spawnChance: '16'
+        minOffset: '1'
+        maxOffset: '5'
+        density: '25'
+        dimensionDensity: '100'
+        galaxyDensity: '250'
+        naturallyDespawns: 'YES'
+        spawnsInWater: 'NO'
+        spawnsOnLand: 'YES'
+        spawnsOnSpawnWorld: 'YES'
+        spawnsOnNonSpawnWorld: 'YES'
+      children:
+        RandomSpawnControllingFaction-l:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Stargate Command'
+        RandomSpawnTerritory-m:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'TAURI TERRITORY'
+        RandomSpawnDialog-n:
+          type: 'target'
+          data:
+            icon-key: ''
+            dialogName: 'Marketeer Intro'
+            chance: '50'
+        RandomSpawnGalaxy-o:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'
+        RandomSpawnTerritory-p:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'UNCLAIMED TERRITORY'
