@@ -60,7 +60,7 @@ npc:
   projectileSize: 'TINY'
   projectileExplosionType: 'NONE'
   projectileTrail: 'NONE'
-  projectileSound: 'flansmod:p90shoot'
+  projectileSound: 'flansmod:P90shoot'
   respawnSetting: 'ALWAYS'
   respawnDelay: '15MIN'
   respawnsAtSpawn: 'YES'
