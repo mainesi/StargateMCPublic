@@ -22,7 +22,7 @@ npc:
   avoidsSun: 'NO'
   canDrown: 'NO'
   canSprint: 'NO'
-  canSwim: 'NO'
+  canSwim: 'YES'
   livingAnimation: 'NO'
   ignoreCobwebs: 'NO'
   interactWithOtherNPCs: 'NO'
