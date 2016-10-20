@@ -68,8 +68,8 @@ npc:
   factionImportance: 'HIGH'
   xpReward: '500'
   movementSpeed: 'NORMAL'
-  movementType: 'NONE'
-  wanderingDistance: '1'
+  movementType: 'WANDERING'
+  wanderingDistance: '10'
   stopOnInteract: 'NO'
   pauseWhenFollowingPath: 'NO'
   returnsToStart: 'YES'
@@ -100,7 +100,7 @@ npc:
         rotationBehavior: 'NONE'
         rotation: 180
         gender: 'MALE'
-        movementType: 'NONE'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
@@ -125,7 +125,7 @@ npc:
         rotationBehavior: 'NONE'
         rotation: 180
         gender: 'MALE'
-        movementType: 'NONE'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
@@ -145,7 +145,7 @@ npc:
         rotationBehavior: 'NONE'
         rotation: 270
         gender: 'MALE'
-        movementType: 'NONE'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
@@ -165,7 +165,7 @@ npc:
         rotationBehavior: 'NONE'
         rotation: 0
         gender: 'MALE'
-        movementType: 'NONE'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
