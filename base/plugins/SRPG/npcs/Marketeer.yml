@@ -172,3 +172,15 @@ npc:
         textureUri: 'NONE'
         faction: 'Destiny Expedition'
         movingAnimation: 'SITTING'
+    IncursionSpawn-f:
+      type: 'setting'
+      data:
+        icon-key: ''
+        incursionChance: '100'
+        numberSpawned: '2'
+      children:
+        SpawnGalaxy-g:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'
