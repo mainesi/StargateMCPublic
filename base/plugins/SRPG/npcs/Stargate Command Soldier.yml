@@ -243,33 +243,33 @@ npc:
         spawnsOnSpawnWorld: 'YES'
         spawnsOnNonSpawnWorld: 'YES'
       children:
-        RandomSpawnControllingFaction-l:
+        SpawnControllingFaction-l:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Stargate Command'
-        RandomSpawnTerritory-m:
+        SpawnTerritory-m:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'TAURI TERRITORY'
-        RandomSpawnDialog-n:
+        SpawnDialog-n:
           type: 'target'
           data:
             icon-key: ''
             dialogName: 'Marketeer Intro'
             chance: '50'
-        RandomSpawnGalaxy-o:
+        SpawnGalaxy-o:
           type: 'target'
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
-        RandomSpawnTerritory-p:
+        SpawnTerritory-p:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
-        RandomSpawnControllingFaction-q:
+        SpawnControllingFaction-q:
           type: 'target'
           data:
             icon-key: ''

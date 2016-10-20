@@ -4,7 +4,7 @@ npc:
   title: 'Jaffa Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_warrior_armor.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_serpent_guard.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Free Jaffa Nation'
@@ -126,27 +126,27 @@ npc:
         spawnsOnSpawnWorld: 'YES'
         spawnsOnNonSpawnWorld: 'YES'
       children:
-        RandomSpawnGalaxy-e:
+        SpawnGalaxy-e:
           type: 'target'
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
-        RandomSpawnTerritory-f:
+        SpawnTerritory-f:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
-        RandomSpawnControllingFaction-g:
+        SpawnControllingFaction-g:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Free Jaffa Nation'
-        RandomSpawnControllingFaction-h:
+        SpawnControllingFaction-h:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Uncontrolled'
-        RandomSpawnGroup-i:
+        SpawnGroup-i:
           type: 'target'
           data:
             icon-key: ''
