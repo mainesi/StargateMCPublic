@@ -1,0 +1,111 @@
+npc:
+  name: 'Carson Beckett'
+  version: '1.0.0'
+  title: 'Atlantis Doctor'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Tauri/tauri_carson_beckett.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Atlantis Expedition'
+  rotationBehavior: 'NoRotation'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'NO'
+  canSwim: 'NO'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 100
+  passiveHealthRegen: 'LOW'
+  combatHealthRegen: 'NONE'
+  projectileResistance: 'LOW'
+  meleeResistance: 'LOWEST'
+  explosionResistance: 'NONE'
+  knockbackResistance: 'NONE'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'LOW'
+  meleeDamage: 'LOW'
+  meleeKnockback: 'NONE'
+  rangedRange: 'MEDIUM'
+  rangedDamage: 'MEDIUM'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'MACHINEGUN'
+  projectileAppearance: 'BULLET'
+  projectileSize: 'SMALL'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '1HR'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'YES'
+  factionImportance: 'LOW'
+  xpReward: '0'
+  movementSpeed: 'NORMAL'
+  movementType: 'WANDERING'
+  wanderingDistance: '10'
+  stopOnInteract: 'YES'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - "I'm not a miracle worker"
+  - 'Michael has been sighted, and is testing a new type of super soldier'
+  - "The Wraith shouldn't find the new location of Atlantis...at least I hope so."
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - "Colonel Sheppard! Help me, i'm being attacked"
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Carson Beckett'
+        title: 'NONE'
+        spawnX: 0
+        spawnY: 0
+        spawnZ: 0
+        spawnDimension: 'Lantea'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'MALE'
+        movementType: 'WANDERING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Atlantis Expedition'
+        movingAnimation: 'NONE'
