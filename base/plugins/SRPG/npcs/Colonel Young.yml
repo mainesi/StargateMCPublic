@@ -1,0 +1,116 @@
+npc:
+  name: 'Colonel Everett Young'
+  version: '1.0.0'
+  title: 'NONE'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Tauri/tauri_everett_young.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Destiny Expedition'
+  rotationBehavior: 'NoRotation'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'NO'
+  canSwim: 'NO'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'NO'
+  attackHostileFactions: 'NO'
+  mustSeeTarget: 'NO'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'NO'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 100
+  passiveHealthRegen: 'LOW'
+  combatHealthRegen: 'NONE'
+  projectileResistance: 'NONE'
+  meleeResistance: 'NONE'
+  explosionResistance: 'NONE'
+  knockbackResistance: 'NONE'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'LOWEST'
+  meleeDamage: 'LOWEST'
+  meleeKnockback: 'NONE'
+  rangedRange: 'LOWEST'
+  rangedDamage: 'LOWEST'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'MACHINEGUN'
+  projectileAppearance: 'BULLET'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '15MIN'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  factionImportance: 'NONE'
+  xpReward: '0'
+  movementSpeed: 'NORMAL'
+  movementType: 'NONE'
+  wanderingDistance: '1'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - '"Welcome aboard {player}."'
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: 350
+        spawnY: 84
+        spawnZ: 1374
+        spawnDimension: 'Destiny'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'NONE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Destiny Expedition'
+        movingAnimation: 'NONE'
+    EquippedMainHandSlot-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
+
