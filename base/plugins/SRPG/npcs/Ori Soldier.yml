@@ -1,0 +1,156 @@
+npc:
+  name: 'Ori Soldier'
+  version: '1.0.0'
+  title: 'Ori Soldier'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/humanmale/GuardSteve.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Ori'
+  rotationBehavior: 'RotateBody'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 6
+  showBossBar: 'NO'
+  showName: 'WHENATTACKING'
+  avoidsWater: 'YES'
+  doorInteraction: 'BREAK'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'YES'
+  canSprint: 'NO'
+  canSwim: 'YES'
+  livingAnimation: 'YES'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'YES'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 32
+  tacticalBehavior: 'SURROUND'
+  aggroDistance: 64
+  rangedBehavior: 'UNTILCLOSE'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'SUPRISE'
+  canLeap: 'NO'
+  maxHealth: 500
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'NONE'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
+  explosionResistance: 'MEDIUM'
+  knockbackResistance: 'MEDIUM'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'MEDIUM'
+  meleeDamage: 'MEDIUM'
+  meleeKnockback: 'LOW'
+  rangedRange: 'HIGH'
+  rangedDamage: 'HIGH'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'PLASMASTAFF'
+  projectileAppearance: 'BLUEPLASMA'
+  projectileSize: 'SMALL'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'flansmod:oriStaff'
+  respawnSetting: 'NEVER'
+  respawnDelay: '1HR'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  factionImportance: 'MEDIUM'
+  xpReward: '100'
+  movementSpeed: 'NORMAL'
+  movementType: 'WANDERING'
+  wanderingDistance: '128'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    EquippedMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:oriStaff'
+        damageValue: '0'
+    DroppedItem-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '5'
+    DroppedItem-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:liquidNaquadah'
+        damageValue: '0'
+        numberOf: '2'
+        chance: '25'
+    RandomSpawn-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        numberSpawned: '3'
+        spawnChance: '15'
+        minOffset: '4'
+        maxOffset: '10'
+        density: '5'
+        dimensionDensity: '25'
+        galaxyDensity: '100'
+        naturallyDespawns: 'YES'
+        spawnsInWater: 'NO'
+        spawnsOnLand: 'YES'
+        spawnsOnSpawnWorld: 'YES'
+        spawnsOnNonSpawnWorld: 'YES'
+      children:
+        SpawnGalaxy-e:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'Ori'
+        SpawnTerritory-f:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'UNCLAIMED TERRITORY'
+        SpawnControllingFaction-g:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Ori'
+        SpawnControllingFaction-h:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Uncontrolled'
+        SpawnGroup-i:
+          type: 'target'
+          data:
+            icon-key: ''
+            groupName: 'OriSoldierPatrol'
+            alwaysSpawnWithGroup: 'YES'
+            triggerGroupSpawn: 'YES'
+            groupChance: '100'
