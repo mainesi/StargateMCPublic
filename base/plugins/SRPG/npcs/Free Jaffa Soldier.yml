@@ -154,3 +154,23 @@ npc:
             alwaysSpawnWithGroup: 'YES'
             triggerGroupSpawn: 'YES'
             groupChance: '100'
+    IncursionSpawn-j:
+      type: 'setting'
+      data:
+        icon-key: ''
+        incursionChance: '61'
+        numberSpawned: '4'
+      children:
+        SpawnGroup-k:
+          type: 'target'
+          data:
+            icon-key: ''
+            groupName: 'TravellingMarketeer'
+            alwaysSpawnWithGroup: 'YES'
+            triggerGroupSpawn: 'YES'
+            groupChance: '39'
+        SpawnGalaxy-l:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'

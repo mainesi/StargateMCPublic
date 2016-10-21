@@ -184,3 +184,11 @@ npc:
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
+        SpawnGroup-h:
+          type: 'target'
+          data:
+            icon-key: ''
+            groupName: 'TravellingMarketeer'
+            alwaysSpawnWithGroup: 'YES'
+            triggerGroupSpawn: 'YES'
+            groupChance: '100'
