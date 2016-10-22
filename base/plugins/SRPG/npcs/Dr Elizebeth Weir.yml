@@ -40,9 +40,9 @@ npc:
   aimWhileShooting: 'YES'
   fireIndirectly: 'NONE'
   canLeap: 'NO'
-  maxHealth: 100
-  passiveHealthRegen: 'LOW'
-  combatHealthRegen: 'NONE'
+  maxHealth: 500
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'MEDIUM'
   projectileResistance: 'LOW'
   meleeResistance: 'LOW'
   explosionResistance: 'LOWEST'
@@ -68,7 +68,7 @@ npc:
   factionImportance: 'HIGHEST'
   xpReward: '0'
   movementSpeed: 'NORMAL'
-  movementType: 'WANDERING'
+  movementType: 'STANDING'
   wanderingDistance: '10'
   stopOnInteract: 'YES'
   pauseWhenFollowingPath: 'NO'
