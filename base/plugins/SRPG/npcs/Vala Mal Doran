@@ -95,3 +95,24 @@ npc:
   - '"I... will... be back..."'
   - '"You have... outsmarted me..."'
   - '"I will... get you... for this..."'
+components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -130
+        spawnY: 15
+        spawnZ: -599
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'NONE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+        movingAnimation: 'NONE'
