@@ -75,17 +75,17 @@ npc:
   returnsToStart: 'YES'
   sayRandomLines: 'NO'
   worldLines:
-  - 'Atlantis is a remarkable place'
-  - 'Rodney McKay finally got the gate program working'
-  - '{player}, Atlantis is yours to explore.'
-  - '{player}, welcome to Atlantis. New parts of the city are under repair and will be free to explore soon'
+  - ''
   repeatableUnavailableLines:
   - ''
   attackLines:
   - '{player}, stand down your attack'
   - 'You are in violation of the Atlantis Expedition peace treaty '
   interactLines:
-  - ''
+  - 'Atlantis is a remarkable place'
+  - 'Rodney McKay finally got the gate program working'
+  - '{player}, Atlantis is yours to explore.'
+  - '{player}, welcome to Atlantis. New parts of the city are under repair and will be free to explore soon'
   killLines:
   - 'Attention. The attack on Atlantis has been averted. All personnel, please stand down'
   killedLines:
@@ -97,9 +97,9 @@ npc:
         icon-key: ''
         name: 'NONE'
         title: 'NONE'
-        spawnX: 0
-        spawnY: 0
-        spawnZ: 0
+        spawnX: -294
+        spawnY: 181
+        spawnZ: -1056
         spawnDimension: 'Lantea'
         rotationBehavior: 'NONE'
         rotation: 0
