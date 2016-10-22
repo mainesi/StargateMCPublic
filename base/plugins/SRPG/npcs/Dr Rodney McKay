@@ -40,11 +40,11 @@ npc:
   aimWhileShooting: 'YES'
   fireIndirectly: 'NONE'
   canLeap: 'NO'
-  maxHealth: 100
-  passiveHealthRegen: 'LOW'
-  combatHealthRegen: 'NONE'
-  projectileResistance: 'LOWEST'
-  meleeResistance: 'LOWEST'
+  maxHealth: 400
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'MEDIUM'
+  projectileResistance: 'LOW'
+  meleeResistance: 'LOW'
   explosionResistance: 'NONE'
   knockbackResistance: 'NONE'
   immuneToPotions: 'NO'
@@ -75,15 +75,15 @@ npc:
   returnsToStart: 'YES'
   sayRandomLines: 'NO'
   worldLines:
-  - 'We have plenty of ZPM power now'
-  - 'Our trip to earth and back was quick thanks to the wormhole drive'
-  - '{player}, I have restored the gate computer'
+  - ''
   repeatableUnavailableLines:
   - ''
   attackLines:
   - ''
   interactLines:
-  - ''
+  - 'We have plenty of ZPM power now'
+  - 'Our trip to earth and back was quick thanks to the wormhole drive'
+  - '{player}, I have restored the gate computer'
   killLines:
   - ''
   killedLines:
@@ -94,15 +94,15 @@ npc:
       data:
         icon-key: ''
         name: 'Dr Rodney McKay'
-        title: 'NONE'
-        spawnX: 0
-        spawnY: 0
-        spawnZ: 0
+        title: 'Lead Scientist'
+        spawnX: -280
+        spawnY: 182
+        spawnZ: -1047
         spawnDimension: 'Lantea'
         rotationBehavior: 'NONE'
         rotation: 0
         gender: 'MALE'
-        movementType: 'WANDERING'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
@@ -117,3 +117,9 @@ npc:
         damageValue: '0'
         numberOf: '2'
         chance: '1'
+    EquippedMainHandSlot-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '10000'
