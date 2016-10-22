@@ -1,6 +1,6 @@
 npc:
   name: 'Marketeer'
-  version: '1.0.0'
+  version: '1.0.1'
   title: 'Marketeer'
   template: 'NONE'
   textureType: 'RESOURCE'
@@ -32,7 +32,7 @@ npc:
   defendFactionMembers: 'NO'
   attackHostileFactions: 'NO'
   mustSeeTarget: 'NO'
-  attackedResponse: 'RETALIATE'
+  attackedResponse: 'RETREAT'
   tacticalDistance: 15
   tacticalBehavior: 'NONE'
   aggroDistance: 48
@@ -177,7 +177,7 @@ npc:
       data:
         icon-key: ''
         incursionChance: '50'
-        numberSpawned: '2'
+        numberSpawned: '1'
       children:
         SpawnGalaxy-g:
           type: 'target'
@@ -192,3 +192,9 @@ npc:
             alwaysSpawnWithGroup: 'YES'
             triggerGroupSpawn: 'YES'
             groupChance: '100'
+    EquippedPassiveMainHandSlot-i:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'customnpcs:npcBook'
+        damageValue: '0'
