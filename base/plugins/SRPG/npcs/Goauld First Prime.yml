@@ -87,13 +87,7 @@ npc:
   killedLines:
   - ''
   components:
-    EquippedMainHandSlot-a:
-      type: 'setting'
-      data:
-        icon-key: ''
-        itemName: 'flansmod:maTokStaff'
-        damageValue: '0'
-    DroppedItem-b:
+    DroppedItem-a:
       type: 'setting'
       data:
         icon-key: ''
@@ -101,7 +95,7 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '50'
-    DroppedItem-c:
+    DroppedItem-b:
       type: 'setting'
       data:
         icon-key: ''
@@ -109,7 +103,7 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '5'
-    RandomSpawn-d:
+    RandomSpawn-c:
       type: 'setting'
       data:
         icon-key: ''
@@ -126,22 +120,22 @@ npc:
         spawnsOnSpawnWorld: 'YES'
         spawnsOnNonSpawnWorld: 'YES'
       children:
-        SpawnGalaxy-e:
+        SpawnGalaxy-d:
           type: 'target'
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
-        SpawnTerritory-f:
+        SpawnTerritory-e:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
-        SpawnControllingFaction-g:
+        SpawnControllingFaction-f:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Goauld'
-        SpawnGroup-h:
+        SpawnGroup-g:
           type: 'target'
           data:
             icon-key: ''
@@ -149,3 +143,20 @@ npc:
             alwaysSpawnWithGroup: 'NO'
             triggerGroupSpawn: 'YES'
             groupChance: '50'
+        SpawnTerritory-h:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'PROTECTED TERRITORY'
+    EquippedPassiveMainHandSlot-i:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
+    EquippedCombatMainHandSlot-j:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
