@@ -32,7 +32,7 @@ npc:
   defendFactionMembers: 'NO'
   attackHostileFactions: 'NO'
   mustSeeTarget: 'NO'
-  attackedResponse: 'RETREAT'
+  attackedResponse: 'RETALIATE'
   tacticalDistance: 15
   tacticalBehavior: 'NONE'
   aggroDistance: 48
