@@ -1,6 +1,6 @@
 npc:
   name: 'Goauld First Prime'
-  version: '1.0.0'
+  version: '1.0.1'
   title: 'Goauld Jaffa Commander'
   template: 'NONE'
   textureType: 'RESOURCE'
