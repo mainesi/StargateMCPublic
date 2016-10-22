@@ -1,6 +1,6 @@
 npc:
   name: 'Vala Mal Doran'
-  version: '1.0.0'
+  version: '1.0.1'
   title: 'NONE'
   template: 'NONE'
   textureType: 'RESOURCE'
@@ -42,7 +42,7 @@ npc:
   canLeap: 'NO'
   maxHealth: 100
   passiveHealthRegen: 'LOW'
-  combatHealthRegen: 'NONE'
+  combatHealthRegen: 'LOWEST'
   projectileResistance: 'NONE'
   meleeResistance: 'NONE'
   explosionResistance: 'NONE'
@@ -65,8 +65,8 @@ npc:
   respawnDelay: '30MIN'
   respawnsAtSpawn: 'YES'
   hideDeadBody: 'NO'
-  factionImportance: 'LOWEST'
-  xpReward: '0'
+  factionImportance: 'NONE'
+  xpReward: '5'
   movementSpeed: 'NORMAL'
   movementType: 'WANDERING'
   wanderingDistance: '1'
@@ -82,8 +82,7 @@ npc:
   - ''
   attackLines:
   - '"Hey!"'
-  - '"You will lose to me."'
-  - '"You cant beat me, that easily"'
+  - '"You cant hope to beat me, that easily."'
   interactLines:
   - '"Hello handsome."'
   - '"Are you doing anything today?"'
@@ -95,7 +94,7 @@ npc:
   - '"I... will... be back..."'
   - '"You have... outsmarted me..."'
   - '"I will... get you... for this..."'
-components:
+  components:
     SpawnLocation-a:
       type: 'setting'
       data:
