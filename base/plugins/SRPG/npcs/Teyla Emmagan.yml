@@ -44,17 +44,17 @@ npc:
   passiveHealthRegen: 'MEDIUM'
   combatHealthRegen: 'MEDIUM'
   projectileResistance: 'MEDIUM'
-  meleeResistance: 'LOW'
+  meleeResistance: 'MEDIUM'
   explosionResistance: 'NONE'
-  knockbackResistance: 'NONE'
+  knockbackResistance: 'MEDIUM'
   immuneToPotions: 'NO'
   immuneToFire: 'NO'
   meleeRange: 'LOWEST'
   meleeDamage: 'LOWEST'
-  meleeKnockback: 'NONE'
+  meleeKnockback: 'LOW'
   rangedRange: 'MEDIUM'
   rangedDamage: 'MEDIUM'
-  rangedKnockback: 'NONE'
+  rangedKnockback: 'LOW'
   rangedWeaponBehavior: 'MACHINEGUN'
   projectileAppearance: 'BULLET'
   projectileSize: 'TINY'
@@ -69,7 +69,7 @@ npc:
   xpReward: '0'
   movementSpeed: 'NORMAL'
   movementType: 'STANDING'
-  wanderingDistance: '10'
+  wanderingDistance: '0'
   stopOnInteract: 'YES'
   pauseWhenFollowingPath: 'NO'
   returnsToStart: 'YES'
@@ -81,7 +81,9 @@ npc:
   attackLines:
   - ''
   interactLines:
-  - ''
+  - 'Altantis has been our best hope in the fight against the Wraith'
+  - 'We are truly grateful for your presence here in the city'
+  - 'Rodney is always busy over by ops. I think he likes to feel, shall we say, important'
   killLines:
   - ''
   killedLines:
@@ -107,10 +109,9 @@ npc:
         textureUri: 'NONE'
         faction: 'Atlantis Expedition'
         movingAnimation: 'NONE'
-    EquippedMainHandSlot-b:
+    EquippedCombatMainHandSlot-a:
       type: 'setting'
       data:
         icon-key: ''
         itemName: 'flansmod:p90'
-        damageValue: '10000'
-
+        damageValue: '0'
