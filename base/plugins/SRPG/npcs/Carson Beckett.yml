@@ -40,9 +40,9 @@ npc:
   aimWhileShooting: 'YES'
   fireIndirectly: 'NONE'
   canLeap: 'NO'
-  maxHealth: 100
-  passiveHealthRegen: 'LOW'
-  combatHealthRegen: 'NONE'
+  maxHealth: 400
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'MEDIUM'
   projectileResistance: 'LOW'
   meleeResistance: 'LOWEST'
   explosionResistance: 'NONE'
@@ -65,25 +65,25 @@ npc:
   respawnDelay: '1HR'
   respawnsAtSpawn: 'YES'
   hideDeadBody: 'YES'
-  factionImportance: 'LOW'
+  factionImportance: 'MEDIUM'
   xpReward: '0'
   movementSpeed: 'NORMAL'
-  movementType: 'WANDERING'
+  movementType: 'STANDING'
   wanderingDistance: '10'
   stopOnInteract: 'YES'
   pauseWhenFollowingPath: 'NO'
   returnsToStart: 'YES'
   sayRandomLines: 'NO'
   worldLines:
-  - "I'm not a miracle worker"
-  - 'Michael has been sighted, and is testing a new type of super soldier'
-  - "The Wraith shouldn't find the new location of Atlantis...at least I hope so."
+  - ''
   repeatableUnavailableLines:
   - ''
   attackLines:
   - "Colonel Sheppard! Help me, i'm being attacked"
   interactLines:
-  - ''
+  - "I'm not a miracle worker"
+  - 'Michael has been sighted, and is testing a new type of super soldier'
+  - "The Wraith shouldn't find the new location of Atlantis...at least I hope so."
   killLines:
   - ''
   killedLines:
@@ -94,15 +94,15 @@ npc:
       data:
         icon-key: ''
         name: 'Carson Beckett'
-        title: 'NONE'
-        spawnX: 0
-        spawnY: 0
-        spawnZ: 0
+        title: 'Doctor'
+        spawnX: -276
+        spawnY: 183
+        spawnZ: -1048
         spawnDimension: 'Lantea'
         rotationBehavior: 'NONE'
         rotation: 0
         gender: 'MALE'
-        movementType: 'WANDERING'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
