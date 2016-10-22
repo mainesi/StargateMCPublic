@@ -148,13 +148,18 @@ npc:
             alwaysSpawnWithGroup: 'YES'
             triggerGroupSpawn: 'YES'
             groupChance: '100'
-    EquippedPassiveMainHandSlot-i:
+        SpawnTerritory-i:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'ORI TERRITORY'
+    EquippedPassiveMainHandSlot-j:
       type: 'setting'
       data:
         icon-key: ''
         itemName: 'flansmod:oriStaff'
         damageValue: '0'
-    EquippedCombatMainHandSlot-j:
+    EquippedCombatMainHandSlot-k:
       type: 'setting'
       data:
         icon-key: ''
