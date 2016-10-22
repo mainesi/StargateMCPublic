@@ -55,12 +55,12 @@ npc:
   rangedRange: 'LOWEST'
   rangedDamage: 'LOWEST'
   rangedKnockback: 'NONE'
-  rangedWeaponBehavior: 'PISTOL'
-  projectileAppearance: 'ARROW'
+  rangedWeaponBehavior: 'PLASMAPISTOL'
+  projectileAppearance: 'BLUEPLASMA'
   projectileSize: 'TINY'
   projectileExplosionType: 'NONE'
-  projectileTrail: 'NONE'
-  projectileSound: 'NONE'
+  projectileTrail: 'Lightning'
+  projectileSound: 'flansmod:zatShoot'
   respawnSetting: 'ALWAYS'
   respawnDelay: '1HR'
   respawnsAtSpawn: 'YES'
@@ -197,4 +197,10 @@ npc:
       data:
         icon-key: ''
         itemName: 'customnpcs:npcBook'
+        damageValue: '0'
+    EquippedCombatMainHandSlot-j:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:zatGun'
         damageValue: '0'
