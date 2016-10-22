@@ -43,10 +43,10 @@ npc:
   maxHealth: 500
   passiveHealthRegen: 'MEDIUM'
   combatHealthRegen: 'MEDIUM'
-  projectileResistance: 'LOW'
-  meleeResistance: 'LOW'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
   explosionResistance: 'LOWEST'
-  knockbackResistance: 'LOWEST'
+  knockbackResistance: 'MEDIUM'
   immuneToPotions: 'NO'
   immuneToFire: 'NO'
   meleeRange: 'LOW'
@@ -69,7 +69,7 @@ npc:
   xpReward: '0'
   movementSpeed: 'NORMAL'
   movementType: 'STANDING'
-  wanderingDistance: '10'
+  wanderingDistance: '0'
   stopOnInteract: 'YES'
   pauseWhenFollowingPath: 'NO'
   returnsToStart: 'YES'
@@ -111,3 +111,9 @@ npc:
         textureUri: 'NONE'
         faction: 'Atlantis Expedition'
         movingAnimation: 'NONE'
+    EquippedCombatMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
