@@ -1,0 +1,115 @@
+npc:
+  name: 'Ronan Dex'
+  version: '1.0.0'
+  title: 'NONE'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Tauri/tauri_rhonin_dex.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Atlantis Expedition'
+  rotationBehavior: 'RotateBody'
+  rotation: 240
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'YES'
+  canSwim: 'YES'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'YES'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'NO'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 500
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'MEDIUM'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
+  explosionResistance: 'NONE'
+  knockbackResistance: 'MEDIUM'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'MEDIUM'
+  meleeDamage: 'MEDIUM'
+  meleeKnockback: 'NONE'
+  rangedRange: 'MEDIUM'
+  rangedDamage: 'MEDIUM'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'MACHINEGUN'
+  projectileAppearance: 'BULLET'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '1HR'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  factionImportance: 'MEDIUM'
+  xpReward: '0'
+  movementSpeed: 'NORMAL'
+  movementType: 'STANDING'
+  wanderingDistance: '0'
+  stopOnInteract: 'YES'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Ronan Dex'
+        title: 'NONE'
+        spawnX: 0
+        spawnY: 0
+        spawnZ: 0
+        spawnDimension: 'Lantea'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'MALE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Atlantis Expedition'
+        movingAnimation: 'NONE'
+    EquippedCombatMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
