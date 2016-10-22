@@ -87,13 +87,7 @@ npc:
   killedLines:
   - ''
   components:
-    EquippedMainHandSlot-a:
-      type: 'setting'
-      data:
-        icon-key: ''
-        itemName: 'flansmod:maTokStaff'
-        damageValue: '0'
-    DroppedItem-b:
+    DroppedItem-a:
       type: 'setting'
       data:
         icon-key: ''
@@ -101,7 +95,7 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '5'
-    DroppedItem-c:
+    DroppedItem-b:
       type: 'setting'
       data:
         icon-key: ''
@@ -109,11 +103,11 @@ npc:
         damageValue: '0'
         numberOf: '2'
         chance: '25'
-    RandomSpawn-d:
+    RandomSpawn-c:
       type: 'setting'
       data:
         icon-key: ''
-        numberSpawned: '2'
+        numberSpawned: '3'
         spawnChance: '15'
         minOffset: '4'
         maxOffset: '10'
@@ -126,27 +120,27 @@ npc:
         spawnsOnSpawnWorld: 'YES'
         spawnsOnNonSpawnWorld: 'YES'
       children:
-        SpawnGalaxy-e:
+        SpawnGalaxy-d:
           type: 'target'
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
-        SpawnTerritory-f:
+        SpawnTerritory-e:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
-        SpawnControllingFaction-g:
+        SpawnControllingFaction-f:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Goauld'
-        SpawnControllingFaction-h:
+        SpawnControllingFaction-g:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Uncontrolled'
-        SpawnGroup-i:
+        SpawnGroup-h:
           type: 'target'
           data:
             icon-key: ''
@@ -154,3 +148,35 @@ npc:
             alwaysSpawnWithGroup: 'YES'
             triggerGroupSpawn: 'YES'
             groupChance: '100'
+        SpawnTerritory-i:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'PROTECTED TERRITORY'
+        SpawnTerritory-j:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'GOAULD TERRITORY'
+    IncursionSpawn-k:
+      type: 'setting'
+      data:
+        icon-key: ''
+        incursionChance: '30'
+        numberSpawned: '5'
+      children:
+        SpawnControllingFaction-l:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Stargate Command'
+        SpawnGalaxy-m:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'
+        SpawnControllingFaction-n:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Uncontrolled'
