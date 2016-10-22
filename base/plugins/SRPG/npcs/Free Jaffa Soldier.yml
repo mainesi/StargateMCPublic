@@ -1,10 +1,10 @@
 npc:
   name: 'Free Jaffa Soldier'
-  version: '1.0.0'
+  version: '1.0.1'
   title: 'Jaffa Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_serpent_guard.png'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_warrior_armor.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Free Jaffa Nation'
