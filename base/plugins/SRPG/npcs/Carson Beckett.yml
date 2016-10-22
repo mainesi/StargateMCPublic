@@ -109,3 +109,9 @@ npc:
         textureUri: 'NONE'
         faction: 'Atlantis Expedition'
         movingAnimation: 'NONE'
+    EquippedMainHandSlot-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '10000'
