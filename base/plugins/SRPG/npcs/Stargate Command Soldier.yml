@@ -1,6 +1,6 @@
 npc:
   name: 'Stargate Command Soldier'
-  version: '1.0.0'
+  version: '1.0.1'
   title: 'Soldier'
   template: 'NONE'
   textureType: 'RESOURCE'
@@ -88,13 +88,7 @@ npc:
   killedLines:
   - 'Argh.....'
   components:
-    EquippedMainHandSlot-a:
-      type: 'setting'
-      data:
-        icon-key: ''
-        itemName: 'flansmod:p90'
-        damageValue: '0'
-    SpawnLocation-b:
+    SpawnLocation-a:
       type: 'setting'
       data:
         icon-key: ''
@@ -114,7 +108,7 @@ npc:
         textureUri: 'NONE'
         faction: 'Stargate Command'
         movingAnimation: 'NONE'
-    SpawnLocation-c:
+    SpawnLocation-b:
       type: 'setting'
       data:
         icon-key: ''
@@ -134,7 +128,7 @@ npc:
         textureUri: 'NONE'
         faction: 'Stargate Command'
         movingAnimation: 'NONE'
-    SpawnLocation-d:
+    SpawnLocation-c:
       type: 'setting'
       data:
         icon-key: ''
@@ -154,7 +148,7 @@ npc:
         textureUri: 'NONE'
         faction: 'Stargate Command'
         movingAnimation: 'NONE'
-    SpawnLocation-e:
+    SpawnLocation-d:
       type: 'setting'
       data:
         icon-key: ''
@@ -174,7 +168,7 @@ npc:
         textureUri: 'NONE'
         faction: 'Stargate Command'
         movingAnimation: 'NONE'
-    SpawnLocation-f:
+    SpawnLocation-e:
       type: 'setting'
       data:
         icon-key: ''
@@ -194,7 +188,7 @@ npc:
         textureUri: 'NONE'
         faction: 'Stargate Command'
         movingAnimation: 'NONE'
-    DroppedItem-g:
+    DroppedItem-f:
       type: 'setting'
       data:
         icon-key: ''
@@ -202,7 +196,7 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '5'
-    DroppedItem-h:
+    DroppedItem-g:
       type: 'setting'
       data:
         icon-key: ''
@@ -210,7 +204,7 @@ npc:
         damageValue: '0'
         numberOf: '3'
         chance: '10'
-    DroppedItem-i:
+    DroppedItem-h:
       type: 'setting'
       data:
         icon-key: ''
@@ -218,7 +212,7 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '20'
-    DroppedItem-j:
+    DroppedItem-i:
       type: 'setting'
       data:
         icon-key: ''
@@ -226,7 +220,7 @@ npc:
         damageValue: '0'
         numberOf: '1'
         chance: '2'
-    RandomSpawn-k:
+    RandomSpawn-j:
       type: 'setting'
       data:
         icon-key: ''
@@ -243,34 +237,46 @@ npc:
         spawnsOnSpawnWorld: 'YES'
         spawnsOnNonSpawnWorld: 'YES'
       children:
-        SpawnControllingFaction-l:
+        SpawnControllingFaction-k:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Stargate Command'
-        SpawnTerritory-m:
+        SpawnTerritory-l:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'TAURI TERRITORY'
-        SpawnDialog-n:
+        SpawnDialog-m:
           type: 'target'
           data:
             icon-key: ''
             dialogName: 'Marketeer Intro'
             chance: '50'
-        SpawnGalaxy-o:
+        SpawnGalaxy-n:
           type: 'target'
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
-        SpawnTerritory-p:
+        SpawnTerritory-o:
           type: 'target'
           data:
             icon-key: ''
             spawnTerritory: 'UNCLAIMED TERRITORY'
-        SpawnControllingFaction-q:
+        SpawnControllingFaction-p:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Uncontrolled'
+    EquippedCombatMainHandSlot-q:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
+    EquippedPassiveMainHandSlot-r:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
