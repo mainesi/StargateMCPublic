@@ -8,8 +8,8 @@ npc:
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Atlantis Expedition'
-  rotationBehavior: 'NoRotation'
-  rotation: 0
+  rotationBehavior: 'RotateBody'
+  rotation: 240
   visible: 'YES'
   modelType: 'NONE'
   gender: 'MALE'
@@ -43,10 +43,10 @@ npc:
   maxHealth: 400
   passiveHealthRegen: 'MEDIUM'
   combatHealthRegen: 'MEDIUM'
-  projectileResistance: 'LOW'
-  meleeResistance: 'LOW'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
   explosionResistance: 'NONE'
-  knockbackResistance: 'NONE'
+  knockbackResistance: 'MEDIUM'
   immuneToPotions: 'NO'
   immuneToFire: 'NO'
   meleeRange: 'LOWEST'
@@ -68,8 +68,8 @@ npc:
   factionImportance: 'MEDIUM'
   xpReward: '0'
   movementSpeed: 'NORMAL'
-  movementType: 'NONE'
-  wanderingDistance: '10'
+  movementType: 'STANDING'
+  wanderingDistance: '0'
   stopOnInteract: 'YES'
   pauseWhenFollowingPath: 'NO'
   returnsToStart: 'YES'
@@ -117,9 +117,9 @@ npc:
         damageValue: '0'
         numberOf: '2'
         chance: '1'
-    EquippedMainHandSlot-b:
+    EquippedCombatMainHandSlot-a:
       type: 'setting'
       data:
         icon-key: ''
         itemName: 'flansmod:p90'
-        damageValue: '10000'
+        damageValue: '0'
