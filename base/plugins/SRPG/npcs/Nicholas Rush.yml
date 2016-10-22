@@ -93,9 +93,9 @@ npc:
         icon-key: ''
         name: 'NONE'
         title: 'NONE'
-        spawnX: 370
-        spawnY: 84
-        spawnZ: 1360
+        spawnX: 395
+        spawnY: 85
+        spawnZ: 1387
         spawnDimension: 'Destiny'
         rotationBehavior: 'NONE'
         rotation: 0
