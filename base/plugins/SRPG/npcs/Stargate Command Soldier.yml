@@ -224,12 +224,12 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        numberSpawned: '1'
+        numberSpawned: '4'
         spawnChance: '16'
         minOffset: '1'
         maxOffset: '5'
-        density: '5'
-        dimensionDensity: '25'
+        density: '4'
+        dimensionDensity: '24'
         galaxyDensity: '100'
         naturallyDespawns: 'NO'
         spawnsInWater: 'NO'
@@ -280,3 +280,20 @@ npc:
         icon-key: ''
         itemName: 'flansmod:p90'
         damageValue: '0'
+    IncursionSpawn-s:
+      type: 'setting'
+      data:
+        icon-key: ''
+        incursionChance: '50'
+        numberSpawned: '4'
+      children:
+        SpawnControllingFaction-t:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Goauld'
+        SpawnGalaxy-u:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'
