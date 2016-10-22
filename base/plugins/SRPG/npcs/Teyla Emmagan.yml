@@ -8,8 +8,8 @@ npc:
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Atlantis Expedition'
-  rotationBehavior: 'NoRotation'
-  rotation: 0
+  rotationBehavior: 'RotateBody'
+  rotation: 240
   visible: 'YES'
   modelType: 'NONE'
   gender: 'FEMALE'
