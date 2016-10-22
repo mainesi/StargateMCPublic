@@ -180,3 +180,15 @@ npc:
           data:
             icon-key: ''
             controllingFaction: 'Uncontrolled'
+    EquippedCombatMainHandSlot-o:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
+    EquippedPassiveMainHandSlot-p:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:maTokStaff'
+        damageValue: '0'
