@@ -26,3 +26,12 @@ dialog:
         factionName: 'Stargate Command'
         factionStanding: 'Friendly'
         isNot: 'REQUIRESTANDING'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Where is the stargate?'
+        optionTextColor: 'BLUE'
+        optionType: 'DIALOG'
+        actionText: 'SGC Soldier - Where is the Stargate?'
