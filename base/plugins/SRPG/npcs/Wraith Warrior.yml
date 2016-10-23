@@ -131,7 +131,7 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        itemName: 'flansmod:wraithPlasmid'
+        itemName: 'flansmod:wraithStunner'
         damageValue: '0'
     EquippedPassiveMainHandSlot-g:
       type: 'setting'
