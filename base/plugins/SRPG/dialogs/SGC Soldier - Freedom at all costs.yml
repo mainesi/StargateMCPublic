@@ -1,0 +1,34 @@
+dialog:
+  name: 'SGC Soldier - Freedom at all costs'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Very well.... get to work {player}....'
+  - ''
+  - 'Your mission is to kill 10 of the Goauld Loyal Jaffa and their leader.'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Yes Sir!'
+        optionTextColor: 'RED'
+        optionType: 'QUIT'
+        actionText: 'NONE'
+    PrimaryFactionStandingRequired-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Stargate Command'
+        factionStanding: 'Neutral'
+        isNot: 'REQUIRESTANDING'
+    GiveQuest-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Freedom at all costs'

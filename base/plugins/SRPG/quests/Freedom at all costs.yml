@@ -1,0 +1,52 @@
+quest:
+  name: 'Freedom at all costs'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  repeatType: 'MCDAILY'
+  text:
+  - 'Kill 1 Goauld First Prime and 10 Goauld Jaffa Soldiers for the Stargate Command.'
+  - ''
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveKill-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        shareCredit: 'YES'
+        firstTarget: 'Goauld Jaffa Soldier'
+        firstNumber: '10'
+        secondTarget: 'Goauld First Prime'
+        secondNumber: '1'
+        thirdTarget: 'NONE'
+        thirdNumber: '1'
+    RewardCommand-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        command: 'eco give @dp 1000'
+    RewardExperience-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '1000'
+    RewardFactionRepPrimary-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Stargate Command'
+        repAmount: '250'
+    RewardFactionRepSecondary-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Goauld'
+        repAmount: '-250'
+    RewardItem-f:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'SGCraft:naquadah'
+        damageValue: '0'
+        stackSize: '25'

@@ -34,3 +34,12 @@ dialog:
         optionTextColor: 'BLUE'
         optionType: 'DIALOG'
         actionText: 'SGC Soldier - Where is the Stargate?'
+    AddDialogOption-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '2'
+        optionText: 'How can I assist you?'
+        optionTextColor: 'GREEN'
+        optionType: 'DIALOG'
+        actionText: 'SGC Soldier - Freedom at all costs'
