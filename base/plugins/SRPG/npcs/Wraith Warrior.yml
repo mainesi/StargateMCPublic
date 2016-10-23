@@ -1,0 +1,194 @@
+npc:
+  name: 'Wraith Warrior'
+  version: '1.0.1'
+  title: 'Warrior'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Wraith/wraith.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Wraith'
+  rotationBehavior: 'NoRotation'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'YES'
+  canSprint: 'YES'
+  canSwim: 'YES'
+  livingAnimation: 'YES'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'SUPRISE'
+  canLeap: 'NO'
+  maxHealth: 400
+  passiveHealthRegen: 'LOW'
+  combatHealthRegen: 'NONE'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
+  explosionResistance: 'MEDIUM'
+  knockbackResistance: 'MEDIUM'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'LOWEST'
+  meleeDamage: 'LOWEST'
+  meleeKnockback: 'NONE'
+  rangedRange: 'HIGH'
+  rangedDamage: 'HIGH'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'PLASMAPISTOL'
+  projectileAppearance: 'BLUEPLASMA'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'NEVER'
+  respawnDelay: '15MIN'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  factionImportance: 'LOW'
+  xpReward: '15'
+  movementSpeed: 'NORMAL'
+  movementType: 'NONE'
+  wanderingDistance: '1'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    RandomSpawn-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        numberSpawned: '2'
+        spawnChance: '10'
+        minOffset: '1'
+        maxOffset: '5'
+        density: '5'
+        dimensionDensity: '25'
+        galaxyDensity: '50'
+        naturallyDespawns: 'YES'
+        spawnsInWater: 'NO'
+        spawnsOnLand: 'YES'
+        spawnsOnSpawnWorld: 'NO'
+        spawnsOnNonSpawnWorld: 'YES'
+      children:
+        SpawnTerritory-b:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'UNCLAIMED TERRITORY'
+        SpawnControllingFaction-c:
+          type: 'target'
+          data:
+            icon-key: ''
+            controllingFaction: 'Wraith'
+        SpawnGalaxy-d:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'Pegasus'
+    DroppedItem-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:wraithPlasmid'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '50'
+    EquippedCombatMainHandSlot-f:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:wraithPlasmid'
+        damageValue: '0'
+    EquippedPassiveMainHandSlot-g:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    AssignedDialog-h:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'NONE'
+    EquippedHeadSlot-i:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    EquippedChestSlot-j:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    EquippedLegSlot-k:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    EquippedFeetSlot-l:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    EquippedPassiveOffHandSlot-m:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    EquippedCombatOffHandSlot-n:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'NONE'
+        damageValue: '0'
+    IncursionSpawn-o:
+      type: 'setting'
+      data:
+        icon-key: ''
+        incursionChance: '3'
+        numberSpawned: '5'
+      children:
+        SpawnGalaxy-p:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'Pegasus'
