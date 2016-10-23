@@ -184,7 +184,7 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        incursionChance: '3'
+        incursionChance: '10'
         numberSpawned: '5'
       children:
         SpawnGalaxy-p:
