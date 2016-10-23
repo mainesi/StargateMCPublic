@@ -60,7 +60,7 @@ npc:
   projectileSize: 'TINY'
   projectileExplosionType: 'NONE'
   projectileTrail: 'NONE'
-  projectileSound: 'NONE'
+  projectileSound: 'flansmod:stunnerShoot'
   respawnSetting: 'NEVER'
   respawnDelay: '15MIN'
   respawnsAtSpawn: 'YES'
