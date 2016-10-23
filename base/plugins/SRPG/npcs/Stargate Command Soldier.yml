@@ -297,3 +297,13 @@ npc:
           data:
             icon-key: ''
             spawnGalaxy: 'MilkyWay'
+    AssignedDialog-v:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'SGC Soldier Welcome - Friendly'
+    AssignedDialog-w:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'SGC Soldier Welcome - Neutral'
