@@ -1,0 +1,115 @@
+npc:
+  name: 'Oma Desala'
+  version: '1.0.2'
+  title: 'Ascended Representative'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/humanfemale/RobesBrownStephanie.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Ascended'
+  rotationBehavior: 'NoRotation'
+  rotation: 0
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'FEMALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'YES'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'NO'
+  canSwim: 'YES'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'YES'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'NO'
+  attackHostileFactions: 'NO'
+  mustSeeTarget: 'NO'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'NO'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 100
+  passiveHealthRegen: 'HIGHEST'
+  combatHealthRegen: 'HIGHEST'
+  projectileResistance: 'COMPLETE'
+  meleeResistance: 'COMPLETE'
+  explosionResistance: 'COMPLETE'
+  knockbackResistance: 'COMPLETE'
+  immuneToPotions: 'YES'
+  immuneToFire: 'YES'
+  meleeRange: 'LOWEST'
+  meleeDamage: 'LOWEST'
+  meleeKnockback: 'NONE'
+  rangedRange: 'LOWEST'
+  rangedDamage: 'LOWEST'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'PISTOL'
+  projectileAppearance: 'ARROW'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: 'INSTANT'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'NO'
+  factionImportance: 'NONE'
+  xpReward: '0'
+  questGiven: 'NONE'
+  movementSpeed: 'NORMAL'
+  movementType: 'NONE'
+  wanderingDistance: '1'
+  stopOnInteract: 'NO'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - 'I have nothing for you right now, {player}.'
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    AssignedDialog-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'Oma Desala - Introduction'
+    SpawnLocation-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: 33
+        spawnY: 74
+        spawnZ: 28
+        spawnDimension: 'Lacun'
+        rotationBehavior: 'NONE'
+        rotation: 180
+        gender: 'NONE'
+        movementType: 'NONE'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Ascended'
+        movingAnimation: 'NONE'
