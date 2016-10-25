@@ -30,4 +30,4 @@ dialog:
       data:
         icon-key: ''
         dialogName: 'Welcome to StargateMC'
-        dialogAvailable: 'BEFORE'
+        dialogAvailable: 'Before'
