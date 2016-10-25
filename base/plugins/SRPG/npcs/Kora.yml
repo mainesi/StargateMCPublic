@@ -105,7 +105,7 @@ npc:
         spawnZ: 72
         spawnDimension: 'Lacun'
         rotationBehavior: 'NONE'
-        rotation: 0
+        rotation: 90
         gender: 'NONE'
         movementType: 'NONE'
         modelType: 'NONE'
