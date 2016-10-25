@@ -83,7 +83,7 @@ npc:
   - ''
   interactLines:
   - 'I have nothing for you right now, {player}.'
-  - 'You may try travelling to the center of the Lacun valley and speaking with Lara.'
+  - 'You may try travelling to the center of the Lacun valley and speaking with Oma.'
   killLines:
   - ''
   killedLines:
