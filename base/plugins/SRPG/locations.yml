@@ -35,7 +35,7 @@ locations:
         # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
         messageWhenFound: "You've found Oma... speak with her to continue..."
         # Distance to check away from location for player with quest to grant progress to.
-        distanceFromLocation: 5
+        distanceFromLocation: 10
         # Type of location. This can be either NPC or LOCATION. See Options available below.
         type: NPC
         options:

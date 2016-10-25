@@ -1,0 +1,28 @@
+quest:
+  name: 'Locating Oma'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'Locate Oma Desala in the centre of the Lacun Valley.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstLocation: 'Oma Desala'
+        secondLocation: 'NONE'
+        thirdLocation: 'NONE'
+    RewardNewQuest-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Learning from Oma'
+    RewardExperience-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '100'
