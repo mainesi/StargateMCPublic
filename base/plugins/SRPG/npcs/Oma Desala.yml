@@ -16,7 +16,7 @@ npc:
   size: 5
   showBossBar: 'NO'
   showName: 'YES'
-  avoidsWater: 'YES'
+  avoidsWater: 'NO'
   doorInteraction: 'NONE'
   burnsInSun: 'NO'
   avoidsSun: 'NO'
