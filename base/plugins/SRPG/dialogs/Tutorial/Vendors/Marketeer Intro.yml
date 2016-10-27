@@ -1,0 +1,29 @@
+dialog:
+  name: 'Marketeer Intro'
+  version: '1.0.1'
+  category: 'Vendors'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Hi there {player}... I can offer you goods from various planets... in exchange for some naquadah in return!'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'I would like to see the market listings.'
+        optionTextColor: 'WHITE'
+        optionType: 'COMMAND'
+        actionText: 'market browse @dp'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '2'
+        optionText: 'I would like to see my market stocks.'
+        optionTextColor: 'WHITE'
+        optionType: 'COMMAND'
+        actionText: 'market browse stock @dp'
