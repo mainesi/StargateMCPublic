@@ -34,7 +34,7 @@ npc:
   mustSeeTarget: 'NO'
   attackedResponse: 'RETALIATE'
   tacticalDistance: 32
-  tacticalBehavior: 'SURROUND'
+  tacticalBehavior: 'NONE'
   aggroDistance: 48
   rangedBehavior: 'ALWAYS'
   aimWhileShooting: 'YES'

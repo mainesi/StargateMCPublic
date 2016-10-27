@@ -34,13 +34,13 @@ npc:
   mustSeeTarget: 'YES'
   attackedResponse: 'RETALIATE'
   tacticalDistance: 32
-  tacticalBehavior: 'SURROUND'
-  aggroDistance: 64
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
   rangedBehavior: 'UNTILCLOSE'
   aimWhileShooting: 'YES'
-  fireIndirectly: 'SUPRISE'
+  fireIndirectly: 'NONE'
   canLeap: 'NO'
-  maxHealth: 500
+  maxHealth: 50
   passiveHealthRegen: 'MEDIUM'
   combatHealthRegen: 'NONE'
   projectileResistance: 'MEDIUM'
