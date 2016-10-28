@@ -14,7 +14,7 @@ quest:
       data:
         icon-key: ''
         firstDialog: 'About the Tauri - Relations'
-        secondDialog: 'About the Tauri  - Rewards'
+        secondDialog: 'About the Tauri - Rewards'
         thirdDialog: 'About the Tauri - Territories'
     RewardExperience-b:
       type: 'setting'
