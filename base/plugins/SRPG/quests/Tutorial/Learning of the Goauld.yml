@@ -13,6 +13,7 @@ quest:
       type: 'setting'
       data:
         icon-key: ''
+        firstDialog: 'About the Goauld - Relations'
         secondDialog: 'About the Goauld  - Rewards'
         thirdDialog: 'About the Goauld - Territories'
     RewardExperience-b:
