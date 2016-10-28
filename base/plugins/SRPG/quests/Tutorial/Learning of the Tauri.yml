@@ -1,0 +1,30 @@
+quest:
+  name: 'Learning of the Tauri'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'You may learn of the Tauri from Daniel Jackson, who can be found within the temple in the western hills of Lacun.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveDialog-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstDialog: 'About the Tauri - Relations'
+        secondDialog: 'About the Tauri  - Rewards'
+        thirdDialog: 'About the Tauri - Territories'
+    RewardExperience-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '100'
+    RewardItem-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'SGCraft:GDO'
+        damageValue: '0'
+        stackSize: '1'

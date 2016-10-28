@@ -1,0 +1,36 @@
+quest:
+  name: 'Learning of the Goauld'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'You may learn of the Goauld from Yu, within the lodge in the eastern hills on Lacun.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveDialog-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        secondDialog: 'About the Goauld  - Rewards'
+        thirdDialog: 'About the Goauld - Territories'
+    RewardExperience-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '100'
+    RewardItem-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:zatPowerCell'
+        damageValue: '0'
+        stackSize: '1'
+    RewardItem-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:zatGun'
+        damageValue: '0'
+        stackSize: '1'
