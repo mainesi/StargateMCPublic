@@ -1,0 +1,50 @@
+dialog:
+  name: 'About the Jaffa - Introduction'
+  version: '1.0.1'
+  category: 'Free Jaffa Nation'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'The Jaffa are a proud people.'
+  - 'It has often been our undoing.'
+  - ''
+  - 'Would you like to learn of the Jaffa?'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '4'
+        optionText: 'Tell me, who do you call friend or foe?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Relations'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '2'
+        optionText: 'What can the Jaffa offer me?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Rewards'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '5'
+        optionText: 'Where do the Jaffa reside?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Territories'
+    AddDialogOption-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "Thanks, but I'm good for now."
+        optionTextColor: 'RED'
+        optionType: 'QUIT'
+        actionText: 'NONE'

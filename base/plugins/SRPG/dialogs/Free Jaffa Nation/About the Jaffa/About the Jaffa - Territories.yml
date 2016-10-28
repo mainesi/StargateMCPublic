@@ -1,0 +1,31 @@
+dialog:
+  name: 'About the Jaffa - Territories'
+  version: '1.0.1'
+  category: 'Free Jaffa Nation'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'The Free Jaffa call Chulak our home, however we have military deployments and settlements all through the Milky Way.'
+  - ''
+  - 'You will even on rare occasions find one of our kind in the Pegasus or Ori Galaxies, either assisting our allies or performing reconnaissance for our military.'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "That's all for now, thanks."
+        optionTextColor: 'RED'
+        optionType: 'QUIT'
+        actionText: 'NONE'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: "I'd like to ask something else."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Introduction'

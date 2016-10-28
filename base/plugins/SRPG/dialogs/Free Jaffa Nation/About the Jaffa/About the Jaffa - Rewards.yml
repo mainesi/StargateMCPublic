@@ -1,0 +1,33 @@
+dialog:
+  name: 'About the Jaffa - Rewards'
+  version: '1.0.1'
+  category: 'Free Jaffa Nation'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'The Jaffa have many technologies at their disposal, often inherited from the Goauld.'
+  - ''
+  - 'Those friendly to us gain access to various Goauld technologies and armor, as well as ship transportation between various planets in the Milky Way and Pegasus Galaxies.'
+  - ''
+  - 'We also offer Council sanctioned missions that you may embark on for rewards... though these are predominantly of an killing nature. '
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: "I'd like to ask something else."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Introduction'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "That's all for now, thanks."
+        optionTextColor: 'RED'
+        optionType: 'QUIT'
+        actionText: 'NONE'

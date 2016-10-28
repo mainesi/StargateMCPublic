@@ -1,0 +1,33 @@
+dialog:
+  name: 'About the Jaffa - Relations'
+  version: '1.0.1'
+  category: 'Free Jaffa Nation'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'The Jaffa hold their allies at arms length even in the best of times, much to the disappointment of the Tauri, or Tokra.'
+  - ''
+  - 'We consider the Tauri "Stargate Command" to be friend, along with the Tokra and Tollanans.'
+  - 'The Ori, and Goauld on the other hand must be eliminated. These are our foes.'
+  - ''
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: "I'd like to ask something else."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Introduction'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "That's all for now, thanks."
+        optionTextColor: 'RED'
+        optionType: 'QUIT'
+        actionText: 'NONE'
