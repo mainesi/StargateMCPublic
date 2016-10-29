@@ -106,7 +106,7 @@ npc:
         rotationBehavior: 'NONE'
         rotation: 0
         gender: 'NONE'
-        movementType: 'NONE'
+        movementType: 'STANDING'
         modelType: 'NONE'
         size: 5
         textureType: 'NONE'
