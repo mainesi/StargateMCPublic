@@ -26,3 +26,8 @@ quest:
       data:
         icon-key: ''
         xpGiven: '100'
+    TriggerLocation-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        locationName: 'Lacun Temple'
