@@ -1,0 +1,22 @@
+dialog:
+  name: 'Loken - Introduction'
+  version: '1.0.1'
+  category: 'Tutorial'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'The Jaffa are a proud people... we appreciate when those turn to us for aid and seek assistance.'
+  - ''
+  - 'What do you need of me?'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: "I'd like to know of the Free Jaffa."
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'About the Jaffa - Introduction'
