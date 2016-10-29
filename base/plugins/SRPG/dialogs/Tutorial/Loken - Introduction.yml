@@ -16,7 +16,7 @@ dialog:
       data:
         icon-key: ''
         optionPosition: '1'
-        optionText: '"Id like to know of the Free Jaffa."'
+        optionText: 'Id like to know of the Jaffa.'
         optionTextColor: 'PURPLE'
         optionType: 'DIALOG'
         actionText: 'About the Jaffa - Introduction'
