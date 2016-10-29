@@ -1,0 +1,28 @@
+quest:
+  name: 'Finding Loken'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'Locate Loken of the Jaffa, in the training grounds in the northern hills of Lacun.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstLocation: 'Loken of the Jaffa'
+        secondLocation: 'NONE'
+        thirdLocation: 'NONE'
+    RewardNewQuest-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Learning of the Free Jaffa'
+    RewardExperience-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '50'

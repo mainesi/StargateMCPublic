@@ -1,0 +1,30 @@
+dialog:
+  name: 'Oma Desala - Communicating'
+  version: '1.0.1'
+  category: 'Tutorial'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Communication is key to success for being an active member of the StargateMC universe.'
+  - ''
+  - 'You may elect to use any of the following text channels;'
+  - ''
+  - '- Universe (Universal in-game text chat, which is linked to Discord)'
+  - '- Faction (This channel is only viewable by your faction)'
+  - '- Allies (This channel is only viewable by those allied to your faction)'
+  - ''
+  - 'You may also elect to use Discord, a 3rd party voice chat app, by visiting this link in your web browser:'
+  - 'https://discord.gg/FV76SKW'
+  - ''
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "Thanks, I'd like to ask something else."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Introduction'

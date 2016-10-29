@@ -1,0 +1,25 @@
+dialog:
+  name: 'Oma Desala - Ascension'
+  version: '1.0.1'
+  category: 'Tutorial'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Ascension is the process where a humanoid life form may learn of a way to shed their corporeal form and elevate themselves into a higher plane of existence, where the life form will exist at a being of pure energy.'
+  - 'This is the final step for more living beings on this plane of existence.'
+  - ''
+  - 'Descension on the other hand is the opposite process. '
+  - ''
+  - 'This is often used as a form of punishment or escape for those who cannot abide the rules of becoming an Ascended being.'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "Thanks, I'd like to ask something else."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Introduction'

@@ -1,0 +1,60 @@
+dialog:
+  name: 'Oma Desala - Introduction'
+  version: '1.0.1'
+  category: 'Tutorial'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Welcome to Lacun, {player}.'
+  - ''
+  - 'The Lacun sanctuary is the last of the Lantean sanctuaries designed to aid those in seeking the path to ascension in peace..... but it also serves as an area that those wishing to return to the lower planes may pepare in.'
+  - ''
+  - 'If there is any way I can aid you on your path, let me know.'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'If I am lost, how do I seek help?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Seeking Help'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: 'What do I need to do in order to leave this place?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Getting Started'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '2'
+        optionText: 'Teach me how to communicate effectively'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Communicating'
+    AddDialogOption-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '4'
+        optionText: 'What is Ascension?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Ascension'
+    AddDialogOption-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: 'That is all for the moment, thanks.'
+        optionTextColor: 'RED'
+        optionType: 'QUIT'
+        actionText: 'NONE'

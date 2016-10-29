@@ -1,0 +1,26 @@
+dialog:
+  name: 'Oma Desala - Seeking Help'
+  version: '1.0.1'
+  category: 'Tutorial'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'You may seek help in a variety of ways.... '
+  - ''
+  - '1. You can chat to other players, either in the text channels in-game or via Discord voice-chat.'
+  - '2. Posting on the StargateMC forums.'
+  - '3. Posting a bug report or suggestion on Github.'
+  - ''
+  - 'Of course, there are also external resources for all of the mods and plugins utilised by this server.'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "Thanks, I'd like to ask something else."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Oma Desala - Introduction'

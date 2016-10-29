@@ -1,0 +1,23 @@
+quest:
+  name: 'Learning from Oma'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'Learn all you can from Oma Desala, in the central island of the Lacun Sanctuary.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveDialog-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstDialog: 'Oma Desala - Communicating'
+        secondDialog: 'Oma Desala - Seeking Help'
+        thirdDialog: 'Oma Desala - Ascension'
+    RewardExperience-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '50'
