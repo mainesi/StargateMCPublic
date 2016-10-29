@@ -4,7 +4,7 @@ npc:
   title: 'Jaffa Council Member'
   template: 'NONE'
   textureType: 'RESOURCE'
-  textureUri: 'NONE'
+  textureUri: 'customnpcs:textures/entity/stargate/Jaffa/jaffa_tealc_older_2.png'
   capeTexture: 'NONE'
   overlayTexture: 'NONE'
   faction: 'Sanctuary'
