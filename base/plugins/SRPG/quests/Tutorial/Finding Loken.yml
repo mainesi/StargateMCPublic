@@ -20,7 +20,7 @@ quest:
       type: 'setting'
       data:
         icon-key: ''
-        questName: 'Learning of the Free Jaffa'
+        questName: 'Learning of the Jaffa'
     RewardExperience-c:
       type: 'setting'
       data:
