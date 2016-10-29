@@ -67,6 +67,7 @@ npc:
   hideDeadBody: 'NO'
   factionImportance: 'MEDIUM'
   xpReward: '25'
+  questGiven: 'NONE'
   movementSpeed: 'NORMAL'
   movementType: 'NONE'
   wanderingDistance: '48'
@@ -268,31 +269,36 @@ npc:
           data:
             icon-key: ''
             controllingFaction: 'Uncontrolled'
-    EquippedCombatMainHandSlot-q:
+        SpawnTerritory-q:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'TAURI TERRITORY'
+    EquippedCombatMainHandSlot-r:
       type: 'setting'
       data:
         icon-key: ''
         itemName: 'flansmod:p90'
         damageValue: '0'
-    EquippedPassiveMainHandSlot-r:
+    EquippedPassiveMainHandSlot-s:
       type: 'setting'
       data:
         icon-key: ''
         itemName: 'flansmod:p90'
         damageValue: '0'
-    IncursionSpawn-s:
+    IncursionSpawn-t:
       type: 'setting'
       data:
         icon-key: ''
         incursionChance: '50'
         numberSpawned: '4'
       children:
-        SpawnControllingFaction-t:
+        SpawnControllingFaction-u:
           type: 'target'
           data:
             icon-key: ''
             controllingFaction: 'Goauld'
-        SpawnGalaxy-u:
+        SpawnGalaxy-v:
           type: 'target'
           data:
             icon-key: ''
