@@ -113,3 +113,8 @@ npc:
         textureUri: 'NONE'
         faction: 'Ascended'
         movingAnimation: 'NONE'
+    AssignedDialog-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'Oma - Moving On'

@@ -49,3 +49,9 @@ dialog:
         optionTextColor: 'RED'
         optionType: 'QUIT'
         actionText: 'NONE'
+    QuestStateRequired-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Finding Loken'
+        questAvailable: 'NotActive'

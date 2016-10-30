@@ -16,7 +16,7 @@ dialog:
       data:
         icon-key: ''
         optionPosition: '1'
-        optionText: "Thanks, I'll be on my way."
+        optionText: '"Thanks, Ill be on my way."'
         optionTextColor: 'PURPLE'
         optionType: 'QUIT'
         actionText: 'NONE'
@@ -25,9 +25,9 @@ dialog:
       data:
         icon-key: ''
         questName: 'Locating Oma'
-    DialogStateRequired-c:
+    QuestStateRequired-c:
       type: 'setting'
       data:
         icon-key: ''
-        dialogName: 'Welcome to StargateMC'
-        dialogAvailable: 'Before'
+        questName: 'Locating Oma'
+        questAvailable: 'Before'

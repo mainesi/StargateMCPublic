@@ -98,7 +98,7 @@ locations:
         # Name of location that is stored in Quests.
         locationName: "Eastern Hills Lodge"
         # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
-        messageWhenFound: "You might want to find your way to the centre island, across the bridge - and speak with Oma."
+        messageWhenFound: "Now that you've found the lodge, you should be able to find who you were after..."
         # Distance to check away from location for player with quest to grant progress to.
         distanceFromLocation: 20
         # Type of location. This can be either NPC or LOCATION. See Options available below.
