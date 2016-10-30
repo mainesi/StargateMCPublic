@@ -91,6 +91,6 @@ locations:
                 positions:
                     1:
                         x: -175
-                        y: 72
-                        z: 102
+                        y: 102
+                        z: 72
                         world: Lacun
