@@ -21,3 +21,8 @@ quest:
       data:
         icon-key: ''
         xpGiven: '50'
+    RewardNewQuest-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Finding Loken'

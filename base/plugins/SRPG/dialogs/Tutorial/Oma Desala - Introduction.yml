@@ -26,21 +26,12 @@ dialog:
       type: 'setting'
       data:
         icon-key: ''
-        optionPosition: '3'
-        optionText: 'What do I need to do in order to leave this place?'
-        optionTextColor: 'PURPLE'
-        optionType: 'DIALOG'
-        actionText: 'Oma Desala - Getting Started'
-    AddDialogOption-c:
-      type: 'setting'
-      data:
-        icon-key: ''
         optionPosition: '2'
         optionText: 'Teach me how to communicate effectively'
         optionTextColor: 'PURPLE'
         optionType: 'DIALOG'
         actionText: 'Oma Desala - Communicating'
-    AddDialogOption-d:
+    AddDialogOption-c:
       type: 'setting'
       data:
         icon-key: ''
@@ -49,7 +40,7 @@ dialog:
         optionTextColor: 'PURPLE'
         optionType: 'DIALOG'
         actionText: 'Oma Desala - Ascension'
-    AddDialogOption-e:
+    AddDialogOption-d:
       type: 'setting'
       data:
         icon-key: ''
