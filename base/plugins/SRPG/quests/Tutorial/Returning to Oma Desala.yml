@@ -1,0 +1,23 @@
+quest:
+  name: 'Returning to Oma Desala'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'Return to Oma Desala after learning all you can where you are.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstLocation: 'Oma Desala'
+        secondLocation: 'NONE'
+        thirdLocation: 'NONE'
+    RewardExperience-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '50'

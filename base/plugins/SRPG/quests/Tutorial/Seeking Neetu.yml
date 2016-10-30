@@ -1,0 +1,29 @@
+quest:
+  name: 'Seeking Neetu'
+  version: '1.0.1'
+  category: 'Tutorial'
+  repeatType: 'NONE'
+  text:
+  - 'Locate Neetu of the Wraith, in lodge in the eastern hills of Lacun.'
+  - 'You will find passage there easier if you travel through the mines in the side of the mountain.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstLocation: 'Eastern Hills Lodge'
+        secondLocation: 'NONE'
+        thirdLocation: 'NONE'
+    RewardNewQuest-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Learning of the Wraith'
+    RewardExperience-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '50'

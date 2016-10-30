@@ -35,3 +35,8 @@ quest:
         itemName: 'flansmod:liquidNaquadah'
         damageValue: '0'
         stackSize: '1'
+    RewardNewQuest-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Returning to Oma Desala'
