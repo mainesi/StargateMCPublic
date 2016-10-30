@@ -76,7 +76,7 @@ locations:
         # Name of location that is stored in Quests.
         locationName: "Lacun Temple"
         # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
-        messageWhenFound: "You've found Loken. Now speak with him and learn of the Jaffa to continue."
+        messageWhenFound: "You might want to find your way to the centre island, across the bridge - and speak with Oma."
         # Distance to check away from location for player with quest to grant progress to.
         distanceFromLocation: 5
         # Type of location. This can be either NPC or LOCATION. See Options available below.
