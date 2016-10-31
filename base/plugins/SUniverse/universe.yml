@@ -7,95 +7,95 @@ universe:
       centerZ: 0
       centerY: 100
       radiusY: 100
-      radiusXZ: 5000
+      radiusXZ: 50000
     Pegasus:
-      centerX: 25000
-      centerZ: 15000
+      centerX: 250000
+      centerZ: 150000
       centerY: 100
       radiusY: 100
-      radiusXZ: 5000
+      radiusXZ: 50000
     Ori:
-      centerX: -84000
-      centerZ: -84000
+      centerX: -840000
+      centerZ: -840000
       centerY: 100
       radiusY: 100
-      radiusXZ: 5000
+      radiusXZ: 50000
     Destiny:
-      centerX: 84000
-      centerZ: 84000
+      centerX: 840000
+      centerZ: 840000
       centerY: 100
       radiusY: 100
-      radiusXZ: 5000
+      radiusXZ: 50000
     Othala:
-      centerX: 34000
-      centerZ: -24000
+      centerX: 340000
+      centerZ: -240000
       centerY: 100
       radiusY: 100
-      radiusXZ: 5000
+      radiusXZ: 50000
     Ida:
-      centerX: 45000
-      centerZ: -30000
+      centerX: 450000
+      centerZ: -300000
       centerY: 100
       radiusY: 100
-      radiusXZ: 5000
+      radiusXZ: 50000
   dimensions:
     "DIM-65":
       posX: 0
       posZ: 0
       posY: 0
-      radius: 100000
+      radius: 1420000
       isSpawn: false
       atmosphere: NONE      
       type: SPACE
       majorityFaction: NONE
     Earth:
-      posX: 3100
-      posZ: 2500
+      posX: 31000
+      posZ: 25000
       posY: 110
-      radius: 250
+      radius: 2500
       isSpawn: true
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Stargate Command
     Daedalus:
-      posX: 3100
-      posZ: 2500
+      posX: 25000
+      posZ: 31000
       posY: 110
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: ARTIFICIAL      
       type: SHIP
       majorityFaction: Stargate Command
     Destiny:
-      posX: 81000
-      posZ: 86000
+      posX: 810000
+      posZ: 860000
       posY: 110
-      radius: 250
+      radius: 2500
       isSpawn: true
       atmosphere: ARTIFICIAL      
       type: SHIP
       majorityFaction: Destiny Expedition
     "Tollana":
-      posX: -3100
-      posZ: -2500
+      posX: -31000
+      posZ: -25000
       posY: 180
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Tollan
     "Lantea":
-      posX: 26000
-      posZ: 15500
+      posX: 260000
+      posZ: 155000
       posY: 67
-      radius: 250
+      radius: 2500
       isSpawn: true
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Atlantis Expedition
     "Omega":
-      posX: 22000
-      posZ: 16000
+      posX: 220000
+      posZ: 160000
       posY: 67
       radius: 250
       isSpawn: true
@@ -103,107 +103,107 @@ universe:
       type: SHIP
       majorityFaction: Wraith
     "Celestis":
-      posX: -83500
-      posZ: -83000
+      posX: -835000
+      posZ: -830000
       posY: 140
-      radius: 250
+      radius: 2500
       isSpawn: true
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Ori
     "Rebirth":
-      posX: 35100
-      posZ: -26000
+      posX: 351000
+      posZ: -260000
       posY: 113
-      radius: 250
+      radius: 2500
       isSpawn: true
       atmosphere: ARTIFICIAL      
       type: SHIP
       majorityFaction: Asgard
     "Lacun":
-      posX: 4100
-      posZ: 2500
+      posX: 41000
+      posZ: 25000
       posY: 190
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: Sanctuary
     "MidwayStation":
-      posX: 11450
-      posZ: 6000
+      posX: 114500
+      posZ: 60000
       posY: 100
-      radius: 250
+      radius: 2500
       isSpawn: true
       atmosphere: ARTIFICIAL      
       type: SHIP
       majorityFaction: Midway Crew
     "P9L-101":
-      posX: -1000
-      posZ: -500
+      posX: -10000
+      posZ: -5000
       posY: 50
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: UNSTABLE     
       type: PLANET
       majorityFaction: NONE
     "P7K-172":
-      posX: -1400
-      posZ: -1100
+      posX: -14000
+      posZ: -11000
       posY: 70
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
       majorityFaction: NONE
     "P2A-347":
-      posX: 3900
-      posZ: 1000
+      posX: 39000
+      posZ: 10000
       posY: 90
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: BARREN      
       type: PLANET
       majorityFaction: Goauld
     "P2Y-321":
-      posX: -3900
-      posZ: 1000
+      posX: -39000
+      posZ: 10000
       posY: 80
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: NONE
     "P5J-612":
-      posX: 4100
-      posZ: 2000
+      posX: 41000
+      posZ: 20000
       posY: 90
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
       majorityFaction: Goauld
     "KS7-535":
-      posX: 3200
-      posZ: -1000
+      posX: 32000
+      posZ: -10000
       posY: 170
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FROZEN      
       type: PLANET
       majorityFaction: NONE
     "P4X-555":
-      posX: 305
-      posZ: -700
+      posX: 3050
+      posZ: -7000
       posY: 50
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: NONE
     "P2Q-411":
-      posX: -1105
-      posZ: -1300
+      posX: -11050
+      posZ: -13000
       posY: 195 
       radius: 250
       isSpawn: false
@@ -211,55 +211,55 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "M3R-485":
-      posX: 23000
-      posZ: 12500
+      posX: 230000
+      posZ: 125000
       posY: 170
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: UNSTABLE      
       type: PLANET
       majorityFaction: NONE
     "M4X-179":
-      posX: 24000
-      posZ: 12500
+      posX: 240000
+      posZ: 125000
       posY: 60
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
       majorityFaction: NONE
     "M4X-337":
-      posX: 24000
-      posZ: 17500
+      posX: 240000
+      posZ: 175000
       posY: 80
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: BARREN      
       type: PLANET
       majorityFaction: Wraith
     "M9R-373":
-      posX: 22900
-      posZ: 17000
+      posX: 229000
+      posZ: 170000
       posY: 90
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL    
       type: PLANET
       majorityFaction: NONE
     "M9X-345":
-      posX: 21900
-      posZ: 18000
+      posX: 219000
+      posZ: 180000
       posY: 85
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: NONE
     "D1X-209":
-      posX: 86000
-      posZ: 82500
+      posX: 860000
+      posZ: 825000
       posY: 90
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
@@ -274,44 +274,44 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "D3L-122":
-      posX: 83400
-      posZ: 81000
+      posX: 834000
+      posZ: 810000
       posY: 75
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: UNSTABLE      
       type: PLANET
       majorityFaction: NONE
     "D3L-353":
-      posX: 86000
-      posZ: 85500
+      posX: 860000
+      posZ: 855000
       posY: 83
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: BARREN      
       type: PLANET
       majorityFaction: NONE
     "D7J-700":
-      posX: 86000
-      posZ: 86250
+      posX: 860000
+      posZ: 862500
       posY: 60
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FROZEN      
       type: PLANET
       majorityFaction: NONE
     "D9K-411":
-      posX: 86500
-      posZ: 86000
+      posX: 865000
+      posZ: 860000
       posY: 50
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL     
       type: PLANET
       majorityFaction: NONE
     "DIM-332":
-      posX: 82500
-      posZ: 83000
+      posX: 825000
+      posZ: 830000
       posY: 25
       radius: 250
       isSpawn: false
@@ -319,8 +319,8 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "DIM-393":
-      posX: 81000
-      posZ: 84500
+      posX: 810000
+      posZ: 845000
       posY: 60
       radius: 250
       isSpawn: false
@@ -331,97 +331,97 @@ universe:
       posX: 84000
       posZ: 83500
       posY: 35
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: NONE      
       type: PLANET
       majorityFaction: NONE
     "C8L-390":
-      posX: -86000
-      posZ: -86250
+      posX: -860000
+      posZ: -862500
       posY: 89
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL
       type: PLANET
       majorityFaction: NONE
     "C2X-112":
-      posX: -86500
-      posZ: -86000
+      posX: -865000
+      posZ: -860000
       posY: 90
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: UNSTABLE      
       type: PLANET
       majorityFaction: NONE
     "C3J-512":
-      posX: -81000
-      posZ: -84500
+      posX: -810000
+      posZ: -845000
       posY: 134
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FROZEN      
       type: PLANET
       majorityFaction: NONE
     "C6A-343":
-      posX: -84000
-      posZ: -83500
+      posX: -840000
+      posZ: -835000
       posY: 180
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: BARREN      
       type: PLANET
       majorityFaction: NONE
     "C7J-211":
-      posX: -86000
-      posZ: -82250
+      posX: -860000
+      posZ: -822500
       posY: 170
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
       majorityFaction: NONE
     "O7K-232":
-      posX: 33000
-      posZ: -24500
+      posX: 330000
+      posZ: -245000
       posY: 110
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: BARREN      
       type: PLANET
       majorityFaction: NONE
     "O6K-349":
-      posX: 37200
-      posZ: -27000
+      posX: 372000
+      posZ: -270000
       posY: 192
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
       majorityFaction: NONE
     "O3L-311":
-      posX: 33000
-      posZ: -26200
+      posX: 330000
+      posZ: -262000
       posY: 142
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FLOODED      
       type: PLANET
       majorityFaction: NONE
     "O2J-111":
-      posX: 32000
-      posZ: -25000
+      posX: 320000
+      posZ: -250000
       posY: 174
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: UNSTABLE      
       type: PLANET
       majorityFaction: NONE
     "O1K-547":
-      posX: 30500
-      posZ: -20500
+      posX: 305000
+      posZ: -205000
       posY: 82
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: FROZEN      
       type: PLANET
