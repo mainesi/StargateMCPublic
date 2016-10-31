@@ -1,0 +1,21 @@
+dialog:
+  name: 'Hank Landry - Neutral Missions'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'I have several tasks that you may assist me with.'
+  - ''
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: "I'd like to assist with the resupply of Atlantis, the lost city of the Ancients."
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Keeping the Shield at full strength'

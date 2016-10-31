@@ -29,3 +29,12 @@ dialog:
         optionTextColor: 'YELLOW'
         optionType: 'DIALOG'
         actionText: 'Walter Harriman - MilkyWay - Goauld'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: 'I have a mission to travel to the Atlantis, in the Pegasus Galaxy.'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Dialling Atlantis From Earth'

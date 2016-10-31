@@ -1,0 +1,22 @@
+dialog:
+  name: 'Hank Landry - Neutral'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Welcome to the SGC, {player}.'
+  - ''
+  - 'What can I do for you?'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Do you have any missions available?'
+        optionTextColor: 'YELLOW'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Missions'

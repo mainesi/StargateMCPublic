@@ -1,0 +1,126 @@
+npc:
+  name: 'Hank Landry'
+  version: '1.0.2'
+  title: 'Major General'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Tauri/tauri_hank_landry.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Stargate Command'
+  rotationBehavior: 'NoRotation'
+  rotation: 270
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'NO'
+  canSwim: 'NO'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'YES'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 1000
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'MEDIUM'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
+  explosionResistance: 'LOWEST'
+  knockbackResistance: 'MEDIUM'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'LOW'
+  meleeDamage: 'MEDIUM'
+  meleeKnockback: 'NONE'
+  rangedRange: 'LOW'
+  rangedDamage: 'HIGH'
+  rangedKnockback: 'LOWEST'
+  rangedWeaponBehavior: 'PISTOL'
+  projectileAppearance: 'BULLET'
+  projectileSize: 'SMALL'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'flansmod:M9Shoot'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '5MIN'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'YES'
+  factionImportance: 'HIGHEST'
+  xpReward: '0'
+  questGiven: 'NONE'
+  movementSpeed: 'NORMAL'
+  movementType: 'NONE'
+  wanderingDistance: '1'
+  stopOnInteract: 'YES'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'NONE'
+        title: 'NONE'
+        spawnX: -134
+        spawnY: 16
+        spawnZ: -609
+        spawnDimension: 'Earth'
+        rotationBehavior: 'NONE'
+        rotation: 270
+        gender: 'MALE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'RESOURCE'
+        textureUri: 'NONE'
+        faction: 'Stargate Command'
+        movingAnimation: 'SITTING'
+    EquippedCombatMainHandSlot-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:m9'
+        damageValue: '0'
+    AssignedDialog-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'Hank Landry - Neutral'
+    AssignedDialog-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'Hank Landry - Friendly'

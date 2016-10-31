@@ -1,0 +1,27 @@
+dialog:
+  name: 'Hank Landry - Keeping the Shield at full strength'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'You may not have heard, but we recently discovered a Zero Point module... or Z-P-M in our offworld missions.'
+  - ''
+  - "You're being charged with its safe transfer to the Atlantis Expedition, to assist with powering the city."
+  - ''
+  - 'Seek out our scientists on level 26 to obtain the artifact and speak with Walter in the control room to dial out... you leave immediately!'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    PrimaryFactionStandingRequired-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Stargate Command'
+        factionStanding: 'Neutral'
+        isNot: 'REQUIRESTANDING'
+    GiveQuest-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Keeping the shield at full strength'

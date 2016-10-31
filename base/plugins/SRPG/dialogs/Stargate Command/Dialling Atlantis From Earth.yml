@@ -1,0 +1,27 @@
+dialog:
+  name: 'Dialling Atlantis From Earth'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'I have been authorised to use our ZPM to dial Atlantis, to aid you in your resupply mission.'
+  - 'Let me know when you are ready!'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Start dialling!'
+        optionTextColor: 'GREEN'
+        optionType: 'COMMAND'
+        actionText: 's gdial @dp XX6H65U5W'
+    QuestStateRequired-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        questName: 'Keeping the shield at full strength'
+        questAvailable: 'Active'

@@ -1,0 +1,39 @@
+quest:
+  name: 'Keeping the shield at full strength'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  repeatType: 'MCDAILY'
+  text:
+  - 'Provide the recently obtained (but nearly depleted) Zero Point Module to the Atlantis Expedition.'
+  - ''
+  - 'Walter Harriman has been authorised to dial up Atlantis directly using Earths Zero Point Module to assist with the mission.'
+  - ''
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    ObjectiveItem-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        ignoreNBT: 'NO'
+        ignoreDamage: 'NO'
+        takeItems: 'YES'
+      children:
+        ObjectiveItemEntry-b:
+          type: 'target'
+          data:
+            icon-key: ''
+            itemName: 'SGCraft:T2ZeroPointModule'
+            damageValue: '9000'
+            stackSize: '1'
+    CompletionTypeNpc-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        npcName: 'Rodney Mckay'
+    RewardExperience-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '250'
