@@ -1,5 +1,5 @@
 npc:
-  name: 'Rodney McKay'
+  name: 'Rodney Mckay'
   version: '1.0.0'
   title: 'Lead Scientist'
   template: 'NONE'
@@ -94,7 +94,7 @@ npc:
       data:
         icon-key: ''
         name: 'NONE'
-        title: 'Lead Scientist'
+        title: 'NONE'
         spawnX: -280
         spawnY: 182
         spawnZ: -1047
