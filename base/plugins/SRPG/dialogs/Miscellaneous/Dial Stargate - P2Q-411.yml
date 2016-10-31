@@ -1,0 +1,24 @@
+dialog:
+  name: 'Dial Stargate - P2Q-411'
+  version: '1.0.1'
+  category: 'Miscellaneous'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'P2Q-411 is a hospitable planet, which is currently outside the protection of any of the major races.'
+  - ''
+  - 'There are some human settlements and patrols from several races there, however you will find that most of the world is completely lawless.'
+  - ''
+  - "Let me know if you'd like me to dial it up!"
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Start dialling!'
+        optionTextColor: 'GREEN'
+        optionType: 'COMMAND'
+        actionText: 's gdial @dp EA6UDMTNI'

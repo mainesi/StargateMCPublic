@@ -55,12 +55,12 @@ npc:
   rangedRange: 'MEDIUM'
   rangedDamage: 'MEDIUM'
   rangedKnockback: 'NONE'
-  rangedWeaponBehavior: 'MACHINEGUN'
+  rangedWeaponBehavior: 'PISTOL'
   projectileAppearance: 'BULLET'
   projectileSize: 'SMALL'
   projectileExplosionType: 'NONE'
   projectileTrail: 'NONE'
-  projectileSound: 'NONE'
+  projectileSound: 'flansmod:M9Shoot'
   respawnSetting: 'ALWAYS'
   respawnDelay: '5MIN'
   respawnsAtSpawn: 'YES'
@@ -112,5 +112,10 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        itemName: 'flansmod:p90'
+        itemName: 'flansmod:m9'
         damageValue: '0'
+    AssignedDialog-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        dialogName: 'Walter Harriman - Introduction'

@@ -1,0 +1,29 @@
+dialog:
+  name: 'Walter Harriman - MilkyWay - Uncontrolled'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'There are several uncontrolled worlds in the Milky Way, what one after you after?'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: "Actually this isn't what I'm after."
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Walter Harriman - Introduction'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: 'I need to travel to P2Q-411.'
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Dial Stargate - P2Q-411'
