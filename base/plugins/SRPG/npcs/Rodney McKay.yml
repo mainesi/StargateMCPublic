@@ -93,7 +93,7 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        name: 'Dr Rodney McKay'
+        name: 'NONE'
         title: 'Lead Scientist'
         spawnX: -280
         spawnY: 182
