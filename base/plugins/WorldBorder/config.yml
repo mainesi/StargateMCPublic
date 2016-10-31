@@ -200,8 +200,8 @@ worlds:
   DIM-65:
     x: 0.0
     z: 0.0
-    radiusX: 142000
-    radiusZ: 142000
+    radiusX: 1420000
+    radiusZ: 1420000
     wrapping: false
   DIM-648:
     x: 84.0
@@ -250,8 +250,8 @@ worlds:
   DIM-64:
     x: -164.0
     z: 252.0
-    radiusX: 142000
-    radiusZ: 142000
+    radiusX: 1420000
+    radiusZ: 1420000
     wrapping: false
     shape-round: true
   DIM189:
