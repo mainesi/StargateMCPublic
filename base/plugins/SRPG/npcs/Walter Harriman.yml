@@ -99,7 +99,7 @@ npc:
         spawnZ: -618
         spawnDimension: 'Earth'
         rotationBehavior: 'NONE'
-        rotation: 180
+        rotation: 90
         gender: 'MALE'
         movementType: 'STANDING'
         modelType: 'NONE'
