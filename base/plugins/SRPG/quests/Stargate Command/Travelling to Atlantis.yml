@@ -1,0 +1,30 @@
+quest:
+  name: 'Travelling to Atlantis'
+  version: '1.0.2'
+  category: 'Stargate Command'
+  repeatType: 'INSTANTLY'
+  text:
+  - 'Travel to Atlantis, in the Pegasus Galaxy.'
+  - 'You may speak to Walter Harriman at the SGC to begin the dialling sequence.'
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    RewardExperience-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        xpGiven: '50'
+    TriggerLocation-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        locationName: 'Walter Harriman'
+        requiredQuest: 'Keeping the shield at full strength'
+    ObjectiveLocation-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        firstLocation: 'Atlantis'
+        secondLocation: 'NONE'
+        thirdLocation: 'NONE'

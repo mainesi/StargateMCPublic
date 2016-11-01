@@ -23,5 +23,5 @@ dialog:
       type: 'setting'
       data:
         icon-key: ''
-        questName: 'Keeping the shield at full strength'
+        questName: 'Travelling to Atlantis'
         questAvailable: 'Active'
