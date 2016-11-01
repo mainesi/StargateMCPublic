@@ -2,7 +2,7 @@ quest:
   name: 'Travelling to Atlantis'
   version: '1.0.2'
   category: 'Stargate Command'
-  repeatType: 'INSTANTLY'
+  repeatType: 'INSTANT'
   text:
   - 'Travel to Atlantis, in the Pegasus Galaxy.'
   - 'You may speak to Walter Harriman at the SGC to begin the dialling sequence.'
