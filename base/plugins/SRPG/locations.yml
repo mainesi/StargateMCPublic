@@ -138,3 +138,25 @@ locations:
                         y: 140
                         z: -6
                         world: Lacun
+    7:
+        # Name of location that is stored in Quests.
+        locationName: "Atlantis"
+        # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
+        messageWhenFound: "{This message is not configured}"
+        # Distance to check away from location for player with quest to grant progress to.
+        distanceFromLocation: 30
+        # Type of location. This can be either NPC or LOCATION. See Options available below.
+        type: LOCATION
+        options:
+            # Location Options when a QuestLocation is set to NPC mode. Every NPC with the below title and name will become a valid set of coordinates for a player to visit.
+            NPC:
+                name: Walter Harriman
+                title: Chief Master Sergeant
+            LOCATION:
+                # Location Options when a QuestLocation is set to LOCATION mode. This is a series of coordinates for the player to visit.
+                positions:
+                    1:
+                        x: -295
+                        y: 178
+                        z: -1035
+                        world: Lantea
