@@ -142,7 +142,7 @@ locations:
         # Name of location that is stored in Quests.
         locationName: "Atlantis"
         # Message displayed by SRPG to the player when they find this location for the first time AND have the quest for it.
-        messageWhenFound: "{This message is not configured}"
+        messageWhenFound: "Welcome to Atlantis, in the Pegasus Galaxy."
         # Distance to check away from location for player with quest to grant progress to.
         distanceFromLocation: 30
         # Type of location. This can be either NPC or LOCATION. See Options available below.
