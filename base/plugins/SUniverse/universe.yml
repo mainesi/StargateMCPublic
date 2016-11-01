@@ -265,10 +265,10 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "DIM-331":
-      posX: 82500
-      posZ: 84000
+      posX: 825000
+      posZ: 840000
       posY: 60
-      radius: 250
+      radius: 2500
       isSpawn: false
       atmosphere: OPTIMAL      
       type: PLANET
@@ -328,8 +328,8 @@ universe:
       type: PLANET
       majorityFaction: NONE
     "DIM-411":
-      posX: 84000
-      posZ: 83500
+      posX: 840000
+      posZ: 835000
       posY: 35
       radius: 2500
       isSpawn: false
