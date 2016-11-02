@@ -23,5 +23,5 @@ dialog:
       type: 'setting'
       data:
         icon-key: ''
-        questName: 'Travelling to Atlantis'
+        questName: 'Travel to: Lantea'
         questAvailable: 'Active'
