@@ -1,0 +1,35 @@
+dialog:
+  name: 'Hank Landry - Mission - Elminate Nerus'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'We lent a modified Jumper cloak generator to the Free Jaffa Nation, to aid in transporting supplies and personnel in and out of P2A-347... a Goauld stronghold.'
+  - ''
+  - 'It appears that they have been shot down over P4X-555 and that the Goauld Nerus is in attendance... among several Goauld Soldiers and Scientists.'
+  - ''
+  - "Thankfully, from what we've been able to determine the generator was destroyed in the crash."
+  - ''
+  - 'Your mission, should you accept it, is to eliminate Nerus, along with his scientists and soldiers... to ensure they are not able to analyse and potentially reverse engineer the generator.'
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'I will travel to P9J-612 and eliminate Nerus and his allies.'
+        optionTextColor: 'PURPLE'
+        optionType: 'COMMAND'
+        actionText: 's givequest @dp Eliminate Nerus'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: 'Actually... this doesnt sound like something I can do.'
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Missions'

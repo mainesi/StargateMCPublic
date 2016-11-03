@@ -1,0 +1,50 @@
+dialog:
+  name: 'Hank Landry - Neutral Introduction'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'Welcome to the SGC, {player}.'
+  - ''
+  - 'We operate this base in complete secrecy to the outside world here... and the men and women under my command risk their lives on a daily basis to ensure the safety and security of humans throughout not one, but two different galaxies.'
+  - ''
+  - 'Before you will be permitted to move freely around our base and become an official member of Stargate Command, you will need to prove you can be trusted.'
+  - ''
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    PrimaryFactionStandingRequired-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Stargate Command'
+        factionStanding: 'Neutral'
+        isNot: 'REQUIRESTANDING'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: 'How can I prove to you I can be trusted?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Missions'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '4'
+        optionText: 'Where do the Tauri reside?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Tauri Territories'
+    AddDialogOption-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: 'Bye for now!'
+        optionTextColor: 'WHITE'
+        optionType: 'QUIT'
+        actionText: 'NONE'

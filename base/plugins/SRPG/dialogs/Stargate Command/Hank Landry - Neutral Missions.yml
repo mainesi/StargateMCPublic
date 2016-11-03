@@ -5,8 +5,12 @@ dialog:
   escDisabled: 'NO'
   hideNPC: 'NO'
   text:
-  - 'I have several tasks that you may assist me with.'
+  - 'We do have a few missions you may be able to assist with...'
   - ''
+  - "Some of these missions are incredibly dangerous... I'm having trouble trying to select which SG team will go offworld and potentially not come back."
+  - 'Others... not so dangerous... but they are tedious and not something our men and women wish to waste their time on.'
+  - ''
+  - 'If you are seriously interested in aiding us... neither of these issues will be a problem for you.'
   sound: 'NONE'
   showWheel: 'YES'
   components:
@@ -15,7 +19,34 @@ dialog:
       data:
         icon-key: ''
         optionPosition: '1'
-        optionText: "I'd like to assist with the resupply of Atlantis, the lost city of the Ancients."
+        optionText: 'Dangerous? Sounds interesting....'
         optionTextColor: 'PURPLE'
         optionType: 'DIALOG'
-        actionText: 'Hank Landry - Keeping the Shield at full strength'
+        actionText: 'Hank Landry - Neutral Kill Missions'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '2'
+        optionText: 'Do you have any recon missions available?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Location Missions'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: 'Do you need to check in with anyone?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Dialog Missions'
+    AddDialogOption-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '4'
+        optionText: 'Do you need any resources collected from offworld?'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Item Missions'

@@ -118,7 +118,7 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        dialogName: 'Hank Landry - Neutral'
+        dialogName: 'Hank Landry - Neutral Introduction'
     AssignedDialog-d:
       type: 'setting'
       data:

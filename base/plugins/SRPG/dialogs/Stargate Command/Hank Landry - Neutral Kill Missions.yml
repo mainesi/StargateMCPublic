@@ -1,0 +1,53 @@
+dialog:
+  name: 'Hank Landry - Neutral Kill Missions'
+  version: '1.0.1'
+  category: 'Stargate Command'
+  escDisabled: 'NO'
+  hideNPC: 'NO'
+  text:
+  - 'We have several search and destroy missions that need to be completed in the very near future.'
+  - ''
+  - 'We have enemy soldiers with critical information that cannot make it back to the Goauld on P9J-612, A First Prime Jaffa on the loose on P2Y-321 and worst of all a missing cloak generator that our allies (the Free Jaffa) seem unable to locate..... which the Goauld are right on top of!'
+  - ''
+  - 'If you can help with any of these problems.. it would be much appreciated.'
+  - ''
+  - ''
+  sound: 'NONE'
+  showWheel: 'YES'
+  components:
+    AddDialogOption-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Tell me about this cloaking technology'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Mission - Elminate Nerus'
+    AddDialogOption-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '1'
+        optionText: 'Tell me more of the Jaffa who crashed on P9J-612'
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Mission - Dispatching Disoriented Goauld Soldiers'
+    AddDialogOption-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '3'
+        optionText: 'Tell me more of this First Prime..... '
+        optionTextColor: 'PURPLE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Mission - Dispatching of a First Prime'
+    AddDialogOption-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        optionPosition: '6'
+        optionText: 'Actually, these missions seem too much for me to handle.'
+        optionTextColor: 'WHITE'
+        optionType: 'DIALOG'
+        actionText: 'Hank Landry - Neutral Missions'
