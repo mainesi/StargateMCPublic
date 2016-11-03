@@ -1,0 +1,41 @@
+quest:
+  name: 'Eliminate Nerus'
+  version: '1.0.2'
+  category: 'Stargate Command'
+  repeatType: 'MCDAILY'
+  text:
+  - 'Eliminate Nerus and his allies on P2Y-321.'
+  - ''
+  - "Walter will assist you with gating to P2Y-321, you will find him in the SGC's control room on level 28."
+  completionText:
+  - ''
+  randomReward: 'NO'
+  components:
+    RewardFactionRepPrimary-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Stargate Command'
+        repAmount: '100'
+    RewardFactionRepSecondary-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        factionName: 'Goauld'
+        repAmount: '-100'
+    RewardCommand-c:
+      type: 'setting'
+      data:
+        icon-key: ''
+        command: 'eco give @dp 100'
+    ObjectiveKill-d:
+      type: 'setting'
+      data:
+        icon-key: ''
+        shareCredit: 'YES'
+        firstTarget: 'Nerus'
+        firstNumber: '1'
+        secondTarget: 'Goauld Scientist'
+        secondNumber: '5'
+        thirdTarget: 'Goauld Soldier'
+        thirdNumber: '10'
