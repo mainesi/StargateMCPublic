@@ -1,0 +1,145 @@
+npc:
+  name: 'Kull Warrior'
+  version: '1.0.2'
+  title: 'Anubis Goauld Warrior'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Goauld/goauld_kull_black.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Goauld'
+  rotationBehavior: 'RotateBody'
+  rotation: 90
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'MALE'
+  size: 5
+  showBossBar: 'WHENATTACKING'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'BREAK'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'YES'
+  canSwim: 'YES'
+  livingAnimation: 'YES'
+  ignoreCobwebs: 'YES'
+  interactWithOtherNPCs: 'NO'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'YES'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'DODGE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 200
+  passiveHealthRegen: 'LOW'
+  combatHealthRegen: 'MEDIUM'
+  projectileResistance: 'HIGH'
+  meleeResistance: 'MEDIUM'
+  explosionResistance: 'HIGHEST'
+  knockbackResistance: 'MEDIUM'
+  immuneToPotions: 'YES'
+  immuneToFire: 'YES'
+  meleeRange: 'MEDIUM'
+  meleeDamage: 'MEDIUM'
+  meleeKnockback: 'MEDIUM'
+  rangedRange: 'MEDIUM'
+  rangedDamage: 'MEDIUM'
+  rangedKnockback: 'NONE'
+  rangedWeaponBehavior: 'PLASMASTAFF'
+  projectileAppearance: 'GOLDPLASMA'
+  projectileSize: 'SMALL'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '45MIN'
+  respawnsAtSpawn: 'NO'
+  hideDeadBody: 'YES'
+  factionImportance: 'HIGH'
+  xpReward: '20'
+  questGiven: 'NONE'
+  movementSpeed: 'NORMAL'
+  movementType: 'WANDERING'
+  wanderingDistance: '25'
+  stopOnInteract: 'YES'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'NO'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - ''
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    EquippedCombatMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:kullWristWeapon'
+        damageValue: '0'
+    RandomSpawn-b:
+      type: 'setting'
+      data:
+        icon-key: ''
+        numberSpawned: '1'
+        spawnChance: '10'
+        minOffset: '1'
+        maxOffset: '1'
+        density: '1'
+        dimensionDensity: '10'
+        galaxyDensity: '50'
+        naturallyDespawns: 'YES'
+        spawnsInWater: 'NO'
+        spawnsOnLand: 'YES'
+        spawnsOnSpawnWorld: 'NO'
+        spawnsOnNonSpawnWorld: 'YES'
+      children:
+        SpawnGalaxy-c:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnGalaxy: 'MilkyWay'
+        SpawnTerritory-d:
+          type: 'target'
+          data:
+            icon-key: ''
+            spawnTerritory: 'UNCLAIMED TERRITORY'
+    IncursionSpawn-e:
+      type: 'setting'
+      data:
+        icon-key: ''
+        incursionChance: '10'
+        numberSpawned: '2'
+    DroppedItem-f:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:kullWristWeapon'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '25'
+    DroppedItem-g:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:liquidNaquadahCapBank'
+        damageValue: '0'
+        numberOf: '1'
+        chance: '25'
