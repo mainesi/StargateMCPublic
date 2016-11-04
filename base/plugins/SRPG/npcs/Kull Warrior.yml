@@ -60,7 +60,7 @@ npc:
   projectileSize: 'SMALL'
   projectileExplosionType: 'NONE'
   projectileTrail: 'NONE'
-  projectileSound: 'NONE'
+  projectileSound: 'flansmod:staffShoot'
   respawnSetting: 'ALWAYS'
   respawnDelay: '45MIN'
   respawnsAtSpawn: 'NO'
