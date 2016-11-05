@@ -125,7 +125,7 @@ npc:
       type: 'setting'
       data:
         icon-key: ''
-        incursionChance: '10'
+        incursionChance: '5'
         numberSpawned: '2'
     DroppedItem-f:
       type: 'setting'
@@ -134,7 +134,7 @@ npc:
         itemName: 'flansmod:kullWristWeapon'
         damageValue: '0'
         numberOf: '1'
-        chance: '25'
+        chance: '10'
     DroppedItem-g:
       type: 'setting'
       data:
@@ -142,4 +142,4 @@ npc:
         itemName: 'flansmod:liquidNaquadahCapBank'
         damageValue: '0'
         numberOf: '1'
-        chance: '25'
+        chance: '15'
